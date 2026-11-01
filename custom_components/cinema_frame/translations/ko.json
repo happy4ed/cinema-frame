@@ -1,0 +1,49 @@
+{
+  "title": "Cinema Frame",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Cinema Frame 연결",
+        "description": "프레임에서 Cinema Frame을 실행하고 IP 주소 또는 호스트 이름을 입력하세요. http://는 제외합니다. 다음 단계에서 프레임에 연결 코드가 표시됩니다.",
+        "data": {
+          "host": "프레임 주소",
+          "port": "포트"
+        }
+      },
+      "pair": {
+        "title": "프레임 페어링",
+        "description": "프레임 화면의 6자리 코드를 입력하세요. HA 전용 연결을 만들며 기존 폰 연결과 Spotify 로그인은 유지됩니다.",
+        "data": {
+          "code": "연결 코드"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "프레임에 연결할 수 없습니다. 앱 실행 상태와 주소·네트워크를 확인하세요.",
+      "invalid_host": "http://나 포트 없이 IP 주소 또는 호스트 이름만 입력하세요.",
+      "invalid_auth": "연결 코드가 다릅니다. 프레임 화면의 6자리 코드를 확인하세요."
+    },
+    "abort": {
+      "already_configured": "이미 등록한 프레임입니다.",
+      "reauth_successful": "프레임을 다시 연결했습니다.",
+      "reconfigure_successful": "프레임 연결 정보를 변경했습니다."
+    }
+  },
+  "entity": {
+    "select": {
+      "poster_mode": {
+        "name": "포스터 표시",
+        "state": {
+          "width": "폭 맞춤",
+          "height": "높이 맞춤",
+          "blur": "블러로 채우기"
+        }
+      }
+    },
+    "text": {
+      "request": {
+        "name": "영화·분위기 요청"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Cinema Frame",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Cinema Frame",
+        "description": "Run Cinema Frame on the receiver. Enter its LAN hostname or IPv4 address (no http://). The next step shows a pairing code on the frame.",
+        "data": {
+          "host": "Frame address",
+          "port": "Port"
+        }
+      },
+      "pair": {
+        "title": "Pair the frame",
+        "description": "Enter the six-digit code displayed on the frame. This creates a separate Home Assistant session; existing phone and Spotify connections are preserved.",
+        "data": {
+          "code": "Pairing code"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot reach Cinema Frame. Check the app, address and network.",
+      "invalid_host": "Enter only a hostname or IPv4 address, without URL or port.",
+      "invalid_auth": "Incorrect code. Read the six-digit code on the frame and try again."
+    },
+    "abort": {
+      "already_configured": "This frame is already configured.",
+      "reauth_successful": "Frame paired again.",
+      "reconfigure_successful": "Frame connection updated."
+    }
+  },
+  "entity": {
+    "select": {
+      "poster_mode": {
+        "name": "Poster display",
+        "state": {
+          "width": "Fit width",
+          "height": "Fit height",
+          "blur": "Blur background"
+        }
+      }
+    },
+    "text": {
+      "request": {
+        "name": "Movie or mood request"
+      }
+    }
+  }
+}
