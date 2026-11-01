@@ -7,7 +7,7 @@ import java.util.regex.*;
 
 /** Conservative album -> film mapping. Reject compilations and ambiguous remakes. */
 final class SoundtrackMatcher {
- private static final Pattern MARKER=Pattern.compile("(?i)(original (?:motion picture |film |movie |broadway |television )?(?:soundtrack|score|cast recording)|(?:motion picture|film|movie) soundtrack|soundtrack|music from (?:the )?(?:motion picture|film|movie))");
+ private static final Pattern MARKER=Pattern.compile("(?i)(original (?:motion picture |film |movie |broadway |television )?(?:soundtrack|score|cast recording)|(?:motion picture|film|movie) soundtrack|soundtrack|\\bOST\\b|music from (?:the )?(?:motion picture|film|movie))");
  static String title(String album){
   Matcher m=MARKER.matcher(album);if(!m.find())return "";
   String candidate=album.substring(0,m.start()).replaceAll("[\\s\\(\\[\\-:–—]+$","").trim();
@@ -34,7 +34,7 @@ final class SoundtrackMatcher {
  }
  static JSONObject matchTrack(Map<String,List<JSONObject>> index,JSONObject track){
   JSONObject album=track.optJSONObject("album");JSONObject movie=album==null?null:match(index,album);if(movie!=null)return movie;
-  Matcher from=Pattern.compile("(?i)from\\s+[\"“]([^\"”]+)[\"”]\\s*(?:soundtrack)?").matcher(track.optString("name"));
+  Matcher from=Pattern.compile("(?i)from\\s+(?:(?:the\\s+)?(?:film|movie|motion picture)\\s+)?[\"“]([^\"”]+)[\"”]\\s*(?:soundtrack)?").matcher(track.optString("name"));
   if(from.find()){List<JSONObject> hits=index.get(normalize(from.group(1)));if(hits!=null&&hits.size()==1)return hits.get(0);}
   return null;
  }

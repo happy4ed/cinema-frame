@@ -17,3 +17,15 @@ Reference: [Spotify search filters](https://developer.spotify.com/documentation/
 The frame now shows the accepted request and searching status when no track is available, instead of displaying the initial “Your next scene” prompt. An accepted request closes the pairing overlay. Request generation changes are atomic; page cursors advance only after processing, so an interrupted search cannot skip its first results. HA and phone share this request path; no HACS reinstall is needed for this receiver update.
 
 Additional device check: “발라드 행복” displayed the Armageddon poster and confirmed playback of Aerosmith / I Don’t Want to Miss a Thing, selected by Spotify romantic-ballad search.
+
+## Expanded discovery and rate control
+
+Spotify playlist search now supplements track search. For ballads, the frame searches movie-ballad playlists in English and Korean, fetches public playlist metadata and matches their recordings to films. Playlist IDs are discovered at runtime, not hard-coded. Playlist labels/search relevance are curator/provider metadata, not measured audio features. This can include varied interpretations of a style.
+
+Film credits such as `From the Film "Pretty Woman"` and `OST` album suffixes are recognized. IMDb title suggestions can resolve soundtrack titles in another language to an existing catalogue film. Unknown/ambiguous film matches remain excluded; this does not yet cover every Korean film or every soundtrack worldwide.
+
+Playlist search results are cached; different query families each get a playlist turn. Metadata lookups are bounded per playlist. Music discovery runs at most once per two minutes for the same profile, independently of the Next button. Spotify Retry-After is persisted across process restarts. Cached tracks remain playable during search backoff.
+
+`music_movie_count` and `music_match_count` show actual distinct matched films and recordings in the phone UI. `/api/music/candidates` exposes authenticated candidate provenance for verification.
+
+Device verification after expansion: 37 distinct films / 56 soundtrack candidates; 12 consecutive confirmed plays used 12 different films and 12 different track URIs, with no consecutive film repetition. Included Don Juan DeMarco, Days of Thunder, Breakfast at Tiffany's, Deadpool 2, The Rescuers, Cinema Paradiso and The Bodyguard. This verifies playback diversity, not that every public playlist's genre label is perfect.

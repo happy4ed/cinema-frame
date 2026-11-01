@@ -12,7 +12,8 @@ public class MusicStyleRegression {
   check(MusicStyle.unsafeVersion("Theme - Karaoke"),"Karaoke accepted");
   JSONObject film=new JSONObject().put("id","fever").put("title","Saturday Night Fever").put("originalTitle","Saturday Night Fever").put("year",1977);
   Map<String,List<JSONObject>> index=SoundtrackMatcher.index(Arrays.asList(film));JSONObject hit=new JSONObject().put("name","Stayin' Alive - From \"Saturday Night Fever\" Soundtrack").put("album",new JSONObject().put("name","Greatest"));
-  check(SoundtrackMatcher.matchTrack(index,hit)==film,"Explicit film credit not matched");hit.put("name","Unrelated song");check(SoundtrackMatcher.matchTrack(index,hit)==null,"Unrelated compilation matched");
+  check(SoundtrackMatcher.matchTrack(index,hit)==film,"Explicit film credit not matched");hit.put("name","Theme - From the Film \"Saturday Night Fever\"");check(SoundtrackMatcher.matchTrack(index,hit)==film,"From the Film credit missing");
+  check(SoundtrackMatcher.title("클래식 OST").equals(SoundtrackMatcher.normalize("클래식")),"Korean OST suffix missing");hit.put("name","Unrelated song");check(SoundtrackMatcher.matchTrack(index,hit)==null,"Unrelated compilation matched");
   Field uf=Unsafe.class.getDeclaredField("theUnsafe");uf.setAccessible(true);FrameCore core=(FrameCore)((Unsafe)uf.get(null)).allocateInstance(FrameCore.class);
   set(core,"styleTracks",Collections.singletonMap("fever",Arrays.asList(disco)));set(core,"unavailableTracks",new HashMap<>());set(core,"seen",new HashSet<>(Arrays.asList("spotify:track:disco")));set(core,"songKeys",new HashSet<>());
   Method available=FrameCore.class.getDeclaredMethod("available",String.class,JSONObject.class,boolean.class);available.setAccessible(true);
