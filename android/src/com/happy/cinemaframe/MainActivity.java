@@ -17,8 +17,8 @@ import java.util.concurrent.*;
 public class MainActivity extends Activity {
     private final ScheduledExecutorService worker=Executors.newSingleThreadScheduledExecutor();
     private final Handler main=new Handler();
-    private ImageView image;private LinearLayout info,setup;private TextView title,genres,rating,track,artist,setupTitle,setupText,setupCode,setupHelp;
-    private ProgressLine progress;private Typeface cinema;private String base,key,code;private long applied=-1,nextPosterRetry=0,displayedVersion=-1;private Bitmap bitmap;private FrameCore core;
+    private PosterView image;private LinearLayout info,setup;private TextView title,genres,rating,track,artist,setupTitle,setupText,setupCode,setupHelp;
+    private ProgressLine progress;private Typeface cinema;private String base,key,code;private long applied=-1,nextPosterRetry=0,displayedVersion=-1;private FrameCore core;
     private JSONObject metrics=new JSONObject();private volatile boolean alive=true,visible=true;private String error="";
     private final Runnable animate=new Runnable(){public void run(){if(!alive)return;if(visible&&progress!=null)progress.invalidate();main.postDelayed(this,200);}};
     private int dp(float n){return Math.round(n*getResources().getDisplayMetrics().density);}
@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
         super.onCreate(b);getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);getWindow().getDecorView().setSystemUiVisibility(5894);
         cinema=font("BarlowCondensed-SemiBold.ttf",600);
         FrameLayout root=new FrameLayout(this);root.addView(new CinemaBackdrop(),new FrameLayout.LayoutParams(-1,-1));
-        image=new ImageView(this);image.setScaleType(ImageView.ScaleType.CENTER_CROP);root.addView(image,new FrameLayout.LayoutParams(-1,-1));
+        image=new PosterView(this);root.addView(image,new FrameLayout.LayoutParams(-1,-1));
         info=new LinearLayout(this);info.setOrientation(LinearLayout.VERTICAL);info.setPadding(dp(24),dp(90),dp(36),dp(52));
         info.setBackground(new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{0x00000000,0xA3000000,0xF2000000}));
         title=text(42,Color.WHITE);title.setTypeface(cinema);title.setMaxLines(2);title.setEllipsize(TextUtils.TruncateAt.END);title.setAutoSizeTextTypeUniformWithConfiguration(28,42,1,android.util.TypedValue.COMPLEX_UNIT_SP);title.setLineSpacing(0,1f);title.setPadding(0,dp(2),0,0);
@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
         try{int response=c.getResponseCode();if(response<200||response>=300)throw new IOException("HTTP "+response);return FrameCore.read(c.getInputStream(),max);}finally{c.disconnect();}
     }
     private void render(JSONObject command,JSONObject current){
-        boolean pairing=command.optBoolean("pairing",true),ready=command.optBoolean("spotify_ready");
+        boolean pairing=command.optBoolean("pairing",true),ready=command.optBoolean("spotify_ready");image.setMode(command.optString("display_mode","height"));
         setup.setVisibility(pairing||current==null?View.VISIBLE:View.GONE);info.setVisibility(!pairing&&current!=null?View.VISIBLE:View.GONE);image.setVisibility(pairing?View.INVISIBLE:View.VISIBLE);
         setupCode.setVisibility(pairing?View.VISIBLE:View.GONE);setupHelp.setVisibility(pairing?View.VISIBLE:View.GONE);
         if(pairing){setupTitle.setText("A frame for your music.");setupText.setText("휴대폰의 Cinema Remote에서\n아래 연결 코드를 입력해 주세요");setupCode.setText(code.substring(0,3)+" "+code.substring(3));setupHelp.setText("같은 Wi-Fi에 연결해 주세요\n직접 연결 주소  "+FrameCore.address());}
@@ -81,7 +81,7 @@ public class MainActivity extends Activity {
             JSONObject poster=current.getJSONObject("poster");long begin=System.currentTimeMillis();byte[] bytes=request(FrameCore.posterUrl(poster.getString("url"),2160),25000000,false);
             BitmapFactory.Options bounds=new BitmapFactory.Options();bounds.inJustDecodeBounds=true;BitmapFactory.decodeByteArray(bytes,0,bytes.length,bounds);BitmapFactory.Options opts=new BitmapFactory.Options();opts.inSampleSize=1;while((long)(bounds.outWidth/opts.inSampleSize)*(bounds.outHeight/opts.inSampleSize)>7000000)opts.inSampleSize*=2;
             final Bitmap next=BitmapFactory.decodeByteArray(bytes,0,bytes.length,opts);if(next==null)throw new IOException("이미지 해석 실패");metrics=new JSONObject().put("source_width",bounds.outWidth).put("source_height",bounds.outHeight).put("display_width",next.getWidth()).put("display_height",next.getHeight()).put("bytes",bytes.length).put("load_ms",System.currentTimeMillis()-begin).put("disk_cache",false);
-            ui(()->{Bitmap previous=bitmap;bitmap=next;displayedVersion=version;image.setImageBitmap(next);render(command,current);if(previous!=null&&!previous.isRecycled())previous.recycle();});
+            final Bitmap blurred=PosterView.blur(next);ui(()->{displayedVersion=version;image.setPoster(next,blurred);render(command,current);});
         }catch(Exception e){nextPosterRetry=System.currentTimeMillis()+10000;error="포스터를 다시 불러옵니다: "+e.getMessage();}}
         core.display(applied,metrics,error,visible);
     }catch(Exception e){/* Connection detail stays in the phone controller, not over the artwork. */}}
