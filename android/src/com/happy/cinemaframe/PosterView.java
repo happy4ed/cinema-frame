@@ -24,15 +24,15 @@ final class PosterView extends View {
         super.onDraw(canvas);if(poster==null)return;
         canvas.drawColor(Color.BLACK);
         if("blur".equals(mode)&&background!=null){
-            draw(canvas,background,Math.max((float)getWidth()/background.getWidth(),(float)getHeight()/background.getHeight()));
+            draw(canvas,background,Math.max((float)getWidth()/background.getWidth(),(float)getHeight()/background.getHeight()),false);
             canvas.drawColor(0x26000000);
         }
         float scale="height".equals(mode)?(float)getHeight()/poster.getHeight():(float)getWidth()/poster.getWidth();
-        draw(canvas,poster,scale);
+        draw(canvas,poster,scale,"blur".equals(mode));
     }
-    private void draw(Canvas canvas,Bitmap source,float scale){
+    private void draw(Canvas canvas,Bitmap source,float scale,boolean alignTop){
         float width=source.getWidth()*scale,height=source.getHeight()*scale;
-        float left=(getWidth()-width)/2f,top=(getHeight()-height)/2f;
+        float left=(getWidth()-width)/2f,top=alignTop?0f:(getHeight()-height)/2f;
         canvas.drawBitmap(source,null,new RectF(left,top,left+width,top+height),paint);
     }
     /** Small CPU blur prepared off the UI thread, compatible with Android 10. */
