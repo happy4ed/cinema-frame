@@ -10,4 +10,6 @@ The receiver listens on TCP 8787 on the LAN and uses a pairing-derived `cf_sessi
 
 The playback engine's HTTP endpoint binds to loopback. Home Assistant only needs the receiver controller session, never Spotify credentials or the internal frame key. Keep the generated Home Assistant values in `secrets.yaml`; do not commit or publish them. Changing/deleting app data removes sessions but also removes setup/history, so do not use that as routine session management.
 
+The HACS integration stores its own paired controller token in Home Assistant config-entry storage (`.storage`). It does not store the pairing code or request Spotify credentials. Tokens are never placed in entity attributes or artwork URLs. Protect HA backups as credentials. HTTP redirects are disabled for authenticated receiver requests.
+
 Before publishing changes, run Gitleaks against both the working directory and Git history, inspect archives and check ignored files. Secret scanning reduces risk but is not a proof that every possible secret has been identified.

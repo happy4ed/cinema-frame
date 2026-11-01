@@ -43,7 +43,9 @@ ARM64 재생 엔진과 해당 상위 프로젝트 소스 묶음은 포함되어 
 
 ## Home Assistant
 
-[연동 조사와 설정 예시](docs/home-assistant.md), [YAML package](home-assistant/cinema_frame.yaml)를 제공합니다. 현재 앱의 로컬 HTTP API로 재생·정지·다음 영화·앱 볼륨·요청을 제어할 수 있습니다. 전용 HACS 통합은 아직 없습니다. 제공 YAML은 Home Assistant 실서버에서 검증하지 않았습니다.
+**전용 HACS 통합을 제공합니다.** HACS 사용자 지정 저장소에 이 저장소 URL을 종류 **통합**으로 추가하고 설치·HA 재시작 후, 기기 및 서비스에서 Cinema Frame을 추가하세요. 프레임 주소와 화면의 6자리 코드로 연결합니다.
+
+`media_player`(재생·일시정지·다음·seek·앱 볼륨·포스터), `select`(폭/높이/블러), `text`(영화·무드 요청)를 제공합니다. 별도 애드온이나 MQTT는 필요하지 않습니다. 기존 Immich·Fully Kiosk와 독립적으로 동작합니다. [설치·자동화·Assist·공존 안내](docs/home-assistant.md)를 참고하세요. 기존 [REST YAML 예시](home-assistant/cinema_frame.yaml)는 수동 연결용으로 남겨두었습니다.
 
 ## 현재 한계
 
