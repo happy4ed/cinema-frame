@@ -4,7 +4,7 @@
     "step": {
       "user": {
         "title": "Cinema Frame 연결",
-        "description": "프레임에서 Cinema Frame을 실행하고 IP 주소 또는 호스트 이름을 입력하세요. http://는 제외합니다. 다음 단계에서 프레임에 연결 코드가 표시됩니다.",
+        "description": "프레임 LAN 주소를 입력하세요. Cinema Frame 재생 제어는 8787, Frame Diagnostics 화면·밝기·앱 제어는 8788 포트를 사용합니다. 두 연결을 각각 추가하세요. 다음 단계에서 프레임에 연결 코드가 표시됩니다.",
         "data": {
           "host": "프레임 주소",
           "port": "포트"
@@ -38,11 +38,39 @@
           "height": "높이 맞춤",
           "blur": "블러로 채우기"
         }
+      },
+      "foreground_app": {
+        "name": "전면 앱",
+        "state": {
+          "photo": "사진",
+          "movie": "영화"
+        }
       }
     },
     "text": {
       "request": {
         "name": "영화·분위기 요청"
+      }
+    },
+    "switch": {
+      "screen": {
+        "name": "화면"
+      },
+      "auto_brightness": {
+        "name": "자동 밝기"
+      }
+    },
+    "number": {
+      "brightness": {
+        "name": "화면 밝기"
+      },
+      "volume_music": {
+        "name": "시스템 음악 볼륨"
+      }
+    },
+    "sensor": {
+      "foreground_package": {
+        "name": "전면 앱 패키지"
       }
     }
   }

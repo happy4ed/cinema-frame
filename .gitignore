@@ -23,3 +23,7 @@ __pycache__/
 /android/assets/movies.json
 /work/
 .DS_Store
+
+# Local diagnostics signing key and build output
+diagnostics/build/
+diagnostics/*.apk

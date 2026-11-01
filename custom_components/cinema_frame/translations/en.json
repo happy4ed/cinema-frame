@@ -4,7 +4,7 @@
     "step": {
       "user": {
         "title": "Connect to Cinema Frame",
-        "description": "Run Cinema Frame on the receiver. Enter its LAN hostname or IPv4 address (no http://). The next step shows a pairing code on the frame.",
+        "description": "Enter the frame LAN address. Use port 8787 for Cinema playback, or 8788 for Frame Diagnostics screen, brightness and app control. Add each connection separately. A pairing code will appear on the frame.",
         "data": {
           "host": "Frame address",
           "port": "Port"
@@ -38,11 +38,39 @@
           "height": "Fit height",
           "blur": "Blur background"
         }
+      },
+      "foreground_app": {
+        "name": "Foreground app",
+        "state": {
+          "photo": "Photo",
+          "movie": "Movie"
+        }
       }
     },
     "text": {
       "request": {
         "name": "Movie or mood request"
+      }
+    },
+    "switch": {
+      "screen": {
+        "name": "Screen"
+      },
+      "auto_brightness": {
+        "name": "Automatic brightness"
+      }
+    },
+    "number": {
+      "brightness": {
+        "name": "Screen brightness"
+      },
+      "volume_music": {
+        "name": "System music volume"
+      }
+    },
+    "sensor": {
+      "foreground_package": {
+        "name": "Foreground package"
       }
     }
   }

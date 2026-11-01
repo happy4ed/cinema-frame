@@ -46,9 +46,10 @@ class CinemaConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             try:
                 token = await self._api.pair(user_input["code"].strip())
                 data = {**self._connection, CONF_TOKEN: token}
+                data["kind"] = self._api.kind
                 if self._existing:
                     return self.async_update_reload_and_abort(self._existing, data_updates=data)
-                return self.async_create_entry(title="Cinema Frame", data=data)
+                return self.async_create_entry(title="Frame Hardware" if data.get("kind") == "hardware" else "Cinema Frame", data=data)
             except AuthError:
                 errors["base"] = "invalid_auth"
             except ApiError:

@@ -56,6 +56,8 @@ public final class FrameCore {
         }catch(Exception e){retryPlaybackAt=System.currentTimeMillis()+5000;failure="재생 연결을 복구하고 있습니다: "+e.getMessage();}
         try{JSONObject metrics;synchronized(lock){metrics=displayVersion==v?displayMetrics:new JSONObject();}telemetry(new JSONObject().put("version",v).put("player",player).put("poster",metrics).put("error",failure).put("app","0.3-test"));}catch(Exception ignored){}
     }
+    void showPairing(){synchronized(lock){pairingUntil=System.currentTimeMillis()+180000;}}
+    void hidePairing(){synchronized(lock){pairingUntil=0;}}
     private boolean pairingVisible(){return sessions.isEmpty()||System.currentTimeMillis()<pairingUntil;}
     private JSONObject volume()throws Exception{return new JSONObject().put("value",engine.getVolume()).put("max",100).put("scope","app");}
     public String playerBase(){return "http://127.0.0.1:"+(external?24879:24881);}

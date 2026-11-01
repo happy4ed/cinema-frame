@@ -27,6 +27,7 @@ class CinemaApi:
         self.session = session
         self.base = f"http://{validate_host(host)}:{int(port)}"
         self.token = token
+        self.kind = "cinema"
 
     async def request(self, method, path, body=None, *, authenticated=True, image=False):
         headers = {}
@@ -58,6 +59,9 @@ class CinemaApi:
 
     async def state(self):
         data = await self.request("GET", "/api/state")
+        if data.get("service") == "frame_diagnostics" and data.get("version") == 1:
+            self.kind = "hardware"
+            return data
         if "phase" not in data or "version" not in data:
             raise ApiError("This is not a supported Cinema Frame receiver")
         return data

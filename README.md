@@ -17,6 +17,10 @@ Lenovo Smart Frame에서 영화 포스터와 Spotify OST를 직접 재생하고,
 
 실기 검증: Lenovo CD-3L501F / Android 10, ARM64. 최소 Android 8입니다. Spotify Premium이 필요합니다.
 
+## Home Assistant
+
+같은 HACS 통합으로 Cinema 재생(8787)과 별도 Frame Diagnostics 기기 제어(8788)를 각각 연결할 수 있습니다. 화면 전원·밝기·사진/영화 앱 전환에는 Fully Plus, 루팅, 실행 중 ADB가 필요하지 않습니다. [기기 제어 설치 및 API](docs/frame-hardware.md)를 참고하세요. Cinema Frame 우측 하단 **연결** 또는 HA 연결 시작으로 코드를 다시 표시합니다.
+
 ## 처음 시작하기
 
 1. 아래 절차로 APK를 빌드합니다. 이 저장소에는 개인 기기에서 추출한 로그인 정보나 사전 인증된 APK가 없습니다.

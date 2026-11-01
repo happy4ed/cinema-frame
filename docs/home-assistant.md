@@ -1,3 +1,5 @@
+> **0.2 업데이트:** 화면 전원·밝기·전면 앱은 별도 Frame Diagnostics APK와 8788 연결을 추가하면 제어할 수 있습니다. [설치 안내](frame-hardware.md). 아래 8787 재생 연결은 그대로 유지합니다.
+
 # Cinema Frame Home Assistant 통합
 
 **독립 HACS 통합**입니다. 프레임 앱이 음악·선곡을 담당하고 HA는 LAN API로 제어합니다. 별도 애드온·MQTT·Spotify 개발자 계정은 필요하지 않습니다. 기존 폰 페어링과 Spotify Premium 로그인은 유지됩니다.
