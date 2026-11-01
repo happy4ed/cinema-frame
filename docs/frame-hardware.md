@@ -5,7 +5,7 @@ Cinema playback and frame hardware are independent connections in the **same Cin
 ## Install and pair
 
 1. Install Frame Diagnostics (`com.happy.frame.diagnostics`). Existing installations must be updated with the same signing key; do not uninstall or clear data.
-2. Open Frame Gesture Diagnostics once. Enable **Frame Edge Gestures** in Android accessibility settings. Its service receives window package/activity events and performs app switching and screen locking. Existing edge gestures remain available.
+2. Open Frame Gesture Diagnostics once. This Android 10 firmware may disable the accessibility service during an APK update; check and re-enable it after updating. Enable **Frame Edge Gestures** in Android accessibility settings. Its service receives window package/activity events and performs app switching and screen locking. Existing edge gestures remain available.
 3. Use **밝기 제어 권한 설정** to allow Android **Modify system settings**. Without this permission, brightness entities are unavailable; other controls continue working.
 4. Update Cinema Frame in HACS and restart Home Assistant.
 5. Settings → Devices & services → Add integration → Cinema Frame. Enter the frame LAN address and port **8788**. A five-minute, six-digit code appears centered over the current app. Enter it in HA. An existing 8787 connection is unaffected.
@@ -47,6 +47,6 @@ The original cursor-diagnostics feature can optionally use an ADB-granted DUMP p
 
 ## Verification
 
-Live Lenovo Android 10 testing: LAN pairing, unauthenticated 401, browser-origin rejection, app/activity allowlist, strict input types/ranges, brightness, system volume, four photo/movie switches in 0.8–2.0 seconds, screen off with LAN still reachable, and wake retaining Cinema Frame. Boot auto-start was observed. Reboot token persistence is checked separately before delivery.
+Live Lenovo Android 10 testing: LAN pairing, unauthenticated 401, browser-origin rejection, app/activity allowlist, strict input types/ranges, brightness, system volume, four photo/movie switches in 0.8–2.0 seconds, screen off with LAN still reachable, and wake retaining Cinema Frame. Boot auto-start was observed. After a full reboot, the service recovered over Wi-Fi in 40.3 seconds using the existing token, with accessibility and WRITE_SETTINGS still enabled.
 
 HA tests exercise actual platform setup, service dispatch, offline recovery, permission-dependent availability, config-entry reload and hardware pairing detection in the GitHub Actions HA runtime. This is not a claim that the user's separate HA server has already been installed or restarted.
