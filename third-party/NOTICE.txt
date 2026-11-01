@@ -1,0 +1,15 @@
+Third-party source and notices
+
+Cinema Frame uses an unmodified ARM64 libgolibrespot.so extracted from the Android-LibreThing 1.3.4 release APK:
+https://github.com/SEKY443/Android-LibreThing/releases/download/1.3.4/app-arm64-v8a-release.apk
+
+Embedded Go build information identifies upstream commit a458bb51f077a42cc42223f0dda6b6d5d3dd64f6 and a dirty working tree. Android-LibreThing applies Android patches during its native build. The accompanying 1.3.4 source archive includes scripts/build-go-native.sh and scripts/patches; the upstream commit source archive is also included. This project did not independently rebuild or establish bit-for-bit reproducibility of that native executable.
+
+Native binary SHA-256: fcafafda8c0adb02c369697fb97143db58462e99ba2ac0763fa5fb7f979f5a34
+
+Both source archives include their GPLv3 LICENSE. Cinema Frame Java playback/FIFO integration adapts the Android-LibreThing implementation; this project is distributed under GPLv3 (see ../LICENSE). Source modifications are in ../android and ../phone. Build instructions and dependency sources for the native codec libraries are in Android-LibreThing's build script. Retain upstream copyright and license notices when redistributing.
+
+Film metadata generated locally and posters are not software covered by this project's GPL license. IMDb datasets: https://datasets.imdbws.com/ . MusicBrainz relationship service: https://musicbrainz.org/doc/MusicBrainz_API . Spotify track metadata and music remain subject to the respective services' terms and rights. No music files or poster image library are bundled.
+
+
+Display fonts: Barlow Condensed (Jeremy Tribby), Noto Sans KR, Rajdhani (Indian Type Foundry), Manrope (Mikhail Sharanda), from github.com/google/fonts, SIL OFL. Individual licenses included under android/assets/fonts.

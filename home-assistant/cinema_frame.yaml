@@ -1,0 +1,65 @@
+# Copy into config/packages/cinema_frame.yaml after configuring secrets.
+rest:
+  - resource: !secret cinema_frame_state_url
+    headers:
+      Cookie: !secret cinema_frame_cookie
+    scan_interval: 5
+    timeout: 10
+    sensor:
+      - name: Cinema Frame State
+        unique_id: cinema_frame_state
+        value_template: "{{ value_json.phase }}"
+        json_attributes:
+          - current
+          - volume
+          - version
+
+rest_command:
+  cinema_frame_control:
+    url: !secret cinema_frame_control_url
+    method: POST
+    headers:
+      Cookie: !secret cinema_frame_cookie
+    content_type: application/json
+    payload: '{{ {"action": action} | tojson }}'
+  cinema_frame_request:
+    url: !secret cinema_frame_request_url
+    method: POST
+    headers:
+      Cookie: !secret cinema_frame_cookie
+    content_type: application/json
+    payload: '{{ {"text": text} | tojson }}'
+  cinema_frame_volume:
+    url: !secret cinema_frame_volume_url
+    method: POST
+    headers:
+      Cookie: !secret cinema_frame_cookie
+    content_type: application/json
+    payload: '{{ {"value": value | int} | tojson }}'
+  cinema_frame_seek:
+    url: !secret cinema_frame_control_url
+    method: POST
+    headers:
+      Cookie: !secret cinema_frame_cookie
+    content_type: application/json
+    payload: '{{ {"action": "seek", "version": version | int, "position": position_ms | int} | tojson }}'
+
+script:
+  cinema_frame_pause:
+    alias: Cinema Frame 일시정지
+    sequence:
+      - action: rest_command.cinema_frame_control
+        data:
+          action: pause
+  cinema_frame_resume:
+    alias: Cinema Frame 계속 재생
+    sequence:
+      - action: rest_command.cinema_frame_control
+        data:
+          action: resume
+  cinema_frame_next:
+    alias: Cinema Frame 다음 영화
+    sequence:
+      - action: rest_command.cinema_frame_control
+        data:
+          action: next
