@@ -13,3 +13,5 @@ Film metadata generated locally and posters are not software covered by this pro
 
 
 Display fonts: Barlow Condensed (Jeremy Tribby), Noto Sans KR, Rajdhani (Indian Type Foundry), Manrope (Mikhail Sharanda), from github.com/google/fonts, SIL OFL. Individual licenses included under android/assets/fonts.
+
+Music overlay fonts: Wanted Sans ExtraBold/Bold (Wanted Sans Project Authors), https://github.com/wanteddev/wanted-sans ; Pretendard SemiBold (Kil Hyung-jin), https://github.com/orioncactus/pretendard . Unmodified official OTF files, SIL OFL 1.1. Copyright and license notices: android/assets/fonts/wanted-sans-OFL.txt and pretendard-OFL.txt.

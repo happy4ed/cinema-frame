@@ -29,11 +29,11 @@ public class MainActivity extends Activity {
         image=new PosterView(this);root.addView(image,new FrameLayout.LayoutParams(-1,-1));
         info=new LinearLayout(this);info.setOrientation(LinearLayout.VERTICAL);info.setPadding(dp(24),dp(90),dp(36),dp(52));
         info.setBackground(new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{0x00000000,0xA3000000,0xF2000000}));
-        title=text(18,0xDFE4E9EA);title.setTypeface(cinema);title.setMaxLines(2);title.setEllipsize(TextUtils.TruncateAt.END);title.setLineSpacing(0,1f);title.setPadding(0,dp(2),0,0);
+        title=text(18,0xDFE4E9EA);title.setTypeface(font("Pretendard-SemiBold.otf",600));title.setMaxLines(2);title.setEllipsize(TextUtils.TruncateAt.END);title.setLineSpacing(0,1f);title.setPadding(0,dp(2),0,0);
         genres=badge(0xFFBCE4DE,0xB5264445);rating=badge(0xFFF5D59A,0xB54D3B22);
         FlowRow heading=new FlowRow();heading.addView(genres);heading.addView(rating);
-        track=text(38,Color.WHITE);track.setTypeface(font("Rajdhani-Medium.ttf",500));track.setMaxLines(3);track.setEllipsize(TextUtils.TruncateAt.END);track.setAutoSizeTextTypeUniformWithConfiguration(26,38,1,android.util.TypedValue.COMPLEX_UNIT_SP);track.setLineSpacing(0,1f);track.setPadding(0,0,0,0);
-        artist=text(16,0xDFE4E9EA);artist.setTypeface(font("Manrope.ttf",500));artist.setMaxLines(2);artist.setEllipsize(TextUtils.TruncateAt.END);artist.setPadding(0,0,0,dp(3));
+        track=text(38,Color.WHITE);track.setTypeface(font("WantedSans-ExtraBold.otf",800));track.setMaxLines(3);track.setEllipsize(TextUtils.TruncateAt.END);track.setAutoSizeTextTypeUniformWithConfiguration(26,38,1,android.util.TypedValue.COMPLEX_UNIT_SP);track.setLineSpacing(0,1f);track.setPadding(0,0,0,0);
+        artist=text(16,0xDFE4E9EA);artist.setTypeface(font("WantedSans-Bold.otf",700));artist.setMaxLines(2);artist.setEllipsize(TextUtils.TruncateAt.END);artist.setPadding(0,0,0,dp(3));
         info.addView(track);info.addView(artist);info.addView(heading);info.addView(title);root.addView(info,new FrameLayout.LayoutParams(-1,-2,Gravity.BOTTOM));info.setVisibility(View.GONE);
         setup=new LinearLayout(this);setup.setOrientation(LinearLayout.VERTICAL);setup.setGravity(Gravity.CENTER);setup.setPadding(dp(30),dp(36),dp(30),dp(36));
         GradientDrawable card=new GradientDrawable(GradientDrawable.Orientation.TL_BR,new int[]{0xD51A2429,0xE80B1016});card.setCornerRadius(dp(20));card.setStroke(dp(1),0x406F7163);setup.setBackground(card);
@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
     }
     private TextView text(int sp,int color){TextView t=new TextView(this);t.setTextSize(sp);t.setTextColor(color);t.setTypeface(Typeface.create("sans-serif",Typeface.NORMAL));t.setIncludeFontPadding(true);t.setPadding(0,dp(5),0,dp(5));return t;}
     private Typeface font(String name,int weight){try{return new Typeface.Builder(getAssets(),"fonts/"+name).setWeight(weight).setFontVariationSettings("'wght' "+weight).build();}catch(Exception e){return Typeface.create("sans-serif",Typeface.NORMAL);}}
-    private TextView badge(int foreground,int background){TextView v=text(11,foreground);v.setTypeface(font("NotoSansKR.ttf",500));v.setPadding(0,dp(1),dp(6),dp(1));return v;}
+    private TextView badge(int foreground,int background){TextView v=text(11,foreground);v.setTypeface(font("Pretendard-SemiBold.otf",600));v.setPadding(0,dp(1),dp(6),dp(1));return v;}
     private String genreLabel(JSONObject movie){Map<String,String> names=new HashMap<>();String[] en={"Action","Adventure","Animation","Biography","Comedy","Crime","Documentary","Drama","Family","Fantasy","History","Horror","Music","Musical","Mystery","Romance","Sci-Fi","Sport","Thriller","War","Western"};String[] ko={"액션","모험","애니메이션","전기","코미디","범죄","다큐멘터리","드라마","가족","판타지","역사","공포","음악","뮤지컬","미스터리","로맨스","SF","스포츠","스릴러","전쟁","서부극"};for(int i=0;i<en.length;i++)names.put(en[i],ko[i]);ArrayList<String> labels=new ArrayList<>();JSONArray list=movie.optJSONArray("genres");if(list!=null)for(int i=0;i<list.length();i++)labels.add(names.getOrDefault(list.optString(i),list.optString(i)));return TextUtils.join(" · ",labels);}
     private final class FlowRow extends ViewGroup {
         private final ArrayList<Rect> positions=new ArrayList<>();
