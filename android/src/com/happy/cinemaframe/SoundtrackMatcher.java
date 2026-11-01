@@ -32,6 +32,12 @@ final class SoundtrackMatcher {
   int year=0;try{year=Integer.parseInt(album.optString("release_date").substring(0,4));}catch(Exception ignored){}
   JSONObject selected=null;for(JSONObject movie:hits)if(Math.abs(year-movie.optInt("year"))<=1){if(selected!=null)return null;selected=movie;}return selected;
  }
+ static JSONObject matchTrack(Map<String,List<JSONObject>> index,JSONObject track){
+  JSONObject album=track.optJSONObject("album");JSONObject movie=album==null?null:match(index,album);if(movie!=null)return movie;
+  Matcher from=Pattern.compile("(?i)from\\s+[\"“]([^\"”]+)[\"”]\\s*(?:soundtrack)?").matcher(track.optString("name"));
+  if(from.find()){List<JSONObject> hits=index.get(normalize(from.group(1)));if(hits!=null&&hits.size()==1)return hits.get(0);}
+  return null;
+ }
  static List<String> queries(JSONObject p){
   LinkedHashSet<String> queries=new LinkedHashSet<>();String style=p.optString("style"),energy=p.optString("energy");
   if(style.equals("jazz"))queries.add("jazz soundtrack");

@@ -54,7 +54,7 @@ public final class SelectionRegression {
         set(core,"profile",new JSONObject().put("seed","old").put("seed_title","La La Land").put("genres",new JSONArray().put("Drama")).put("era",1970));
         Method interpret=FrameCore.class.getDeclaredMethod("interpret",String.class);interpret.setAccessible(true);
         JSONObject dance=(JSONObject)interpret.invoke(core,"신나는 댄스 영화음악");
-        check(!dance.has("seed")&&dance.getString("style").equals("dance"),"Dance request retained old film anchor");
+        check(!dance.has("seed")&&dance.getString("music_style").equals("dance")&&dance.getJSONArray("genres").length()==0,"Dance request retained old film anchor");
         check(dance.getInt("era")==1970,"Mood change erased era");
         ArrayDeque<String> recent=new ArrayDeque<>();recent.add("B");set(core,"recentMovies",recent);seen.clear();songKeys.clear();
         set(core,"profile",dance);

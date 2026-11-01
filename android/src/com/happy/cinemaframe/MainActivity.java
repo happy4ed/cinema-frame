@@ -17,7 +17,7 @@ import java.util.concurrent.*;
 public class MainActivity extends Activity {
     private final ScheduledExecutorService worker=Executors.newSingleThreadScheduledExecutor();
     private final Handler main=new Handler();
-    private PosterView image;private LinearLayout info,setup;private TextView title,genres,rating,track,artist,setupTitle,setupText,setupCode,setupHelp,pairButton;
+    private PosterView image;private LinearLayout info,setup;private TextView title,genres,rating,track,artist,setupTitle,setupText,setupCode,setupHelp,pairButton,closePair;
     private ProgressLine progress;private Typeface cinema;private String base,key,code;private long applied=-1,nextPosterRetry=0,displayedVersion=-1;private FrameCore core;
     private JSONObject metrics=new JSONObject();private volatile boolean alive=true,visible=true;private String error="";
     private final Runnable animate=new Runnable(){public void run(){if(!alive)return;if(visible&&progress!=null)progress.invalidate();main.postDelayed(this,200);}};
@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
         setupHelp=text(12,0xBFFFFFFF);setupHelp.setGravity(Gravity.CENTER);setupHelp.setLineSpacing(dp(4),1f);setup.addView(setupHelp);
         FrameLayout.LayoutParams center=new FrameLayout.LayoutParams(-1,-2,Gravity.CENTER);center.setMargins(dp(34),dp(24),dp(34),dp(24));root.addView(setup,center);
         pairButton=text(12,0xCCD3BD92);pairButton.setText("연결");pairButton.setContentDescription("휴대폰 / Home Assistant 연결 코드 표시");pairButton.setGravity(Gravity.CENTER);pairButton.setMinWidth(dp(48));pairButton.setMinHeight(dp(48));pairButton.setOnClickListener(v->{if(core!=null)core.showPairing();});FrameLayout.LayoutParams pairPosition=new FrameLayout.LayoutParams(dp(64),dp(48),Gravity.BOTTOM|Gravity.RIGHT);pairPosition.setMargins(0,0,dp(24),dp(10));root.addView(pairButton,pairPosition);
-        TextView closePair=text(13,0xFFD3BD92);closePair.setText("닫기");closePair.setGravity(Gravity.CENTER);closePair.setMinHeight(dp(48));closePair.setOnClickListener(v->{if(core!=null)core.hidePairing();});setup.addView(closePair);
+        closePair=text(13,0xFFD3BD92);closePair.setText("닫기");closePair.setGravity(Gravity.CENTER);closePair.setMinHeight(dp(48));closePair.setOnClickListener(v->{if(core!=null)core.hidePairing();});setup.addView(closePair);
         progress=new ProgressLine();root.addView(progress,new FrameLayout.LayoutParams(-1,4,Gravity.BOTTOM));progress.setVisibility(View.GONE);setContentView(root);
         try{startForegroundService(new android.content.Intent(this,FrameService.class));core=FrameCore.get(this);base="http://127.0.0.1:8787";key=core.key;code=core.code;setupTitle.setText("Your next scene.");setupText.setText("휴대폰과 연결을 준비하고 있습니다");}
         catch(Exception e){setupTitle.setText("Cinema Frame");setupText.setText("연결을 준비하지 못했습니다. 앱을 다시 열어 주세요.");return;}
@@ -70,8 +70,9 @@ public class MainActivity extends Activity {
     private void render(JSONObject command,JSONObject current){
         boolean pairing=command.optBoolean("pairing",true),ready=command.optBoolean("spotify_ready");pairButton.setVisibility(pairing?View.GONE:View.VISIBLE);image.setMode(command.optString("display_mode","height"));
         setup.setVisibility(pairing||current==null?View.VISIBLE:View.GONE);info.setVisibility(!pairing&&current!=null?View.VISIBLE:View.GONE);image.setVisibility(pairing?View.INVISIBLE:View.VISIBLE);
-        setupCode.setVisibility(pairing?View.VISIBLE:View.GONE);setupHelp.setVisibility(pairing?View.VISIBLE:View.GONE);
+        closePair.setVisibility(pairing?View.VISIBLE:View.GONE);setupCode.setVisibility(pairing?View.VISIBLE:View.GONE);setupHelp.setVisibility(pairing?View.VISIBLE:View.GONE);
         if(pairing){setupTitle.setText("A frame for your music.");setupText.setText("Cinema Remote 또는 Home Assistant에서\n아래 연결 코드를 입력해 주세요");setupCode.setText(code.substring(0,3)+" "+code.substring(3));setupHelp.setText("같은 Wi-Fi에 연결해 주세요\nCinema Frame · 포트 8787\n직접 연결 주소  "+FrameCore.address());}
+        else if(ready&&!command.optString("request").isEmpty()){setupTitle.setText(command.optBoolean("discovery")?"영화 OST 검색 중":"조건에 맞는 OST를 찾는 중");setupText.setText(command.optString("request")+"\n\n"+command.optString("message","Spotify 검색 결과를 확인하고 있습니다"));}
         else {setupTitle.setText("Your next scene.");setupText.setText(ready?"연결되었습니다\n휴대폰에서 영화나 분위기를 골라 주세요":"휴대폰에서 Spotify 계정 연결을\n마무리해 주세요");}
         if(current!=null&&command.optLong("version")==displayedVersion){JSONObject movie=current.optJSONObject("movie"),song=current.optJSONObject("track");if(movie!=null&&song!=null){title.setText(movie.optString("title"));genres.setText(genreLabel(movie));rating.setText("IMDb  " + movie.optString("rating"));track.setText(song.optString("title"));artist.setText(song.optString("artist"));}}
         JSONObject player=command.optJSONObject("player"),playingTrack=player==null?null:player.optJSONObject("track");boolean confirmed=command.optBoolean("confirmed");progress.setVisibility(!pairing&&current!=null&&confirmed&&command.optLong("version")==displayedVersion&&!"external".equals(command.optString("phase"))?View.VISIBLE:View.GONE);
