@@ -49,7 +49,7 @@
     },
     "text": {
       "request": {
-        "name": "Movie or mood request"
+        "name": "Movie or mood query"
       }
     },
     "switch": {
@@ -71,6 +71,11 @@
     "sensor": {
       "foreground_package": {
         "name": "Foreground package"
+      }
+    },
+    "button": {
+      "send_request": {
+        "name": "Send query"
       }
     }
   }

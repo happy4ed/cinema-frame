@@ -103,3 +103,9 @@ mode: restart
 - 집 밖 제어는 기존의 인증된 HA 원격 접속을 사용합니다. 프레임 HTTP 포트는 직접 공개하지 않습니다. HA `.storage`에 제어 세션이 저장되므로 백업·진단자료를 공개하지 마세요.
 
 참고: [HACS 구조](https://www.hacs.xyz/docs/publish/integration/), [HA 미디어 플레이어](https://developers.home-assistant.io/docs/core/entity/media-player/), [Fully Kiosk](https://www.home-assistant.io/integrations/fully_kiosk/), [immich-ha-sa](https://github.com/hyungyunlim/immich-ha-sa).
+
+## 0.3.0 검색어 입력과 보내기
+
+8787 재생 연결에 `text` **영화·분위기 검색어**와 `button` **검색어 보내기**가 있습니다. 대시보드에 둘 다 추가하세요. 입력을 저장한 다음 버튼을 눌러야 프레임으로 전송됩니다. 기존 `media_player.play_media`의 `media_content_type: cinema_frame`도 즉시 전송 방식으로 계속 지원합니다.
+
+HACS 업데이트 후 HA를 재시작하세요. 기존 연결과 토큰을 삭제하거나 다시 페어링할 필요는 없습니다. 자동 생성된 실제 엔티티 ID를 선택하세요. Hardware(8788) 연결에는 이 재생 검색 버튼이 생기지 않습니다.

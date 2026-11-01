@@ -20,9 +20,11 @@ class MovieRequest(CinemaEntity, TextEntity):
 
     @property
     def native_value(self):
-        return self.data.get("request", "")
+        return self.coordinator.config_entry.options.get("request_draft", self.data.get("request", ""))
 
     async def async_set_value(self, value):
         if not value.strip() or len(value) > 500:
             raise HomeAssistantError("Enter a request of 1–500 characters")
-        await self.coordinator.command("/api/request", {"text": value.strip()})
+        entry = self.coordinator.config_entry
+        self.hass.config_entries.async_update_entry(entry, options={**entry.options, "request_draft": value.strip()})
+        self.coordinator.async_update_listeners()

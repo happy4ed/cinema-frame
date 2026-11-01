@@ -51,6 +51,15 @@ public final class SelectionRegression {
         JSONObject impossible=new JSONObject(profile.toString()).put("era",1990);
         check(repeat.invoke(core,impossible,"A",Collections.emptySet(),true)==null,"Cycle widened the user's era");
         check(repeat.invoke(core,profile,"A",new HashSet<>(Arrays.asList("A","B","C")),true)==null,"Cycle bypassed excluded movies");
+        set(core,"profile",new JSONObject().put("seed","old").put("seed_title","La La Land").put("genres",new JSONArray().put("Drama")).put("era",1970));
+        Method interpret=FrameCore.class.getDeclaredMethod("interpret",String.class);interpret.setAccessible(true);
+        JSONObject dance=(JSONObject)interpret.invoke(core,"신나는 댄스 영화음악");
+        check(!dance.has("seed")&&dance.getString("style").equals("dance"),"Dance request retained old film anchor");
+        check(dance.getInt("era")==1970,"Mood change erased era");
+        ArrayDeque<String> recent=new ArrayDeque<>();recent.add("B");set(core,"recentMovies",recent);seen.clear();songKeys.clear();
+        for(int i=0;i<50;i++)check(((JSONObject)choose.invoke(core,profile,"A",Collections.emptySet())).getJSONObject("movie").getString("id").equals("C"),"Recent film chosen while a fresh film exists");
+        check(SpotifySearch.matches("The Pink Panther","The Pink Panther (Original Motion Picture Soundtrack)"),"Soundtrack match rejected");
+        check(!SpotifySearch.matches("Grease","Grease Lightning: Party Karaoke"),"Unverified karaoke album accepted");
         check(Modifier.isSynchronized(FrameCore.class.getDeclaredMethod("next",long.class).getModifiers()),"Concurrent next calls are not serialized");
         check(SelectionGuard.excluded("B","A","").contains("B"),"Request reset lost selected-film exclusion");
         System.out.println("PASS: pending-playback exclusion, empty pool, 40 transitions, song history, serialized next, request reset, exhausted-pool rollover, era and repeat guards");

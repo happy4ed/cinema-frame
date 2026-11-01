@@ -49,7 +49,7 @@
     },
     "text": {
       "request": {
-        "name": "영화·분위기 요청"
+        "name": "영화·분위기 검색어"
       }
     },
     "switch": {
@@ -71,6 +71,11 @@
     "sensor": {
       "foreground_package": {
         "name": "전면 앱 패키지"
+      }
+    },
+    "button": {
+      "send_request": {
+        "name": "검색어 보내기"
       }
     }
   }

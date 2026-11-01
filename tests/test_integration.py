@@ -44,7 +44,11 @@ async def test_entities_and_controls(hass, mock_api):
         request.assert_called_with("POST", path, body)
     await hass.services.async_call("select", "select_option", {"entity_id": entities["select"], "option": "blur"}, blocking=True)
     request.assert_called_with("POST", "/api/display", {"mode": "blur"})
+    request.reset_mock()
     await hass.services.async_call("text", "set_value", {"entity_id": entities["text"], "value": "1990년대 액션"}, blocking=True)
+    request.assert_not_called()
+    assert entry.options["request_draft"] == "1990년대 액션"
+    await hass.services.async_call("button", "press", {"entity_id": entities["button"]}, blocking=True)
     request.assert_called_with("POST", "/api/request", {"text": "1990년대 액션"})
     with pytest.raises(HomeAssistantError):
         await hass.services.async_call("media_player", "media_seek", {"entity_id": player, "seek_position": 999}, blocking=True)

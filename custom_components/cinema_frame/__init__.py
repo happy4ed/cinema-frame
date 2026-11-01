@@ -6,7 +6,7 @@ from .api import CinemaApi
 from .const import CONF_TOKEN
 from .coordinator import CinemaCoordinator
 
-PLATFORMS = [Platform.MEDIA_PLAYER, Platform.SELECT, Platform.TEXT]
+PLATFORMS = [Platform.MEDIA_PLAYER, Platform.SELECT, Platform.TEXT, Platform.BUTTON]
 
 
 def platforms(entry):
