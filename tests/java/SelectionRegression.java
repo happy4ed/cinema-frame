@@ -57,6 +57,12 @@ public final class SelectionRegression {
         check(!dance.has("seed")&&dance.getString("style").equals("dance"),"Dance request retained old film anchor");
         check(dance.getInt("era")==1970,"Mood change erased era");
         ArrayDeque<String> recent=new ArrayDeque<>();recent.add("B");set(core,"recentMovies",recent);seen.clear();songKeys.clear();
+        set(core,"profile",dance);
+        JSONObject noIndia=(JSONObject)interpret.invoke(core,"인도 영화 제외");check(noIndia.optBoolean("exclude_india"),"Country exclusion not parsed");
+        set(core,"profile",noIndia);check(((JSONObject)interpret.invoke(core,"전체 랜덤")).optBoolean("exclude_india"),"Country preference lost on genre change");
+        Method eligible=FrameCore.class.getDeclaredMethod("eligible",JSONObject.class,JSONObject.class);eligible.setAccessible(true);
+        JSONObject indian=new JSONObject().put("country_india",true);check(!(Boolean)eligible.invoke(core,indian,noIndia),"India movie accepted");
+        check(!((JSONObject)interpret.invoke(core,"인도 영화 포함")).optBoolean("exclude_india"),"Country inclusion not parsed");
         for(int i=0;i<50;i++)check(((JSONObject)choose.invoke(core,profile,"A",Collections.emptySet())).getJSONObject("movie").getString("id").equals("C"),"Recent film chosen while a fresh film exists");
         check(SpotifySearch.matches("The Pink Panther","The Pink Panther (Original Motion Picture Soundtrack)"),"Soundtrack match rejected");
         check(!SpotifySearch.matches("Grease","Grease Lightning: Party Karaoke"),"Unverified karaoke album accepted");

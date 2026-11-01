@@ -1,0 +1,9 @@
+# Volume controls and film exclusions
+
+The phone controller's −/+ buttons adjust **app volume by 1%**. Holding starts repeating after 400 ms, at 100 ms intervals. Release, cancellation, loss of capture, page hiding or focus loss stops repetition. Requests are serialized and coalesced. Android system volume remains separate.
+
+**음량 균일화** enables an additional stereo-linked output leveler (default on; persisted in private app preferences). Spotify track normalization remains explicitly enabled. The additional PCM stage follows a 200 ms RMS envelope, targets approximately −20 dBFS RMS, limits gain to −18/+12 dB, changes attenuation over 80 ms and amplification over 2 s, and limits peaks to approximately −1 dBFS. Quiet tails are not boosted. This reduces large changes, but is not a guarantee of identical perceived loudness or a substitute for listening tests. The checkbox disables this additional processing. `/api/volume` accepts optional `leveling: true|false` without requiring a volume change.
+
+**인도 영화 제외** saves a persistent profile preference; changing genre/seed retains it. **인도 영화 포함** or **제외 초기화** clears it. Matching uses Wikidata country of origin (`P495 = Q668`) and IMDb IDs (`P345`), including co-productions. The bundled CC0 snapshot has provenance/query/date in `android/assets/film-countries.json`. It covers identified titles, not every film: missing/incorrect Wikidata statements can cause omissions. At the snapshot date it identifies 736 titles in the installed 9,690-title catalogue. This is country metadata, not language/artist-name inference.
+
+Host checks: `node tests/volume.test.cjs`; Java harnesses in `tests/java/AudioLevelerRegression.java`, `SoundtrackRegression.java`, and `SelectionRegression.java`. The audio test uses synthetic tones; real soundtrack listening remains a separate check.

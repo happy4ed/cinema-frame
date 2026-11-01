@@ -17,3 +17,12 @@ Selection no longer discards lower-scoring eligible movies. It prioritizes movie
 References:
 - https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow
 - https://developer.spotify.com/documentation/web-api/reference/search
+
+
+## Spotify-first discovery
+
+Each background discovery batch now searches Spotify for soundtrack albums first, using style-specific queries plus `original motion picture soundtrack`. It rotates result pages instead of permanently reusing the first ten results. Album titles with soundtrack markers are matched to IMDb title/original-title metadata; ambiguous remakes require a matching release year, and unmatched compilations are skipped. IMDb popularity, decade and exclusion filters still apply. Existing movie-title searches and MusicBrainz remain fallbacks.
+
+The authenticated `/api/state` response includes `spotify_discovery` with the last query, result count, matched/new movie counts and examples. Selected items expose `album_source` and `album_url` alongside the movie, track and fetched IMDb poster, so the source can be checked. These contain no OAuth credentials. Tapping Next no longer cancels an in-progress discovery batch; changing the request still cancels searches for the old request.
+
+This is catalog text matching, not audio similarity analysis. An exact soundtrack/movie match does not guarantee a song has the requested tempo or acoustic mood. Spotify-first matching currently uses the installed IMDb metadata catalogue; it does not map every album or every movie in Spotify.

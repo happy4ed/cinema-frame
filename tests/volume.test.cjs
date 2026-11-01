@@ -1,0 +1,21 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const html=fs.readFileSync(require('path').join(__dirname,'../android/assets/index.html'),'utf8');
+const source=html.slice(html.indexOf('let volumeEditing='),html.indexOf('function item(q)'));
+const elements={volume:{value:50,min:0,max:100},volumevalue:{},leveling:{}};
+for(const id of ['volumeup','volumedown'])elements[id]={setAttribute(){},setPointerCapture(){}};
+let next=0;const timers=new Map(),calls=[],listeners={};
+const ctx={$:id=>elements[id],api:async(path,body)=>calls.push(body.value),refresh:async()=>{},error:e=>{throw e},window:{addEventListener:(k,v)=>listeners[k]=v},document:{hidden:false,addEventListener:(k,v)=>listeners[k]=v},setTimeout:fn=>{timers.set(++next,{fn,repeat:false});return next},setInterval:fn=>{timers.set(++next,{fn,repeat:true});return next},clearTimeout:id=>timers.delete(id),clearInterval:id=>timers.delete(id)};
+vm.createContext(ctx);vm.runInContext(source,ctx);
+const down=id=>elements[id].onpointerdown({button:0,pointerId:1,preventDefault(){}});
+const tick=()=>{for(const [id,t] of [...timers]){if(!t.repeat)timers.delete(id);t.fn()}};
+const flush=async()=>{for(let i=0;i<12;i++)await Promise.resolve()};
+(async()=>{
+down('volumeup');elements.volumeup.onpointerup();await flush();assert.equal(elements.volume.value,51);assert.deepEqual(calls,[51]);
+elements.volumeup.onclick({detail:1});await flush();assert.equal(elements.volume.value,51);
+down('volumedown');elements.volumedown.onpointerup();await flush();assert.equal(elements.volume.value,50);
+down('volumeup');tick();for(let i=0;i<10;i++)tick();elements.volumeup.onpointerup();await flush();assert.equal(elements.volume.value,61);assert.equal(timers.size,0);tick();assert.equal(elements.volume.value,61);
+elements.volume.value=99;down('volumeup');tick();tick();elements.volumeup.onpointercancel();await flush();assert.equal(elements.volume.value,100);assert.equal(timers.size,0);
+elements.volume.value=0;down('volumedown');elements.volumedown.onlostpointercapture();await flush();assert.equal(elements.volume.value,0);
+down('volumeup');listeners.blur();assert.equal(timers.size,0);await flush();
+assert.equal(calls.at(-1),1);console.log('PASS: +/- 1%, hold repeat, release/cancel/blur stop, bounds, latest queued volume');
+})().catch(e=>{console.error(e);process.exitCode=1});
