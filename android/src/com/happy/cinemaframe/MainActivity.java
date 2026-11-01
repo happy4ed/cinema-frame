@@ -29,12 +29,12 @@ public class MainActivity extends Activity {
         image=new PosterView(this);root.addView(image,new FrameLayout.LayoutParams(-1,-1));
         info=new LinearLayout(this);info.setOrientation(LinearLayout.VERTICAL);info.setPadding(dp(24),dp(90),dp(36),dp(52));
         info.setBackground(new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{0x00000000,0xA3000000,0xF2000000}));
-        title=text(42,Color.WHITE);title.setTypeface(cinema);title.setMaxLines(2);title.setEllipsize(TextUtils.TruncateAt.END);title.setAutoSizeTextTypeUniformWithConfiguration(28,42,1,android.util.TypedValue.COMPLEX_UNIT_SP);title.setLineSpacing(0,1f);title.setPadding(0,dp(2),0,0);
+        title=text(18,0xDFE4E9EA);title.setTypeface(cinema);title.setMaxLines(2);title.setEllipsize(TextUtils.TruncateAt.END);title.setLineSpacing(0,1f);title.setPadding(0,dp(2),0,0);
         genres=badge(0xFFBCE4DE,0xB5264445);rating=badge(0xFFF5D59A,0xB54D3B22);
         FlowRow heading=new FlowRow();heading.addView(genres);heading.addView(rating);
-        track=text(23,Color.WHITE);track.setTypeface(font("Rajdhani-Medium.ttf",500));track.setMaxLines(3);track.setEllipsize(TextUtils.TruncateAt.END);track.setPadding(0,dp(6),0,0);
-        artist=text(14,0xDFE4E9EA);artist.setTypeface(font("Manrope.ttf",500));artist.setMaxLines(2);artist.setEllipsize(TextUtils.TruncateAt.END);artist.setPadding(0,0,0,0);
-        info.addView(title);info.addView(heading);info.addView(track);info.addView(artist);root.addView(info,new FrameLayout.LayoutParams(-1,-2,Gravity.BOTTOM));info.setVisibility(View.GONE);
+        track=text(38,Color.WHITE);track.setTypeface(font("Rajdhani-Medium.ttf",500));track.setMaxLines(3);track.setEllipsize(TextUtils.TruncateAt.END);track.setAutoSizeTextTypeUniformWithConfiguration(26,38,1,android.util.TypedValue.COMPLEX_UNIT_SP);track.setLineSpacing(0,1f);track.setPadding(0,0,0,0);
+        artist=text(16,0xDFE4E9EA);artist.setTypeface(font("Manrope.ttf",500));artist.setMaxLines(2);artist.setEllipsize(TextUtils.TruncateAt.END);artist.setPadding(0,0,0,dp(3));
+        info.addView(track);info.addView(artist);info.addView(heading);info.addView(title);root.addView(info,new FrameLayout.LayoutParams(-1,-2,Gravity.BOTTOM));info.setVisibility(View.GONE);
         setup=new LinearLayout(this);setup.setOrientation(LinearLayout.VERTICAL);setup.setGravity(Gravity.CENTER);setup.setPadding(dp(30),dp(36),dp(30),dp(36));
         GradientDrawable card=new GradientDrawable(GradientDrawable.Orientation.TL_BR,new int[]{0xD51A2429,0xE80B1016});card.setCornerRadius(dp(20));card.setStroke(dp(1),0x406F7163);setup.setBackground(card);
         TextView brand=text(11,0xFFD3BD92);brand.setText("C I N E M A   F R A M E");brand.setGravity(Gravity.CENTER);brand.setPadding(0,0,0,dp(22));setup.addView(brand);
