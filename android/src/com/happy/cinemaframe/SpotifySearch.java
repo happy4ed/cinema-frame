@@ -20,6 +20,7 @@ final class SpotifySearch {
  SpotifySearch(Context c){prefs=c.getSharedPreferences("spotify_search",0);backoffUntil=prefs.getLong("search_backoff_until",0);if(connected())status="Spotify 공식 검색 연결됨";}
  boolean connected(){return !prefs.getString("refresh","").isEmpty();}
  String status(){return status;}
+ long retryAt(){return backoffUntil;}
  private String nonce(){byte[] b=new byte[32];random.nextBytes(b);return Base64.encodeToString(b,Base64.URL_SAFE|Base64.NO_WRAP|Base64.NO_PADDING);}
  private static String enc(String s)throws Exception{return URLEncoder.encode(s,"UTF-8");}
  synchronized JSONObject begin(String client)throws Exception{

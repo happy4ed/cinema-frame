@@ -1,0 +1,22 @@
+{
+  "captured_at": 1794112137.2901201,
+  "status": {
+    "configured": true,
+    "enabled": true,
+    "busy": false,
+    "rules": "strict-2026-11-08",
+    "last_tick_at": 1794112106788,
+    "misses": 64,
+    "retry_at": 0,
+    "spotify_retry_at": 1794183846213,
+    "message": "색인 설정 대기",
+    "error": "",
+    "films": 9704,
+    "tracks": 2911,
+    "judged_fresh": 150,
+    "cycle_started_at": 1794111396378,
+    "movies_this_cycle": 0,
+    "batches_this_cycle": 1
+  },
+  "verified": "automatic background batch completed, persisted across APK update"
+}

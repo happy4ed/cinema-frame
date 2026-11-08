@@ -14,6 +14,7 @@ $toolsDir = Join-Path $sdk 'build-tools\35.0.0'
 $androidJar = Join-Path $sdk 'platforms\android-34\android.jar'
 $project = $PSScriptRoot
 if (-not (Test-Path (Join-Path $project 'android/assets/movies.json'))) { throw 'Film catalogue is local-only: run python tools/refresh_catalog.py before building.' }
+Copy-Item -LiteralPath (Join-Path $project 'config/music-tags.json') -Destination (Join-Path $project 'android/assets/music-tags.json')
 $buildRoot = Join-Path $project 'build'
 New-Item -ItemType Directory -Force $buildRoot | Out-Null
 $keyFile = Join-Path $buildRoot 'cinema-test.p12'

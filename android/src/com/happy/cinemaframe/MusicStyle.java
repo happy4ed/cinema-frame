@@ -7,6 +7,7 @@ import java.util.*;
 final class MusicStyle {
  static String requested(String text){
   String n=text.toLowerCase(Locale.ROOT).replaceAll("\\s+","");
+  if(n.contains("빅밴드")||n.contains("bigband"))return "big band";
   String[][] aliases={{"dance","댄스","춤","디스코","dance","disco"},{"jazz","재즈","jazz"},{"rock","록","락음악","락영화","rock"},{"electronic","일렉트로닉","전자음악","edm","테크노","electronic"},{"hiphop","힙합","hiphop","hip-hop"},{"classical","클래식","classical"},{"blues","블루스","blues"},{"ambient","앰비언트","ambient"},{"ballad","발라드","ballad"},{"rnb","알앤비","r&b","rnb"},{"pop","팝음악","팝송","pop"}};
   for(String[] a:aliases)for(int i=1;i<a.length;i++)if(n.contains(a[i]))return a[0];return "";
  }

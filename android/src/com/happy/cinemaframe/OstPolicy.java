@@ -34,11 +34,11 @@ final class OstPolicy {
   if(!n.contains("빼고")&&!n.contains("포함")&&!n.contains("제외")){
    p=new JSONObject().put("excluded_countries",countries(previous)).put("country_exclusions_enabled",previous.optBoolean("country_exclusions_enabled",true)).put("excluded_movies",previous.optJSONArray("excluded_movies")==null?new JSONArray():previous.getJSONArray("excluded_movies"));
   }
-  p.put("pipeline","deezer-isrc-v1");JSONArray genres=new JSONArray();String style=MusicStyle.requested(text);
+  p.put("pipeline","gemini-index-v1");JSONArray genres=new JSONArray();String style=MusicStyle.requested(text);
   String[][] mappings={{"sf","Sci-Fi"},{"공상과학","Sci-Fi"},{"액션","Action"},{"모험","Adventure"},{"로맨스","Romance"},{"코미디","Comedy"},{"공포","Horror"},{"스릴러","Thriller"},{"판타지","Fantasy"},{"애니","Animation"},{"뮤지컬","Musical"}};
   Set<String> gs=new LinkedHashSet<>();for(String[] pair:mappings)if(n.contains(pair[0]))gs.add(pair[1]);
   String projection="명시한 영화 장르만 적용";
-  if(gs.isEmpty()&&!style.isEmpty()){gs.add("Music");projection="음악 스타일을 IMDb Music 영화 후보로 변환(음악 스타일 일치 보장은 아님)";}
+
   for(String g:gs)genres.put(g);p.put("genres",genres).put("music_style",style).put("style","catalogue");
   String mood=n.contains("비오는")||n.contains("비내리는")?"rainy":n.matches(".*(행복|기쁜|즐거운).*" )?"happy":n.matches(".*(슬픈|우울).*" )?"sad":"";
   String energy=n.contains("웅장")?"epic":mood.equals("rainy")||n.contains("차분")||n.contains("잔잔")||n.contains("조용")?"calm":n.contains("경쾌")||n.contains("신나")||n.contains("밝은")?"bright":"balanced";
@@ -46,14 +46,14 @@ final class OstPolicy {
   Matcher era=Pattern.compile("(?<![0-9])((?:19|20)?[0-9]0)년대").matcher(n);
   p.remove("era");if(era.find()){int y=Integer.parseInt(era.group(1));if(y<100)y+=y>=30?1900:2000;p.put("era",y);}
   if(style.isEmpty()&&gs.isEmpty()&&mood.isEmpty()&&energy.equals("balanced")&&!p.has("era")&&!n.matches(".*(전체|랜덤|아무거나).*"))throw new IOException("조건을 해석하지 못했습니다. 영화 장르·음악 스타일·시대를 명시해 주세요.");
-  p.put("interpretation_note",projection+" · 분위기는 해석해 표시하며 Deezer rank는 분위기 점수가 아닙니다");
+  p.put("interpretation_note",projection+" · 곡 스타일·분위기는 Gemini 판단, 아티스트 태그만으로 확정하지 않음");
   return p;
  }
  static boolean eligible(JSONObject m,JSONObject p){
   if(countryBlocked(m,p))return false;
   JSONArray exclusions=p.optJSONArray("excluded_movies");if(exclusions!=null)for(int i=0;i<exclusions.length();i++)if(m.optString("id").equals(exclusions.optString(i)))return false;
   int era=p.optInt("era");if(era!=0&&(m.optInt("year")<era||m.optInt("year")>=era+10))return false;
-  if(m.optDouble("rating")<7||m.optInt("votes")<10000)return false;
+  if(m.optDouble("rating")<7||m.optInt("votes")<(m.optString("rating_source").equals("TMDB")?100:10000))return false;
   JSONArray wanted=p.optJSONArray("genres"),actual=m.optJSONArray("genres");
   if(wanted!=null)for(int i=0;i<wanted.length();i++){boolean found=false;if(actual!=null)for(int j=0;j<actual.length();j++)if(wanted.optString(i).equals(actual.optString(j)))found=true;if(!found)return false;}
   return true;

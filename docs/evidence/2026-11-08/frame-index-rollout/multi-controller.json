@@ -1,0 +1,33 @@
+{
+  "at": 1794111537.7987344,
+  "test": "REAL receiver; two independent HTTP controllers, not two physical phones",
+  "original_session_still_valid": true,
+  "new_sessions": [
+    {
+      "paired_controllers": 7,
+      "request": "비 오는 날 재즈",
+      "volume": {
+        "value": 0,
+        "max": 100,
+        "scope": "app",
+        "leveling": true
+      },
+      "version": 0
+    },
+    {
+      "paired_controllers": 7,
+      "request": "비 오는 날 재즈",
+      "volume": {
+        "value": 0,
+        "max": 100,
+        "scope": "app",
+        "leveling": true
+      },
+      "version": 0
+    }
+  ],
+  "paired_controllers": 7,
+  "after_app_update_all_sessions_valid": true,
+  "controller_B_change_visible_to_C_and_original": true,
+  "volume_restored": true
+}

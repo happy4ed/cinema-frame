@@ -1,0 +1,30 @@
+{
+  "phase": "error",
+  "message": "선곡 중단: Spotify 검색 제한 · 서버 지정 시각까지 대기",
+  "request": "비 오는 날 재즈",
+  "profile": {
+    "excluded_countries": [
+      "IN"
+    ],
+    "country_exclusions_enabled": false,
+    "excluded_movies": [],
+    "pipeline": "gemini-index-v1",
+    "genres": [],
+    "music_style": "jazz",
+    "style": "catalogue",
+    "music_mood": "rainy",
+    "energy": "calm",
+    "interpretation_note": "명시한 영화 장르만 적용 · 곡 스타일·분위기는 Gemini 판단, 아티스트 태그만으로 확정하지 않음"
+  },
+  "current": null,
+  "confirmed": false,
+  "display_visible": true,
+  "paired_controllers": 7,
+  "spotify_retry_at": 1794183846213,
+  "volume": {
+    "value": 0,
+    "max": 100,
+    "scope": "app",
+    "leveling": true
+  }
+}

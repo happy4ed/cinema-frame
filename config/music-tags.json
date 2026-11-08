@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Editable allowlist for comparison experiments; not yet enabled in the Android player. No BPM or personal tags.",
+  "description": "Editable genre hierarchy and evidence vocabulary. Final track decisions are Gemini-only; no BPM or artist-only verdicts.",
   "cache_days": 7,
   "genres": {
     "jazz": ["jazz", "bebop", "swing", "big band", "hard bop", "cool jazz", "vocal jazz", "smooth jazz", "jazz fusion", "latin jazz", "free jazz", "acid jazz", "nu jazz", "jazz funk", "jazz piano", "jazz guitar"],

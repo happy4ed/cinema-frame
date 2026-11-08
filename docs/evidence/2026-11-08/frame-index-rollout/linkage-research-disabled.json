@@ -1,0 +1,455 @@
+{
+  "active_rules": "strict-2026-11-08",
+  "new_rules_enabled": false,
+  "activation_gate": "30 real album samples, zero detected wrong links; no threshold relaxation",
+  "movies": [
+    {
+      "movie_id": "tt0137523",
+      "title": "Fight Club",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0110912",
+      "title": "Pulp Fiction",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0114369",
+      "title": "Seven",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1853728",
+      "title": "Django Unchained",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0172495",
+      "title": "Gladiator",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0993846",
+      "title": "The Wolf of Wall Street",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0361748",
+      "title": "Inglourious Basterds",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1130884",
+      "title": "Shutter Island",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0120815",
+      "title": "Saving Private Ryan",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0108052",
+      "title": "Schindler's List",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0080684",
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0088763",
+      "title": "Back to the Future",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0209144",
+      "title": "Memento",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0099685",
+      "title": "GoodFellas",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0266697",
+      "title": "Kill Bill: Vol. 1",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0103064",
+      "title": "Terminator 2: Judgment Day",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0120586",
+      "title": "American History X",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0264464",
+      "title": "Catch Me If You Can",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0114814",
+      "title": "The Usual Suspects",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0434409",
+      "title": "V for Vendetta",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0371746",
+      "title": "Iron Man",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0081505",
+      "title": "The Shining",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0477348",
+      "title": "No Country for Old Men",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0107290",
+      "title": "Jurassic Park",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0338013",
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0105236",
+      "title": "Reservoir Dogs",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0112573",
+      "title": "Braveheart",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1392170",
+      "title": "The Hunger Games",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0078748",
+      "title": "Alien",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1201607",
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1675434",
+      "title": "The Intouchables",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0095016",
+      "title": "Die Hard",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt2488496",
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0050083",
+      "title": "12 Angry Men",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0458339",
+      "title": "Captain America: The First Avenger",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0245429",
+      "title": "Spirited Away",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0208092",
+      "title": "Snatch",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0800369",
+      "title": "Thor",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0180093",
+      "title": "Requiem for a Dream",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt7131622",
+      "title": "Once Upon a Time in... Hollywood",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0066921",
+      "title": "A Clockwork Orange",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0120915",
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0121766",
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1010048",
+      "title": "Slumdog Millionaire",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1745960",
+      "title": "Top Gun: Maverick",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0317248",
+      "title": "City of God",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0378194",
+      "title": "Kill Bill: Vol. 2",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1205489",
+      "title": "Gran Torino",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0093058",
+      "title": "Full Metal Jacket",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0144084",
+      "title": "American Psycho",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0090605",
+      "title": "Aliens",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0118799",
+      "title": "Life Is Beautiful",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0113277",
+      "title": "Heat",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0116282",
+      "title": "Fargo",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0062622",
+      "title": "2001: A Space Odyssey",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt2802144",
+      "title": "Kingsman: The Secret Service",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0078788",
+      "title": "Apocalypse Now",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0117951",
+      "title": "Trainspotting",
+      "reason": "other_missing_music_credit",
+      "proposal": "independent release-credit verification",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0421715",
+      "title": "The Curious Case of Benjamin Button",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0457430",
+      "title": "Pan's Labyrinth",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt0449088",
+      "title": "Pirates of the Caribbean: At World's End",
+      "reason": "deezer_release_unavailable_or_unverified",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1504320",
+      "title": "The King's Speech",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt1798709",
+      "title": "Her",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    },
+    {
+      "movie_id": "tt3460252",
+      "title": "The Hateful Eight",
+      "reason": "no_verified_album_in_search_results",
+      "proposal": "additional original-title/release evidence or provider availability",
+      "enabled": false
+    }
+  ]
+}

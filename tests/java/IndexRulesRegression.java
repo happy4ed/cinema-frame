@@ -12,6 +12,11 @@ public class IndexRulesRegression {
   try{IndexRules.validate(input,new JSONObject().put("decisions",new JSONArray()));}catch(Exception e){failed=true;}check(failed,"missing decision accepted");
   JSONObject invalid=new JSONObject().put("key","a").put("knowledge","known").put("confidence","high").put("reason","fixture").put("styles",new JSONArray().put("jazz")).put("moods",new JSONArray().put("invented_mood"));failed=false;
   try{IndexRules.validate(input,new JSONObject().put("decisions",new JSONArray().put(invalid)));}catch(Exception e){failed=true;}check(failed,"invalid mood accepted");
+  JSONArray exclusions=new JSONArray().put(new JSONObject().put("isrc","USAAA0100001").put("style","jazz"));
+  JSONObject filmA=new JSONObject().put("movie_id","fixture_A").put("isrc","USAAA0100001"),filmB=new JSONObject().put("movie_id","fixture_B").put("isrc","usaaa0100001");
+  check(IndexRules.rejected(filmA,"jazz",exclusions)&&IndexRules.rejected(filmB,"jazz",exclusions),"same ISRC leaked through another film");
+  check(!IndexRules.rejected(filmB,"classical",exclusions),"unrelated style was excluded");
+  check(!IndexRules.rejected(filmB,"jazz",new JSONArray()),"undo did not restore recording");
   System.out.println("PASS IndexRulesRegression (MOCK): Gemini final, confidence, unknown, jazz subgenres, mood, TTL, completeness");
  }
 }

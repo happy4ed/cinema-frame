@@ -1,0 +1,5648 @@
+{
+  "events": [
+    {
+      "source": "Gemini 판단",
+      "count": 50,
+      "decisions": [
+        {
+          "key": "tt0211915:1412033732",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "피아노 솔로곡으로, 차분하고 서정적인 분위기의 현대 클래식 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046587,
+          "expires_at": 1794716846587,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0211915:1412033732",
+            "title": "Comptine d'un autre été, l'après-midi",
+            "movie": "Amélie",
+            "artist": "Yann Tiersen",
+            "composers": [
+              "Yann Tiersen"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 67,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 37,
+                "name": "piano",
+                "url": "https://www.last.fm/tag/piano"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0816692:1137370842",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "electronic",
+            "ambient"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "오케스트라와 전자음악이 결합된 곡으로, 웅장하고 긴장감 있는 분위기를 조성합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046587,
+          "expires_at": 1794716846587,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0816692:1137370842",
+            "title": "Cornfield Chase",
+            "movie": "Interstellar",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 23,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 15,
+                "name": "symphonic",
+                "url": "https://www.last.fm/tag/symphonic"
+              },
+              {
+                "count": 10,
+                "name": "electronic",
+                "url": "https://www.last.fm/tag/electronic"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              },
+              {
+                "count": 3,
+                "name": "folk",
+                "url": "https://www.last.fm/tag/folk"
+              },
+              {
+                "count": 3,
+                "name": "ambient",
+                "url": "https://www.last.fm/tag/ambient"
+              },
+              {
+                "count": 1,
+                "name": "magic",
+                "url": "https://www.last.fm/tag/magic"
+              },
+              {
+                "count": 1,
+                "name": "soul",
+                "url": "https://www.last.fm/tag/soul"
+              },
+              {
+                "count": 1,
+                "name": "acoustic",
+                "url": "https://www.last.fm/tag/acoustic"
+              }
+            ]
+          }
+        },
+        {
+          "key": "tt1375666:6524423",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "웅장한 오케스트라 사운드가 특징이며, 점진적으로 고조되는 분위기가 서사적입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046587,
+          "expires_at": 1794716846587,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1375666:6524423",
+            "title": "Time",
+            "movie": "Inception",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0246578:83151634",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "pop",
+            "ambient"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "피아노와 보컬이 어우러진 차분하고 몽환적인 분위기의 팝 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046587,
+          "expires_at": 1794716846587,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0246578:83151634",
+            "title": "Mad World",
+            "movie": "Donnie Darko",
+            "artist": "Michael Andrews",
+            "composers": [
+              "Michael Andrews"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 79,
+                "name": "ambient",
+                "url": "https://www.last.fm/tag/ambient"
+              },
+              {
+                "count": 48,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 23,
+                "name": "indie",
+                "url": "https://www.last.fm/tag/indie"
+              },
+              {
+                "count": 6,
+                "name": "Donnie Darko",
+                "url": "https://www.last.fm/tag/Donnie+Darko"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0211915:1412033722",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "upbeat",
+            "calm"
+          ],
+          "reason": "경쾌하면서도 서정적인 피아노 왈츠곡으로, 영화의 분위기를 잘 나타냅니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046587,
+          "expires_at": 1794716846587,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0211915:1412033722",
+            "title": "La valse d'Amélie",
+            "movie": "Amélie",
+            "artist": "Yann Tiersen",
+            "composers": [
+              "Yann Tiersen"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 67,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 37,
+                "name": "piano",
+                "url": "https://www.last.fm/tag/piano"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt1170358:647297732",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "pop",
+            "other"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "에드 시런의 보컬이 돋보이는 어쿠스틱 팝 곡으로, 차분하고 서정적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1170358:647297732",
+            "title": "I See Fire",
+            "movie": "The Hobbit: The Desolation of Smaug",
+            "artist": "Ed Sheeran",
+            "composers": [
+              "Howard Shore"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "acoustic",
+                "url": "https://www.last.fm/tag/acoustic"
+              },
+              {
+                "count": 78,
+                "name": "british",
+                "url": "https://www.last.fm/tag/british"
+              },
+              {
+                "count": 47,
+                "name": "singer-songwriter",
+                "url": "https://www.last.fm/tag/singer-songwriter"
+              },
+              {
+                "count": 18,
+                "name": "pop",
+                "url": "https://www.last.fm/tag/pop"
+              },
+              {
+                "count": 8,
+                "name": "easy-listening",
+                "url": "https://www.last.fm/tag/easy-listening"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727927",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "라이언 고슬링의 보컬이 특징인 재즈 발라드 곡으로, 차분하고 낭만적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727927",
+            "title": "City Of Stars (From \"La La Land\" Soundtrack)",
+            "movie": "La La Land",
+            "artist": "Ryan Gosling",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "please let me lick you",
+                "url": "https://www.last.fm/tag/please+let+me+lick+you"
+              },
+              {
+                "count": 86,
+                "name": "Canadian",
+                "url": "https://www.last.fm/tag/Canadian"
+              },
+              {
+                "count": 57,
+                "name": "singer-songwriter",
+                "url": "https://www.last.fm/tag/singer-songwriter"
+              },
+              {
+                "count": 35,
+                "name": "actor",
+                "url": "https://www.last.fm/tag/actor"
+              },
+              {
+                "count": 8,
+                "name": "pop",
+                "url": "https://www.last.fm/tag/pop"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0816692:1137370862",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "electronic"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "웅장한 오케스트라 사운드가 특징이며, 서사적이고 긴장감 있는 분위기를 조성합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0816692:1137370862",
+            "title": "Day One (Interstellar Theme)",
+            "movie": "Interstellar",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0382932:5167605",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "pop",
+            "other"
+          ],
+          "moods": [
+            "upbeat",
+            "calm"
+          ],
+          "reason": "카미유의 보컬이 돋보이는 프랑스 샹송 스타일의 곡으로, 경쾌하고 매력적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0382932:5167605",
+            "title": "Le Festin",
+            "movie": "Ratatouille",
+            "artist": "Camille",
+            "composers": [
+              "Michael Giacchino"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 71,
+                "name": "female vocalists",
+                "url": "https://www.last.fm/tag/female+vocalists"
+              },
+              {
+                "count": 31,
+                "name": "singer-songwriter",
+                "url": "https://www.last.fm/tag/singer-songwriter"
+              },
+              {
+                "count": 30,
+                "name": "chanson francaise",
+                "url": "https://www.last.fm/tag/chanson+francaise"
+              },
+              {
+                "count": 13,
+                "name": "indie",
+                "url": "https://www.last.fm/tag/indie"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0211915:1412033802",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "upbeat",
+            "calm"
+          ],
+          "reason": "경쾌하면서도 서정적인 피아노 왈츠곡으로, 영화의 분위기를 잘 나타냅니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0211915:1412033802",
+            "title": "La Valse d'Amélie (Version piano)",
+            "movie": "Amélie",
+            "artist": "Yann Tiersen",
+            "composers": [
+              "Yann Tiersen"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 67,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 37,
+                "name": "piano",
+                "url": "https://www.last.fm/tag/piano"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0099785:110148756",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "존 윌리엄스 편곡의 오케스트라 캐럴 곡으로, 밝고 활기찬 크리스마스 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0099785:110148756",
+            "title": "Carol of the Bells (From \"Home Alone\" Soundtrack)",
+            "movie": "Home Alone",
+            "artist": "John Williams",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 62,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 38,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 21,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "Star Wars",
+                "url": "https://www.last.fm/tag/Star+Wars"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0099785:110148734",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "calm",
+            "upbeat"
+          ],
+          "reason": "존 윌리엄스의 따뜻하고 향수를 불러일으키는 오케스트라 테마곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0099785:110148734",
+            "title": "Main Title \"Somewhere in My Memory\" (From \"Home Alone\" Soundtrack)",
+            "movie": "Home Alone",
+            "artist": "John Williams",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 62,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 38,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 21,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "Star Wars",
+                "url": "https://www.last.fm/tag/Star+Wars"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0241527:661779",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "존 윌리엄스의 상징적인 오케스트라 테마곡으로, 마법적이고 웅장한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0241527:661779",
+            "title": "Hedwig's Theme",
+            "movie": "Harry Potter and the Sorcerer's Stone",
+            "artist": "John Williams",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 62,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 38,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 21,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "Star Wars",
+                "url": "https://www.last.fm/tag/Star+Wars"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727921",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "라이언 고슬링의 보컬이 특징인 재즈 발라드 곡으로, 차분하고 낭만적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727921",
+            "title": "City Of Stars",
+            "movie": "La La Land",
+            "artist": "Ryan Gosling",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "please let me lick you",
+                "url": "https://www.last.fm/tag/please+let+me+lick+you"
+              },
+              {
+                "count": 86,
+                "name": "Canadian",
+                "url": "https://www.last.fm/tag/Canadian"
+              },
+              {
+                "count": 57,
+                "name": "singer-songwriter",
+                "url": "https://www.last.fm/tag/singer-songwriter"
+              },
+              {
+                "count": 35,
+                "name": "actor",
+                "url": "https://www.last.fm/tag/actor"
+              },
+              {
+                "count": 8,
+                "name": "pop",
+                "url": "https://www.last.fm/tag/pop"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0903624:647248372",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "other"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "리처드 아미티지의 보컬이 돋보이는 포크풍의 합창곡으로, 웅장하고 비장한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0903624:647248372",
+            "title": "Misty Mountains",
+            "movie": "The Hobbit: An Unexpected Journey",
+            "artist": "Richard Armitage",
+            "composers": [
+              "Howard Shore"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 20,
+                "name": "Audiobook",
+                "url": "https://www.last.fm/tag/Audiobook"
+              },
+              {
+                "count": 13,
+                "name": "lord of the rings",
+                "url": "https://www.last.fm/tag/lord+of+the+rings"
+              },
+              {
+                "count": 7,
+                "name": "english",
+                "url": "https://www.last.fm/tag/english"
+              },
+              {
+                "count": 4,
+                "name": "british",
+                "url": "https://www.last.fm/tag/british"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727913",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "pop"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "엠마 스톤의 보컬이 돋보이는 활기찬 재즈 팝 곡으로, 경쾌하고 희망찬 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727913",
+            "title": "Someone In The Crowd",
+            "movie": "La La Land",
+            "artist": "Emma Stone",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "female vocalists",
+                "url": "https://www.last.fm/tag/female+vocalists"
+              },
+              {
+                "count": 64,
+                "name": "pop",
+                "url": "https://www.last.fm/tag/pop"
+              },
+              {
+                "count": 24,
+                "name": "sexy",
+                "url": "https://www.last.fm/tag/sexy"
+              },
+              {
+                "count": 24,
+                "name": "USA",
+                "url": "https://www.last.fm/tag/USA"
+              },
+              {
+                "count": 12,
+                "name": "actors",
+                "url": "https://www.last.fm/tag/actors"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0169547:561867002",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "ambient",
+            "classical"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "미니멀하고 분위기 있는 악기 구성이 특징인 앰비언트 클래식 곡으로, 차분하고 사색적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046588,
+          "expires_at": 1794716846588,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0169547:561867002",
+            "title": "American Beauty",
+            "movie": "American Beauty",
+            "artist": "Thomas Newman",
+            "composers": [
+              "Thomas Newman"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 67,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 29,
+                "name": "ambient",
+                "url": "https://www.last.fm/tag/ambient"
+              },
+              {
+                "count": 27,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 9,
+                "name": "chillout",
+                "url": "https://www.last.fm/tag/chillout"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt15398776:2364462315",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "electronic",
+            "ambient"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "오케스트라와 전자음악이 결합된 강렬하고 복합적인 곡으로, 웅장하고 긴장감 있는 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt15398776:2364462315",
+            "title": "Can You Hear The Music",
+            "movie": "Oppenheimer",
+            "artist": "Ludwig Göransson",
+            "composers": [
+              "Ludwig Göransson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 73,
+                "name": "Cinematic Classical",
+                "url": "https://www.last.fm/tag/Cinematic+Classical"
+              },
+              {
+                "count": 40,
+                "name": "darksynth",
+                "url": "https://www.last.fm/tag/darksynth"
+              },
+              {
+                "count": 37,
+                "name": "swedish",
+                "url": "https://www.last.fm/tag/swedish"
+              },
+              {
+                "count": 17,
+                "name": "ambient",
+                "url": "https://www.last.fm/tag/ambient"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0383574:1762557427",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "epic",
+            "upbeat"
+          ],
+          "reason": "역동적이고 모험적인 오케스트라 곡으로, 웅장하고 활기찬 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0383574:1762557427",
+            "title": "Jack Sparrow",
+            "movie": "Pirates of the Caribbean: Dead Man's Chest",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt1160419:1480164982",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "ambient"
+          ],
+          "moods": [
+            "epic",
+            "calm"
+          ],
+          "reason": "웅장하면서도 차분한 분위기의 오케스트라 곡으로, 서사적이고 비장한 느낌을 줍니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1160419:1480164982",
+            "title": "Leaving Caladan",
+            "movie": "Dune",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727917",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "pop"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "라이언 고슬링의 보컬이 돋보이는 경쾌한 재즈 팝 듀엣곡으로, 활기차고 매력적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727917",
+            "title": "A Lovely Night",
+            "movie": "La La Land",
+            "artist": "Ryan Gosling",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "please let me lick you",
+                "url": "https://www.last.fm/tag/please+let+me+lick+you"
+              },
+              {
+                "count": 86,
+                "name": "Canadian",
+                "url": "https://www.last.fm/tag/Canadian"
+              },
+              {
+                "count": 57,
+                "name": "singer-songwriter",
+                "url": "https://www.last.fm/tag/singer-songwriter"
+              },
+              {
+                "count": 35,
+                "name": "actor",
+                "url": "https://www.last.fm/tag/actor"
+              },
+              {
+                "count": 8,
+                "name": "pop",
+                "url": "https://www.last.fm/tag/pop"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0816692:1137370912",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "ambient"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "차분하고 몽환적인 분위기의 오케스트라 곡으로, 사색적인 느낌을 줍니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0816692:1137370912",
+            "title": "Afraid of Time",
+            "movie": "Interstellar",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0848228:17840804",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "epic",
+            "upbeat"
+          ],
+          "reason": "웅장하고 영웅적인 오케스트라 테마곡으로, 활기차고 서사적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0848228:17840804",
+            "title": "The Avengers",
+            "movie": "The Avengers",
+            "artist": "Alan Silvestri",
+            "composers": [
+              "Alan Silvestri"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 53,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 15,
+                "name": "score",
+                "url": "https://www.last.fm/tag/score"
+              },
+              {
+                "count": 5,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0211915:1412033772",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "upbeat",
+            "calm"
+          ],
+          "reason": "경쾌하면서도 서정적인 오케스트라 왈츠곡으로, 영화의 분위기를 잘 나타냅니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0211915:1412033772",
+            "title": "La valse d'Amélie (Version orchestre)",
+            "movie": "Amélie",
+            "artist": "Yann Tiersen",
+            "composers": [
+              "Yann Tiersen"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 67,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 37,
+                "name": "piano",
+                "url": "https://www.last.fm/tag/piano"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0816692:1137370902",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "electronic"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "웅장하고 압도적인 오케스트라 곡으로, 서사적이고 긴장감 있는 분위기를 조성합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0816692:1137370902",
+            "title": "Mountains",
+            "movie": "Interstellar",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0120737:14628832",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "ambient",
+            "other"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "에냐의 몽환적인 보컬이 특징인 뉴에이지 곡으로, 차분하고 신비로운 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046589,
+          "expires_at": 1794716846589,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0120737:14628832",
+            "title": "May It Be",
+            "movie": "The Lord of the Rings: The Fellowship of the Ring",
+            "artist": "Enya",
+            "composers": [
+              "Howard Shore"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "new age",
+                "url": "https://www.last.fm/tag/new+age"
+              },
+              {
+                "count": 81,
+                "name": "celtic",
+                "url": "https://www.last.fm/tag/celtic"
+              },
+              {
+                "count": 40,
+                "name": "ambient",
+                "url": "https://www.last.fm/tag/ambient"
+              },
+              {
+                "count": 37,
+                "name": "female vocalists",
+                "url": "https://www.last.fm/tag/female+vocalists"
+              },
+              {
+                "count": 16,
+                "name": "irish",
+                "url": "https://www.last.fm/tag/irish"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0241527:661749",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "epic",
+            "upbeat"
+          ],
+          "reason": "존 윌리엄스의 경이롭고 모험적인 오케스트라 테마곡으로, 웅장하고 활기찬 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046594,
+          "expires_at": 1794716846594,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0241527:661749",
+            "title": "Harry's Wondrous World (Extended Version)",
+            "movie": "Harry Potter and the Sorcerer's Stone",
+            "artist": "John Williams",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 62,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 38,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 21,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "Star Wars",
+                "url": "https://www.last.fm/tag/Star+Wars"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0383574:1762557447",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "calm",
+            "epic"
+          ],
+          "reason": "비극적인 분위기의 오케스트라 곡으로, 웅장하면서도 슬픈 감정을 전달합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046594,
+          "expires_at": 1794716846594,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0383574:1762557447",
+            "title": "Davy Jones",
+            "movie": "Pirates of the Caribbean: Dead Man's Chest",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0167261:783579",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "몽환적이고 서정적인 오케스트라 곡으로, 차분하고 애절한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046594,
+          "expires_at": 1794716846594,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0167261:783579",
+            "title": "Evenstar",
+            "movie": "The Lord of the Rings: The Two Towers",
+            "artist": "Howard Shore",
+            "composers": [
+              "Howard Shore"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 58,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 36,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 17,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 8,
+                "name": "lord of the rings",
+                "url": "https://www.last.fm/tag/lord+of+the+rings"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0211915:1412033712",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "피아노가 주도하는 서정적이고 차분한 분위기의 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0211915:1412033712",
+            "title": "Les jours tristes (Instrumental)",
+            "movie": "Amélie",
+            "artist": "Yann Tiersen",
+            "composers": [
+              "Yann Tiersen"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 67,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 37,
+                "name": "piano",
+                "url": "https://www.last.fm/tag/piano"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0304141:2794921",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "존 윌리엄스의 서정적이고 회상적인 오케스트라 곡으로, 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0304141:2794921",
+            "title": "A Window to the Past",
+            "movie": "Harry Potter and the Prisoner of Azkaban",
+            "artist": "John Williams",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 62,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 38,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 21,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "Star Wars",
+                "url": "https://www.last.fm/tag/Star+Wars"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0109830:1014549",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "알란 실베스트리의 상징적인 오케스트라 테마곡으로, 따뜻하고 향수를 불러일으키는 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0109830:1014549",
+            "title": "I'm Forrest... Forrest Gump",
+            "movie": "Forrest Gump",
+            "artist": "Alan Silvestri",
+            "composers": [
+              "Alan Silvestri"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 53,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 15,
+                "name": "score",
+                "url": "https://www.last.fm/tag/score"
+              },
+              {
+                "count": 5,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0099785:110148770",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "보컬이 포함된 오케스트라 캐럴 곡으로, 밝고 즐거운 크리스마스 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0099785:110148770",
+            "title": "We Wish You a Merry Christmas / End Title (From \"Home Alone\" Soundtrack) (Voice)",
+            "movie": "Home Alone",
+            "artist": "John Williams",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 62,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 38,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 21,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "Star Wars",
+                "url": "https://www.last.fm/tag/Star+Wars"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0086250:1851865187",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "pop",
+            "electronic"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "80년대 신스팝 스타일의 곡으로, 매우 활기차고 에너지가 넘치는 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0086250:1851865187",
+            "title": "Scarface (Push It To The Limit)",
+            "movie": "Scarface",
+            "artist": "Paul Engemann",
+            "composers": [
+              "Giorgio Moroder"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "pop",
+                "url": "https://www.last.fm/tag/pop"
+              },
+              {
+                "count": 91,
+                "name": "80s",
+                "url": "https://www.last.fm/tag/80s"
+              },
+              {
+                "count": 58,
+                "name": "synthpop",
+                "url": "https://www.last.fm/tag/synthpop"
+              },
+              {
+                "count": 39,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 14,
+                "name": "synth pop",
+                "url": "https://www.last.fm/tag/synth+pop"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0120737:14628816",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "하워드 쇼어의 목가적이고 평화로운 오케스트라 곡으로, 차분하고 따뜻한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0120737:14628816",
+            "title": "Concerning Hobbits",
+            "movie": "The Lord of the Rings: The Fellowship of the Ring",
+            "artist": "Howard Shore",
+            "composers": [
+              "Howard Shore"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 58,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 36,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 17,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 8,
+                "name": "lord of the rings",
+                "url": "https://www.last.fm/tag/lord+of+the+rings"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0816692:1137371042",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "electronic"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "강렬하고 긴장감 넘치는 오케스트라 곡으로, 웅장하고 서사적인 분위기를 조성합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0816692:1137371042",
+            "title": "No Time for Caution",
+            "movie": "Interstellar",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0211915:1412033762",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "피아노가 주도하는 서정적이고 차분한 분위기의 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0211915:1412033762",
+            "title": "Le moulin",
+            "movie": "Amélie",
+            "artist": "Yann Tiersen",
+            "composers": [
+              "Yann Tiersen"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 67,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 37,
+                "name": "piano",
+                "url": "https://www.last.fm/tag/piano"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0211915:1412033742",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "upbeat",
+            "calm"
+          ],
+          "reason": "경쾌하면서도 서정적인 피아노 왈츠곡으로, 영화의 분위기를 잘 나타냅니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0211915:1412033742",
+            "title": "L'autre valse d'Amélie",
+            "movie": "Amélie",
+            "artist": "Yann Tiersen",
+            "composers": [
+              "Yann Tiersen"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 67,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 37,
+                "name": "piano",
+                "url": "https://www.last.fm/tag/piano"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0241527:661747",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "calm",
+            "epic"
+          ],
+          "reason": "존 윌리엄스의 신비롭고 웅장한 오케스트라 곡으로, 서사적인 시작을 알립니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0241527:661747",
+            "title": "Prologue",
+            "movie": "Harry Potter and the Sorcerer's Stone",
+            "artist": "John Williams",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 62,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 38,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 21,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "Star Wars",
+                "url": "https://www.last.fm/tag/Star+Wars"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0816692:1137370972",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "electronic"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "감동적이고 웅장한 오케스트라 곡으로, 서사적이고 고조되는 분위기를 조성합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0816692:1137370972",
+            "title": "S.T.A.Y.",
+            "movie": "Interstellar",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt15239678:2670920782",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "ambient"
+          ],
+          "moods": [
+            "calm",
+            "epic"
+          ],
+          "reason": "차분하면서도 웅장한 분위기의 오케스트라 곡으로, 고요함 속의 긴장감을 표현합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt15239678:2670920782",
+            "title": "A Time of Quiet Between the Storms",
+            "movie": "Dune: Part Two",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0211915:1412033752",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "피아노가 주도하는 서정적이고 차분한 분위기의 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0211915:1412033752",
+            "title": "A quai",
+            "movie": "Amélie",
+            "artist": "Yann Tiersen",
+            "composers": [
+              "Yann Tiersen"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 67,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "french",
+                "url": "https://www.last.fm/tag/french"
+              },
+              {
+                "count": 37,
+                "name": "piano",
+                "url": "https://www.last.fm/tag/piano"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0816692:1137370852",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "ambient"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "황량하고 몽환적인 분위기의 오케스트라 곡으로, 차분하면서도 쓸쓸한 느낌을 줍니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0816692:1137370852",
+            "title": "Dust",
+            "movie": "Interstellar",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0241527:661767",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "other"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "존 윌리엄스의 축제 분위기 오케스트라 곡으로, 마법적이고 활기찬 크리스마스 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0241527:661767",
+            "title": "Christmas at Hogwarts",
+            "movie": "Harry Potter and the Sorcerer's Stone",
+            "artist": "John Williams",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 62,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 38,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 21,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "Star Wars",
+                "url": "https://www.last.fm/tag/Star+Wars"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt1345836:647709092",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "강렬하고 감동적인 오케스트라 곡으로, 웅장하고 서사적인 분위기를 조성합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1345836:647709092",
+            "title": "Why Do We Fall?",
+            "movie": "The Dark Knight Rises",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0816692:1137370872",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "electronic"
+          ],
+          "moods": [
+            "epic"
+          ],
+          "reason": "감동적이고 웅장한 오케스트라 곡으로, 서사적이고 고조되는 분위기를 조성합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0816692:1137370872",
+            "title": "Stay",
+            "movie": "Interstellar",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727929",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "pop",
+            "rnb",
+            "ballad"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "존 레전드의 보컬이 돋보이는 소울풀하고 활기찬 R&B 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727929",
+            "title": "Start A Fire",
+            "movie": "La La Land",
+            "artist": "John Legend",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "soul",
+                "url": "https://www.last.fm/tag/soul"
+              },
+              {
+                "count": 71,
+                "name": "rnb",
+                "url": "https://www.last.fm/tag/rnb"
+              },
+              {
+                "count": 32,
+                "name": "Neo-Soul",
+                "url": "https://www.last.fm/tag/Neo-Soul"
+              },
+              {
+                "count": 27,
+                "name": "singer-songwriter",
+                "url": "https://www.last.fm/tag/singer-songwriter"
+              },
+              {
+                "count": 8,
+                "name": "Hip-Hop",
+                "url": "https://www.last.fm/tag/Hip-Hop"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727933",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "ballad"
+          ],
+          "moods": [
+            "calm",
+            "upbeat"
+          ],
+          "reason": "엠마 스톤의 감동적인 보컬이 특징인 재즈 발라드 곡으로, 차분하면서도 희망적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727933",
+            "title": "Audition (The Fools Who Dream)",
+            "movie": "La La Land",
+            "artist": "Emma Stone",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "female vocalists",
+                "url": "https://www.last.fm/tag/female+vocalists"
+              },
+              {
+                "count": 64,
+                "name": "pop",
+                "url": "https://www.last.fm/tag/pop"
+              },
+              {
+                "count": 24,
+                "name": "sexy",
+                "url": "https://www.last.fm/tag/sexy"
+              },
+              {
+                "count": 24,
+                "name": "USA",
+                "url": "https://www.last.fm/tag/USA"
+              },
+              {
+                "count": 12,
+                "name": "actors",
+                "url": "https://www.last.fm/tag/actors"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt15239678:2670920742",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "ambient"
+          ],
+          "moods": [
+            "calm",
+            "epic"
+          ],
+          "reason": "미묘하고 분위기 있는 오케스트라 곡으로, 차분하면서도 서사적인 시작을 알립니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt15239678:2670920742",
+            "title": "Beginnings Are Such Delicate Times",
+            "movie": "Dune: Part Two",
+            "artist": "Hans Zimmer",
+            "composers": [
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 69,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 33,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 27,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 5,
+                "name": "Soundtracks",
+                "url": "https://www.last.fm/tag/Soundtracks"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0499549:4828156",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "orchestral_score",
+            "classical",
+            "ambient"
+          ],
+          "moods": [
+            "epic",
+            "calm"
+          ],
+          "reason": "몽환적이고 웅장한 오케스트라 곡으로, 서사적이고 감동적인 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794112046595,
+          "expires_at": 1794716846595,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0499549:4828156",
+            "title": "Becoming one of \"The People\" Becoming one with Neytiri",
+            "movie": "Avatar",
+            "artist": "James Horner",
+            "composers": [
+              "James Horner"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 57,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 28,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 18,
+                "name": "composers",
+                "url": "https://www.last.fm/tag/composers"
+              },
+              {
+                "count": 7,
+                "name": "score",
+                "url": "https://www.last.fm/tag/score"
+              }
+            ],
+            "track_tags": []
+          }
+        }
+      ],
+      "kind": "gemini_batch",
+      "at": 1794112046765
+    },
+    {
+      "error": "Spotify 검색 요청 간격을 조절 중입니다",
+      "kind": "maintenance_error",
+      "at": 1794111601678
+    },
+    {
+      "error": "Spotify 검색 요청 간격을 조절 중입니다",
+      "kind": "request_error",
+      "at": 1794111505160
+    },
+    {
+      "isrc": "USUG11100855",
+      "reason": "no_exact_playable_isrc",
+      "kind": "spotify_skip",
+      "at": 1794111505148
+    },
+    {
+      "error": "Spotify 검색 요청 간격을 조절 중입니다",
+      "kind": "request_error",
+      "at": 1794111442328
+    },
+    {
+      "isrc": "USUG11100855",
+      "reason": "no_exact_playable_isrc",
+      "kind": "spotify_skip",
+      "at": 1794111442311
+    },
+    {
+      "error": "Spotify 검색 제한 · 잠시 후 자동 재시도",
+      "kind": "request_error",
+      "at": 1794111381214
+    },
+    {
+      "isrc": "USUG11100855",
+      "reason": "no_exact_playable_isrc",
+      "kind": "spotify_skip",
+      "at": 1794111380291
+    },
+    {
+      "source": "Gemini 판단",
+      "count": 50,
+      "decisions": [
+        {
+          "key": "tt3783958:137727915",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "jazz fusion",
+            "classical"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "재즈 뮤지컬의 피아노 테마곡으로, 재즈와 클래식 요소가 혼합되어 차분한 분위기를 조성합니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727915",
+            "title": "Mia & Sebastian’s Theme",
+            "movie": "La La Land",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": [
+              {
+                "count": 100,
+                "name": "music to get the pussy wet",
+                "url": "https://www.last.fm/tag/music+to+get+the+pussy+wet"
+              },
+              {
+                "count": 100,
+                "name": "Masterpiece",
+                "url": "https://www.last.fm/tag/Masterpiece"
+              },
+              {
+                "count": 17,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              },
+              {
+                "count": 17,
+                "name": "Love",
+                "url": "https://www.last.fm/tag/Love"
+              },
+              {
+                "count": 8,
+                "name": "erm",
+                "url": "https://www.last.fm/tag/erm"
+              },
+              {
+                "count": 8,
+                "name": "jazz fusion",
+                "url": "https://www.last.fm/tag/jazz+fusion"
+              },
+              {
+                "count": 8,
+                "name": "inspirational",
+                "url": "https://www.last.fm/tag/inspirational"
+              },
+              {
+                "count": 3,
+                "name": "Bittersweet",
+                "url": "https://www.last.fm/tag/Bittersweet"
+              },
+              {
+                "count": 3,
+                "name": "theme",
+                "url": "https://www.last.fm/tag/theme"
+              },
+              {
+                "count": 3,
+                "name": "us",
+                "url": "https://www.last.fm/tag/us"
+              }
+            ]
+          }
+        },
+        {
+          "key": "tt3783958:137727911",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "swing",
+            "big band"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "재즈 뮤지컬의 활기찬 오프닝 곡으로, 스윙과 빅 밴드 스타일의 경쾌한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727911",
+            "title": "Another Day Of Sun",
+            "movie": "La La Land",
+            "artist": "La La Land Cast",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 17,
+                "name": "musical",
+                "url": "https://www.last.fm/tag/musical"
+              },
+              {
+                "count": 17,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 8,
+                "name": "la la land",
+                "url": "https://www.last.fm/tag/la+la+land"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727935",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "jazz",
+            "orchestral_score"
+          ],
+          "moods": [
+            "epic",
+            "calm"
+          ],
+          "reason": "재즈 뮤지컬의 에필로그 곡으로, 재즈와 오케스트라 스코어 요소가 결합되어 웅장하면서도 차분한 분위기를 가집니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727935",
+            "title": "Epilogue",
+            "movie": "La La Land",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727919",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "bebop"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "재즈 클럽 분위기를 연상시키는 라라랜드의 연주곡으로, 활기찬 재즈 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727919",
+            "title": "Herman’s Habit",
+            "movie": "La La Land",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727939",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "라라랜드의 유명한 곡을 허밍으로 부른 버전으로, 차분한 보컬 재즈 발라드입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727939",
+            "title": "City Of Stars (Humming)",
+            "movie": "La La Land",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706572",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "big band",
+            "bebop"
+          ],
+          "moods": [
+            "upbeat",
+            "epic"
+          ],
+          "reason": "영화 '위플래쉬'의 타이틀곡으로, 강렬하고 빠른 빅 밴드 재즈 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706572",
+            "title": "Whiplash",
+            "movie": "Whiplash",
+            "artist": "Hank Levy",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 6,
+                "name": "indie",
+                "url": "https://www.last.fm/tag/indie"
+              },
+              {
+                "count": 4,
+                "name": "film score",
+                "url": "https://www.last.fm/tag/film+score"
+              },
+              {
+                "count": 4,
+                "name": "american",
+                "url": "https://www.last.fm/tag/american"
+              },
+              {
+                "count": 2,
+                "name": "liszaj radio",
+                "url": "https://www.last.fm/tag/liszaj+radio"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt3783958:137727925",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "jazz",
+            "orchestral_score"
+          ],
+          "moods": [
+            "calm",
+            "upbeat"
+          ],
+          "reason": "라라랜드의 몽타주 곡으로, 재즈와 오케스트라 스코어 요소가 혼합되어 차분함과 활기참을 오갑니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt3783958:137727925",
+            "title": "Summer Montage / Madeline",
+            "movie": "La La Land",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0099785:110148768",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "swing",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "멜 토메의 보컬 재즈 곡으로, 스윙과 발라드 요소가 있는 차분한 크리스마스 스탠더드입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0099785:110148768",
+            "title": "Have Yourself a Merry Little Christmas (Voice)",
+            "movie": "Home Alone",
+            "artist": "Mel Tormé",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 71,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 33,
+                "name": "vocal jazz",
+                "url": "https://www.last.fm/tag/vocal+jazz"
+              },
+              {
+                "count": 22,
+                "name": "male vocalists",
+                "url": "https://www.last.fm/tag/male+vocalists"
+              },
+              {
+                "count": 9,
+                "name": "jazz vocal",
+                "url": "https://www.last.fm/tag/jazz+vocal"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706582",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "bebop",
+            "hard bop"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "영화 '위플래쉬'의 클럽 연주곡으로, 활기찬 비밥 또는 하드밥 재즈 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706582",
+            "title": "Fletcher's Song In Club",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706552",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "big band",
+            "orchestral_score"
+          ],
+          "moods": [
+            "epic",
+            "upbeat"
+          ],
+          "reason": "영화 '위플래쉬'의 서곡으로, 빅 밴드 재즈와 오케스트라 스코어 요소가 결합된 웅장하고 활기찬 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376155,
+          "expires_at": 1794716176155,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706552",
+            "title": "Overture - From \"Whiplash\"",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706562",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "swing",
+            "big band"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 스윙과 빅 밴드 스타일의 활기찬 재즈입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706562",
+            "title": "Too Hip To Retire",
+            "movie": "Whiplash",
+            "artist": "Tim Simonec",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 44,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 7,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 4,
+                "name": "film score",
+                "url": "https://www.last.fm/tag/film+score"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988292",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "jazz",
+            "ambient",
+            "orchestral_score"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 테마곡으로, 아방가르드 재즈와 오케스트라 스코어 요소가 있는 연주곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988292",
+            "title": "The Thrombey Family Theme",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706762",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "swing",
+            "big band"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 제목에서 알 수 있듯이 스윙 재즈 스타일의 활기찬 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706762",
+            "title": "Upswingin'",
+            "movie": "Whiplash",
+            "artist": "Tim Simonec",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 44,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 7,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 4,
+                "name": "film score",
+                "url": "https://www.last.fm/tag/film+score"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0068646:3040777",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "swing",
+            "vocal jazz",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "알 마르티노의 보컬 곡으로, 스윙과 라운지 음악의 영향을 받은 차분한 재즈 발라드입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0068646:3040777",
+            "title": "I Have But One Heart",
+            "movie": "The Godfather",
+            "artist": "Al Martino",
+            "composers": [
+              "Nino Rota"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 87,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 49,
+                "name": "oldies",
+                "url": "https://www.last.fm/tag/oldies"
+              },
+              {
+                "count": 49,
+                "name": "60s",
+                "url": "https://www.last.fm/tag/60s"
+              },
+              {
+                "count": 14,
+                "name": "lounge",
+                "url": "https://www.last.fm/tag/lounge"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706622",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "bebop",
+            "hard bop"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "영화 '위플래쉬'의 연주곡으로, 영화의 맥락상 활기찬 비밥 또는 하드밥 재즈 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706622",
+            "title": "Invited",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706642",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 제목이 암시하듯 극적인 순간을 위한 오케스트라 스코어에 재즈 요소가 가미될 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706642",
+            "title": "Accident",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706612",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "bebop",
+            "hard bop"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 연습 장면을 묘사하며 강렬하고 리드미컬한 재즈 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706612",
+            "title": "Practicing",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706772",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "big band",
+            "swing"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "영화 '위플래쉬'의 리허설 장면 메들리로, 빅 밴드 스윙 재즈 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706772",
+            "title": "First Nassau Band Rehearsal / Second Nassau Band Rehearsal / Studio Band Eavesdrop / Studio Band Rehearsal After Breakup",
+            "movie": "Whiplash",
+            "artist": "Tim Simonec",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 44,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 7,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 4,
+                "name": "film score",
+                "url": "https://www.last.fm/tag/film+score"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706662",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "jazz",
+            "ambient",
+            "orchestral_score"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 드럼과 드론 사운드가 결합된 실험적인 재즈 또는 앰비언트 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706662",
+            "title": "Drum & Drone",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706692",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "bebop",
+            "hard bop"
+          ],
+          "moods": [
+            "upbeat",
+            "epic"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 드럼 배틀을 묘사하는 강렬하고 역동적인 재즈 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706692",
+            "title": "Drum Battle",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706702",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "jazz",
+            "orchestral_score"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 해고 후의 차분하고 사색적인 재즈 또는 오케스트라 스코어 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706702",
+            "title": "Dismissed",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706672",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "big band",
+            "orchestral_score"
+          ],
+          "moods": [
+            "epic",
+            "upbeat"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 카네기 홀 공연을 암시하는 웅장하고 세련된 빅 밴드 재즈 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706672",
+            "title": "Carnegie",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706652",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 아버지와의 포옹을 묘사하는 부드럽고 서정적인 재즈 발라드입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706652",
+            "title": "Hug From Dad",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706682",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "jazz",
+            "orchestral_score",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '위플래쉬'의 곡으로, 이별을 암시하는 차분하고 감성적인 재즈 발라드 또는 오케스트라 스코어입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706682",
+            "title": "Ryan / Breakup",
+            "movie": "Whiplash",
+            "artist": "Justin Hurwitz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 29,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 13,
+                "name": "Neo-swing",
+                "url": "https://www.last.fm/tag/Neo-swing"
+              },
+              {
+                "count": 3,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt2582802:1398706722",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "blues",
+            "latin jazz",
+            "cool jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "스탠 게츠의 보사노바 곡으로, 라틴 재즈와 쿨 재즈 스타일의 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt2582802:1398706722",
+            "title": "Intoit",
+            "movie": "Whiplash",
+            "artist": "Stan Getz",
+            "composers": [
+              "Justin Hurwitz"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 61,
+                "name": "Bossa Nova",
+                "url": "https://www.last.fm/tag/Bossa+Nova"
+              },
+              {
+                "count": 29,
+                "name": "saxophone",
+                "url": "https://www.last.fm/tag/saxophone"
+              },
+              {
+                "count": 18,
+                "name": "latin jazz",
+                "url": "https://www.last.fm/tag/latin+jazz"
+              },
+              {
+                "count": 5,
+                "name": "latin",
+                "url": "https://www.last.fm/tag/latin"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988102",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical",
+            "orchestral_score"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "제목에 '현악 4중주'가 명시되어 있어 클래식 음악 스타일이며, 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376156,
+          "expires_at": 1794716176156,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988102",
+            "title": "Knives Out! (String Quartet in G Minor)",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988152",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 곡으로, 염탐하는 분위기를 묘사하는 차분하고 미스터리한 오케스트라 스코어에 재즈 요소가 가미될 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376162,
+          "expires_at": 1794716176162,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988152",
+            "title": "Snooping",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988142",
+          "knowledge": "known",
+          "confidence": "low",
+          "styles": [
+            "jazz",
+            "orchestral_score"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 연주곡으로, 아티스트 태그를 기반으로 재즈 요소가 있는 오케스트라 스코어일 가능성이 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376162,
+          "expires_at": 1794716176162,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988142",
+            "title": "Double-Dipping",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988212",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 연주곡으로, 부서진 격자를 암시하는 차분하고 분위기 있는 오케스트라 스코어에 재즈 요소가 있을 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988212",
+            "title": "The Broken Trellis",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988262",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 곡으로, 더 이상의 놀라움이 없음을 암시하는 차분하고 사색적인 오케스트라 스코어에 재즈 요소가 있을 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988262",
+            "title": "No More Surprises",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988232",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 곡으로, 불공정한 플레이를 암시하는 긴장감 있는 오케스트라 스코어에 재즈 요소가 있을 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988232",
+            "title": "Foul Play",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988252",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 곡으로, 협박을 암시하는 긴장감 있는 오케스트라 스코어에 재즈 요소가 있을 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988252",
+            "title": "Blackmail",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988132",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "classical",
+            "jazz piano"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 솔로 피아노 테마곡으로, 차분한 재즈 피아노 또는 클래식 스타일입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988132",
+            "title": "The Thrombey Family Theme (Solo Piano)",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988272",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 이야기 서술 곡으로, 차분하고 분위기 있는 오케스트라 스코어에 재즈 요소가 있을 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988272",
+            "title": "Blanc's Tale, Pt. I",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988162",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 곡으로, 할란의 죽음을 암시하는 차분하고 긴장감 있는 오케스트라 스코어에 재즈 요소가 있을 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988162",
+            "title": "On the Eve of Harlan's Demise",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988242",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "jazz"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "영화 '나이브스 아웃'의 곡으로, 자동차 추격전을 묘사하는 활기차고 기발한 오케스트라 스코어에 재즈 요소가 있을 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988242",
+            "title": "The Dumbest Car Chase of All Time",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt8946378:797988192",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "orchestral_score",
+            "ambient",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "영화 '나이브스 아웃'의 곡으로, 다락방의 신비롭고 고요한 분위기를 묘사하는 오케스트라 스코어에 재즈 요소가 있을 수 있습니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt8946378:797988192",
+            "title": "The Attic Room",
+            "movie": "Knives Out",
+            "artist": "Nathan Johnson",
+            "composers": [
+              "Nathan Johnson"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 51,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 15,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 7,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 2,
+                "name": "Avant-Garde Jazz",
+                "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt1670345:3025973861",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "jazz fusion",
+            "free jazz"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "아티스트 Galactic의 펑크 및 재즈 퓨전 곡으로, 활기찬 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1670345:3025973861",
+            "title": "Cineramascope",
+            "movie": "Now You See Me",
+            "artist": "Galactic",
+            "composers": [
+              "Brian Tyler"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "funk",
+                "url": "https://www.last.fm/tag/funk"
+              },
+              {
+                "count": 60,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 31,
+                "name": "Fusion",
+                "url": "https://www.last.fm/tag/Fusion"
+              },
+              {
+                "count": 20,
+                "name": "Jam",
+                "url": "https://www.last.fm/tag/Jam"
+              },
+              {
+                "count": 7,
+                "name": "jam band",
+                "url": "https://www.last.fm/tag/jam+band"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt1856101:413733152",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "swing",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "프랭크 시나트라의 대표적인 보컬 재즈 발라드 곡으로, 스윙 요소가 있는 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1856101:413733152",
+            "title": "One For My Baby (And One More For The Road)",
+            "movie": "Blade Runner 2049",
+            "artist": "Frank Sinatra",
+            "composers": [
+              "Benjamin Wallfisch",
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 67,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 26,
+                "name": "oldies",
+                "url": "https://www.last.fm/tag/oldies"
+              },
+              {
+                "count": 25,
+                "name": "vocal jazz",
+                "url": "https://www.last.fm/tag/vocal+jazz"
+              },
+              {
+                "count": 9,
+                "name": "easy listening",
+                "url": "https://www.last.fm/tag/easy+listening"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0118715:78479818",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "latin jazz",
+            "ambient"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "피에로 피치오니의 라운지 재즈 연주곡으로, 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0118715:78479818",
+            "title": "Traffic Boom",
+            "movie": "The Big Lebowski",
+            "artist": "Piero Piccioni",
+            "composers": [
+              "Carter Burwell"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 95,
+                "name": "lounge",
+                "url": "https://www.last.fm/tag/lounge"
+              },
+              {
+                "count": 54,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 45,
+                "name": "italian",
+                "url": "https://www.last.fm/tag/italian"
+              },
+              {
+                "count": 13,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0118715:78479820",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "free jazz",
+            "classical",
+            "ambient"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "Moondog의 아방가르드 재즈 곡으로, 실험적이고 미니멀한 클래식 요소가 혼합된 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0118715:78479820",
+            "title": "Stamping Ground",
+            "movie": "The Big Lebowski",
+            "artist": "Moondog",
+            "composers": [
+              "Carter Burwell"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Avant-Garde",
+                "url": "https://www.last.fm/tag/Avant-Garde"
+              },
+              {
+                "count": 88,
+                "name": "experimental",
+                "url": "https://www.last.fm/tag/experimental"
+              },
+              {
+                "count": 55,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 28,
+                "name": "minimalist",
+                "url": "https://www.last.fm/tag/minimalist"
+              },
+              {
+                "count": 12,
+                "name": "Classical",
+                "url": "https://www.last.fm/tag/Classical"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0118715:78479824",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "latin jazz",
+            "ambient"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "헨리 맨시니의 대표적인 이지 리스닝 라운지 재즈 연주곡으로, 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0118715:78479824",
+            "title": "Lujon",
+            "movie": "The Big Lebowski",
+            "artist": "Henry Mancini",
+            "composers": [
+              "Carter Burwell"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 95,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 43,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 29,
+                "name": "easy listening",
+                "url": "https://www.last.fm/tag/easy+listening"
+              },
+              {
+                "count": 12,
+                "name": "lounge",
+                "url": "https://www.last.fm/tag/lounge"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0478970:103481716",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "jazz funk",
+            "acid jazz",
+            "rnb"
+          ],
+          "moods": [
+            "upbeat"
+          ],
+          "reason": "로이 에이어스의 재즈 펑크 및 애시드 재즈 곡으로, 활기찬 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0478970:103481716",
+            "title": "Escape (From The \"Coffy\" Soundtrack)",
+            "movie": "Ant-Man",
+            "artist": "Roy Ayers",
+            "composers": [
+              "Christophe Beck"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "funk",
+                "url": "https://www.last.fm/tag/funk"
+              },
+              {
+                "count": 94,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 51,
+                "name": "soul",
+                "url": "https://www.last.fm/tag/soul"
+              },
+              {
+                "count": 27,
+                "name": "jazz-funk",
+                "url": "https://www.last.fm/tag/jazz-funk"
+              },
+              {
+                "count": 13,
+                "name": "acid jazz",
+                "url": "https://www.last.fm/tag/acid+jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt1843866:75840914",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "big band",
+            "swing",
+            "vocal jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "해리 제임스 오케스트라의 빅 밴드 스윙 재즈 곡으로, 향수를 불러일으키는 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376163,
+          "expires_at": 1794716176163,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1843866:75840914",
+            "title": "It's Been a Long, Long Time",
+            "movie": "Captain America: The Winter Soldier",
+            "artist": "Harry James & His Orchestra",
+            "composers": [
+              "Henry Jackman"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Big Band",
+                "url": "https://www.last.fm/tag/Big+Band"
+              },
+              {
+                "count": 92,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 44,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 7,
+                "name": "instrumental",
+                "url": "https://www.last.fm/tag/instrumental"
+              },
+              {
+                "count": 1,
+                "name": "All",
+                "url": "https://www.last.fm/tag/All"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt1877832:78454224",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "rnb",
+            "jazz",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "로버타 플랙의 소울 및 R&B 발라드 곡으로, 재즈 요소가 있는 차분한 분위기입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376164,
+          "expires_at": 1794716176164,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1877832:78454224",
+            "title": "The First Time Ever I Saw Your Face",
+            "movie": "X-Men: Days of Future Past",
+            "artist": "Roberta Flack",
+            "composers": [
+              "John Ottman"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "soul",
+                "url": "https://www.last.fm/tag/soul"
+              },
+              {
+                "count": 52,
+                "name": "female vocalists",
+                "url": "https://www.last.fm/tag/female+vocalists"
+              },
+              {
+                "count": 31,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 24,
+                "name": "70s",
+                "url": "https://www.last.fm/tag/70s"
+              },
+              {
+                "count": 10,
+                "name": "rnb",
+                "url": "https://www.last.fm/tag/rnb"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0099785:110148748",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "blues",
+            "rock",
+            "rnb",
+            "jazz"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "사우스사이드 조니 라이언의 블루스, 록, 소울, 재즈 요소가 혼합된 차분한 크리스마스 곡입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376164,
+          "expires_at": 1794716176164,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0099785:110148748",
+            "title": "Please Come Home for Christmas",
+            "movie": "Home Alone",
+            "artist": "Southside Johnny Lyon",
+            "composers": [
+              "John Williams"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "blues",
+                "url": "https://www.last.fm/tag/blues"
+              },
+              {
+                "count": 25,
+                "name": "rock",
+                "url": "https://www.last.fm/tag/rock"
+              },
+              {
+                "count": 17,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 17,
+                "name": "soul",
+                "url": "https://www.last.fm/tag/soul"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0118715:78479819",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "rnb",
+            "blues",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "니나 시몬의 전설적인 보컬 재즈, 소울, 블루스 곡으로, 차분한 발라드입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376164,
+          "expires_at": 1794716176164,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0118715:78479819",
+            "title": "I Got It Bad And That Ain't Good",
+            "movie": "The Big Lebowski",
+            "artist": "Nina Simone",
+            "composers": [
+              "Carter Burwell"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 72,
+                "name": "soul",
+                "url": "https://www.last.fm/tag/soul"
+              },
+              {
+                "count": 38,
+                "name": "blues",
+                "url": "https://www.last.fm/tag/blues"
+              },
+              {
+                "count": 35,
+                "name": "female vocalists",
+                "url": "https://www.last.fm/tag/female+vocalists"
+              },
+              {
+                "count": 13,
+                "name": "vocal jazz",
+                "url": "https://www.last.fm/tag/vocal+jazz"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0910970:602439852",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "swing",
+            "vocal jazz",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "루이 암스트롱의 상징적인 재즈 스윙 곡으로, 트럼펫과 보컬이 어우러진 차분한 발라드입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376164,
+          "expires_at": 1794716176164,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0910970:602439852",
+            "title": "La vie en rose",
+            "movie": "WALL·E",
+            "artist": "Louis Armstrong",
+            "composers": [
+              "Thomas Newman"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 53,
+                "name": "blues",
+                "url": "https://www.last.fm/tag/blues"
+              },
+              {
+                "count": 30,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 19,
+                "name": "trumpet",
+                "url": "https://www.last.fm/tag/trumpet"
+              },
+              {
+                "count": 8,
+                "name": "oldies",
+                "url": "https://www.last.fm/tag/oldies"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt1856101:413733032",
+          "knowledge": "known",
+          "confidence": "high",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "swing",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "프랭크 시나트라의 대표적인 보컬 재즈 스윙 곡으로, 차분한 발라드입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376164,
+          "expires_at": 1794716176164,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt1856101:413733032",
+            "title": "Summer Wind",
+            "movie": "Blade Runner 2049",
+            "artist": "Frank Sinatra",
+            "composers": [
+              "Benjamin Wallfisch",
+              "Hans Zimmer"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 67,
+                "name": "swing",
+                "url": "https://www.last.fm/tag/swing"
+              },
+              {
+                "count": 26,
+                "name": "oldies",
+                "url": "https://www.last.fm/tag/oldies"
+              },
+              {
+                "count": 25,
+                "name": "vocal jazz",
+                "url": "https://www.last.fm/tag/vocal+jazz"
+              },
+              {
+                "count": 9,
+                "name": "easy listening",
+                "url": "https://www.last.fm/tag/easy+listening"
+              }
+            ],
+            "track_tags": []
+          }
+        },
+        {
+          "key": "tt0780504:1252497642",
+          "knowledge": "known",
+          "confidence": "medium",
+          "styles": [
+            "jazz",
+            "vocal jazz",
+            "orchestral_score",
+            "ballad"
+          ],
+          "moods": [
+            "calm"
+          ],
+          "reason": "리즈 오르톨라니의 보컬 재즈 곡으로, 오케스트라 스코어 요소가 있는 차분한 발라드입니다.",
+          "source": "Gemini 판단",
+          "fetched_at": 1794111376164,
+          "expires_at": 1794716176164,
+          "model": "gemini-2.5-flash",
+          "evidence": {
+            "key": "tt0780504:1252497642",
+            "title": "Oh My Love (feat. Katyna Ranieri)",
+            "movie": "Drive",
+            "artist": "Riz Ortolani",
+            "composers": [
+              "Cliff Martinez"
+            ],
+            "artist_top5_tags": [
+              {
+                "count": 100,
+                "name": "Soundtrack",
+                "url": "https://www.last.fm/tag/Soundtrack"
+              },
+              {
+                "count": 67,
+                "name": "italian",
+                "url": "https://www.last.fm/tag/italian"
+              },
+              {
+                "count": 28,
+                "name": "composer",
+                "url": "https://www.last.fm/tag/composer"
+              },
+              {
+                "count": 25,
+                "name": "jazz",
+                "url": "https://www.last.fm/tag/jazz"
+              },
+              {
+                "count": 6,
+                "name": "spaghetti western",
+                "url": "https://www.last.fm/tag/spaghetti+western"
+              }
+            ],
+            "track_tags": []
+          }
+        }
+      ],
+      "kind": "gemini_batch",
+      "at": 1794111376276
+    }
+  ]
+}

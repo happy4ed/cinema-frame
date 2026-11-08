@@ -5,6 +5,10 @@ import java.io.IOException;
 
 /** Final decisions are Gemini-only; artist tags are evidence, never a verdict. */
 final class IndexRules {
+ static boolean rejected(JSONObject track,String style,JSONArray exclusions){
+  String isrc=track.optString("isrc");if(isrc.isEmpty()||style.isEmpty())return false;
+  for(int i=0;i<exclusions.length();i++){JSONObject r=exclusions.optJSONObject(i);if(r!=null&&style.equals(r.optString("style"))&&isrc.equalsIgnoreCase(r.optString("isrc")))return true;}return false;
+ }
  static boolean contains(JSONArray a,String s){if(a!=null)for(int i=0;i<a.length();i++)if(s.equals(a.optString(i)))return true;return false;}
  static String canonical(String s,JSONObject dictionary){String n=s.toLowerCase(Locale.ROOT).replaceAll("[_/-]+"," ").replaceAll("\\s+"," ").trim();return dictionary.optJSONObject("aliases")==null?n:dictionary.optJSONObject("aliases").optString(n,n);}
  static boolean styleMatches(JSONArray styles,String wanted,JSONObject dictionary){
