@@ -1,0 +1,1104 @@
+{
+  "profile": {
+    "excluded_countries": [
+      "IN"
+    ],
+    "country_exclusions_enabled": true,
+    "excluded_movies": [],
+    "pipeline": "deezer-isrc-v1",
+    "genres": [
+      "Sci-Fi"
+    ],
+    "music_style": "",
+    "style": "catalogue",
+    "music_mood": "",
+    "energy": "epic",
+    "era": 1980,
+    "interpretation_note": "명시한 영화 장르만 적용 · 분위기는 해석해 표시하며 Deezer rank는 분위기 점수가 아닙니다"
+  },
+  "ordering": "IMDb rating desc, votes desc, id asc; Deezer rank desc, track id asc; movie round-robin",
+  "films": [
+    {
+      "movie": {
+        "id": "tt0080684",
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "originalTitle": "Star Wars: Episode V - The Empire Strikes Back",
+        "year": 1980,
+        "rating": 8.7,
+        "votes": 1531497,
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0080684",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098626174,
+        "expires_at": 1794703426174,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Star Wars: Episode V - The Empire Strikes Back soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0088763",
+        "title": "Back to the Future",
+        "originalTitle": "Back to the Future",
+        "year": 1985,
+        "rating": 8.5,
+        "votes": 1485274,
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0088763",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098626505,
+        "expires_at": 1794703426505,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Back to the Future soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0084787",
+        "title": "The Thing",
+        "originalTitle": "The Thing",
+        "year": 1982,
+        "rating": 8.2,
+        "votes": 540955,
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0084787",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098626994,
+        "expires_at": 1794703426994,
+        "tracks": [
+          {
+            "deezer_track_id": "579929322",
+            "title": "Humanity (Pt. 2)",
+            "rank": 275128,
+            "isrc": "USUM71603921",
+            "spotify_uri": "spotify:track:2UucrpQAWbJSpApvn6BZ2j",
+            "is_playable": true,
+            "uri": "spotify:track:2UucrpQAWbJSpApvn6BZ2j",
+            "artist": "Ennio Morricone",
+            "duration": 435440,
+            "movie_id": "tt0084787",
+            "deezer_album_id": "77653052",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/77653052",
+            "fetched_at": 1794098626994
+          },
+          {
+            "deezer_track_id": "579929252",
+            "title": "Humanity (Pt. 1)",
+            "rank": 257604,
+            "isrc": "USUM71603915",
+            "spotify_uri": "spotify:track:6hmVYOWXaSYLxZZVXWNun8",
+            "is_playable": true,
+            "uri": "spotify:track:6hmVYOWXaSYLxZZVXWNun8",
+            "artist": "Ennio Morricone",
+            "duration": 418466,
+            "movie_id": "tt0084787",
+            "deezer_album_id": "77653052",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/77653052",
+            "fetched_at": 1794098626994
+          },
+          {
+            "deezer_track_id": "579929262",
+            "title": "Shape",
+            "rank": 241119,
+            "isrc": "USUM71603916",
+            "spotify_uri": "spotify:track:4xJWEDgTgcppRXWmFVQalr",
+            "is_playable": true,
+            "uri": "spotify:track:4xJWEDgTgcppRXWmFVQalr",
+            "artist": "Ennio Morricone",
+            "duration": 200133,
+            "movie_id": "tt0084787",
+            "deezer_album_id": "77653052",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/77653052",
+            "fetched_at": 1794098626994
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "77653052",
+        "album_title": "The Thing (Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/77653052",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "579929322",
+            "title": "Humanity (Pt. 2)",
+            "rank": 275128,
+            "isrc": "USUM71603921",
+            "spotify_uri": "spotify:track:2UucrpQAWbJSpApvn6BZ2j",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "579929252",
+            "title": "Humanity (Pt. 1)",
+            "rank": 257604,
+            "isrc": "USUM71603915",
+            "spotify_uri": "spotify:track:6hmVYOWXaSYLxZZVXWNun8",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "579929262",
+            "title": "Shape",
+            "rank": 241119,
+            "isrc": "USUM71603916",
+            "spotify_uri": "spotify:track:4xJWEDgTgcppRXWmFVQalr",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0088247",
+        "title": "The Terminator",
+        "originalTitle": "The Terminator",
+        "year": 1984,
+        "rating": 8.1,
+        "votes": 1023273,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0088247",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098628650,
+        "expires_at": 1794703428650,
+        "tracks": [
+          {
+            "deezer_track_id": "889834692",
+            "title": "Main Title - The Terminator",
+            "rank": 397835,
+            "isrc": "US5941405749",
+            "spotify_uri": "spotify:track:6jNFXIiJDOvSzFqQOk0Gt9",
+            "is_playable": true,
+            "uri": "spotify:track:6jNFXIiJDOvSzFqQOk0Gt9",
+            "artist": "Brad Fiedel",
+            "duration": 160925,
+            "movie_id": "tt0088247",
+            "deezer_album_id": "133937082",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/133937082",
+            "fetched_at": 1794098628650
+          },
+          {
+            "deezer_track_id": "889834852",
+            "title": "The Terminator Theme (Extended Version)",
+            "rank": 372634,
+            "isrc": "US5941405750",
+            "spotify_uri": "spotify:track:4YrVtcY2gXTqJzRitYOLwH",
+            "is_playable": true,
+            "uri": "spotify:track:4YrVtcY2gXTqJzRitYOLwH",
+            "artist": "Brad Fiedel",
+            "duration": 260612,
+            "movie_id": "tt0088247",
+            "deezer_album_id": "133937082",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/133937082",
+            "fetched_at": 1794098628650
+          },
+          {
+            "deezer_track_id": "889834702",
+            "title": "Terminator Arrival / Reese Chased / Sarah on Motorbike",
+            "rank": 265860,
+            "isrc": "US5941405698",
+            "spotify_uri": "spotify:track:2cJojSknndB8DjLfr9BMir",
+            "is_playable": true,
+            "uri": "spotify:track:2cJojSknndB8DjLfr9BMir",
+            "artist": "Brad Fiedel",
+            "duration": 429416,
+            "movie_id": "tt0088247",
+            "deezer_album_id": "133937082",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/133937082",
+            "fetched_at": 1794098628650
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "133937082",
+        "album_title": "The Terminator (Original Soundtrack Album)",
+        "album_url": "https://www.deezer.com/album/133937082",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "889834692",
+            "title": "Main Title - The Terminator",
+            "rank": 397835,
+            "isrc": "US5941405749",
+            "spotify_uri": "spotify:track:6jNFXIiJDOvSzFqQOk0Gt9",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "889834852",
+            "title": "The Terminator Theme (Extended Version)",
+            "rank": 372634,
+            "isrc": "US5941405750",
+            "spotify_uri": "spotify:track:4YrVtcY2gXTqJzRitYOLwH",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "889834702",
+            "title": "Terminator Arrival / Reese Chased / Sarah on Motorbike",
+            "rank": 265860,
+            "isrc": "US5941405698",
+            "spotify_uri": "spotify:track:2cJojSknndB8DjLfr9BMir",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0083658",
+        "title": "Blade Runner",
+        "originalTitle": "Blade Runner",
+        "year": 1982,
+        "rating": 8.1,
+        "votes": 895575,
+        "genres": [
+          "Action",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0083658",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098629944,
+        "expires_at": 1794703429944,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Blade Runner soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0087544",
+        "title": "Nausicaä of the Valley of the Wind",
+        "originalTitle": "Kaze no tani no Naushika",
+        "year": 1984,
+        "rating": 8,
+        "votes": 200100,
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0087544",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098630411,
+        "expires_at": 1794703430411,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Kaze no tani no Naushika soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0083866",
+        "title": "E.T. the Extra-Terrestrial",
+        "originalTitle": "E.T. the Extra-Terrestrial",
+        "year": 1982,
+        "rating": 7.9,
+        "votes": 478798,
+        "genres": [
+          "Adventure",
+          "Family",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0083866",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098630711,
+        "expires_at": 1794703430711,
+        "tracks": [
+          {
+            "deezer_track_id": "93631702",
+            "title": "Flying (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+            "rank": 371132,
+            "isrc": "USUM71416991",
+            "spotify_uri": "spotify:track:7lMb4MqMMBbApnMWHp1wC5",
+            "is_playable": true,
+            "uri": "spotify:track:7lMb4MqMMBbApnMWHp1wC5",
+            "artist": "John Williams",
+            "duration": 204466,
+            "movie_id": "tt0083866",
+            "deezer_album_id": "9510820",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/9510820",
+            "fetched_at": 1794098630711
+          },
+          {
+            "deezer_track_id": "93631694",
+            "title": "Three Million Light Years From Home (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+            "rank": 191454,
+            "isrc": "USUM71416987",
+            "spotify_uri": "spotify:track:1BwEs0zhm9avrXW4TFoE8a",
+            "is_playable": true,
+            "uri": "spotify:track:1BwEs0zhm9avrXW4TFoE8a",
+            "artist": "John Williams",
+            "duration": 178640,
+            "movie_id": "tt0083866",
+            "deezer_album_id": "9510820",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/9510820",
+            "fetched_at": 1794098630711
+          },
+          {
+            "deezer_track_id": "93631706",
+            "title": "Over The Moon (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+            "rank": 182845,
+            "isrc": "USUM71417065",
+            "spotify_uri": "spotify:track:047uCf5LHj85fdBcGniA1e",
+            "is_playable": true,
+            "uri": "spotify:track:047uCf5LHj85fdBcGniA1e",
+            "artist": "John Williams",
+            "duration": 131973,
+            "movie_id": "tt0083866",
+            "deezer_album_id": "9510820",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/9510820",
+            "fetched_at": 1794098630711
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "9510820",
+        "album_title": "E.T. The Extra-Terrestrial (Music From The Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/9510820",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "93631702",
+            "title": "Flying (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+            "rank": 371132,
+            "isrc": "USUM71416991",
+            "spotify_uri": "spotify:track:7lMb4MqMMBbApnMWHp1wC5",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "93631694",
+            "title": "Three Million Light Years From Home (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+            "rank": 191454,
+            "isrc": "USUM71416987",
+            "spotify_uri": "spotify:track:1BwEs0zhm9avrXW4TFoE8a",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "93631706",
+            "title": "Over The Moon (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+            "rank": 182845,
+            "isrc": "USUM71417065",
+            "spotify_uri": "spotify:track:047uCf5LHj85fdBcGniA1e",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0096874",
+        "title": "Back to the Future Part II",
+        "originalTitle": "Back to the Future Part II",
+        "year": 1989,
+        "rating": 7.8,
+        "votes": 632363,
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0096874",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098632040,
+        "expires_at": 1794703432040,
+        "tracks": [
+          {
+            "deezer_track_id": "111778044",
+            "title": "End Title (From “Back To The Future Pt. II” Original Score)",
+            "rank": 164067,
+            "isrc": "USMC18930708",
+            "spotify_uri": "spotify:track:2tf6ooAc2ofanHtzAqG6O5",
+            "is_playable": true,
+            "uri": "spotify:track:2tf6ooAc2ofanHtzAqG6O5",
+            "artist": "Alan Silvestri",
+            "duration": 277706,
+            "movie_id": "tt0096874",
+            "deezer_album_id": "11603330",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/11603330",
+            "fetched_at": 1794098632040
+          }
+        ],
+        "skips": [
+          {
+            "deezer_track_id": "111778002",
+            "title": "Back To Back / It's Your Kids (From “Back To The Future Pt. II” Original Score)",
+            "rank": 203195,
+            "isrc": "USQ4E1501748",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          },
+          {
+            "deezer_track_id": "111778004",
+            "title": "Main Title (Extended Version / From “Back To The Future Pt. II” Original Score)",
+            "rank": 188580,
+            "isrc": "USQ4E1501749",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          }
+        ],
+        "deezer_album_id": "11603330",
+        "album_title": "Back To The Future Part II (Original Motion Picture Soundtrack / Expanded Edition)",
+        "album_url": "https://www.deezer.com/album/11603330",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "111778002",
+            "title": "Back To Back / It's Your Kids (From “Back To The Future Pt. II” Original Score)",
+            "rank": 203195,
+            "isrc": "USQ4E1501748",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          },
+          {
+            "deezer_track_id": "111778004",
+            "title": "Main Title (Extended Version / From “Back To The Future Pt. II” Original Score)",
+            "rank": 188580,
+            "isrc": "USQ4E1501749",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          },
+          {
+            "deezer_track_id": "111778044",
+            "title": "End Title (From “Back To The Future Pt. II” Original Score)",
+            "rank": 164067,
+            "isrc": "USMC18930708",
+            "spotify_uri": "spotify:track:2tf6ooAc2ofanHtzAqG6O5",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0088846",
+        "title": "Brazil",
+        "originalTitle": "Brazil",
+        "year": 1985,
+        "rating": 7.8,
+        "votes": 223983,
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0088846",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098633224,
+        "expires_at": 1794703433224,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Brazil soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0091341",
+        "title": "Kin-dza-dza!",
+        "originalTitle": "Kin-dza-dza!",
+        "year": 1986,
+        "rating": 7.8,
+        "votes": 15742,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0091341",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098633785,
+        "expires_at": 1794703433785,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Kin-dza-dza! soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0084726",
+        "title": "Star Trek II: The Wrath of Khan",
+        "originalTitle": "Star Trek II: The Wrath of Khan",
+        "year": 1982,
+        "rating": 7.7,
+        "votes": 137507,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0084726",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098634082,
+        "expires_at": 1794703434082,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Star Trek II: The Wrath of Khan soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0093870",
+        "title": "RoboCop",
+        "originalTitle": "RoboCop",
+        "year": 1987,
+        "rating": 7.6,
+        "votes": 313973,
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0093870",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098634440,
+        "expires_at": 1794703434440,
+        "tracks": [
+          {
+            "deezer_track_id": "889843032",
+            "title": "Rock Shop",
+            "rank": 206250,
+            "isrc": "US5941405169",
+            "spotify_uri": "spotify:track:1tiV6OkVfcWCYVTWKoRNRT",
+            "is_playable": true,
+            "uri": "spotify:track:1tiV6OkVfcWCYVTWKoRNRT",
+            "artist": "Basil Poledouris",
+            "duration": 225986,
+            "movie_id": "tt0093870",
+            "deezer_album_id": "133938582",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/133938582",
+            "fetched_at": 1794098634440
+          },
+          {
+            "deezer_track_id": "889842962",
+            "title": "Drive Montage",
+            "rank": 204149,
+            "isrc": "US5941405162",
+            "spotify_uri": "spotify:track:5GW8NxoUag5zx7ArTURDEj",
+            "is_playable": true,
+            "uri": "spotify:track:5GW8NxoUag5zx7ArTURDEj",
+            "artist": "Basil Poledouris",
+            "duration": 66360,
+            "movie_id": "tt0093870",
+            "deezer_album_id": "133938582",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/133938582",
+            "fetched_at": 1794098634440
+          },
+          {
+            "deezer_track_id": "889843232",
+            "title": "Across The Board/End Credits",
+            "rank": 181313,
+            "isrc": "US5941405177",
+            "spotify_uri": "spotify:track:12Ai0awAqHfJtLosPVA18Y",
+            "is_playable": true,
+            "uri": "spotify:track:12Ai0awAqHfJtLosPVA18Y",
+            "artist": "Basil Poledouris",
+            "duration": 453440,
+            "movie_id": "tt0093870",
+            "deezer_album_id": "133938582",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/133938582",
+            "fetched_at": 1794098634440
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "133938582",
+        "album_title": "Robocop (Original Soundtrack)",
+        "album_url": "https://www.deezer.com/album/133938582",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "889843032",
+            "title": "Rock Shop",
+            "rank": 206250,
+            "isrc": "US5941405169",
+            "spotify_uri": "spotify:track:1tiV6OkVfcWCYVTWKoRNRT",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "889842962",
+            "title": "Drive Montage",
+            "rank": 204149,
+            "isrc": "US5941405162",
+            "spotify_uri": "spotify:track:5GW8NxoUag5zx7ArTURDEj",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "889843232",
+            "title": "Across The Board/End Credits",
+            "rank": 181313,
+            "isrc": "US5941405177",
+            "spotify_uri": "spotify:track:12Ai0awAqHfJtLosPVA18Y",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0091064",
+        "title": "The Fly",
+        "originalTitle": "The Fly",
+        "year": 1986,
+        "rating": 7.6,
+        "votes": 229162,
+        "genres": [
+          "Drama",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0091064",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098635772,
+        "expires_at": 1794703435772,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "The Fly soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0082694",
+        "title": "The Road Warrior",
+        "originalTitle": "Mad Max 2",
+        "year": 1981,
+        "rating": 7.6,
+        "votes": 215831,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0082694",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098636375,
+        "expires_at": 1794703436375,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Mad Max 2 soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0088083",
+        "title": "Sexmission",
+        "originalTitle": "Seksmisja",
+        "year": 1984,
+        "rating": 7.5,
+        "votes": 16054,
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0088083",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098636894,
+        "expires_at": 1794703436894,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Seksmisja soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0092007",
+        "title": "Star Trek IV: The Voyage Home",
+        "originalTitle": "Star Trek IV: The Voyage Home",
+        "year": 1986,
+        "rating": 7.3,
+        "votes": 98023,
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0092007",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098637199,
+        "expires_at": 1794703437199,
+        "tracks": [
+          {
+            "deezer_track_id": "130008996",
+            "title": "Main Title",
+            "rank": 141660,
+            "isrc": "USMC18622115",
+            "spotify_uri": "spotify:track:1N3oTvYEm9ILxJOBEp1PXw",
+            "is_playable": true,
+            "uri": "spotify:track:1N3oTvYEm9ILxJOBEp1PXw",
+            "artist": "Leonard Rosenman",
+            "duration": 159693,
+            "movie_id": "tt0092007",
+            "deezer_album_id": "13777460",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/13777460",
+            "fetched_at": 1794098637199
+          },
+          {
+            "deezer_track_id": "130009016",
+            "title": "Home Again: End Credits",
+            "rank": 93716,
+            "isrc": "USMC18622125",
+            "spotify_uri": "spotify:track:74hoN1NQT4DGwtIOJeWqpP",
+            "is_playable": true,
+            "uri": "spotify:track:74hoN1NQT4DGwtIOJeWqpP",
+            "artist": "Leonard Rosenman",
+            "duration": 337306,
+            "movie_id": "tt0092007",
+            "deezer_album_id": "13777460",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/13777460",
+            "fetched_at": 1794098637199
+          },
+          {
+            "deezer_track_id": "130009008",
+            "title": "Chekov's Run",
+            "rank": 90440,
+            "isrc": "USMC18622121",
+            "spotify_uri": "spotify:track:1jCQdTGp7UmDBgsywsQDgx",
+            "is_playable": true,
+            "uri": "spotify:track:1jCQdTGp7UmDBgsywsQDgx",
+            "artist": "Leonard Rosenman",
+            "duration": 79933,
+            "movie_id": "tt0092007",
+            "deezer_album_id": "13777460",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/13777460",
+            "fetched_at": 1794098637199
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "13777460",
+        "album_title": "Star Trek IV: The Voyage Home (Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/13777460",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "130008996",
+            "title": "Main Title",
+            "rank": 141660,
+            "isrc": "USMC18622115",
+            "spotify_uri": "spotify:track:1N3oTvYEm9ILxJOBEp1PXw",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "130009016",
+            "title": "Home Again: End Credits",
+            "rank": 93716,
+            "isrc": "USMC18622125",
+            "spotify_uri": "spotify:track:74hoN1NQT4DGwtIOJeWqpP",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "130009008",
+            "title": "Chekov's Run",
+            "rank": 90440,
+            "isrc": "USMC18622121",
+            "spotify_uri": "spotify:track:1jCQdTGp7UmDBgsywsQDgx",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0089907",
+        "title": "The Return of the Living Dead",
+        "originalTitle": "The Return of the Living Dead",
+        "year": 1985,
+        "rating": 7.3,
+        "votes": 79278,
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0089907",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098638490,
+        "expires_at": 1794703438490,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "The Return of the Living Dead soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0096256",
+        "title": "They Live",
+        "originalTitle": "They Live",
+        "year": 1988,
+        "rating": 7.2,
+        "votes": 169192,
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0096256",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098638817,
+        "expires_at": 1794703438817,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "They Live soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0094012",
+        "title": "Spaceballs",
+        "originalTitle": "Spaceballs",
+        "year": 1987,
+        "rating": 7.1,
+        "votes": 229749,
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0094012",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098639416,
+        "expires_at": 1794703439416,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Spaceballs soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0082340",
+        "title": "Escape from New York",
+        "originalTitle": "Escape from New York",
+        "year": 1981,
+        "rating": 7.1,
+        "votes": 176377,
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0082340",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098639860,
+        "expires_at": 1794703439860,
+        "tracks": [
+          {
+            "deezer_track_id": "3507334441",
+            "title": "Main Title",
+            "rank": 396459,
+            "isrc": "GBAJC0002929",
+            "spotify_uri": "spotify:track:3NGKqWtj7Fylwye9k6LDWq",
+            "is_playable": true,
+            "uri": "spotify:track:3NGKqWtj7Fylwye9k6LDWq",
+            "artist": "John Carpenter, Alan Howarth",
+            "duration": 233973,
+            "movie_id": "tt0082340",
+            "deezer_album_id": "804423321",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/804423321",
+            "fetched_at": 1794098639860
+          },
+          {
+            "deezer_track_id": "3507334451",
+            "title": "The Bank Robbery",
+            "rank": 261899,
+            "isrc": "GBAJC0002930",
+            "spotify_uri": "spotify:track:2kCJvyaTDEdHohyDfBa41V",
+            "is_playable": true,
+            "uri": "spotify:track:2kCJvyaTDEdHohyDfBa41V",
+            "artist": "John Carpenter, Alan Howarth",
+            "duration": 210346,
+            "movie_id": "tt0082340",
+            "deezer_album_id": "804423321",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/804423321",
+            "fetched_at": 1794098639860
+          },
+          {
+            "deezer_track_id": "3507334621",
+            "title": "The Duke Arrives / Barricade",
+            "rank": 259668,
+            "isrc": "GBAJC0002947",
+            "spotify_uri": "spotify:track:2yKBYrjNsF26oKXDKkcrtY",
+            "is_playable": true,
+            "uri": "spotify:track:2yKBYrjNsF26oKXDKkcrtY",
+            "artist": "John Carpenter, Alan Howarth",
+            "duration": 215186,
+            "movie_id": "tt0082340",
+            "deezer_album_id": "804423321",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/804423321",
+            "fetched_at": 1794098639860
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "804423321",
+        "album_title": "Escape from New York (Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/804423321",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "3507334441",
+            "title": "Main Title",
+            "rank": 396459,
+            "isrc": "GBAJC0002929",
+            "spotify_uri": "spotify:track:3NGKqWtj7Fylwye9k6LDWq",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "3507334451",
+            "title": "The Bank Robbery",
+            "rank": 261899,
+            "isrc": "GBAJC0002930",
+            "spotify_uri": "spotify:track:2kCJvyaTDEdHohyDfBa41V",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "3507334621",
+            "title": "The Duke Arrives / Barricade",
+            "rank": 259668,
+            "isrc": "GBAJC0002947",
+            "spotify_uri": "spotify:track:2yKBYrjNsF26oKXDKkcrtY",
+            "is_playable": true
+          }
+        ]
+      }
+    }
+  ],
+  "started_at": 1794098626139,
+  "completed_at": 1794098641347,
+  "playlist_tracks": 19
+}

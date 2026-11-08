@@ -1,0 +1,1159 @@
+{
+  "profile": {
+    "excluded_countries": [
+      "IN"
+    ],
+    "country_exclusions_enabled": true,
+    "excluded_movies": [],
+    "pipeline": "deezer-isrc-v1",
+    "genres": [
+      "Music"
+    ],
+    "music_style": "jazz",
+    "style": "catalogue",
+    "music_mood": "rainy",
+    "energy": "calm",
+    "interpretation_note": "음악 스타일을 IMDb Music 영화 후보로 변환(음악 스타일 일치 보장은 아님) · 분위기는 해석해 표시하며 Deezer rank는 분위기 점수가 아닙니다"
+  },
+  "ordering": "IMDb rating desc, votes desc, id asc; Deezer rank desc, track id asc; movie round-robin",
+  "films": [
+    {
+      "movie": {
+        "id": "tt0088178",
+        "title": "Stop Making Sense",
+        "originalTitle": "Stop Making Sense",
+        "year": 1984,
+        "rating": 8.7,
+        "votes": 24689,
+        "genres": [
+          "Documentary",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0088178",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098594804,
+        "expires_at": 1794703394804,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Stop Making Sense soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt8737152",
+        "title": "Toma",
+        "originalTitle": "Toma",
+        "year": 2021,
+        "rating": 8.6,
+        "votes": 13467,
+        "genres": [
+          "Biography",
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt8737152",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098595102,
+        "expires_at": 1794703395102,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Toma soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0069090",
+        "title": "Pink Floyd: Live at Pompeii",
+        "originalTitle": "Pink Floyd: Live at Pompeii",
+        "year": 1972,
+        "rating": 8.6,
+        "votes": 11744,
+        "genres": [
+          "Documentary",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0069090",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098595642,
+        "expires_at": 1794703395642,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Pink Floyd: Live at Pompeii soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt2582802",
+        "title": "Whiplash",
+        "originalTitle": "Whiplash",
+        "year": 2014,
+        "rating": 8.5,
+        "votes": 1190411,
+        "genres": [
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt2582802",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098595979,
+        "expires_at": 1794703395979,
+        "tracks": [
+          {
+            "deezer_track_id": "1398706592",
+            "title": "Caravan",
+            "rank": 573332,
+            "isrc": "US3M51428606",
+            "spotify_uri": "spotify:track:2Xtsv7BUMrNodQWH2JPOc0",
+            "is_playable": true,
+            "uri": "spotify:track:2Xtsv7BUMrNodQWH2JPOc0",
+            "artist": "John Wasson",
+            "duration": 555000,
+            "movie_id": "tt2582802",
+            "deezer_album_id": "236058892",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/236058892",
+            "fetched_at": 1794098595979
+          },
+          {
+            "deezer_track_id": "1398706572",
+            "title": "Whiplash",
+            "rank": 543363,
+            "isrc": "US3M51428604",
+            "spotify_uri": "spotify:track:0v0oL77zDnGTdRwB2q6OIm",
+            "is_playable": true,
+            "uri": "spotify:track:0v0oL77zDnGTdRwB2q6OIm",
+            "artist": "Hank Levy",
+            "duration": 115360,
+            "movie_id": "tt2582802",
+            "deezer_album_id": "236058892",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/236058892",
+            "fetched_at": 1794098595979
+          },
+          {
+            "deezer_track_id": "1398706582",
+            "title": "Fletcher's Song In Club",
+            "rank": 456520,
+            "isrc": "US3M51428605",
+            "spotify_uri": "spotify:track:0ZFortLKtHTKy7YtuJiubt",
+            "is_playable": true,
+            "uri": "spotify:track:0ZFortLKtHTKy7YtuJiubt",
+            "artist": "Justin Hurwitz",
+            "duration": 89026,
+            "movie_id": "tt2582802",
+            "deezer_album_id": "236058892",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/236058892",
+            "fetched_at": 1794098595979
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "236058892",
+        "album_title": "Whiplash (Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/236058892",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "1398706592",
+            "title": "Caravan",
+            "rank": 573332,
+            "isrc": "US3M51428606",
+            "spotify_uri": "spotify:track:2Xtsv7BUMrNodQWH2JPOc0",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "1398706572",
+            "title": "Whiplash",
+            "rank": 543363,
+            "isrc": "US3M51428604",
+            "spotify_uri": "spotify:track:0v0oL77zDnGTdRwB2q6OIm",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "1398706582",
+            "title": "Fletcher's Song In Club",
+            "rank": 456520,
+            "isrc": "US3M51428605",
+            "spotify_uri": "spotify:track:0ZFortLKtHTKy7YtuJiubt",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0253474",
+        "title": "The Pianist",
+        "originalTitle": "The Pianist",
+        "year": 2002,
+        "rating": 8.5,
+        "votes": 1030487,
+        "genres": [
+          "Biography",
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0253474",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098597211,
+        "expires_at": 1794703397211,
+        "tracks": [
+          {
+            "deezer_track_id": "848990",
+            "title": "Ballade No. 1 in G Minor, Op. 23",
+            "rank": 495879,
+            "isrc": "USSM10209789",
+            "spotify_uri": "spotify:track:2YZmsX1eLeJmbkpyjd30ei",
+            "is_playable": true,
+            "uri": "spotify:track:2YZmsX1eLeJmbkpyjd30ei",
+            "artist": "Frédéric Chopin, Janusz Olejniczak",
+            "duration": 532800,
+            "movie_id": "tt0253474",
+            "deezer_album_id": "97783",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/97783",
+            "fetched_at": 1794098597211
+          },
+          {
+            "deezer_track_id": "850708",
+            "title": "Nocturne, B. 49: Lento con gran espressione in C-Sharp Minor",
+            "rank": 375057,
+            "isrc": "USSM10209788",
+            "spotify_uri": "spotify:track:664fcA80WZzNL7uJWcCkLe",
+            "is_playable": true,
+            "uri": "spotify:track:664fcA80WZzNL7uJWcCkLe",
+            "artist": "Frédéric Chopin, Janusz Olejniczak",
+            "duration": 244066,
+            "movie_id": "tt0253474",
+            "deezer_album_id": "97783",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/97783",
+            "fetched_at": 1794098597211
+          },
+          {
+            "deezer_track_id": "853792",
+            "title": "Prélude in E minor, Op. 28, No. 4",
+            "rank": 362869,
+            "isrc": "USLIC0600307",
+            "spotify_uri": "spotify:track:1Xf4sNtMKc1xiUhuIPAUg2",
+            "is_playable": true,
+            "uri": "spotify:track:1Xf4sNtMKc1xiUhuIPAUg2",
+            "artist": "Frédéric Chopin, Janusz Olejniczak",
+            "duration": 146760,
+            "movie_id": "tt0253474",
+            "deezer_album_id": "97783",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/97783",
+            "fetched_at": 1794098597211
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "97783",
+        "album_title": "The Pianist (Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/97783",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "848990",
+            "title": "Ballade No. 1 in G Minor, Op. 23",
+            "rank": 495879,
+            "isrc": "USSM10209789",
+            "spotify_uri": "spotify:track:2YZmsX1eLeJmbkpyjd30ei",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "850708",
+            "title": "Nocturne, B. 49: Lento con gran espressione in C-Sharp Minor",
+            "rank": 375057,
+            "isrc": "USSM10209788",
+            "spotify_uri": "spotify:track:664fcA80WZzNL7uJWcCkLe",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "853792",
+            "title": "Prélude in E minor, Op. 28, No. 4",
+            "rank": 362869,
+            "isrc": "USLIC0600307",
+            "spotify_uri": "spotify:track:1Xf4sNtMKc1xiUhuIPAUg2",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0086879",
+        "title": "Amadeus",
+        "originalTitle": "Amadeus",
+        "year": 1984,
+        "rating": 8.4,
+        "votes": 475295,
+        "genres": [
+          "Biography",
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0086879",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098598853,
+        "expires_at": 1794703398853,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Amadeus soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0770802",
+        "title": "Samsara",
+        "originalTitle": "Samsara",
+        "year": 2011,
+        "rating": 8.4,
+        "votes": 40393,
+        "genres": [
+          "Documentary",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0770802",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098599439,
+        "expires_at": 1794703399439,
+        "tracks": [
+          {
+            "deezer_track_id": "818649582",
+            "title": "Maniwall (Remastered)",
+            "rank": 99622,
+            "isrc": "FR00V1900069",
+            "spotify_uri": "spotify:track:01wVkbXvhS4BxQxScjsgUA",
+            "is_playable": true,
+            "uri": "spotify:track:01wVkbXvhS4BxQxScjsgUA",
+            "artist": "Cyril Morin",
+            "duration": 132101,
+            "movie_id": "tt0770802",
+            "deezer_album_id": "120441762",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/120441762",
+            "fetched_at": 1794098599439
+          },
+          {
+            "deezer_track_id": "818649732",
+            "title": "The Stick and the River (Remastered)",
+            "rank": 94068,
+            "isrc": "FR00V1900084",
+            "spotify_uri": "spotify:track:3yBz9oXy7NMuymSu0GluC8",
+            "is_playable": true,
+            "uri": "spotify:track:3yBz9oXy7NMuymSu0GluC8",
+            "artist": "Cyril Morin",
+            "duration": 99605,
+            "movie_id": "tt0770802",
+            "deezer_album_id": "120441762",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/120441762",
+            "fetched_at": 1794098599439
+          },
+          {
+            "deezer_track_id": "818649572",
+            "title": "Pema's Theme (Remastered)",
+            "rank": 93056,
+            "isrc": "FR00V1900068",
+            "spotify_uri": "spotify:track:2SWVd1Ig3TJBxR6cotvY52",
+            "is_playable": true,
+            "uri": "spotify:track:2SWVd1Ig3TJBxR6cotvY52",
+            "artist": "Cyril Morin",
+            "duration": 133728,
+            "movie_id": "tt0770802",
+            "deezer_album_id": "120441762",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/120441762",
+            "fetched_at": 1794098599439
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "120441762",
+        "album_title": "Samsara (Original Motion Picture Soundtrack) (Remastered)",
+        "album_url": "https://www.deezer.com/album/120441762",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "818649582",
+            "title": "Maniwall (Remastered)",
+            "rank": 99622,
+            "isrc": "FR00V1900069",
+            "spotify_uri": "spotify:track:01wVkbXvhS4BxQxScjsgUA",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "818649732",
+            "title": "The Stick and the River (Remastered)",
+            "rank": 94068,
+            "isrc": "FR00V1900084",
+            "spotify_uri": "spotify:track:3yBz9oXy7NMuymSu0GluC8",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "818649572",
+            "title": "Pema's Theme (Remastered)",
+            "rank": 93056,
+            "isrc": "FR00V1900068",
+            "spotify_uri": "spotify:track:2SWVd1Ig3TJBxR6cotvY52",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0184756",
+        "title": "Mr. Muhsin",
+        "originalTitle": "Muhsin Bey",
+        "year": 1987,
+        "rating": 8.4,
+        "votes": 13089,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0184756",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098600888,
+        "expires_at": 1794703400888,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Muhsin Bey soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0053291",
+        "title": "Some Like It Hot",
+        "originalTitle": "Some Like It Hot",
+        "year": 1959,
+        "rating": 8.2,
+        "votes": 308436,
+        "genres": [
+          "Comedy",
+          "Music",
+          "Romance"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0053291",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098601195,
+        "expires_at": 1794703401195,
+        "tracks": [],
+        "skips": [
+          {
+            "deezer_track_id": "74032001",
+            "title": "I Wanna Be Loved by You",
+            "rank": 297796,
+            "isrc": "NLG620531771",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          },
+          {
+            "deezer_track_id": "74032003",
+            "title": "Down Among the Sheltering Palms / La Cumparsita / I Wanna Be Loved by You",
+            "rank": 105506,
+            "isrc": "NLG620531774",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          },
+          {
+            "deezer_track_id": "74031999",
+            "title": "Down Among the Sheltering Palms",
+            "rank": 105504,
+            "isrc": "NLG620531769",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          }
+        ],
+        "deezer_album_id": "7303484",
+        "album_title": "Some Like It Hot (Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/7303484",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "74032001",
+            "title": "I Wanna Be Loved by You",
+            "rank": 297796,
+            "isrc": "NLG620531771",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          },
+          {
+            "deezer_track_id": "74032003",
+            "title": "Down Among the Sheltering Palms / La Cumparsita / I Wanna Be Loved by You",
+            "rank": 105506,
+            "isrc": "NLG620531774",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          },
+          {
+            "deezer_track_id": "74031999",
+            "title": "Down Among the Sheltering Palms",
+            "rank": 105504,
+            "isrc": "NLG620531769",
+            "skip_reason": "no_exact_playable_spotify_isrc"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt2125608",
+        "title": "Searching for Sugar Man",
+        "originalTitle": "Searching for Sugar Man",
+        "year": 2012,
+        "rating": 8.2,
+        "votes": 77110,
+        "genres": [
+          "Biography",
+          "Documentary",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt2125608",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098602275,
+        "expires_at": 1794703402275,
+        "tracks": [
+          {
+            "deezer_track_id": "540519562",
+            "title": "Can't Get Away",
+            "rank": 406150,
+            "isrc": "USUM71810952",
+            "spotify_uri": "spotify:track:6pmDqTidfGwyMtUXPogaOM",
+            "is_playable": true,
+            "uri": "spotify:track:6pmDqTidfGwyMtUXPogaOM",
+            "artist": "Rodríguez",
+            "duration": 236146,
+            "movie_id": "tt2125608",
+            "deezer_album_id": "70552812",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/70552812",
+            "fetched_at": 1794098602275
+          },
+          {
+            "deezer_track_id": "540519602",
+            "title": "Street Boy",
+            "rank": 368705,
+            "isrc": "USUM71810953",
+            "spotify_uri": "spotify:track:1qckRGY4rDziXQv86ofYzW",
+            "is_playable": true,
+            "uri": "spotify:track:1qckRGY4rDziXQv86ofYzW",
+            "artist": "Rodríguez",
+            "duration": 227000,
+            "movie_id": "tt2125608",
+            "deezer_album_id": "70552812",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/70552812",
+            "fetched_at": 1794098602275
+          },
+          {
+            "deezer_track_id": "540519622",
+            "title": "I'll Slip Away",
+            "rank": 356672,
+            "isrc": "USUM71810954",
+            "spotify_uri": "spotify:track:5TFaVFcq4sblM4fW5wzG2Y",
+            "is_playable": true,
+            "uri": "spotify:track:5TFaVFcq4sblM4fW5wzG2Y",
+            "artist": "Rodríguez",
+            "duration": 171813,
+            "movie_id": "tt2125608",
+            "deezer_album_id": "70552812",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/70552812",
+            "fetched_at": 1794098602275
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "70552812",
+        "album_title": "Searching For Sugar Man (Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/70552812",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "540519562",
+            "title": "Can't Get Away",
+            "rank": 406150,
+            "isrc": "USUM71810952",
+            "spotify_uri": "spotify:track:6pmDqTidfGwyMtUXPogaOM",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "540519602",
+            "title": "Street Boy",
+            "rank": 368705,
+            "isrc": "USUM71810953",
+            "spotify_uri": "spotify:track:1qckRGY4rDziXQv86ofYzW",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "540519622",
+            "title": "I'll Slip Away",
+            "rank": 356672,
+            "isrc": "USUM71810954",
+            "spotify_uri": "spotify:track:5TFaVFcq4sblM4fW5wzG2Y",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0085809",
+        "title": "Koyaanisqatsi",
+        "originalTitle": "Koyaanisqatsi",
+        "year": 1982,
+        "rating": 8.2,
+        "votes": 45353,
+        "genres": [
+          "Documentary",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0085809",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098603792,
+        "expires_at": 1794703403792,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Koyaanisqatsi soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0040725",
+        "title": "The Red Shoes",
+        "originalTitle": "The Red Shoes",
+        "year": 1948,
+        "rating": 8.1,
+        "votes": 44535,
+        "genres": [
+          "Drama",
+          "Music",
+          "Romance"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0040725",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098604105,
+        "expires_at": 1794703404105,
+        "tracks": [
+          {
+            "deezer_track_id": "72361894",
+            "title": "Main Title",
+            "rank": 68226,
+            "isrc": "QMDA71316326",
+            "spotify_uri": "spotify:track:3A0qI4nOGb5Duez9pdDTWb",
+            "is_playable": true,
+            "uri": "spotify:track:3A0qI4nOGb5Duez9pdDTWb",
+            "artist": "Royal Philharmonic Orchestra, Sir Thomas Beecham",
+            "duration": 124782,
+            "movie_id": "tt0040725",
+            "deezer_album_id": "7112480",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/7112480",
+            "fetched_at": 1794098604105
+          },
+          {
+            "deezer_track_id": "72361895",
+            "title": "\"Heart of Fire\" Ouverture",
+            "rank": 56411,
+            "isrc": "QMDA71316327",
+            "spotify_uri": "spotify:track:1TmdMYWHv0Dlog928UvcCb",
+            "is_playable": true,
+            "uri": "spotify:track:1TmdMYWHv0Dlog928UvcCb",
+            "artist": "Royal Philharmonic Orchestra, Sir Thomas Beecham",
+            "duration": 309590,
+            "movie_id": "tt0040725",
+            "deezer_album_id": "7112480",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/7112480",
+            "fetched_at": 1794098604105
+          },
+          {
+            "deezer_track_id": "72361911",
+            "title": "Irina's Returns",
+            "rank": 29387,
+            "isrc": "QMDA71316343",
+            "spotify_uri": "spotify:track:024tMOmLXyG0orAZh81yCt",
+            "is_playable": true,
+            "uri": "spotify:track:024tMOmLXyG0orAZh81yCt",
+            "artist": "Royal Philharmonic Orchestra, Sir Thomas Beecham",
+            "duration": 71237,
+            "movie_id": "tt0040725",
+            "deezer_album_id": "7112480",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/7112480",
+            "fetched_at": 1794098604105
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "7112480",
+        "album_title": "The Red Shoes (Original Soundtrack) [1948]",
+        "album_url": "https://www.deezer.com/album/7112480",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "72361894",
+            "title": "Main Title",
+            "rank": 68226,
+            "isrc": "QMDA71316326",
+            "spotify_uri": "spotify:track:3A0qI4nOGb5Duez9pdDTWb",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "72361895",
+            "title": "\"Heart of Fire\" Ouverture",
+            "rank": 56411,
+            "isrc": "QMDA71316327",
+            "spotify_uri": "spotify:track:1TmdMYWHv0Dlog928UvcCb",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "72361911",
+            "title": "Irina's Returns",
+            "rank": 29387,
+            "isrc": "QMDA71316343",
+            "spotify_uri": "spotify:track:024tMOmLXyG0orAZh81yCt",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0077711",
+        "title": "Autumn Sonata",
+        "originalTitle": "Höstsonaten",
+        "year": 1978,
+        "rating": 8.1,
+        "votes": 43927,
+        "genres": [
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0077711",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098605297,
+        "expires_at": 1794703405297,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Höstsonaten soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0106332",
+        "title": "Farewell My Concubine",
+        "originalTitle": "Ba wang bie ji",
+        "year": 1993,
+        "rating": 8.1,
+        "votes": 37950,
+        "genres": [
+          "Drama",
+          "Music",
+          "Romance"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0106332",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098605617,
+        "expires_at": 1794703405617,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Ba wang bie ji soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0077838",
+        "title": "The Last Waltz",
+        "originalTitle": "The Last Waltz",
+        "year": 1978,
+        "rating": 8.1,
+        "votes": 22585,
+        "genres": [
+          "Biography",
+          "Documentary",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0077838",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098605924,
+        "expires_at": 1794703405924,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "The Last Waltz soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0066580",
+        "title": "Woodstock",
+        "originalTitle": "Woodstock",
+        "year": 1970,
+        "rating": 8.1,
+        "votes": 19690,
+        "genres": [
+          "Documentary",
+          "History",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0066580",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098606280,
+        "expires_at": 1794703406280,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "Woodstock soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt0050371",
+        "title": "A Face in the Crowd",
+        "originalTitle": "A Face in the Crowd",
+        "year": 1957,
+        "rating": 8.1,
+        "votes": 19686,
+        "genres": [
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt0050371",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098606689,
+        "expires_at": 1794703406689,
+        "tracks": [
+          {
+            "deezer_track_id": "71815895",
+            "title": "Mama Guitar",
+            "rank": 25917,
+            "isrc": "QMDA61346854",
+            "spotify_uri": "spotify:track:6XkrQH89QBcL7xdSwmveZB",
+            "is_playable": true,
+            "uri": "spotify:track:6XkrQH89QBcL7xdSwmveZB",
+            "artist": "Warner Bros Studio Orchestra, Andy Griffith",
+            "duration": 144101,
+            "movie_id": "tt0050371",
+            "deezer_album_id": "7055789",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/7055789",
+            "fetched_at": 1794098606689
+          },
+          {
+            "deezer_track_id": "71815894",
+            "title": "Piano Medley",
+            "rank": 25285,
+            "isrc": "QMDA61346853",
+            "spotify_uri": "spotify:track:0z4bXXS07H9XcxSBihNJkp",
+            "is_playable": true,
+            "uri": "spotify:track:0z4bXXS07H9XcxSBihNJkp",
+            "artist": "Warner Bros Studio Orchestra",
+            "duration": 144867,
+            "movie_id": "tt0050371",
+            "deezer_album_id": "7055789",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/7055789",
+            "fetched_at": 1794098606689
+          },
+          {
+            "deezer_track_id": "71815890",
+            "title": "Free Man in the Morning",
+            "rank": 23653,
+            "isrc": "QMDA61346849",
+            "spotify_uri": "spotify:track:10G2mAy9BTdhLKUM1pvMsN",
+            "is_playable": true,
+            "uri": "spotify:track:10G2mAy9BTdhLKUM1pvMsN",
+            "artist": "Warner Bros Studio Orchestra, Andy Griffith",
+            "duration": 125525,
+            "movie_id": "tt0050371",
+            "deezer_album_id": "7055789",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/7055789",
+            "fetched_at": 1794098606689
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "7055789",
+        "album_title": "A Face in the Crowd (Original Soundtrack) [1957]",
+        "album_url": "https://www.deezer.com/album/7055789",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "71815895",
+            "title": "Mama Guitar",
+            "rank": 25917,
+            "isrc": "QMDA61346854",
+            "spotify_uri": "spotify:track:6XkrQH89QBcL7xdSwmveZB",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "71815894",
+            "title": "Piano Medley",
+            "rank": 25285,
+            "isrc": "QMDA61346853",
+            "spotify_uri": "spotify:track:0z4bXXS07H9XcxSBihNJkp",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "71815890",
+            "title": "Free Man in the Morning",
+            "rank": 23653,
+            "isrc": "QMDA61346849",
+            "spotify_uri": "spotify:track:10G2mAy9BTdhLKUM1pvMsN",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt1113829",
+        "title": "George Harrison: Living in the Material World",
+        "originalTitle": "George Harrison: Living in the Material World",
+        "year": 2011,
+        "rating": 8.1,
+        "votes": 13668,
+        "genres": [
+          "Biography",
+          "Documentary",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt1113829",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098608010,
+        "expires_at": 1794703408010,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "George Harrison: Living in the Material World soundtrack"
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt3783958",
+        "title": "La La Land",
+        "originalTitle": "La La Land",
+        "year": 2016,
+        "rating": 8,
+        "votes": 783407,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt3783958",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098608317,
+        "expires_at": 1794703408317,
+        "tracks": [
+          {
+            "deezer_track_id": "137727915",
+            "title": "Mia & Sebastian’s Theme",
+            "rank": 753794,
+            "isrc": "USUG11600660",
+            "spotify_uri": "spotify:track:1Vk4yRsz0iBzDiZEoFMQyv",
+            "is_playable": true,
+            "uri": "spotify:track:1Vk4yRsz0iBzDiZEoFMQyv",
+            "artist": "Justin Hurwitz",
+            "duration": 98040,
+            "movie_id": "tt3783958",
+            "deezer_album_id": "14781199",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/14781199",
+            "fetched_at": 1794098608317
+          },
+          {
+            "deezer_track_id": "137727911",
+            "title": "Another Day Of Sun",
+            "rank": 750579,
+            "isrc": "USUG11600653",
+            "spotify_uri": "spotify:track:5kRBzRZmZTXVg8okC7SJFZ",
+            "is_playable": true,
+            "uri": "spotify:track:5kRBzRZmZTXVg8okC7SJFZ",
+            "artist": "La La Land Cast",
+            "duration": 228173,
+            "movie_id": "tt3783958",
+            "deezer_album_id": "14781199",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/14781199",
+            "fetched_at": 1794098608317
+          },
+          {
+            "deezer_track_id": "137727927",
+            "title": "City Of Stars (From \"La La Land\" Soundtrack)",
+            "rank": 745155,
+            "isrc": "USUG11600656",
+            "spotify_uri": "spotify:track:1xk2Z84gbcn4tPXiiutxzS",
+            "is_playable": true,
+            "uri": "spotify:track:1xk2Z84gbcn4tPXiiutxzS",
+            "artist": "Ryan Gosling, Emma Stone",
+            "duration": 149720,
+            "movie_id": "tt3783958",
+            "deezer_album_id": "14781199",
+            "album_source": "Deezer 순위",
+            "album_url": "https://www.deezer.com/album/14781199",
+            "fetched_at": 1794098608317
+          }
+        ],
+        "skips": [],
+        "deezer_album_id": "14781199",
+        "album_title": "La La Land (Original Motion Picture Soundtrack)",
+        "album_url": "https://www.deezer.com/album/14781199",
+        "album_match_evidence": "exact film title + original soundtrack/score designation; publisher authenticity not independently certified",
+        "top3": [
+          {
+            "deezer_track_id": "137727915",
+            "title": "Mia & Sebastian’s Theme",
+            "rank": 753794,
+            "isrc": "USUG11600660",
+            "spotify_uri": "spotify:track:1Vk4yRsz0iBzDiZEoFMQyv",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "137727911",
+            "title": "Another Day Of Sun",
+            "rank": 750579,
+            "isrc": "USUG11600653",
+            "spotify_uri": "spotify:track:5kRBzRZmZTXVg8okC7SJFZ",
+            "is_playable": true
+          },
+          {
+            "deezer_track_id": "137727927",
+            "title": "City Of Stars (From \"La La Land\" Soundtrack)",
+            "rank": 745155,
+            "isrc": "USUG11600656",
+            "spotify_uri": "spotify:track:1xk2Z84gbcn4tPXiiutxzS",
+            "is_playable": true
+          }
+        ]
+      }
+    },
+    {
+      "movie": {
+        "id": "tt10366460",
+        "title": "CODA",
+        "originalTitle": "CODA",
+        "year": 2021,
+        "rating": 8,
+        "votes": 234303,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Music"
+        ],
+        "countries": []
+      },
+      "result": {
+        "movie_id": "tt10366460",
+        "source": "Deezer public API + Spotify ISRC search",
+        "fetched_at": 1794098610031,
+        "expires_at": 1794703410031,
+        "tracks": [],
+        "skips": [
+          {
+            "reason": "no_exact_original_soundtrack_album",
+            "query": "CODA soundtrack"
+          }
+        ]
+      }
+    }
+  ],
+  "started_at": 1794098594762,
+  "completed_at": 1794098610755,
+  "playlist_tracks": 21
+}

@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.AssertionError: CN co-production must be excluded
+	at com.happy.cinemaframe.CountryContractRegression.main(CountryContractRegression.java:14)

@@ -1,0 +1,33 @@
+{
+  "deezer_album_search": {
+    "id": 236058892,
+    "title": "Whiplash (Original Motion Picture Soundtrack)",
+    "tracklist": "https://api.deezer.com/album/236058892/tracks"
+  },
+  "deezer_track_detail": {
+    "id": 1398706542,
+    "title": "Snare Liftoff - I Want to Be One of the Greats",
+    "rank": 340080,
+    "isrc": "US3M51428601"
+  },
+  "spotify_search": {
+    "query": "isrc:US3M51428601",
+    "http": 200,
+    "tracks": [
+      {
+        "uri": "spotify:track:4gCr9LKQ74aMTvNZpA2UpI",
+        "is_playable": true,
+        "external_ids": {
+          "isrc": "US3M51428601"
+        }
+      },
+      {
+        "uri": "spotify:track:6ndNBJgWBjkjNBSZq540rG",
+        "is_playable": true,
+        "external_ids": {
+          "isrc": "US3M51428601"
+        }
+      }
+    ]
+  }
+}

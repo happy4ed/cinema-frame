@@ -188,7 +188,7 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
     <div class="player"><button class="mb" id="pause" aria-label="일시정지"></button><button class="mb next" id="next" aria-label="다음"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5.6v12.8a.8.8 0 0 0 1.25.66l9.3-6.4a.8.8 0 0 0 0-1.32l-9.3-6.4A.8.8 0 0 0 6 5.6z"/><rect x="17.2" y="5" width="2.4" height="14" rx="1"/></svg></button></div>
     <div class="seekg"><div class="vrow"><span id="elapsed">0:00</span><span id="duration">0:00</span></div><div class="crow"><div class="bar seekbar" id="seekbar"><div class="fill"></div><input id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="곡 재생 위치"></div></div></div>
     <div class="volg"><div class="vrow"><span>음량</span><span id="volumevalue"></span></div><div class="crow"><button class="ib sm" id="volumedown" type="button" aria-label="음량 낮추기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M5 12h14"/></svg></button><div class="bar volbar" id="volbar"><div class="track"><div class="fill"></div></div><input id="volume" type="range" min="0" max="100" step="1" aria-label="Cinema Frame 앱 음악 음량"></div><button class="ib sm" id="volumeup" type="button" aria-label="음량 높이기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></button></div></div>
-    <div class="statusline hidden" id="message" role="status"></div>
+    <div class="statusline hidden" id="message" role="status"></div><details class="statusline"><summary>해석한 조건 · 선곡 기록</summary><pre id="interpretation" style="white-space:pre-wrap;font-size:12px"></pre><a href="/api/ost/audit" target="_blank">영화별 조회·제외 사유 (JSON)</a></details>
    </section>
    <section class="grp hidden" id="nowempty" style="text-align:center;padding:32px 24px"><div style="font-size:17px;line-height:22px;font-weight:700">아직 나오는 곡이 없어요</div><div class="statusline" id="emptymsg" style="margin-top:8px">듣고 싶은 영화나 분위기를 골라 보세요.</div></section>
   </section>
@@ -220,7 +220,7 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
    <div class="sh">소리</div>
    <section class="grp list"><label class="row"><span class="t">음량 균일화<small>곡마다 다른 음량을 비슷하게 맞춤</small></span><input class="sw" id="leveling" type="checkbox" role="switch"></label></section>
    <div class="sh">국가별 제외</div>
-   <section class="grp list"><label class="row"><span class="t">인도 영화 제외<small>다른 나라는 프레임 업데이트 후 추가</small></span><input class="sw" id="india" type="checkbox" role="switch"></label></section>
+   <section class="grp list"><label class="row"><span class="t">국가별 제외<small id="countrycount">0개 선택</small></span><input class="sw" id="countriesenabled" type="checkbox" role="switch"></label><button class="row" id="countriesmore"><span class="t">더보기</span><span class="v">&gt;</span></button></section>
    <div class="sh">제외한 영화</div>
    <section class="grp list" id="xlist"><div class="empty">제외한 영화가 없어요. 지금 재생의 ⋮ › 이 영화 다시 안 보기로 추가해요.</div></section>
    <div class="sh">연결</div>
@@ -343,7 +343,17 @@ function fillInfo(){const c=state?.current;if(!c)return;const m=c.movie;
 ['iposter','bigposter'].forEach(id=>$(id).onerror=()=>{});
 
 /* 설정 */
-$('india').onchange=()=>send($('india').checked?'인도 영화 빼고':'인도 영화 포함',$('india').checked?'인도 영화 제외':'인도 영화 포함');
+const COUNTRY_OPTIONS=[['IN','인도'],['HK','홍콩'],['KR','한국'],['JP','일본'],['CN','중국'],['TW','대만'],['TH','태국'],['ID','인도네시아'],['US','미국'],['CA','캐나다'],['MX','멕시코'],['GB','영국'],['FR','프랑스'],['DE','독일'],['IT','이탈리아'],['ES','스페인'],['RU','러시아'],['TR','튀르키예'],['IR','이란'],['EG','이집트'],['NG','나이지리아'],['BR','브라질'],['AR','아르헨티나'],['AU','호주']];
+$('countriesenabled').onchange=async()=>{try{await api('/api/countries',{enabled:$('countriesenabled').checked});await refresh()}catch(e){error(e);await refresh()}};
+$('countriesmore').onclick=()=>{
+ const picked=new Set(state?.profile?.excluded_countries||[]);
+ dialog('<div class="dlg" role="dialog" aria-label="국가별 제외"><div class="dt" id="ctitle"></div><div class="opts" id="coptions" style="max-height:55vh;overflow:auto"></div><div class="btns"><button class="cancel">취소</button><span class="vd"></span><button class="ok">적용</button></div></div>',el=>{
+  const render=()=>{el.querySelector('#ctitle').textContent='국가별 제외 · '+picked.size+'개 선택';const box=el.querySelector('#coptions');box.replaceChildren();
+   const add=([code,name])=>{const b=document.createElement('button');b.className='opt';b.setAttribute('role','checkbox');b.setAttribute('aria-checked',String(picked.has(code)));b.textContent=(picked.has(code)?'☑ ':'☐ ')+name+' · '+code;b.onclick=()=>{picked.has(code)?picked.delete(code):picked.add(code);render()};box.append(b)};
+   COUNTRY_OPTIONS.filter(([c])=>picked.has(c)).forEach(add);if(picked.size){box.append(document.createElement('hr'))}COUNTRY_OPTIONS.filter(([c])=>!picked.has(c)).forEach(add);
+  };render();el.querySelector('.cancel').onclick=closeOverlay;el.querySelector('.ok').onclick=async()=>{try{await api('/api/countries',{excluded_countries:[...picked],enabled:true});closeOverlay();await refresh()}catch(e){error(e)}};
+ });
+};
 $('newphone').onclick=async()=>{try{await api('/api/pairing/start',{});toast('액자에 연결 코드를 표시했어요')}catch(e){error(e)}};
 $('reconnect').onclick=async()=>{try{await api('/api/control',{action:'reconnect'});toast('재생 연결을 복구하고 있어요')}catch(e){error(e)}};
 $('next').onclick=async()=>{try{await api('/api/control',{action:'next'});await refresh()}catch(e){error(e)}};
@@ -359,7 +369,7 @@ for(const [id,delta] of [['volumedown',-1],['volumeup',1]]){const button=$(id);b
 window.addEventListener('blur',stopVolumeHold);document.addEventListener('visibilitychange',()=>{if(document.hidden)stopVolumeHold()});
 $('volume').oninput=()=>{volumeEditing=true;volumeLabel()};$('volume').onchange=saveVolume;
 $('leveling').onchange=async()=>{try{await api('/api/volume',{leveling:$('leveling').checked});await refresh()}catch(e){error(e)}};
-function item(q){const d=document.createElement('div');d.className='row static';const t=document.createElement('span');t.className='t';t.textContent=q.movie.title;const s=document.createElement('small');s.textContent=cleanTitle(q.track.title);t.append(s);const y=document.createElement('span');y.className='v';y.textContent=q.movie.year;d.append(t,y);return d}
+function item(q){const d=document.createElement('div');d.className='row static';const t=document.createElement('span');t.className='t';t.textContent=q.movie.title;const s=document.createElement('small');s.textContent=cleanTitle(q.track.title)+(q.track.rank!==undefined?' · Deezer 순위 '+q.track.rank:'');t.append(s);const y=document.createElement('span');y.className='v';y.textContent=q.movie.year;d.append(t,y);return d}
 /* 음량 막대 · 재생 위치 막대의 One UI 채움 표시 */
 function syncVolFill(){const v=$('volume');$('volbar').style.setProperty('--v',String(Number(v.value)/Number(v.max||100)));}
 const _volumeLabel=volumeLabel;volumeLabel=function(){_volumeLabel();syncVolFill();};
@@ -384,7 +394,7 @@ async function refresh(){if(needsPair)return;try{state=await api('/api/state');
   $('setup').classList.toggle('hidden',!setupRequired);$('spotifysetup').classList.toggle('hidden',!setupRequired);$('app').classList.toggle('hidden',setupRequired);
   if(!state.spotify_ready){let a=state.auth||{};$('authcode').textContent=a.code||'';$('authstatus').textContent=state.engine_error||(a.code?'아래 코드를 Spotify 로그인 화면에 입력해 주세요':'Spotify 연결을 준비하고 있습니다. 잠시만 기다려 주세요.');$('authlink').style.display=a.url?'flex':'none';if(a.url)$('authlink').href=a.url;}
   setConnection(true,'연결됨');
-  const p=state.profile||{};
+  const p=state.profile||{};$('interpretation').textContent=JSON.stringify(p,null,2);
   const msg=!state.spotify_ready?'Spotify 재생 연결을 복구하고 있습니다':state.display_error||(!state.display_visible&&state.current?'프레임 앱이 백그라운드라 일시정지했습니다. Cinema Frame 을 열고 재생해 주세요':state.message);
   $('message').textContent=msg||'';$('message').classList.toggle('hidden',!msg);$('emptymsg').textContent=msg||'듣고 싶은 영화나 분위기를 골라 보세요.';
   $('understood').textContent=summaryText(p);
@@ -392,7 +402,7 @@ async function refresh(){if(needsPair)return;try{state=await api('/api/state');
   $('val-genre').textContent=p.seed_title?p.seed_title+' 기준':((p.genres||[]).map(g=>genreNames[g]||g).join('·')||'전체');
   $('val-era').textContent=p.era?p.era+'년대':'전체';
   $('criteria').textContent=`${p.music_style?`장르 일치 ${state.music_movie_count||0}편 · OST ${state.music_match_count||0}곡 · `:''}후보 영화 ${(state.eligible_count||0).toLocaleString()}편 · OST 연결 ${state.resolved_albums||0}편 · 재생 기록 ${state.played_count||0}곡`;
-  $('india').checked=!!p.exclude_india;
+  $('countriesenabled').checked=p.country_exclusions_enabled!==false;$('countrycount').textContent=(p.excluded_countries||[]).length+'개 선택 · 국가 미상 '+(state.country_mapping?.unknown??'미집계')+'편은 유지'+(state.country_mapping?.complete===false?' · 국가 데이터 미완료':'');
   const ex=Object.values(p.excluded_titles||{});
   if(ex.length){$('xlist').replaceChildren(...ex.map(t=>{const d=document.createElement('div');d.className='row static';const s=document.createElement('span');s.className='t';s.textContent=t;d.append(s);return d;}));const b=document.createElement('button');b.className='btn-ton';b.textContent='모두 되돌리기';b.onclick=()=>send('제외 영화 초기화','제외 모두 되돌리기');$('xlist').append(b);}
   else $('xlist').innerHTML='<div class="empty">제외한 영화가 없어요. 지금 재생의 ⋮ › 이 영화 다시 안 보기로 추가해요.</div>';
@@ -405,7 +415,7 @@ async function refresh(){if(needsPair)return;try{state=await api('/api/state');
   $('song').textContent=cleanTitle(c.track.title);$('artist').textContent=c.track.artist;
   $('movie').textContent=`${c.movie.title} · ${c.movie.year}`;$('genres').textContent=(c.movie.genres||[]).map(g=>genreNames[g]||g).join('·');
   const paused=state.phase==='paused';$('pause').innerHTML=paused?ICON.play:ICON.pause;$('pause').setAttribute('aria-label',paused?'계속 재생':'일시정지');
-  if(state.version!==lastVersion){lastVersion=state.version;posterRetry=0;const q=state.queue||[];$('queue').replaceChildren(...(q.length?q.map(item):[Object.assign(document.createElement('div'),{className:'empty',textContent:'다음 후보를 찾고 있어요.'})]));if(document.body.dataset.view==='info')fillInfo();}
+  if(state.version!==lastVersion||JSON.stringify(state.queue)!==window.lastQueue){window.lastQueue=JSON.stringify(state.queue);lastVersion=state.version;posterRetry=0;const q=state.queue||[];$('queue').replaceChildren(...(q.length?q.map(item):[Object.assign(document.createElement('div'),{className:'empty',textContent:'다음 후보를 찾고 있어요.'})]));if(document.body.dataset.view==='info')fillInfo();}
   if(posterVersion!==state.version)loadPoster(state.version);
   let t=state.telemetry?.player?.track;
   $('seek').disabled=!state.confirmed||!t?.duration||!['playing','paused'].includes(state.phase);

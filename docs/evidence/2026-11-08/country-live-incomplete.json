@@ -1,0 +1,108 @@
+{
+  "mapping": {
+    "complete": false,
+    "source": "legacy Wikidata India-only mapping; full refresh required",
+    "total": 9690,
+    "mapped": 736,
+    "unknown": 8954
+  },
+  "cases": [
+    {
+      "excluded_countries": [],
+      "eligible_count": 26,
+      "sample": [
+        {
+          "id": "tt0080684",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "countries": []
+        },
+        {
+          "id": "tt0088763",
+          "title": "Back to the Future",
+          "countries": []
+        },
+        {
+          "id": "tt0088247",
+          "title": "The Terminator",
+          "countries": []
+        },
+        {
+          "id": "tt0083658",
+          "title": "Blade Runner",
+          "countries": []
+        },
+        {
+          "id": "tt0096874",
+          "title": "Back to the Future Part II",
+          "countries": []
+        }
+      ]
+    },
+    {
+      "excluded_countries": [
+        "CN"
+      ],
+      "eligible_count": 26,
+      "sample": [
+        {
+          "id": "tt0080684",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "countries": []
+        },
+        {
+          "id": "tt0088763",
+          "title": "Back to the Future",
+          "countries": []
+        },
+        {
+          "id": "tt0088247",
+          "title": "The Terminator",
+          "countries": []
+        },
+        {
+          "id": "tt0083658",
+          "title": "Blade Runner",
+          "countries": []
+        },
+        {
+          "id": "tt0096874",
+          "title": "Back to the Future Part II",
+          "countries": []
+        }
+      ]
+    },
+    {
+      "excluded_countries": [
+        "HK"
+      ],
+      "eligible_count": 26,
+      "sample": [
+        {
+          "id": "tt0080684",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "countries": []
+        },
+        {
+          "id": "tt0088763",
+          "title": "Back to the Future",
+          "countries": []
+        },
+        {
+          "id": "tt0088247",
+          "title": "The Terminator",
+          "countries": []
+        },
+        {
+          "id": "tt0083658",
+          "title": "Blade Runner",
+          "countries": []
+        },
+        {
+          "id": "tt0096874",
+          "title": "Back to the Future Part II",
+          "countries": []
+        }
+      ]
+    }
+  ]
+}
