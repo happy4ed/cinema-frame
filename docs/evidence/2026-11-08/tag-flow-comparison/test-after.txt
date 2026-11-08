@@ -1,0 +1,10 @@
+test_jazz_subgenres_and_mood_are_separate_constraints (test_tag_flow_comparison.TagFlowTests.test_jazz_subgenres_and_mood_are_separate_constraints) ... ok
+test_mock_cache_expires_at_seven_days_and_does_not_store_key (test_tag_flow_comparison.TagFlowTests.test_mock_cache_expires_at_seven_days_and_does_not_store_key) ... ok
+test_mock_rank_top3_is_chosen_after_track_tag_filter (test_tag_flow_comparison.TagFlowTests.test_mock_rank_top3_is_chosen_after_track_tag_filter) ... ok
+test_mock_spotify_rejects_wrong_isrc_and_missing_playability (test_tag_flow_comparison.TagFlowTests.test_mock_spotify_rejects_wrong_isrc_and_missing_playability) ... ok
+test_mock_tag_list_membership_survives_empty_track_tags (test_tag_flow_comparison.TagFlowTests.test_mock_tag_list_membership_survives_empty_track_tags) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.260s
+
+OK

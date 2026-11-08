@@ -1,0 +1,61 @@
+{
+  "source": "lastfm",
+  "request": [
+    "lastfm",
+    "",
+    {
+      "album": "Avengers: Infinity War (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "artist": "Alan Silvestri",
+      "autocorrect": 0,
+      "method": "album.getTopTags"
+    },
+    null
+  ],
+  "fetched_at": 1794103928.3671374,
+  "expires_at": 1794708728.3671374,
+  "response": {
+    "toptags": {
+      "tag": [
+        {
+          "count": 100,
+          "name": "marvel",
+          "url": "https://www.last.fm/tag/marvel"
+        },
+        {
+          "count": 25,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 17,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 17,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 8,
+          "name": "film score",
+          "url": "https://www.last.fm/tag/film+score"
+        },
+        {
+          "count": 8,
+          "name": "2018",
+          "url": "https://www.last.fm/tag/2018"
+        },
+        {
+          "count": 8,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        }
+      ],
+      "@attr": {
+        "artist": "Alan Silvestri",
+        "album": "Avengers: Infinity War (Original Motion Picture Soundtrack / Deluxe Edition)"
+      }
+    }
+  }
+}

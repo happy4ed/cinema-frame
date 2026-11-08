@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "description": "Editable allowlist for comparison experiments; not yet enabled in the Android player. No BPM or personal tags.",
+  "cache_days": 7,
+  "genres": {
+    "jazz": ["jazz", "bebop", "swing", "big band", "hard bop", "cool jazz", "vocal jazz", "smooth jazz", "jazz fusion", "latin jazz", "free jazz", "acid jazz", "nu jazz", "jazz funk", "jazz piano", "jazz guitar"],
+    "big band": ["big band"]
+  },
+  "moods": {
+    "epic": ["epic", "orchestral", "cinematic"],
+    "calm": ["calm", "chillout", "mellow", "melancholic", "relaxing"],
+    "upbeat": ["upbeat", "happy", "feel good"]
+  },
+  "aliases": {
+    "bigband": "big band", "be bop": "bebop", "hardbop": "hard bop",
+    "nujazz": "nu jazz", "jazz vocal": "vocal jazz", "fusion jazz": "jazz fusion",
+    "chill out": "chillout", "chill": "chillout", "melancholy": "melancholic",
+    "cinematic classical": "cinematic", "jazz easy listening big band": "jazz",
+    "재즈": "jazz", "비밥": "bebop", "스윙": "swing", "빅밴드": "big band",
+    "빅 밴드": "big band", "웅장한": "epic", "차분": "calm", "비 오는 날": "calm", "경쾌": "upbeat"
+  }
+}

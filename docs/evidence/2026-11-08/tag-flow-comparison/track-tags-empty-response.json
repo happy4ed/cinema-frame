@@ -1,0 +1,25 @@
+{
+  "source": "lastfm",
+  "request": [
+    "lastfm",
+    "",
+    {
+      "artist": "Eric Dolphy",
+      "autocorrect": 0,
+      "method": "track.getTopTags",
+      "track": "Hat and Beard"
+    },
+    null
+  ],
+  "fetched_at": 1794104330.5455294,
+  "expires_at": 1794709130.5455294,
+  "response": {
+    "toptags": {
+      "tag": [],
+      "@attr": {
+        "artist": "Eric Dolphy",
+        "track": "Hat and Beard"
+      }
+    }
+  }
+}

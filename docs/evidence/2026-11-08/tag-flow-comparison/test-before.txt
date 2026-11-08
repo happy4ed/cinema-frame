@@ -1,0 +1,15 @@
+MOCK regression reproduction against initial comparison-tool expression (track tags only), not the installed Android app.
+test_mock_tag_list_membership_survives_empty_track_tags (test_tag_flow_comparison.TagFlowTests.test_mock_tag_list_membership_survives_empty_track_tags) ... FAIL
+
+======================================================================
+FAIL: test_mock_tag_list_membership_survives_empty_track_tags (test_tag_flow_comparison.TagFlowTests.test_mock_tag_list_membership_survives_empty_track_tags)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\Dev\cinema-frame\tests\test_tag_flow_comparison.py", line 58, in test_mock_tag_list_membership_survives_empty_track_tags
+    self.assertEqual(result['intent_matched_candidates'],1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)

@@ -1,0 +1,21 @@
+{
+  "source": "lastfm",
+  "request": [
+    "lastfm",
+    "",
+    {
+      "album": "Being There (Original Soundtrack)",
+      "artist": "Liam Colomer",
+      "autocorrect": 0,
+      "method": "album.getTopTags"
+    },
+    null
+  ],
+  "fetched_at": 1794104137.510273,
+  "expires_at": 1794708937.510273,
+  "response": {
+    "error": 6,
+    "message": "Album not found",
+    "links": []
+  }
+}
