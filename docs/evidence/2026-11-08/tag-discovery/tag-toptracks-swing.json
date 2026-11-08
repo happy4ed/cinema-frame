@@ -1,0 +1,193 @@
+{
+  "tracks": {
+    "track": [
+      {
+        "name": "Somethin' Stupid",
+        "duration": "162",
+        "mbid": "02fbc2e6-c0dc-3625-a4f1-128b12f48505",
+        "url": "https://www.last.fm/music/Frank+Sinatra/_/Somethin%27+Stupid",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Frank Sinatra",
+          "mbid": "197450cd-0124-4164-b723-3c22dd16494d",
+          "url": "https://www.last.fm/music/Frank+Sinatra"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "1"
+        }
+      },
+      {
+        "name": "Sway",
+        "duration": "188",
+        "mbid": "0e33f158-4a34-3ec3-8c58-ce65a65c004b",
+        "url": "https://www.last.fm/music/Michael+Bubl%C3%A9/_/Sway",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Michael Bublé",
+          "mbid": "611700cf-27f0-4dc9-ae80-c513a767853e",
+          "url": "https://www.last.fm/music/Michael+Bubl%C3%A9"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "2"
+        }
+      },
+      {
+        "name": "That's Life",
+        "duration": "187",
+        "mbid": "01ab3cc2-cd82-3e0b-bcd2-5b5a0bee457b",
+        "url": "https://www.last.fm/music/Frank+Sinatra/_/That%27s+Life",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Frank Sinatra",
+          "mbid": "197450cd-0124-4164-b723-3c22dd16494d",
+          "url": "https://www.last.fm/music/Frank+Sinatra"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "3"
+        }
+      },
+      {
+        "name": "Fly Me to the Moon (In Other Words)",
+        "duration": "147",
+        "mbid": "04d273fe-0fcf-4a27-9fc3-aae909d17219",
+        "url": "https://www.last.fm/music/Frank+Sinatra/_/Fly+Me+to+the+Moon+(In+Other+Words)",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Frank Sinatra",
+          "mbid": "197450cd-0124-4164-b723-3c22dd16494d",
+          "url": "https://www.last.fm/music/Frank+Sinatra"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "4"
+        }
+      },
+      {
+        "name": "Feeling Good",
+        "duration": "237",
+        "mbid": "0d199859-a520-3555-b7b3-30e923d329e1",
+        "url": "https://www.last.fm/music/Michael+Bubl%C3%A9/_/Feeling+Good",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Michael Bublé",
+          "mbid": "611700cf-27f0-4dc9-ae80-c513a767853e",
+          "url": "https://www.last.fm/music/Michael+Bubl%C3%A9"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "5"
+        }
+      }
+    ],
+    "@attr": {
+      "tag": "swing",
+      "page": "1",
+      "perPage": "5",
+      "totalPages": "4",
+      "total": "16"
+    }
+  }
+}

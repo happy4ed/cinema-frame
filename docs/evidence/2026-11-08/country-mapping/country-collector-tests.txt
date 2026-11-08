@@ -1,0 +1,16 @@
+test_mock_incomplete_checkpoint_cannot_replace_catalogue (__main__.CountryCollectorTest.test_mock_incomplete_checkpoint_cannot_replace_catalogue) ... ok
+test_mock_retry_after_http_date (__main__.CountryCollectorTest.test_mock_retry_after_http_date) ... ok
+GET CN OFFSET 0 LIMIT 2
+RETRY CN: HTTP 429; wait 120s
+GET CN OFFSET 0 LIMIT 2
+OK CN: page 1, total 2, complete=False
+GET CN OFFSET 2 LIMIT 2
+OK CN: page 1, total 3, complete=True
+GET HK OFFSET 0 LIMIT 2
+OK HK: page 1, total 1, complete=True
+test_mock_retry_after_pagination_resume_and_country_separation (__main__.CountryCollectorTest.test_mock_retry_after_pagination_resume_and_country_separation) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.033s
+
+OK

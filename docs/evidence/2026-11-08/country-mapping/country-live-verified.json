@@ -1,0 +1,653 @@
+{
+  "checked_at": "2026-11-08T01:59:02.836385+00:00",
+  "profile_request": "80년대 SF 웅장한",
+  "mapping": {
+    "complete": true,
+    "source": "Wikidata P495/P345; requested 24-country scope",
+    "fetched_at": "2026-11-08T01:58:33.052090+00:00",
+    "total": 9690,
+    "mapped": 9378,
+    "unknown": 312,
+    "by_country": {
+      "IN": 736,
+      "HK": 98,
+      "KR": 110,
+      "JP": 329,
+      "CN": 82,
+      "TW": 16,
+      "TH": 16,
+      "ID": 9,
+      "US": 6330,
+      "CA": 316,
+      "MX": 84,
+      "GB": 1459,
+      "FR": 998,
+      "DE": 540,
+      "IT": 360,
+      "ES": 219,
+      "RU": 39,
+      "TR": 125,
+      "IR": 27,
+      "EG": 4,
+      "NG": 0,
+      "BR": 33,
+      "AR": 34,
+      "AU": 225
+    },
+    "unknown_definition": "No match among the requested 24 countries; may have another origin country"
+  },
+  "cases": [
+    {
+      "excluded_country": null,
+      "actual_count": 26,
+      "expected_count": 26,
+      "movies": [
+        {
+          "id": "tt0080684",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088763",
+          "title": "Back to the Future",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088247",
+          "title": "The Terminator",
+          "countries": [
+            "GB",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0083658",
+          "title": "Blade Runner",
+          "countries": [
+            "HK",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0096874",
+          "title": "Back to the Future Part II",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0084787",
+          "title": "The Thing",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0083866",
+          "title": "E.T. the Extra-Terrestrial",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0093870",
+          "title": "RoboCop",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0094012",
+          "title": "Spaceballs",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0091064",
+          "title": "The Fly",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088846",
+          "title": "Brazil",
+          "countries": [
+            "AU",
+            "GB"
+          ]
+        },
+        {
+          "id": "tt0082694",
+          "title": "The Road Warrior",
+          "countries": [
+            "AU"
+          ]
+        },
+        {
+          "id": "tt0087544",
+          "title": "Nausicaä of the Valley of the Wind",
+          "countries": [
+            "JP"
+          ]
+        },
+        {
+          "id": "tt0082340",
+          "title": "Escape from New York",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0096256",
+          "title": "They Live",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0084726",
+          "title": "Star Trek II: The Wrath of Khan",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0086567",
+          "title": "WarGames",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0086541",
+          "title": "Videodrome",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0092007",
+          "title": "Star Trek IV: The Voyage Home",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0087803",
+          "title": "1984",
+          "countries": [
+            "GB"
+          ]
+        },
+        {
+          "id": "tt0089885",
+          "title": "Re-Animator",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0089907",
+          "title": "The Return of the Living Dead",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088172",
+          "title": "Starman",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0093185",
+          "title": "The Hidden",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088083",
+          "title": "Sexmission",
+          "countries": []
+        },
+        {
+          "id": "tt0091341",
+          "title": "Kin-dza-dza!",
+          "countries": []
+        }
+      ]
+    },
+    {
+      "excluded_country": "US",
+      "actual_count": 6,
+      "expected_count": 6,
+      "movies": [
+        {
+          "id": "tt0088846",
+          "title": "Brazil",
+          "countries": [
+            "AU",
+            "GB"
+          ]
+        },
+        {
+          "id": "tt0082694",
+          "title": "The Road Warrior",
+          "countries": [
+            "AU"
+          ]
+        },
+        {
+          "id": "tt0087544",
+          "title": "Nausicaä of the Valley of the Wind",
+          "countries": [
+            "JP"
+          ]
+        },
+        {
+          "id": "tt0087803",
+          "title": "1984",
+          "countries": [
+            "GB"
+          ]
+        },
+        {
+          "id": "tt0088083",
+          "title": "Sexmission",
+          "countries": []
+        },
+        {
+          "id": "tt0091341",
+          "title": "Kin-dza-dza!",
+          "countries": []
+        }
+      ]
+    },
+    {
+      "excluded_country": "CN",
+      "actual_count": 26,
+      "expected_count": 26,
+      "movies": [
+        {
+          "id": "tt0080684",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088763",
+          "title": "Back to the Future",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088247",
+          "title": "The Terminator",
+          "countries": [
+            "GB",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0083658",
+          "title": "Blade Runner",
+          "countries": [
+            "HK",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0096874",
+          "title": "Back to the Future Part II",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0084787",
+          "title": "The Thing",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0083866",
+          "title": "E.T. the Extra-Terrestrial",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0093870",
+          "title": "RoboCop",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0094012",
+          "title": "Spaceballs",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0091064",
+          "title": "The Fly",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088846",
+          "title": "Brazil",
+          "countries": [
+            "AU",
+            "GB"
+          ]
+        },
+        {
+          "id": "tt0082694",
+          "title": "The Road Warrior",
+          "countries": [
+            "AU"
+          ]
+        },
+        {
+          "id": "tt0087544",
+          "title": "Nausicaä of the Valley of the Wind",
+          "countries": [
+            "JP"
+          ]
+        },
+        {
+          "id": "tt0082340",
+          "title": "Escape from New York",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0096256",
+          "title": "They Live",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0084726",
+          "title": "Star Trek II: The Wrath of Khan",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0086567",
+          "title": "WarGames",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0086541",
+          "title": "Videodrome",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0092007",
+          "title": "Star Trek IV: The Voyage Home",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0087803",
+          "title": "1984",
+          "countries": [
+            "GB"
+          ]
+        },
+        {
+          "id": "tt0089885",
+          "title": "Re-Animator",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0089907",
+          "title": "The Return of the Living Dead",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088172",
+          "title": "Starman",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0093185",
+          "title": "The Hidden",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088083",
+          "title": "Sexmission",
+          "countries": []
+        },
+        {
+          "id": "tt0091341",
+          "title": "Kin-dza-dza!",
+          "countries": []
+        }
+      ]
+    },
+    {
+      "excluded_country": "HK",
+      "actual_count": 25,
+      "expected_count": 25,
+      "movies": [
+        {
+          "id": "tt0080684",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088763",
+          "title": "Back to the Future",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088247",
+          "title": "The Terminator",
+          "countries": [
+            "GB",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0096874",
+          "title": "Back to the Future Part II",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0084787",
+          "title": "The Thing",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0083866",
+          "title": "E.T. the Extra-Terrestrial",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0093870",
+          "title": "RoboCop",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0094012",
+          "title": "Spaceballs",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0091064",
+          "title": "The Fly",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088846",
+          "title": "Brazil",
+          "countries": [
+            "AU",
+            "GB"
+          ]
+        },
+        {
+          "id": "tt0082694",
+          "title": "The Road Warrior",
+          "countries": [
+            "AU"
+          ]
+        },
+        {
+          "id": "tt0087544",
+          "title": "Nausicaä of the Valley of the Wind",
+          "countries": [
+            "JP"
+          ]
+        },
+        {
+          "id": "tt0082340",
+          "title": "Escape from New York",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0096256",
+          "title": "They Live",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0084726",
+          "title": "Star Trek II: The Wrath of Khan",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0086567",
+          "title": "WarGames",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0086541",
+          "title": "Videodrome",
+          "countries": [
+            "CA",
+            "US"
+          ]
+        },
+        {
+          "id": "tt0092007",
+          "title": "Star Trek IV: The Voyage Home",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0087803",
+          "title": "1984",
+          "countries": [
+            "GB"
+          ]
+        },
+        {
+          "id": "tt0089885",
+          "title": "Re-Animator",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0089907",
+          "title": "The Return of the Living Dead",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088172",
+          "title": "Starman",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0093185",
+          "title": "The Hidden",
+          "countries": [
+            "US"
+          ]
+        },
+        {
+          "id": "tt0088083",
+          "title": "Sexmission",
+          "countries": []
+        },
+        {
+          "id": "tt0091341",
+          "title": "Kin-dza-dza!",
+          "countries": []
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

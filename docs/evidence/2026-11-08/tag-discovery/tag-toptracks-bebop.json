@@ -1,0 +1,193 @@
+{
+  "tracks": {
+    "track": [
+      {
+        "name": "Moment's Notice",
+        "duration": "550",
+        "mbid": "02337e2d-0f8f-3d46-96ec-d90c030adf81",
+        "url": "https://www.last.fm/music/John+Coltrane/_/Moment%27s+Notice",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "John Coltrane",
+          "mbid": "b625448e-bf4a-41c3-a421-72ad46cdb831",
+          "url": "https://www.last.fm/music/John+Coltrane"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "1"
+        }
+      },
+      {
+        "name": "Out Of Nowhere",
+        "duration": "186",
+        "mbid": "01a9f9a1-1b57-3edd-8fe9-58e718565146",
+        "url": "https://www.last.fm/music/Charlie+Parker/_/Out+Of+Nowhere",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Charlie Parker",
+          "mbid": "c7356af9-9ea6-4a78-a55b-c73775716312",
+          "url": "https://www.last.fm/music/Charlie+Parker"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "2"
+        }
+      },
+      {
+        "name": "Are You Real",
+        "duration": "616",
+        "mbid": "0b7941bd-d255-4181-94a0-c6efcb8e5e8c",
+        "url": "https://www.last.fm/music/Art+Blakey+&+The+Jazz+Messengers/_/Are+You+Real",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Art Blakey & The Jazz Messengers",
+          "mbid": "209ddf15-ee0a-41a1-a1f5-6f4c0409d2ee",
+          "url": "https://www.last.fm/music/Art+Blakey+&+The+Jazz+Messengers"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "3"
+        }
+      },
+      {
+        "name": "Moanin'",
+        "duration": "482",
+        "mbid": "0842fb8e-71d0-39a0-a9ff-b5ee2d3dfb1d",
+        "url": "https://www.last.fm/music/Charles+Mingus/_/Moanin%27",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Charles Mingus",
+          "mbid": "f3b8e107-abe8-4743-b6a3-4a4ee995e71f",
+          "url": "https://www.last.fm/music/Charles+Mingus"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "4"
+        }
+      },
+      {
+        "name": "Donna Lee",
+        "duration": "152",
+        "mbid": "001863fc-8b95-40c3-b366-4f2109ab5924",
+        "url": "https://www.last.fm/music/Charlie+Parker/_/Donna+Lee",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Charlie Parker",
+          "mbid": "c7356af9-9ea6-4a78-a55b-c73775716312",
+          "url": "https://www.last.fm/music/Charlie+Parker"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "5"
+        }
+      }
+    ],
+    "@attr": {
+      "tag": "bebop",
+      "page": "1",
+      "perPage": "5",
+      "totalPages": "0",
+      "total": "0"
+    }
+  }
+}

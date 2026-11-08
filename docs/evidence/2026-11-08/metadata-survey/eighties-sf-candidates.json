@@ -1,0 +1,309 @@
+{
+  "request": "80년대 SF 웅장한",
+  "sampling": "rating desc, votes desc; no film Music restriction; exact OST album, Deezer top3; first 20 distinct ISRCs BEFORE tag/mood filtering",
+  "film_scan_cap": 100,
+  "films_checked": [
+    {
+      "movie_id": "tt0080684",
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0088763",
+      "title": "Back to the Future",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0084787",
+      "title": "The Thing",
+      "album_id": 77653052
+    },
+    {
+      "movie_id": "tt0088247",
+      "title": "The Terminator",
+      "album_id": 133937082
+    },
+    {
+      "movie_id": "tt0083658",
+      "title": "Blade Runner",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0087544",
+      "title": "Nausicaä of the Valley of the Wind",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0083866",
+      "title": "E.T. the Extra-Terrestrial",
+      "album_id": 9510820
+    },
+    {
+      "movie_id": "tt0096874",
+      "title": "Back to the Future Part II",
+      "album_id": 11603330
+    },
+    {
+      "movie_id": "tt0088846",
+      "title": "Brazil",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0091341",
+      "title": "Kin-dza-dza!",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0084726",
+      "title": "Star Trek II: The Wrath of Khan",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0093870",
+      "title": "RoboCop",
+      "album_id": 133938582
+    },
+    {
+      "movie_id": "tt0091064",
+      "title": "The Fly",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0082694",
+      "title": "The Road Warrior",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0088083",
+      "title": "Sexmission",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0092007",
+      "title": "Star Trek IV: The Voyage Home",
+      "album_id": 13777460
+    },
+    {
+      "movie_id": "tt0089907",
+      "title": "The Return of the Living Dead",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0096256",
+      "title": "They Live",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0094012",
+      "title": "Spaceballs",
+      "album_id": null
+    },
+    {
+      "movie_id": "tt0082340",
+      "title": "Escape from New York",
+      "album_id": 804423321
+    }
+  ],
+  "tracks": [
+    {
+      "movie_id": "tt0084787",
+      "movie_title": "The Thing",
+      "deezer_album_id": 77653052,
+      "deezer_track_id": 579929322,
+      "title": "Humanity (Pt. 2)",
+      "artist": "Ennio Morricone",
+      "rank": 275128,
+      "isrc": "USUM71603921"
+    },
+    {
+      "movie_id": "tt0084787",
+      "movie_title": "The Thing",
+      "deezer_album_id": 77653052,
+      "deezer_track_id": 579929252,
+      "title": "Humanity (Pt. 1)",
+      "artist": "Ennio Morricone",
+      "rank": 257604,
+      "isrc": "USUM71603915"
+    },
+    {
+      "movie_id": "tt0084787",
+      "movie_title": "The Thing",
+      "deezer_album_id": 77653052,
+      "deezer_track_id": 579929262,
+      "title": "Shape",
+      "artist": "Ennio Morricone",
+      "rank": 241119,
+      "isrc": "USUM71603916"
+    },
+    {
+      "movie_id": "tt0088247",
+      "movie_title": "The Terminator",
+      "deezer_album_id": 133937082,
+      "deezer_track_id": 889834692,
+      "title": "Main Title - The Terminator",
+      "artist": "Brad Fiedel",
+      "rank": 397835,
+      "isrc": "US5941405749"
+    },
+    {
+      "movie_id": "tt0088247",
+      "movie_title": "The Terminator",
+      "deezer_album_id": 133937082,
+      "deezer_track_id": 889834852,
+      "title": "The Terminator Theme (Extended Version)",
+      "artist": "Brad Fiedel",
+      "rank": 372634,
+      "isrc": "US5941405750"
+    },
+    {
+      "movie_id": "tt0088247",
+      "movie_title": "The Terminator",
+      "deezer_album_id": 133937082,
+      "deezer_track_id": 889834702,
+      "title": "Terminator Arrival / Reese Chased / Sarah on Motorbike",
+      "artist": "Brad Fiedel",
+      "rank": 265860,
+      "isrc": "US5941405698"
+    },
+    {
+      "movie_id": "tt0083866",
+      "movie_title": "E.T. the Extra-Terrestrial",
+      "deezer_album_id": 9510820,
+      "deezer_track_id": 93631702,
+      "title": "Flying (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+      "artist": "John Williams",
+      "rank": 371132,
+      "isrc": "USUM71416991"
+    },
+    {
+      "movie_id": "tt0083866",
+      "movie_title": "E.T. the Extra-Terrestrial",
+      "deezer_album_id": 9510820,
+      "deezer_track_id": 93631694,
+      "title": "Three Million Light Years From Home (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+      "artist": "John Williams",
+      "rank": 191454,
+      "isrc": "USUM71416987"
+    },
+    {
+      "movie_id": "tt0083866",
+      "movie_title": "E.T. the Extra-Terrestrial",
+      "deezer_album_id": 9510820,
+      "deezer_track_id": 93631706,
+      "title": "Over The Moon (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+      "artist": "John Williams",
+      "rank": 182845,
+      "isrc": "USUM71417065"
+    },
+    {
+      "movie_id": "tt0096874",
+      "movie_title": "Back to the Future Part II",
+      "deezer_album_id": 11603330,
+      "deezer_track_id": 111778002,
+      "title": "Back To Back / It's Your Kids (From “Back To The Future Pt. II” Original Score)",
+      "artist": "Alan Silvestri",
+      "rank": 203195,
+      "isrc": "USQ4E1501748"
+    },
+    {
+      "movie_id": "tt0096874",
+      "movie_title": "Back to the Future Part II",
+      "deezer_album_id": 11603330,
+      "deezer_track_id": 111778004,
+      "title": "Main Title (Extended Version / From “Back To The Future Pt. II” Original Score)",
+      "artist": "Alan Silvestri",
+      "rank": 188580,
+      "isrc": "USQ4E1501749"
+    },
+    {
+      "movie_id": "tt0096874",
+      "movie_title": "Back to the Future Part II",
+      "deezer_album_id": 11603330,
+      "deezer_track_id": 111778044,
+      "title": "End Title (From “Back To The Future Pt. II” Original Score)",
+      "artist": "Alan Silvestri",
+      "rank": 164067,
+      "isrc": "USMC18930708"
+    },
+    {
+      "movie_id": "tt0093870",
+      "movie_title": "RoboCop",
+      "deezer_album_id": 133938582,
+      "deezer_track_id": 889843032,
+      "title": "Rock Shop",
+      "artist": "Basil Poledouris",
+      "rank": 206250,
+      "isrc": "US5941405169"
+    },
+    {
+      "movie_id": "tt0093870",
+      "movie_title": "RoboCop",
+      "deezer_album_id": 133938582,
+      "deezer_track_id": 889842962,
+      "title": "Drive Montage",
+      "artist": "Basil Poledouris",
+      "rank": 204149,
+      "isrc": "US5941405162"
+    },
+    {
+      "movie_id": "tt0093870",
+      "movie_title": "RoboCop",
+      "deezer_album_id": 133938582,
+      "deezer_track_id": 889843232,
+      "title": "Across The Board/End Credits",
+      "artist": "Basil Poledouris",
+      "rank": 181313,
+      "isrc": "US5941405177"
+    },
+    {
+      "movie_id": "tt0092007",
+      "movie_title": "Star Trek IV: The Voyage Home",
+      "deezer_album_id": 13777460,
+      "deezer_track_id": 130008996,
+      "title": "Main Title",
+      "artist": "Leonard Rosenman",
+      "rank": 141660,
+      "isrc": "USMC18622115"
+    },
+    {
+      "movie_id": "tt0092007",
+      "movie_title": "Star Trek IV: The Voyage Home",
+      "deezer_album_id": 13777460,
+      "deezer_track_id": 130009016,
+      "title": "Home Again: End Credits",
+      "artist": "Leonard Rosenman",
+      "rank": 93716,
+      "isrc": "USMC18622125"
+    },
+    {
+      "movie_id": "tt0092007",
+      "movie_title": "Star Trek IV: The Voyage Home",
+      "deezer_album_id": 13777460,
+      "deezer_track_id": 130009008,
+      "title": "Chekov's Run",
+      "artist": "Leonard Rosenman",
+      "rank": 90440,
+      "isrc": "USMC18622121"
+    },
+    {
+      "movie_id": "tt0082340",
+      "movie_title": "Escape from New York",
+      "deezer_album_id": 804423321,
+      "deezer_track_id": 3507334441,
+      "title": "Main Title",
+      "artist": "John Carpenter",
+      "rank": 396459,
+      "isrc": "GBAJC0002929"
+    },
+    {
+      "movie_id": "tt0082340",
+      "movie_title": "Escape from New York",
+      "deezer_album_id": 804423321,
+      "deezer_track_id": 3507334451,
+      "title": "The Bank Robbery",
+      "artist": "John Carpenter",
+      "rank": 261899,
+      "isrc": "GBAJC0002930"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "H:\Dev\cinema-frame\tools\verify_country_live.py", line 40, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "H:\Dev\cinema-frame\tools\verify_country_live.py", line 18, in main
+    if not mapping.get('complete'):raise RuntimeError('Frame country mapping incomplete; refusing to claim verification')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Frame country mapping incomplete; refusing to claim verification

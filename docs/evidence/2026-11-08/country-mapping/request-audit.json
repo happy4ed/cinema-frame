@@ -1,0 +1,604 @@
+{
+  "user_agent": "CinemaFrame/0.6 (https://github.com/happy4ed/cinema-frame/issues; country metadata)",
+  "minimum_request_spacing_seconds": 61.000081062316895,
+  "request_count": 31,
+  "requests": [
+    {
+      "country": "IN",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101141.7374449,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q668; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0"
+    },
+    {
+      "country": "IN",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101265.2557843,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q668; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 30196,
+      "rejected": 32,
+      "finished_at": 1794101268.019042
+    },
+    {
+      "country": "HK",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101326.256091,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q8646; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 3309,
+      "rejected": 2,
+      "finished_at": 1794101330.7434196
+    },
+    {
+      "country": "KR",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101387.2564468,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q884; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 7040,
+      "rejected": 68,
+      "finished_at": 1794101390.4300785
+    },
+    {
+      "country": "JP",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101448.2567525,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q17; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 23025,
+      "rejected": 148,
+      "finished_at": 1794101453.424733
+    },
+    {
+      "country": "CN",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101509.25713,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q148; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 4633,
+      "rejected": 8,
+      "finished_at": 1794101522.26812
+    },
+    {
+      "country": "TW",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101570.2574067,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q865; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 1712,
+      "rejected": 6,
+      "finished_at": 1794101574.6544795
+    },
+    {
+      "country": "TH",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101631.2580543,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q869; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 1175,
+      "rejected": 1,
+      "finished_at": 1794101635.1557937
+    },
+    {
+      "country": "ID",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101692.2583773,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q252; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 2659,
+      "rejected": 4,
+      "finished_at": 1794101695.702227
+    },
+    {
+      "country": "US",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794101753.2587976,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q30; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 48279,
+      "rejected": 1721,
+      "finished_at": 1794101793.2425704
+    },
+    {
+      "country": "US",
+      "offset": 50000,
+      "limit": 50000,
+      "started_at": 1794101814.2592356,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q30; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 50000",
+      "status": "timeout_or_transport",
+      "error": "The read operation timed out"
+    },
+    {
+      "country": "US",
+      "offset": 50000,
+      "limit": 25000,
+      "started_at": 1794101945.4102867,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q30; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 25000 OFFSET 50000",
+      "status": 200,
+      "count": 24992,
+      "rejected": 8,
+      "finished_at": 1794101969.3372202
+    },
+    {
+      "country": "US",
+      "offset": 75000,
+      "limit": 25000,
+      "started_at": 1794102006.410401,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q30; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 25000 OFFSET 75000",
+      "status": 200,
+      "count": 24998,
+      "rejected": 2,
+      "finished_at": 1794102049.1644268
+    },
+    {
+      "country": "US",
+      "offset": 100000,
+      "limit": 25000,
+      "started_at": 1794102067.4108772,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q30; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 25000 OFFSET 100000",
+      "status": 200,
+      "count": 24993,
+      "rejected": 7,
+      "finished_at": 1794102110.018805
+    },
+    {
+      "country": "US",
+      "offset": 125000,
+      "limit": 25000,
+      "started_at": 1794102128.410997,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q30; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 25000 OFFSET 125000",
+      "status": 200,
+      "count": 24993,
+      "rejected": 7,
+      "finished_at": 1794102145.1868672
+    },
+    {
+      "country": "US",
+      "offset": 150000,
+      "limit": 25000,
+      "started_at": 1794102189.411561,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q30; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 25000 OFFSET 150000",
+      "status": 200,
+      "count": 430,
+      "rejected": 0,
+      "finished_at": 1794102250.3366067
+    },
+    {
+      "country": "CA",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102250.4120133,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q16; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 14494,
+      "rejected": 368,
+      "finished_at": 1794102258.1244357
+    },
+    {
+      "country": "MX",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102311.4121714,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q96; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 5231,
+      "rejected": 17,
+      "finished_at": 1794102314.434496
+    },
+    {
+      "country": "GB",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102372.4123573,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q145; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 30508,
+      "rejected": 719,
+      "finished_at": 1794102387.8636444
+    },
+    {
+      "country": "FR",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102433.4126606,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q142; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 29582,
+      "rejected": 168,
+      "finished_at": 1794102450.6362693
+    },
+    {
+      "country": "DE",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102494.4135168,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q183; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 30752,
+      "rejected": 211,
+      "finished_at": 1794102516.941635
+    },
+    {
+      "country": "IT",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102555.4136145,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q38; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 17348,
+      "rejected": 80,
+      "finished_at": 1794102570.0084736
+    },
+    {
+      "country": "ES",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102616.4137762,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q29; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 9798,
+      "rejected": 126,
+      "finished_at": 1794102621.818536
+    },
+    {
+      "country": "RU",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102677.414267,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q159; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 4599,
+      "rejected": 40,
+      "finished_at": 1794102680.5094461
+    },
+    {
+      "country": "TR",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102738.4149044,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q43; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 4208,
+      "rejected": 17,
+      "finished_at": 1794102741.2018628
+    },
+    {
+      "country": "IR",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102799.4149907,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q794; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 3134,
+      "rejected": 3,
+      "finished_at": 1794102801.6753047
+    },
+    {
+      "country": "EG",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102860.415122,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q79; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 1911,
+      "rejected": 2,
+      "finished_at": 1794102865.3841736
+    },
+    {
+      "country": "NG",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102921.4156408,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q1033; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 767,
+      "rejected": 13,
+      "finished_at": 1794102931.979223
+    },
+    {
+      "country": "BR",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794102982.41615,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q155; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 4130,
+      "rejected": 51,
+      "finished_at": 1794102986.091655
+    },
+    {
+      "country": "AR",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794103043.4162312,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q414; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 5157,
+      "rejected": 29,
+      "finished_at": 1794103046.5545006
+    },
+    {
+      "country": "AU",
+      "offset": 0,
+      "limit": 50000,
+      "started_at": 1794103104.4164953,
+      "query": "SELECT DISTINCT ?imdb WHERE { ?film wdt:P495 wd:Q408; wdt:P345 ?imdb. } ORDER BY ?imdb LIMIT 50000 OFFSET 0",
+      "status": 200,
+      "count": 7373,
+      "rejected": 110,
+      "finished_at": 1794103112.6589904
+    }
+  ],
+  "country_pages": {
+    "IN": {
+      "entity": "Q668",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 30196
+        }
+      ]
+    },
+    "HK": {
+      "entity": "Q8646",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 3309
+        }
+      ]
+    },
+    "KR": {
+      "entity": "Q884",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 7040
+        }
+      ]
+    },
+    "JP": {
+      "entity": "Q17",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 23025
+        }
+      ]
+    },
+    "CN": {
+      "entity": "Q148",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 4633
+        }
+      ]
+    },
+    "TW": {
+      "entity": "Q865",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 1712
+        }
+      ]
+    },
+    "TH": {
+      "entity": "Q869",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 1175
+        }
+      ]
+    },
+    "ID": {
+      "entity": "Q252",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 2659
+        }
+      ]
+    },
+    "US": {
+      "entity": "Q30",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 48279
+        },
+        {
+          "offset": 50000,
+          "count": 24992
+        },
+        {
+          "offset": 75000,
+          "count": 24998
+        },
+        {
+          "offset": 100000,
+          "count": 24993
+        },
+        {
+          "offset": 125000,
+          "count": 24993
+        },
+        {
+          "offset": 150000,
+          "count": 430
+        }
+      ]
+    },
+    "CA": {
+      "entity": "Q16",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 14494
+        }
+      ]
+    },
+    "MX": {
+      "entity": "Q96",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 5231
+        }
+      ]
+    },
+    "GB": {
+      "entity": "Q145",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 30508
+        }
+      ]
+    },
+    "FR": {
+      "entity": "Q142",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 29582
+        }
+      ]
+    },
+    "DE": {
+      "entity": "Q183",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 30752
+        }
+      ]
+    },
+    "IT": {
+      "entity": "Q38",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 17348
+        }
+      ]
+    },
+    "ES": {
+      "entity": "Q29",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 9798
+        }
+      ]
+    },
+    "RU": {
+      "entity": "Q159",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 4599
+        }
+      ]
+    },
+    "TR": {
+      "entity": "Q43",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 4208
+        }
+      ]
+    },
+    "IR": {
+      "entity": "Q794",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 3134
+        }
+      ]
+    },
+    "EG": {
+      "entity": "Q79",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 1911
+        }
+      ]
+    },
+    "NG": {
+      "entity": "Q1033",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 767
+        }
+      ]
+    },
+    "BR": {
+      "entity": "Q155",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 4130
+        }
+      ]
+    },
+    "AR": {
+      "entity": "Q414",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 5157
+        }
+      ]
+    },
+    "AU": {
+      "entity": "Q408",
+      "complete": true,
+      "pages": [
+        {
+          "offset": 0,
+          "count": 7373
+        }
+      ]
+    }
+  }
+}

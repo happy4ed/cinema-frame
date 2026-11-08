@@ -1,0 +1,193 @@
+{
+  "tracks": {
+    "track": [
+      {
+        "name": "Like a Tattoo",
+        "duration": "216",
+        "mbid": "0d84184d-b41b-371d-80f1-12e1069f6b55",
+        "url": "https://www.last.fm/music/Sade/_/Like+a+Tattoo",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Sade",
+          "mbid": "67930b3e-e00b-469f-8c74-fd69f20522ec",
+          "url": "https://www.last.fm/music/Sade"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "1"
+        }
+      },
+      {
+        "name": "I Fall in Love Too Easily",
+        "duration": "200",
+        "mbid": "01d946ed-f2d4-3da8-b5ff-61deccc0b82a",
+        "url": "https://www.last.fm/music/Chet+Baker/_/I+Fall+in+Love+Too+Easily",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Chet Baker",
+          "mbid": "1ba1d493-7114-45e2-b163-a36d49a0c065",
+          "url": "https://www.last.fm/music/Chet+Baker"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "2"
+        }
+      },
+      {
+        "name": "Back to Black",
+        "duration": "250",
+        "mbid": "01123f1a-807b-37ac-8c6c-7bef6070b49c",
+        "url": "https://www.last.fm/music/Amy+Winehouse/_/Back+to+Black",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Amy Winehouse",
+          "mbid": "dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3",
+          "url": "https://www.last.fm/music/Amy+Winehouse"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "3"
+        }
+      },
+      {
+        "name": "The Other Woman",
+        "duration": "181",
+        "mbid": "04ba1cd0-82a4-45f9-aa1c-4fd5ffc114f8",
+        "url": "https://www.last.fm/music/Lana+Del+Rey/_/The+Other+Woman",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "Lana Del Rey",
+          "mbid": "b7539c32-53e7-4908-bda3-81449c367da6",
+          "url": "https://www.last.fm/music/Lana+Del+Rey"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "4"
+        }
+      },
+      {
+        "name": "Take Five",
+        "duration": "503",
+        "mbid": "02d22625-0e61-4978-a0a4-ba667cc7252a",
+        "url": "https://www.last.fm/music/The+Dave+Brubeck+Quartet/_/Take+Five",
+        "streamable": {
+          "#text": "0",
+          "fulltrack": "0"
+        },
+        "artist": {
+          "name": "The Dave Brubeck Quartet",
+          "mbid": "7bf711e9-4e69-4e08-b6e8-c0cb5805f1e7",
+          "url": "https://www.last.fm/music/The+Dave+Brubeck+Quartet"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+            "size": "extralarge"
+          }
+        ],
+        "@attr": {
+          "rank": "5"
+        }
+      }
+    ],
+    "@attr": {
+      "tag": "jazz",
+      "page": "1",
+      "perPage": "5",
+      "totalPages": "28",
+      "total": "139"
+    }
+  }
+}

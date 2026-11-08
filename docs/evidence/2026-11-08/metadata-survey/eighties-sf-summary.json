@@ -1,0 +1,32 @@
+{
+  "request": "80년대 SF 웅장한",
+  "sample_size": 20,
+  "films_scanned": 20,
+  "film_scan_cap": 100,
+  "bpm_field": 20,
+  "bpm_valid": 9,
+  "bpm_zero": 11,
+  "bpm_distribution": [
+    89.88,
+    115.5,
+    116.46,
+    118.8,
+    159.01,
+    159.63,
+    160.2,
+    160.25,
+    161.5
+  ],
+  "musicbrainz_recording_found": 16,
+  "musicbrainz_tags_nonempty": 5,
+  "lastfm_checked": 20,
+  "lastfm_tags_nonempty": 0,
+  "jazz_tag_exact": 0,
+  "calm_rule": 1,
+  "epic_rule": 0,
+  "upbeat_rule": 8,
+  "request_pass": 0,
+  "checked_at": "2026-11-08T01:34:18.917034+00:00",
+  "lastfm_direct_tags_nonempty": 0,
+  "lastfm_mbid_checked": 15
+}

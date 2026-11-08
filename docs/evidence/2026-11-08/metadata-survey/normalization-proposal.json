@@ -1,0 +1,633 @@
+{
+  "scope": "analysis only; no production filter change",
+  "rules": {
+    "jazz": "(?<!\\w)(jazz|jazzy|재즈)(?!\\w)",
+    "epic": "(?<!\\w)(epic|orchestral|cinematic|웅장|에픽)(?!\\w)",
+    "calm": "(?<!\\w)(calm|chill|chillout|chilled|melancholy|melancholic|차분|잔잔)(?!\\w)",
+    "upbeat": "(?<!\\w)(upbeat|cheerful|경쾌)(?!\\w)"
+  },
+  "samples": {
+    "rainy-jazz": {
+      "summary": {
+        "jazz": 1,
+        "epic": 3,
+        "calm": 0,
+        "upbeat": 0,
+        "request_pass": 0
+      },
+      "records": [
+        {
+          "deezer_track_id": 3040782,
+          "isrc": "USMC17251835",
+          "title": "Love Theme From \"The Godfather\"",
+          "tags": [
+            "big band",
+            "cinematic classical",
+            "film score",
+            "general film music",
+            "movie soundtrack",
+            "score",
+            "soundtrack",
+            "stage & screen"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [
+              "cinematic classical"
+            ],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 3040776,
+          "isrc": "USMC17251829",
+          "title": "The Godfather Waltz (Main Title)",
+          "tags": [
+            "big band",
+            "cinematic classical",
+            "film score",
+            "general film music",
+            "jazz_easy listening_big band",
+            "movie soundtrack",
+            "score",
+            "soundtrack",
+            "stage & screen"
+          ],
+          "matched": {
+            "jazz": [
+              "jazz_easy listening_big band"
+            ],
+            "epic": [
+              "cinematic classical"
+            ],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 3040783,
+          "isrc": "USMC17251836",
+          "title": "The Godfather Waltz",
+          "tags": [
+            "big band",
+            "cinematic classical",
+            "film score",
+            "general film music",
+            "movie soundtrack",
+            "score",
+            "soundtrack",
+            "stage & screen"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [
+              "cinematic classical"
+            ],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 4316773682,
+          "isrc": "USA2P2671929",
+          "title": "V8",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 4316773482,
+          "isrc": "USA2P2671909",
+          "title": "You Can See Everything",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 4316773512,
+          "isrc": "USA2P2671912",
+          "title": "Starlight",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 2404250065,
+          "isrc": "TCAHH2378814",
+          "title": "The Dark Knight (Original Motion Picture Soundtrack) [Live]",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 1031113782,
+          "isrc": "TCAEO1929285",
+          "title": "Schindler's List (Original Motion Picture Soundtrack)",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 1097379,
+          "isrc": "USUG10600332",
+          "title": "Ninna-Nanna A Michele",
+          "tags": [
+            "score",
+            "soundtrack"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 1097369,
+          "isrc": "USUG10600328",
+          "title": "Main Title/The Immigrant",
+          "tags": [
+            "movie soundtrack",
+            "score",
+            "soundtrack"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 1097380,
+          "isrc": "USUG10600335",
+          "title": "The Brothers Mourn",
+          "tags": [
+            "movie soundtrack",
+            "score",
+            "soundtrack"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 1084248502,
+          "isrc": "GBUM72000734",
+          "title": "Life's Talent For Change",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 1084248722,
+          "isrc": "GBUM72000744",
+          "title": "We Must Rewild The World",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 1084248542,
+          "isrc": "GBUM72000728",
+          "title": "A Place Beyond Imagination",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 142223447,
+          "isrc": "USLS51795628",
+          "title": "Beyond Football",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 142223393,
+          "isrc": "USLS51795601",
+          "title": "Made in America",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 142223405,
+          "isrc": "USLS51795607",
+          "title": "Control",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 3330702281,
+          "isrc": "QZMEQ2599749",
+          "title": "Inception (An Original Soundtrack)",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 582309752,
+          "isrc": "NLMP11900009",
+          "title": "Fight Club (Original Soundtrack from 'Oldskool Heroes')",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 55131921,
+          "isrc": "ITC460200123",
+          "title": "The Trio - Il Triello (Extended Version)",
+          "tags": [
+            "classical",
+            "contemporary classical",
+            "score",
+            "soundtrack"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        }
+      ]
+    },
+    "eighties-sf": {
+      "summary": {
+        "jazz": 0,
+        "epic": 0,
+        "calm": 0,
+        "upbeat": 0,
+        "request_pass": 0
+      },
+      "records": [
+        {
+          "deezer_track_id": 579929322,
+          "isrc": "USUM71603921",
+          "title": "Humanity (Pt. 2)",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 579929252,
+          "isrc": "USUM71603915",
+          "title": "Humanity (Pt. 1)",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 579929262,
+          "isrc": "USUM71603916",
+          "title": "Shape",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 889834692,
+          "isrc": "US5941405749",
+          "title": "Main Title - The Terminator",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 889834852,
+          "isrc": "US5941405750",
+          "title": "The Terminator Theme (Extended Version)",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 889834702,
+          "isrc": "US5941405698",
+          "title": "Terminator Arrival / Reese Chased / Sarah on Motorbike",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 93631702,
+          "isrc": "USUM71416991",
+          "title": "Flying (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+          "tags": [
+            "classical",
+            "soundtrack",
+            "soundtracks"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 93631694,
+          "isrc": "USUM71416987",
+          "title": "Three Million Light Years From Home (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 93631706,
+          "isrc": "USUM71417065",
+          "title": "Over The Moon (From \"E.T. The Extra-Terrestrial\" Soundtrack)",
+          "tags": [
+            "classical",
+            "soundtrack",
+            "soundtracks"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 111778002,
+          "isrc": "USQ4E1501748",
+          "title": "Back To Back / It's Your Kids (From “Back To The Future Pt. II” Original Score)",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 111778004,
+          "isrc": "USQ4E1501749",
+          "title": "Main Title (Extended Version / From “Back To The Future Pt. II” Original Score)",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 111778044,
+          "isrc": "USMC18930708",
+          "title": "End Title (From “Back To The Future Pt. II” Original Score)",
+          "tags": [
+            "movie soundtrack",
+            "score",
+            "soundtrack"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 889843032,
+          "isrc": "US5941405169",
+          "title": "Rock Shop",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 889842962,
+          "isrc": "US5941405162",
+          "title": "Drive Montage",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 889843232,
+          "isrc": "US5941405177",
+          "title": "Across The Board/End Credits",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 130008996,
+          "isrc": "USMC18622115",
+          "title": "Main Title",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 130009016,
+          "isrc": "USMC18622125",
+          "title": "Home Again: End Credits",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 130009008,
+          "isrc": "USMC18622121",
+          "title": "Chekov's Run",
+          "tags": [],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 3507334441,
+          "isrc": "GBAJC0002929",
+          "title": "Main Title",
+          "tags": [
+            "ambient",
+            "electronic",
+            "experimental",
+            "minimal",
+            "movie soundtrack",
+            "score",
+            "soundtrack"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        },
+        {
+          "deezer_track_id": 3507334451,
+          "isrc": "GBAJC0002930",
+          "title": "The Bank Robbery",
+          "tags": [
+            "ambient",
+            "electronic",
+            "experimental",
+            "minimal",
+            "movie soundtrack",
+            "score",
+            "soundtrack"
+          ],
+          "matched": {
+            "jazz": [],
+            "epic": [],
+            "calm": [],
+            "upbeat": []
+          },
+          "passes_without_bpm": false
+        }
+      ]
+    }
+  }
+}
