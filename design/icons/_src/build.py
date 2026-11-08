@@ -7,6 +7,32 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 D = json.load(open(os.path.join(HERE, 'spec.json'), encoding='utf-8'))
 NAVY = D['NAVY']; SP = D['spec']; CN = D['C']
 OUT = os.path.join(HERE, 'deliver'); shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
+def _circ(cx, cy, r):
+    return f'M{cx-r} {cy}A{r} {r} 0 1 0 {cx+r} {cy}A{r} {r} 0 1 0 {cx-r} {cy}Z'
+_base = SP['A-remote']['fg'][:-2]; _disc = SP['A-remote']['fg'][-2][0]; _tri = SP['A-remote']['fg'][-1][0]
+def _L(h):
+    h = h.lstrip('#'); c = [int(h[i:i+2], 16) / 255 for i in (0, 2, 4)]; c = [x / 12.92 if x <= .03928 else ((x + .055) / 1.055) ** 2.4 for x in c]
+    return .2126 * c[0] + .7152 * c[1] + .0722 * c[2]
+def _cr(a, b):
+    la, lb = _L(a), _L(b); return (max(la, lb) + .05) / (min(la, lb) + .05)
+PLAYV = [  # (id, 이름, 원 색, 삼각 색, 금 테두리, 설명)
+ ('P0', '처음 파랑(참고)', '#387AFF', '#FCFCFF', False, 'One UI 시안 파랑 — 회장님 "촌스럽다"'),
+ ('P1', '진한 금색', '#B8954A', '#080D13', False, '회장님 예시 계열 · 포스터와 대비가 낮아 48px 에서 흐릴 수 있음'),
+ ('P2', '더 진한 금색', '#9C7A3C', '#080D13', False, '포스터와 대비를 지금 파랑과 비슷하게 맞춘 금색'),
+ ('P3', '남색 검정', '#080D13', '#F5D59A', False, '액자 화면 바탕색 원 + 진행 바 금색 삼각 — 아이콘 바탕과 같은 색'),
+ ('P4', '남색 검정 + 금 테두리', '#080D13', '#F5D59A', True, 'P3 에 진행 바 금색 테두리 1(원 크기 그대로 안쪽으로)'),
+ ('P5', '순검정', '#000000', '#FFFFFF', False, '검정 원 + 흰 삼각 — 가장 또렷'),
+ ('P6', '반투명 검정', '#5F5542', '#F5D59A', False, '검정 55% 를 포스터 위에 겹친 색(합성 #5F5542) + 밝은 금 삼각 — 포스터가 비쳐 보이는 느낌'),
+ ('P7', '밝은 금색', '#F5D59A', '#080D13', False, '진행 바 금색 원 + 남색 삼각 — 포스터와 대비가 가장 낮음'),
+]
+for pid, nm, dc, tc, ring, note in PLAYV:
+    fg = list(_base)
+    if ring:
+        fg += [(_disc, '#F5D59A', ''), (_circ(54, 48, 7.4), dc, '')]
+    else:
+        fg += [(_disc, dc, '')]
+    fg += [(_tri, tc, '')]
+    SP['A-remote@' + pid] = {'fg': fg, 'mono': SP['A-remote']['mono']}
 SLUG = {'A': 'A-poster-bar', 'B': 'B-note-frame', 'C': 'C-film-c'}
 APP = {'frame': ('Cinema Frame', '액자 앱 · android/'), 'remote': ('Cinema Remote', '폰 리모컨 · phone/')}
 REC = 'A'
@@ -58,6 +84,22 @@ for k, slug in SLUG.items():
             sheet.paste(crop, (i * 208, 0), m)
         sheet.save(os.path.join(d, 'preview-masks.png'))
 
+# ── 1b. 재생 버튼 색 시안 PNG (확정판 res 는 그대로)
+PC = os.path.join(OUT, 'A-poster-bar', 'play-color'); os.makedirs(PC, exist_ok=True)
+def _tile(key, px, bg=NAVY):
+    full = Image.new('RGBA', (int(px * 1.5),) * 2, bg); full.alpha_composite(png(fg_svg(key), int(px * 1.5))); o = int(px * .25)
+    t = full.crop((o, o, o + px, o + px)); out = Image.new('RGBA', (px, px), (0, 0, 0, 0)); out.paste(t, (0, 0), squircle_mask(px)); return out
+for pid, nm, dc, tc, ring, note in PLAYV:
+    key = 'A-remote@' + pid; W = 48 + 108 + 192 + 72 * 2 + 16 * 6
+    sh = Image.new('RGBA', (W, 224), (22, 24, 26, 255)); x = 16
+    for px in (48, 108, 192): sh.alpha_composite(_tile(key, px), (x, 16 + 192 - px)); x += px + 16
+    wl = Image.new('RGBA', (72 * 2 + 48, 104), (220, 228, 238, 255)); wl.alpha_composite(_tile('A-frame', 72), (16, 16)); wl.alpha_composite(_tile(key, 72), (104, 16))
+    sh.alpha_composite(wl, (x, 16)); wd = Image.new('RGBA', (72 * 2 + 48, 104), (10, 14, 20, 255)); wd.alpha_composite(_tile('A-frame', 72), (16, 16)); wd.alpha_composite(_tile(key, 72), (104, 16)); sh.alpha_composite(wd, (x, 120))
+    sh.save(os.path.join(PC, f'{pid}-{dc.lstrip("#")}.png'))
+ov = Image.new('RGBA', (len(PLAYV) * 124 + 16, 140), (22, 24, 26, 255))
+for i, v in enumerate(PLAYV): ov.alpha_composite(_tile('A-remote@' + v[0], 108), (16 + i * 124, 16))
+ov.save(os.path.join(PC, 'overview-108.png'))
+
 # ── 2. 비교 페이지
 def tile(key, px, shape='squircle', mono=None):
     """적응형 아이콘: 108 층을 1.5배로 그리고 가운데 72 만 마스크로 보임"""
@@ -101,8 +143,8 @@ h = [f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="vi
      '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">'
      f'<style>{CSS}</style></head><body><div class="wrap">']
 h.append('<h1>Cinema Frame · Cinema Remote 앱 아이콘</h1>')
-h.append('<p class="banner">확정: A (회장님 11-08) — 리모컨 아이콘은 액자 아이콘과 같은 그림에 포스터 가운데 재생 버튼 하나만 더함. B · C 는 보류. 앱에 넣는 일은 codex(design/icons/README.md).</p>')
-h.append('<p>두 앱을 한 가족으로: 바탕은 액자 화면 바탕 <code>#080D13</code>, 표식은 액자 금색 <code>#D3BD92</code> · 진행 바 <code>#F5D59A</code>(MainActivity.java). 리모컨은 같은 표식에 리모컨 One UI 9 시안의 파랑 <code>#387AFF</code> 을 더해 구분.</p>')
+h.append('<p class="banner">확정: A (회장님 11-08) — 리모컨 아이콘은 액자 아이콘과 같은 그림에 포스터 가운데 재생 버튼 하나만 더함. 재생 버튼 = P3(남색 원 #080D13 · 진행 바 금색 삼각 #F5D59A). B · C 는 보류. 앱에 넣는 일은 codex(design/icons/README.md).</p>')
+h.append('<p>두 앱을 한 가족으로: 바탕은 액자 화면 바탕 <code>#080D13</code>, 표식은 액자 금색 <code>#D3BD92</code> · 진행 바 <code>#F5D59A</code>(MainActivity.java). 리모컨은 같은 그림에 재생 버튼 하나만 더해 구분(B · C 후보는 One UI 파랑 <code>#387AFF</code> 사용).</p>')
 h.append('<p class="mute">안드로이드 적응형 아이콘: 108dp 층(가운데 72dp 가 보임 · 안전 영역 지름 66dp) · 배경 층 · 단색(테마 아이콘) 층. 둥근 사각은 One UI 바탕화면 모양을 반지름 30% 로 근사. 테마 아이콘 색은 바탕화면에 따라 바뀌며 여기 색은 예시.</p>')
 # 한눈에 비교
 h.append('<section><h2>한눈에 비교 — 바탕화면 72px (A 확정 · B · C 보류)</h2><div class="walls">')
@@ -135,13 +177,25 @@ for k in 'ABC':
         h.append(f'<div class="layer"><div class="bx">{mono_svg(key)}</div><b class="mute">{APP[app][0].split()[1]} 단색</b></div>')
     h.append(f'<div class="layer"><div class="bx" style="background:{NAVY}"></div><b class="mute">배경 {NAVY}</b></div></div>')
     h.append('</section>')
+h.append('<section id="play"><h2>재생 버튼 색 — 리모컨 시안 <span class="rec">P3 확정</span></h2>'
+         '<p style="margin-top:8px">액자 아이콘 그림 · 원 크기(r8.5) · 위치(포스터 가운데) · 삼각 모양은 그대로, 원과 삼각 색만 바꿈. 대비는 WCAG 명암비(원 ↔ 포스터 #D3BD92 · 삼각 ↔ 원).</p>'
+         '<h3>단색 테마 아이콘 — 모든 시안 공통</h3><p class="mute">테마 아이콘은 색을 쓰지 않고 모양만 쓰므로 8안 모두 같음: 포스터에서 원을 뚫고 안에 삼각 → 48px 에서도 재생 모양이 남음.</p><div class="row">'
+         + ''.join(f'<div class="cell">{tile("A-remote", px, sh, TH[t])}<b>{"라이트" if t == "light" else "다크"} {px}</b></div>' for t in ('light', 'dark') for px, sh in ((48, 'circle'), (72, 'squircle'))) + '</div>')
+for pid, nm, dc, tc, ring, note in PLAYV:
+    key = 'A-remote@' + pid
+    h.append(f'<div class="card" style="margin-top:16px"><h4>{pid} · {nm}{" <span class=rec>확정</span>" if pid == "P3" else ""} <span class="mute">원 {dc} · 삼각 {tc}{" · 테두리 #F5D59A" if ring else ""}</span></h4>'
+             f'<p class="mute">{note} — 원↔포스터 {_cr(dc, "#D3BD92"):.2f} : 1 · 삼각↔원 {_cr(tc, dc):.2f} : 1</p>'
+             '<div class="row">' + f'<div class="cell">{tile("A-frame", 72)}<b>액자(그대로)</b></div>'
+             + ''.join(f'<div class="cell">{tile(key, px)}<b>{px}</b></div>' for px in (48, 108, 192)) + '</div>'
+             '<div class="walls" style="margin-top:16px">' + ''.join(f'<div class="wall {w}">' + ''.join(f'<div class="app">{tile(k2, 72)}<span class="l">{lb}</span></div>' for k2, lb in (('A-frame', 'Cinema Frame'), (key, 'Cinema Remote'))) + '</div>' for w in ('light', 'dark')) + '</div></div>')
+h.append('</section>')
 h.append('<section><h2>근거 · 시험</h2><table><tr><th>항목</th><th>값</th><th>근거</th></tr>'
          '<tr><td>바탕</td><td>#080D13</td><td>액자 화면 바탕 MainActivity.java 111행</td></tr>'
          '<tr><td>금색 · 밝은 금색</td><td>#D3BD92 · #F5D59A</td><td>액자 "C I N E M A F R A M E" 글자 41행 · 진행 바 103행</td></tr>'
          '<tr><td>진행 바 남은 쪽</td><td>#5B5240</td><td>파생 — 금색을 바탕 쪽으로 낮춤(A 만)</td></tr>'
-         '<tr><td>파랑</td><td>#387AFF</td><td>리모컨 One UI 9 시안 primary(재생 버튼 · 진행 바)</td></tr>'
+         '<tr><td>파랑</td><td>#387AFF</td><td>리모컨 One UI 9 시안 primary — B · C 후보와 P0 참고에만(확정 A 에는 안 씀)</td></tr>'
          '<tr><td>안전 영역</td><td>전경이 지름 66dp 안</td><td>렌더 픽셀 실측: 6개 모두 밖 0px</td></tr>'
-         '<tr><td>A 리모컨 = 액자 + 재생</td><td>포스터 가운데 (54,48) · 파랑 원 r8.5 · 흰 삼각</td><td>216px 렌더 비교: 재생 버튼 원 밖 픽셀 차이 0 (액자 그림과 완전히 같음)</td></tr>'
+         '<tr><td>A 리모컨 = 액자 + 재생</td><td>포스터 가운데 (54,48) · 원 r8.5 #080D13 · 삼각 #F5D59A (P3)</td><td>216px 렌더 비교: 재생 버튼 원 밖 픽셀 차이 0 (액자 그림과 완전히 같음)</td></tr>'
          '<tr><td>A 리모컨 단색</td><td>포스터에서 원을 뚫고 안에 삼각</td><td>48px 테마 아이콘 라이트 · 다크 · 흑백 반전에서 재생 모양 남음(삼각 구멍만 낸 안은 48px 에서 너무 작아 뺌)</td></tr>'
          '<tr><td>작은 크기 · 단색 · 반전</td><td>48px · 단색 4종 · 테마 아이콘 라이트/다크</td><td>이 페이지에 실제 크기로 그림</td></tr></table>'
          '<p class="mute" style="margin-top:16px">원본 SVG · 밀도별 PNG · 넣는 방법: GitHub happy4ed/cinema-frame · ux/settings-progress · design/icons/README.md</p></section>')

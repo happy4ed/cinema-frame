@@ -75,10 +75,10 @@ _h = 8.6; _w = _h * 0.866; _x0 = PCX - _w / 3
 A_tri = f'M{f(_x0)} {f(PCY - _h/2)}L{f(_x0)} {f(PCY + _h/2)}L{f(_x0 + _w)} {f(PCY)}Z'   # 무게중심 = 원 중심
 A_play = circle(PCX, PCY, PR)
 C['A'] = {
- 'name': '포스터와 진행 바', 'idea': '액자 화면 그대로 — 액자 테두리 안 세로 포스터와 그 아래 금색 진행 바. 리모컨은 같은 그림의 포스터 가운데에 One UI 파랑 재생 버튼 하나만 더함.',
+ 'name': '포스터와 진행 바', 'idea': '액자 화면 그대로 — 액자 테두리 안 세로 포스터와 그 아래 금색 진행 바. 리모컨은 같은 그림의 포스터 가운데에 재생 버튼 하나만 더함(남색 원 · 진행 바 금색 삼각 — P3).',
  'frame': {'fg': [(A_frame, GOLD, 'evenodd'), (A_inner, GOLD, ''), (A_bar_done, LIGHT, ''), (A_bar_rest, DIM, '')], 'mono': [A_poster, A_bar_done, A_bar_rest]},
  # 단색: 포스터에서 원을 뚫고 그 안에 삼각을 채움 — 48px 테마 아이콘에서도 재생 모양이 남음(삼각 구멍만은 너무 작았음)
- 'remote': {'fg': [(A_frame, GOLD, 'evenodd'), (A_inner, GOLD, ''), (A_bar_done, LIGHT, ''), (A_bar_rest, DIM, ''), (A_play, BLUE, ''), (A_tri, WHITE, '')],
+ 'remote': {'fg': [(A_frame, GOLD, 'evenodd'), (A_inner, GOLD, ''), (A_bar_done, LIGHT, ''), (A_bar_rest, DIM, ''), (A_play, NAVY, ''), (A_tri, LIGHT, '')],   # 재생 버튼 P3 확정(11-08): 남색 원 #080D13 · 진행 바 금색 삼각 #F5D59A
             'mono': [A_poster, A_play, A_tri, A_bar_done, A_bar_rest]},
 }
 # ── B 음표 액자: 세로 액자 테두리 안 8분음표. 리모컨은 테두리가 파랑 휴대폰
