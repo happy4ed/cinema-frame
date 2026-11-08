@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.graphics.*;
 import android.graphics.drawable.GradientDrawable;
+import android.util.TypedValue;
 import android.view.*;
 import android.widget.*;
 import android.text.TextUtils;
@@ -43,9 +44,9 @@ public class MainActivity extends Activity {
         setupCode=text(72,Color.WHITE);setupCode.setTypeface(Typeface.create("sans-serif-light",Typeface.NORMAL));setupCode.setGravity(Gravity.CENTER);setupCode.setLetterSpacing(.08f);setupCode.setPadding(0,dp(8),0,dp(18));setup.addView(setupCode);
         setupHelp=text(12,0xBFFFFFFF);setupHelp.setGravity(Gravity.CENTER);setupHelp.setLineSpacing(dp(4),1f);setup.addView(setupHelp);
         FrameLayout.LayoutParams center=new FrameLayout.LayoutParams(-1,-2,Gravity.CENTER);center.setMargins(dp(34),dp(24),dp(34),dp(24));root.addView(setup,center);
-        pairButton=text(12,0xCCD3BD92);pairButton.setText("연결");pairButton.setContentDescription("휴대폰 / Home Assistant 연결 코드 표시");pairButton.setGravity(Gravity.CENTER);pairButton.setMinWidth(dp(48));pairButton.setMinHeight(dp(48));pairButton.setOnClickListener(v->{if(core!=null)core.showPairing();});FrameLayout.LayoutParams pairPosition=new FrameLayout.LayoutParams(dp(64),dp(48),Gravity.BOTTOM|Gravity.RIGHT);pairPosition.setMargins(0,0,dp(24),dp(10));root.addView(pairButton,pairPosition);
+        pairButton=text(12,0xCCD3BD92);pairButton.setText("연결");pairButton.setContentDescription("휴대폰 / Home Assistant 연결 코드 표시");pairButton.setGravity(Gravity.CENTER);pairButton.setMinWidth(dp(48));pairButton.setMinHeight(dp(48));pairButton.setOnClickListener(v->{if(core!=null)core.showPairing();});FrameLayout.LayoutParams pairPosition=new FrameLayout.LayoutParams(dp(64),dp(48),Gravity.BOTTOM|Gravity.RIGHT);pairPosition.setMargins(0,0,dp(24),dp(40));/* 하단 재생바 시간 글자(바닥에서 36dp) 위로 */root.addView(pairButton,pairPosition);
         closePair=text(13,0xFFD3BD92);closePair.setText("닫기");closePair.setGravity(Gravity.CENTER);closePair.setMinHeight(dp(48));closePair.setOnClickListener(v->{if(core!=null)core.hidePairing();});setup.addView(closePair);
-        progress=new ProgressLine();root.addView(progress,new FrameLayout.LayoutParams(-1,4,Gravity.BOTTOM));progress.setVisibility(View.GONE);setContentView(root);
+        progress=new ProgressLine();root.addView(progress,new FrameLayout.LayoutParams(-1,dp(36),Gravity.BOTTOM));progress.setVisibility(View.GONE);setContentView(root);
         try{startForegroundService(new android.content.Intent(this,FrameService.class));core=FrameCore.get(this);base="http://127.0.0.1:8787";key=core.key;code=core.code;setupTitle.setText("Your next scene.");setupText.setText("휴대폰과 연결을 준비하고 있습니다");}
         catch(Exception e){setupTitle.setText("Cinema Frame");setupText.setText("연결을 준비하지 못했습니다. 앱을 다시 열어 주세요.");return;}
         main.post(animate);worker.scheduleWithFixedDelay(this::tick,0,1000,TimeUnit.MILLISECONDS);
@@ -92,12 +93,18 @@ public class MainActivity extends Activity {
     @Override public void onStart(){super.onStart();visible=true;if(core!=null)core.displayVisibility(true);}
     @Override public void onStop(){visible=false;if(core!=null)core.displayVisibility(false);super.onStop();}
     @Override public void onDestroy(){alive=false;worker.shutdownNow();main.removeCallbacks(animate);super.onDestroy();}
+    /** 하단 재생바: 맨 아래 4px 선 + 그 위 왼쪽 지금 재생 위치 · 오른쪽 곡 전체 길이(포스터 위에서도 읽히게 그림자) */
     private final class ProgressLine extends View {
-        private final Paint paint=new Paint(Paint.ANTI_ALIAS_FLAG);private long position,duration,sampledAt;private boolean running;
-        ProgressLine(){super(MainActivity.this);}
+        private static final int LINE=4;
+        private final Paint paint=new Paint(Paint.ANTI_ALIAS_FLAG),label=new Paint(Paint.ANTI_ALIAS_FLAG);private long position,duration,sampledAt;private boolean running;
+        ProgressLine(){super(MainActivity.this);label.setColor(0xE6FFFFFF);label.setTextSize(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,13,getResources().getDisplayMetrics()));label.setTypeface(Typeface.create("sans-serif",Typeface.NORMAL));label.setFontFeatureSettings("tnum");label.setShadowLayer(dp(3),0,dp(1),0xB3000000);}
         void update(long p,long d,boolean play,long at){position=p;duration=d;running=play;sampledAt=at;invalidate();}
-        @Override protected void onDraw(Canvas c){super.onDraw(c);paint.setColor(0x667D858C);c.drawRect(0,0,getWidth(),getHeight(),paint);if(duration>0){long now=position+(running?Math.max(0,System.currentTimeMillis()-sampledAt):0);paint.setColor(0xFFF5D59A);c.drawRect(0,0,getWidth()*Math.min(1f,(float)now/duration),getHeight(),paint);}}
+        @Override protected void onDraw(Canvas c){super.onDraw(c);float w=getWidth(),h=getHeight(),top=h-LINE;paint.setColor(0x667D858C);c.drawRect(0,top,w,h,paint);
+            if(duration>0){long now=Math.min(duration,position+(running?Math.max(0,System.currentTimeMillis()-sampledAt):0));paint.setColor(0xFFF5D59A);c.drawRect(0,top,w*Math.min(1f,(float)now/duration),h,paint);
+                float base=top-dp(10);label.setTextAlign(Paint.Align.LEFT);c.drawText(clock(now),dp(24),base,label);label.setTextAlign(Paint.Align.RIGHT);c.drawText(clock(duration),w-dp(24),base,label);}}
     }
+    /** 3:07 · 1:02:45 (한 시간 넘으면 시:분:초) */
+    static String clock(long ms){long s=Math.max(0,ms/1000),h=s/3600,m=s%3600/60,sec=s%60;return h>0?String.format(Locale.ROOT,"%d:%02d:%02d",h,m,sec):String.format(Locale.ROOT,"%d:%02d",m,sec);}
     private final class CinemaBackdrop extends View {
         private final Paint paint=new Paint(Paint.ANTI_ALIAS_FLAG);
         CinemaBackdrop(){super(MainActivity.this);}
