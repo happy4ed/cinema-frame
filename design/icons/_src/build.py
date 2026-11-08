@@ -1,0 +1,146 @@
+#!/usr/bin/env python3
+"""spec.json → 비교 페이지(index.html) + 저장소 전달 폴더(SVG 층 · 밀도별 PNG · 미리보기 PNG)."""
+import json, os, shutil, io
+import cairosvg
+from PIL import Image, ImageDraw
+HERE = os.path.dirname(os.path.abspath(__file__))
+D = json.load(open(os.path.join(HERE, 'spec.json'), encoding='utf-8'))
+NAVY = D['NAVY']; SP = D['spec']; CN = D['C']
+OUT = os.path.join(HERE, 'deliver'); shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
+SLUG = {'A': 'A-poster-bar', 'B': 'B-note-frame', 'C': 'C-film-c'}
+APP = {'frame': ('Cinema Frame', '액자 앱 · android/'), 'remote': ('Cinema Remote', '폰 리모컨 · phone/')}
+REC = 'A'
+
+def fg_svg(key, size=None):
+    w = f' width="{size}" height="{size}"' if size else ''
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108"{w}>' + ''.join(
+        f'<path fill="{c}"{" fill-rule=" + chr(34) + r + chr(34) if r else ""} d="{d}"/>' for d, c, r in SP[key]['fg']) + '</svg>'
+def mono_svg(key, color='#FFFFFF', size=None):
+    w = f' width="{size}" height="{size}"' if size else ''
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108"{w}><path fill="{color}" fill-rule="evenodd" d="{SP[key]["mono"]}"/></svg>'
+def bg_svg(): return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108"><rect width="108" height="108" fill="{NAVY}"/></svg>'
+def png(svg, px): return Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode(), output_width=px, output_height=px))).convert('RGBA')
+
+# ── 1. 저장소 전달 파일
+DENS = [('mdpi', 1), ('hdpi', 1.5), ('xhdpi', 2), ('xxhdpi', 3), ('xxxhdpi', 4)]
+def squircle_mask(px):
+    m = Image.new('L', (px, px), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, px - 1, px - 1], radius=int(px * 0.3), fill=255); return m
+for k, slug in SLUG.items():
+    for app in ('frame', 'remote'):
+        key = f'{k}-{app}'; d = os.path.join(OUT, slug, app); os.makedirs(d)
+        open(os.path.join(d, 'ic_launcher_foreground.svg'), 'w').write(fg_svg(key))
+        open(os.path.join(d, 'ic_launcher_monochrome.svg'), 'w').write(mono_svg(key))
+        open(os.path.join(d, 'ic_launcher_background.svg'), 'w').write(bg_svg())
+        for name, s in DENS:
+            md = os.path.join(d, 'res', f'mipmap-{name}'); os.makedirs(md)
+            fpx = int(108 * s); lpx = int(48 * s)
+            png(fg_svg(key), fpx).save(os.path.join(md, 'ic_launcher_foreground.png'))
+            png(mono_svg(key), fpx).save(os.path.join(md, 'ic_launcher_monochrome.png'))
+            # 레거시(48dp): 바탕 + 전경의 가운데 72/108 을 둥근 사각으로
+            full = Image.new('RGBA', (int(lpx * 1.5), int(lpx * 1.5)), NAVY); full.alpha_composite(png(fg_svg(key), int(lpx * 1.5)))
+            o = int(lpx * 0.25); crop = full.crop((o, o, o + lpx, o + lpx)); out = Image.new('RGBA', (lpx, lpx), (0, 0, 0, 0)); out.paste(crop, (0, 0), squircle_mask(lpx))
+            out.save(os.path.join(md, 'ic_launcher.png'))
+        av = os.path.join(d, 'res', 'mipmap-anydpi-v26'); os.makedirs(av)
+        open(os.path.join(av, 'ic_launcher.xml'), 'w').write(
+            '<?xml version="1.0" encoding="utf-8"?>\n<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">\n'
+            '    <background android:drawable="@color/ic_launcher_background"/>\n    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>\n'
+            '    <monochrome android:drawable="@mipmap/ic_launcher_monochrome"/>\n</adaptive-icon>\n')
+        vd = os.path.join(d, 'res', 'values'); os.makedirs(vd)
+        open(os.path.join(vd, 'ic_launcher_colors.xml'), 'w').write(f'<?xml version="1.0" encoding="utf-8"?>\n<resources>\n    <color name="ic_launcher_background">{NAVY}</color>\n</resources>\n')
+        # 미리보기 PNG: 원형 · 둥근 사각 · 물방울 (192)
+        full = Image.new('RGBA', (288, 288), NAVY); full.alpha_composite(png(fg_svg(key), 288)); crop = full.crop((48, 48, 240, 240))
+        sheet = Image.new('RGBA', (192 * 3 + 32, 192), (0, 0, 0, 0))
+        for i, shape in enumerate(('circle', 'squircle', 'teardrop')):
+            m = Image.new('L', (192, 192), 0); dr = ImageDraw.Draw(m)
+            if shape == 'circle': dr.ellipse([0, 0, 191, 191], fill=255)
+            elif shape == 'squircle': dr.rounded_rectangle([0, 0, 191, 191], radius=58, fill=255)
+            else: dr.ellipse([0, 0, 191, 191], fill=255); dr.rounded_rectangle([96, 96, 191, 191], radius=18, fill=255)
+            sheet.paste(crop, (i * 208, 0), m)
+        sheet.save(os.path.join(d, 'preview-masks.png'))
+
+# ── 2. 비교 페이지
+def tile(key, px, shape='squircle', mono=None):
+    """적응형 아이콘: 108 층을 1.5배로 그리고 가운데 72 만 마스크로 보임"""
+    if mono:
+        inner = mono_svg(key, mono[1]); bg = mono[0]
+    else:
+        inner = fg_svg(key); bg = NAVY
+    return f'<span class="ic {shape}" style="--s:{px}px;background:{bg}">{inner}</span>'
+TH = {'light': ('#D9E2FF', '#13264A'), 'dark': ('#2B3953', '#D9E2FF')}
+CSS = """
+:root{color-scheme:dark}*{box-sizing:border-box}
+body{margin:0;background:#0b0c0d;color:#eceae4;font-family:'Inter','Noto Sans KR',sans-serif;line-height:1.5;word-break:keep-all;padding:24px 16px 64px}
+.wrap{max-width:1180px;margin:0 auto}h1{font-size:22px;margin:0 0 8px}h2{font-size:19px;margin:0}h3{font-size:15px;margin:24px 0 8px;color:#c2c6bf}
+p,li{font-size:15px;color:#c2c6bf;margin:0 0 8px}.mute{color:#9aa098;font-size:14px}
+.rec{display:inline-block;margin-left:8px;padding:0 8px;border-radius:999px;background:#ff50a0;color:#fff;font-size:14px;line-height:22px;vertical-align:2px}
+section{margin-top:40px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12)}
+.ic{position:relative;display:inline-block;width:var(--s);height:var(--s);overflow:hidden;flex:0 0 auto}
+.ic svg{position:absolute;left:calc(var(--s) * -.25);top:calc(var(--s) * -.25);width:calc(var(--s) * 1.5);height:calc(var(--s) * 1.5)}
+.circle{border-radius:50%}.squircle{border-radius:30%}.teardrop{border-radius:50% 50% 10% 50%}
+.row{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-end}
+.cell{display:flex;flex-direction:column;align-items:center;gap:8px}.cell b{font-size:14px;font-weight:400;color:#9aa098}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:24px}@media (max-width:760px){.pair{grid-template-columns:1fr}}
+.card{background:#16181a;border-radius:16px;padding:16px}.card h4{margin:0 0 16px;font-size:15px}
+.wall{display:flex;gap:32px;justify-content:center;padding:24px 16px;border-radius:16px}
+.wall.light{background:linear-gradient(160deg,#eef2f7,#cfd9e6)}.wall.dark{background:linear-gradient(160deg,#1b2430,#05070a)}
+.app{display:flex;flex-direction:column;align-items:center;gap:8px;width:96px}.app span.l{font-size:14px;text-align:center;line-height:18px}
+.light .app span.l{color:#111}.dark .app span.l{color:#fff}
+.walls{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media (max-width:760px){.walls{grid-template-columns:1fr}}
+.inv{display:flex;flex-wrap:wrap;gap:16px}.inv span.sw{display:inline-flex;align-items:center;justify-content:center;width:88px;height:88px;border-radius:16px}
+.inv svg{width:72px;height:72px}
+.layers{display:flex;flex-wrap:wrap;gap:16px}.layer{display:flex;flex-direction:column;gap:8px;align-items:center}
+.layer .bx{position:relative;width:162px;height:162px;background:repeating-conic-gradient(#222 0 25%,#2c2c2c 0 50%) 0 0/16px 16px;border-radius:8px;overflow:hidden}
+.layer .bx svg{width:162px;height:162px;display:block}.layer .bx::after{content:'';position:absolute;left:31.5px;top:31.5px;width:99px;height:99px;border-radius:50%;box-shadow:0 0 0 1px #ff50a0}
+table{border-collapse:collapse;width:100%;font-size:14px;margin-top:8px}td,th{border-bottom:1px solid rgba(255,255,255,.12);padding:8px;text-align:left;vertical-align:top;color:#c2c6bf}th{color:#eceae4}
+code{font-size:14px;color:#9cc2ff}
+"""
+h = [f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cinema Frame · Cinema Remote 앱 아이콘 후보</title>'
+     '<link rel="icon" href="data:image/svg+xml,' + fg_svg('A-frame').replace('"', "'").replace('#', '%23') + '">'
+     '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">'
+     f'<style>{CSS}</style></head><body><div class="wrap">']
+h.append('<h1>Cinema Frame · Cinema Remote 앱 아이콘 후보</h1>')
+h.append('<p>두 앱을 한 가족으로: 바탕은 액자 화면 바탕 <code>#080D13</code>, 표식은 액자 금색 <code>#D3BD92</code> · 진행 바 <code>#F5D59A</code>(MainActivity.java). 리모컨은 같은 표식에 리모컨 One UI 9 시안의 파랑 <code>#387AFF</code> 을 더해 구분.</p>')
+h.append('<p class="mute">안드로이드 적응형 아이콘: 108dp 층(가운데 72dp 가 보임 · 안전 영역 지름 66dp) · 배경 층 · 단색(테마 아이콘) 층. 둥근 사각은 One UI 바탕화면 모양을 반지름 30% 로 근사. 테마 아이콘 색은 바탕화면에 따라 바뀌며 여기 색은 예시.</p>')
+# 한눈에 비교
+h.append('<section><h2>한눈에 비교 — 바탕화면 72px</h2><div class="walls">')
+for wall in ('light', 'dark'):
+    h.append(f'<div class="wall {wall}" style="flex-wrap:wrap">')
+    for k in 'ABC':
+        for app in ('frame', 'remote'):
+            h.append(f'<div class="app">{tile(f"{k}-{app}", 72)}<span class="l">{k} · {APP[app][0].split()[1]}</span></div>')
+    h.append('</div>')
+h.append('</div></section>')
+for k in 'ABC':
+    h.append(f'<section id="{k}"><h2>{k} · {CN[k]["name"]}{"<span class=rec>추천</span>" if k == REC else ""}</h2><p style="margin-top:8px">{CN[k]["idea"]}</p>')
+    h.append('<div class="pair">')
+    for app in ('frame', 'remote'):
+        key = f'{k}-{app}'
+        h.append(f'<div class="card"><h4>{APP[app][0]} <span class="mute">{APP[app][1]}</span></h4>')
+        h.append('<h3 style="margin-top:0">마스크 3종 · 108px</h3><div class="row">' + ''.join(f'<div class="cell">{tile(key, 108, s)}<b>{n}</b></div>' for s, n in (('circle', '원형'), ('squircle', '둥근 사각'), ('teardrop', '물방울'))) + '</div>')
+        h.append('<h3>크기 48 · 72 · 108 · 192</h3><div class="row">' + ''.join(f'<div class="cell">{tile(key, px)}<b>{px}</b></div>' for px in (48, 72, 108, 192)) + '</div>')
+        h.append('<h3>테마 아이콘(단색) · 라이트 / 다크</h3><div class="row">' + ''.join(f'<div class="cell">{tile(key, 72, "squircle", TH[t])}<b>{"라이트" if t == "light" else "다크"}</b></div>' for t in ('light', 'dark'))
+                 + ''.join(f'<div class="cell">{tile(key, 48, "circle", TH[t])}<b>48</b></div>' for t in ('light', 'dark')) + '</div>')
+        h.append('<h3>단색 · 반전</h3><div class="inv">' + ''.join(f'<span class="sw" style="background:{b}">{mono_svg(key, c)}</span>' for b, c in (('#FFFFFF', '#000000'), ('#000000', '#FFFFFF'), ('#D3BD92', '#080D13'), ('#080D13', '#D3BD92'))) + '</div>')
+        h.append('</div>')
+    h.append('</div>')
+    h.append('<h3>바탕화면에서 두 앱 나란히</h3><div class="walls">' + ''.join(
+        f'<div class="wall {w}">' + ''.join(f'<div class="app">{tile(f"{k}-{a}", 72)}<span class="l">{APP[a][0]}</span></div>' for a in ('frame', 'remote')) + '</div>' for w in ('light', 'dark')) + '</div>')
+    h.append('<h3>층 보기 — 분홍 원 = 안전 영역(지름 66dp)</h3><div class="layers">')
+    for app in ('frame', 'remote'):
+        key = f'{k}-{app}'
+        h.append(f'<div class="layer"><div class="bx">{fg_svg(key)}</div><b class="mute">{APP[app][0].split()[1]} 전경</b></div>')
+        h.append(f'<div class="layer"><div class="bx">{mono_svg(key)}</div><b class="mute">{APP[app][0].split()[1]} 단색</b></div>')
+    h.append(f'<div class="layer"><div class="bx" style="background:{NAVY}"></div><b class="mute">배경 {NAVY}</b></div></div>')
+    h.append('</section>')
+h.append('<section><h2>근거 · 시험</h2><table><tr><th>항목</th><th>값</th><th>근거</th></tr>'
+         '<tr><td>바탕</td><td>#080D13</td><td>액자 화면 바탕 MainActivity.java 111행</td></tr>'
+         '<tr><td>금색 · 밝은 금색</td><td>#D3BD92 · #F5D59A</td><td>액자 "C I N E M A F R A M E" 글자 41행 · 진행 바 103행</td></tr>'
+         '<tr><td>진행 바 남은 쪽</td><td>#5B5240</td><td>파생 — 금색을 바탕 쪽으로 낮춤(A 만)</td></tr>'
+         '<tr><td>파랑</td><td>#387AFF</td><td>리모컨 One UI 9 시안 primary(재생 버튼 · 진행 바)</td></tr>'
+         '<tr><td>안전 영역</td><td>전경이 지름 66dp 안</td><td>렌더 픽셀 실측: 6개 모두 밖 0px</td></tr>'
+         '<tr><td>작은 크기 · 단색 · 반전</td><td>48px · 단색 4종 · 테마 아이콘 라이트/다크</td><td>이 페이지에 실제 크기로 그림</td></tr></table>'
+         '<p class="mute" style="margin-top:16px">원본 SVG · 밀도별 PNG · 넣는 방법: GitHub happy4ed/cinema-frame · ux/settings-progress · design/icons/README.md</p></section>')
+h.append('</div></body></html>')
+html = ''.join(h)
+open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(html)
+print('ok', sum(len(fs) for _, _, fs in os.walk(OUT)), 'files')
