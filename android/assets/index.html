@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-mode="dark"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#010102"><title>Cinema Frame Remote</title>
+<!doctype html><html lang="ko" data-mode="system"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#010102"><title>Cinema Frame Remote</title>
 <script>try{const m=localStorage.getItem('cf-theme');if(m)document.documentElement.dataset.mode=m;}catch(e){}</script>
 <style>
 /* One UI 9 · 캐논 One UI 9.5 토큰 (autographer/DESIGN.md) + One UI 9 실화면 실측 */
@@ -7,7 +7,7 @@ html[data-mode=light]{--bg:#F3F3F5;--surface:#FCFCFF;--surface-bright:#FCFCFF;--
 @media (prefers-color-scheme:light){html[data-mode=system]{--bg:#F3F3F5;--surface:#FCFCFF;--surface-bright:#FCFCFF;--container:#E4E4E7;--container-high:#CCCCCE;--on-hi:#010102;--on-high:#252528;--on:#4D4D52;--on-low:#636368;--on-lowest:#848487;--outline:#CCCCCE;--outline-low:#E4E4E7;--primary-bright:#387AFF;--red:#D93E36;--green:#11A85F;--scrim:rgba(0,0,0,.18);--pressed:rgba(0,0,0,.1);--mb:#E4E4E7;--seek-track:rgba(1,1,2,.2);--vol-fill:#636368;--field:#F3F3F5;--seg-bg:transparent;--seg-sel:#EFEFF1;--sw-off:#A4A3A8;--sw-off-line:#8C8B90;--sw-off-knob:#fff;--menu-fx:0 8px 24px rgba(0,0,0,.16);color-scheme:light}}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--on-hi);font-family:system-ui,'Noto Sans KR',sans-serif;line-height:1.5;word-break:keep-all;overflow-wrap:break-word}
-button{font:inherit;color:inherit}
+button{font:inherit;color:inherit;padding:0}
 .hidden,[hidden]{display:none!important}
 svg{display:block}
 /* 앱바 */
@@ -15,7 +15,7 @@ svg{display:block}
 .brand{min-width:0;font-size:19px;line-height:24px;font-weight:700;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:380px){.brand{font-size:17px}}
 .abr{display:flex;align-items:center;gap:8px;flex:0 0 auto}
-.status{display:inline-flex;align-items:center;gap:4px;font-size:12px;line-height:16px;color:var(--on-lowest);white-space:nowrap}
+.status{display:inline-flex;align-items:center;gap:4px;font-size:14px;line-height:20px;color:var(--on-lowest);white-space:nowrap}
 .status i{width:8px;height:8px;border-radius:50%;background:var(--green)}
 .status.off{color:var(--red)}.status.off i{background:var(--red)}
 .ab2{display:flex;align-items:center;height:56px;padding:0 var(--margin) 0 4px}
@@ -31,27 +31,28 @@ svg{display:block}
 /* 서브헤더 · 묶음 */
 .sh{display:flex;align-items:center;justify-content:space-between;min-height:20px;margin:var(--gap) calc(var(--margin) + var(--pad)) 8px;font-size:14px;line-height:20px;font-weight:700;color:var(--on-lowest)}
 .first>.sh:first-child,.ab2+.sh{margin-top:8px}
-.grp{margin:0 var(--margin);padding:var(--pad);border-radius:22px;background:var(--surface)}
+.grp{display:flow-root;margin:0 var(--margin);padding:var(--pad);border-radius:22px;background:var(--surface)}
 .grp.list{padding-top:0;padding-bottom:0}
 /* 지금 재생 */
 .now{position:relative;display:flex;gap:16px}
 .plate{position:relative;flex:0 0 auto;width:96px;height:144px;border-radius:12px;overflow:hidden;background:var(--container)}
 .plate img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.plate img:not([src]){visibility:hidden}
 .plate .ib{position:absolute;top:4px;right:4px;color:#fff;filter:drop-shadow(0 1px 2px rgba(0,0,0,.7))}
 .info{flex:1;min-width:0}
 .song{margin:0;font-size:19px;line-height:24px;font-weight:700}
 .cred{margin-top:8px;font-size:14px;line-height:20px;color:var(--on-low)}
-.meta{margin-top:8px;font-size:13px;line-height:18px;color:var(--on-lowest)}
+.meta{margin-top:8px;font-size:14px;line-height:20px;color:var(--on-lowest)}
 .meta span{display:block}
 .player{position:relative;display:flex;align-items:center;justify-content:center;height:48px;margin-top:24px}
 .mb{position:relative;width:48px;height:48px;border:0;border-radius:50%;background:var(--mb);color:var(--on-hi);display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
 .mb:active{background-image:linear-gradient(var(--pressed),var(--pressed))}
 .mb svg{width:20px;height:20px}
 .player .next{position:absolute;right:0}
-.vrow{display:flex;justify-content:space-between;font-size:13px;line-height:18px;color:var(--on-lowest);font-variant-numeric:tabular-nums}
+.vrow{display:flex;justify-content:space-between;font-size:14px;line-height:20px;color:var(--on-lowest);font-variant-numeric:tabular-nums}
 .crow{display:flex;align-items:center;gap:16px;height:40px;margin-top:8px}
 .seekg{margin-top:16px}.volg{margin-top:24px}
-.statusline{margin-top:16px;font-size:13px;line-height:18px;color:var(--on-lowest)}
+.statusline{margin-top:16px;font-size:14px;line-height:20px;color:var(--on-lowest)}
 /* 막대: 실제 range 입력 위에 One UI 모양을 그림 */
 .bar{position:relative;flex:1;height:40px;--v:0}
 .bar input{position:absolute;inset:-4px 0;width:100%;height:48px;margin:0;background:transparent;-webkit-appearance:none;appearance:none;cursor:pointer;touch-action:none}
@@ -86,7 +87,7 @@ svg{display:block}
 .row .t .ell{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .v{font-size:15px;line-height:20px;color:var(--on-lowest);white-space:nowrap}
 .applied{margin-top:4px;padding-top:15px;border-top:1px solid var(--outline-low)}
-.ap-t{font-size:13px;line-height:18px;font-weight:700;color:var(--on-lowest)}
+.ap-t{font-size:14px;line-height:20px;font-weight:700;color:var(--on-lowest)}
 .ap-v{margin-top:4px;font-size:15px;line-height:20px;color:var(--on-hi)}
 .btn-ton,.btn-pri{display:flex;align-items:center;justify-content:center;width:100%;height:48px;padding:0 24px;border:0;border-radius:999px;font-size:15px;line-height:20px;font-weight:700;cursor:pointer;text-decoration:none}
 .btn-ton{background:var(--container);color:var(--on-hi)}
@@ -105,9 +106,8 @@ svg{display:block}
 .seg button{position:relative;flex:1;min-width:0;padding:0 4px;border:0;border-radius:999px;background:transparent;font-size:14px;line-height:20px;color:var(--on-low);white-space:nowrap;cursor:pointer}
 .seg button::before{content:'';position:absolute;left:-2px;right:-2px;top:-4px;bottom:-4px}
 .seg button[aria-pressed=true]{background:var(--seg-sel);color:var(--on-hi);font-weight:700}
-.hint{margin-top:8px;font-size:13px;line-height:18px;color:var(--on-lowest)}
+.hint{margin-top:8px;font-size:14px;line-height:20px;color:var(--on-lowest)}
 .desc{margin:0 calc(var(--margin) + var(--pad)) 0;font-size:14px;line-height:20px;color:var(--on-lowest)}
-.credit{margin:24px calc(var(--margin) + var(--pad)) 0;font-size:12px;line-height:18px;color:var(--on-lowest)}
 /* 영화 정보 */
 .mi{display:grid;grid-template-columns:120px minmax(0,1fr);grid-template-areas:"p h" "b b" "d d";column-gap:16px;margin:8px var(--margin) 0;padding:0 var(--pad)}
 .mi .plate{grid-area:p;width:120px;height:180px}
@@ -140,12 +140,58 @@ svg{display:block}
 .toast{position:fixed;left:50%;bottom:max(32px,env(safe-area-inset-bottom));z-index:9;transform:translate(-50%,8px);opacity:0;max-width:calc(100% - 48px);padding:10px 16px;border-radius:999px;background:#3A3A3D;color:#FCFCFF;font-size:14px;line-height:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:opacity .18s,transform .18s;pointer-events:none}
 .toast.on{opacity:1;transform:translate(-50%,0)}
 .setup{padding-bottom:24px}
-.codein{display:block;width:100%;height:56px;margin-top:16px;padding:0 16px;border:0;border-radius:16px;background:var(--field);color:var(--on-hi);font:inherit;font-size:24px;letter-spacing:8px;text-align:center;outline:0}
-.authcode{margin:16px 0;font-size:30px;line-height:36px;letter-spacing:5px;text-align:center;font-variant-numeric:tabular-nums}
+.codein{display:block;width:100%;height:56px;margin-top:0;padding:0 16px;border:0;border-radius:16px;background:var(--field);color:var(--on-hi);font:inherit;font-size:24px;letter-spacing:8px;text-align:center;outline:0}
+.authcode{margin:16px 0;font-size:32px;line-height:40px;letter-spacing:4px;font-weight:700;text-align:center;font-variant-numeric:tabular-nums}
 .grp p{margin:8px 0 0;font-size:14px;line-height:20px;color:var(--on-lowest)}
 .grp .gt{font-size:17px;line-height:22px;font-weight:700}
 .stack>*+*{margin-top:8px}
 main{padding-bottom:24px}
+/* 11-08 시안 반영 — 새로 정한 간격은 8 배수, 행 15 · 묶음 사이 18 · 화면 10 은 확정 One UI 실측값 */
+.cdesc{margin:0 calc(var(--margin) + var(--pad)) 24px;font-size:14px;line-height:20px;color:var(--on-lowest)}
+.foot{margin:16px calc(var(--margin) + var(--pad)) 0;font-size:14px;line-height:20px;color:var(--on-lowest)}
+.foot+.foot{margin-top:8px}
+.st{font-size:14px;line-height:20px;color:var(--on-lowest)}.st.err{color:var(--red)}
+.notice{margin-top:24px;padding:8px 16px;border-radius:12px;background:var(--container);font-size:14px;line-height:20px;color:var(--on-hi)}
+#rejectstyle{margin:24px 0 0}
+.row .mini{position:relative;flex:0 0 auto;height:32px;padding:0 16px;border:0;border-radius:999px;background:var(--container);color:var(--on-hi);font-size:14px;line-height:20px;font-weight:700;white-space:nowrap;cursor:pointer}
+.row .mini::before{content:'';position:absolute;left:-8px;right:-8px;top:-8px;bottom:-8px}
+.row .mini:active{background-image:linear-gradient(var(--pressed),var(--pressed))}
+.blk{padding:16px 0;border-bottom:1px solid var(--outline-low)}
+.blk .bt{font-size:17px;line-height:22px;color:var(--on-hi)}
+.blk .seg{margin-top:8px}
+.fld+.fld{margin-top:16px}
+.fl{display:block;font-size:17px;line-height:22px;color:var(--on-hi)}
+/* One UI 입력 칸 = SESL9 EditText: 바탕 없음 · 밑줄 1dp(≈--on-lowest) · 포커스 밑줄 2dp(≈--on-hi) · 글자 17 */
+.tf{display:flex;align-items:center;gap:8px;height:48px;box-shadow:inset 0 -1px 0 var(--on-lowest)}
+.tf:focus-within{box-shadow:inset 0 -2px 0 var(--on-hi)}
+.tf input{flex:1;min-width:0;height:48px;padding:0;border:0;background:transparent;outline:0;font:inherit;font-size:17px;line-height:22px;color:var(--on-hi);caret-color:var(--primary)}
+.tf input::placeholder{color:var(--on-lowest)}
+.tf .eye{color:var(--on-low)}
+.queue .row{justify-content:flex-start;gap:16px}
+.qn{flex:0 0 16px;font-size:14px;line-height:20px;color:var(--on-lowest);font-variant-numeric:tabular-nums}
+.row.stat .t{font-size:15px;line-height:20px;color:var(--on-low)}
+.row.stat .v{font-size:17px;line-height:22px;color:var(--on-hi);font-weight:700}
+.row.split{padding:0;cursor:default;gap:16px}.row.split:active{background:none}
+.rmain{flex:1;min-width:0;display:block;min-height:52px;padding:15px 0;border:0;background:none;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.rmain:active{background:linear-gradient(var(--pressed),var(--pressed))}
+.rmain .t small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vdiv{width:1px;height:18px;background:var(--outline-low);flex:0 0 auto}
+.swb{flex:0 0 auto;display:flex;align-items:center;justify-content:flex-end;width:48px;height:52px;cursor:pointer}
+.mbar{display:flex;align-items:center;justify-content:space-between;height:52px;margin:0 var(--margin);padding:0 16px 0 24px;border-radius:999px;background:var(--container);cursor:pointer}
+.mbar .lb{font-size:17px;line-height:22px;font-weight:700;color:var(--primary-bright)}
+.mbar.off .lb{color:var(--on-low)}
+.mbar+.cdesc{margin-top:16px}
+.pick{gap:16px;justify-content:flex-start}
+.ck{position:relative;flex:0 0 auto;width:20px;height:20px;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--outline)}
+.pick[aria-checked=true] .ck{background:var(--primary);box-shadow:none}
+.pick[aria-checked=true] .ck::after{content:'';position:absolute;left:7px;top:3.5px;width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.toast.act{display:flex;align-items:center;gap:16px;padding:4px 8px 4px 16px;pointer-events:auto}
+.toast .tv{width:1px;height:12px;background:#636368;flex:0 0 auto}
+.toast .ta{position:relative;height:32px;padding:0 8px;border:0;background:none;color:#FCFCFF;font-size:14px;line-height:20px;font-weight:700;cursor:pointer}
+.toast .ta::before{content:'';position:absolute;left:0;right:0;top:-8px;bottom:-8px}
+/* 폰: 설정·하위 화면·첫 연결 화면은 그 화면 제목줄 하나만 */
+@media (max-width:599px){body:not([data-view=pick]) #appbar{display:none}}
+body.setup-on #appbar{display:none}
 /* 폰: 하위 화면은 전체 화면 */
 body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:none}
 /* 폴드 펼침 · 태블릿: 앱바 고정 + 아래 반반(왼쪽 = 지금 재생/포스터, 오른쪽 = 선곡/설정/기능) · 칸마다 따로 스크롤 */
@@ -170,12 +216,17 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
 <header class="ab" id="appbar"><div class="brand">Cinema Frame Remote</div><div class="abr"><span class="status" id="connection"><i></i><span>연결 중</span></span><button class="ib" id="opensettings" aria-label="설정"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg></button></div></header>
 
 <main class="setup hidden" id="setup">
-  <section class="first hidden" id="pairbox"><div class="sh">프레임 연결</div><div class="grp"><div class="gt">내 프레임 연결하기</div><p>프레임 화면에 표시된 6자리 코드를 입력하세요.</p>
-    <input class="codein" id="code" inputmode="numeric" maxlength="6" autocomplete="one-time-code" aria-label="프레임 연결 코드">
-    <div class="stack" style="margin-top:16px"><button class="btn-pri" id="pairbutton">연결</button><button class="btn-ton" id="showcode">프레임에 코드 표시</button></div></div></section>
-  <section class="first hidden" id="spotifysetup"><div class="sh">음악 계정</div><div class="grp"><div class="gt">Spotify 계정을 연결하세요</div><p>Spotify Premium 계정으로 로그인합니다. 비밀번호는 Spotify 공식 로그인 화면에서만 입력하세요.</p>
-    <p id="authstatus">로그인 연결을 준비하고 있습니다…</p><div class="authcode" id="authcode"></div>
-    <a class="btn-pri" id="authlink" style="display:none" href="#">Spotify 에서 연결</a><p>연결을 마친 뒤 이 화면으로 돌아오면 자동으로 확인합니다.</p></div></section>
+  <section class="hidden" id="pairbox"><div class="ab2"><div class="ttl" style="margin-left:12px">액자 연결</div></div>
+    <div class="cdesc">액자 화면에 나온 6자리 숫자를 넣어 주세요.</div>
+    <section class="grp"><input class="codein" id="code" inputmode="numeric" maxlength="6" autocomplete="one-time-code" placeholder="000000" aria-label="액자 연결 숫자">
+     <button class="btn-pri" id="pairbutton" style="margin-top:24px">연결</button></section>
+    <div class="sh">숫자가 안 보이면</div>
+    <section class="grp"><button class="btn-ton" id="showcode" style="margin:0">액자에 숫자 표시</button></section></section>
+  <section class="hidden" id="spotifysetup"><div class="ab2"><div class="ttl" style="margin-left:12px">Spotify 로그인</div></div>
+    <div class="cdesc">Spotify Premium 계정으로 로그인해요. 비밀번호는 Spotify 공식 로그인 화면에만 넣으세요.</div>
+    <section class="grp"><div class="st" id="authstatus">로그인을 준비하고 있어요…</div><div class="authcode hidden" id="authcode"></div>
+     <a class="btn-pri" id="authlink" style="display:none;margin-top:16px" href="#">Spotify 열기</a></section>
+    <div class="foot">연결을 마치고 이 화면으로 돌아오면 자동으로 확인해요.</div></section>
 </main>
 
 <div id="app" class="hidden">
@@ -188,7 +239,7 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
     <div class="player"><button class="mb" id="pause" aria-label="일시정지"></button><button class="mb next" id="next" aria-label="다음"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5.6v12.8a.8.8 0 0 0 1.25.66l9.3-6.4a.8.8 0 0 0 0-1.32l-9.3-6.4A.8.8 0 0 0 6 5.6z"/><rect x="17.2" y="5" width="2.4" height="14" rx="1"/></svg></button></div>
     <div class="seekg"><div class="vrow"><span id="elapsed">0:00</span><span id="duration">0:00</span></div><div class="crow"><div class="bar seekbar" id="seekbar"><div class="fill"></div><input id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="곡 재생 위치"></div></div></div>
     <div class="volg"><div class="vrow"><span>음량</span><span id="volumevalue"></span></div><div class="crow"><button class="ib sm" id="volumedown" type="button" aria-label="음량 낮추기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M5 12h14"/></svg></button><div class="bar volbar" id="volbar"><div class="track"><div class="fill"></div></div><input id="volume" type="range" min="0" max="100" step="1" aria-label="Cinema Frame 앱 음악 음량"></div><button class="ib sm" id="volumeup" type="button" aria-label="음량 높이기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></button></div></div>
-    <button class="btn-ton hidden" id="rejectstyle" type="button">이 스타일 아님</button><div class="statusline hidden" id="message" role="status"></div><details class="statusline"><summary>해석한 조건 · 선곡 기록</summary><pre id="interpretation" style="white-space:pre-wrap;font-size:12px"></pre><a href="/api/ost/audit" target="_blank">영화별 조회·제외 사유 (JSON)</a></details>
+    <button class="btn-ton hidden" id="rejectstyle" type="button">이 장르에서 빼기</button><div class="notice hidden" id="message" role="status"></div>
    </section>
    <section class="grp hidden" id="nowempty" style="text-align:center;padding:32px 24px"><div style="font-size:17px;line-height:22px;font-weight:700">아직 나오는 곡이 없어요</div><div class="statusline" id="emptymsg" style="margin-top:8px">듣고 싶은 영화나 분위기를 골라 보세요.</div></section>
   </section>
@@ -209,35 +260,78 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
    </section>
    <div class="sh">다음 후보</div>
    <section class="grp list queue" id="queue"><div class="empty">곡이 정해지면 다음 후보가 보여요.</div></section>
-   <p class="desc" style="margin-top:8px">실제 재생 때 새로 고를 수 있어요.</p>
+   <div class="foot hidden" id="queuenote">재생할 때 바뀔 수 있어요.</div>
   </section>
 
   <section class="view hidden" id="v-settings"><div class="ab2"><button class="ib back" data-back aria-label="뒤로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="ttl">설정</div></div>
-   <div class="sh">화면 모드</div>
-   <section class="grp"><div class="seg" role="group" aria-label="화면 모드"><button data-mode="light" aria-pressed="false">라이트</button><button data-mode="dark" aria-pressed="true">다크</button><button data-mode="system" aria-pressed="false">시스템</button></div><div class="hint">시스템을 고르면 휴대폰 설정을 따라갑니다.</div></section>
-   <div class="sh">액자 포스터 표시</div>
-   <section class="grp"><div class="seg" role="group" aria-label="포스터 표시"><button data-display="width" aria-pressed="false">폭 맞춤</button><button data-display="height" aria-pressed="true">높이 맞춤</button><button data-display="blur" aria-pressed="false">블러로 채우기</button></div><div class="hint" id="displayhint">높이를 맞춰 크게 표시하며 좌우가 잘릴 수 있습니다.</div></section>
-   <div class="sh">소리</div>
-   <section class="grp list"><label class="row"><span class="t">음량 균일화<small>곡마다 다른 음량을 비슷하게 맞춤</small></span><input class="sw" id="leveling" type="checkbox" role="switch"></label></section>
-   <div class="sh">국가별 제외</div>
-   <section class="grp list"><label class="row"><span class="t">국가별 제외<small id="countrycount">0개 선택</small></span><input class="sw" id="countriesenabled" type="checkbox" role="switch"></label><button class="row" id="countriesmore"><span class="t">더보기</span><span class="v">&gt;</span></button></section>
-   <div class="sh">스타일에서 제외한 곡</div><section class="grp list" id="styleexclusions"></section><div class="sh">제외한 영화</div>
-   <section class="grp list" id="xlist"><div class="empty">제외한 영화가 없어요. 지금 재생의 ⋮ › 이 영화 다시 안 보기로 추가해요.</div></section>
-   <div class="sh">자동 OST 색인</div><section class="grp list"><label class="row"><span class="t">매일 천천히 갱신<small id="indexstatus">연결 확인 중</small></span><input class="sw" id="indexenabled" type="checkbox" role="switch"></label><details class="row"><summary>API 연결 설정</summary><div><input id="geminikey" type="password" placeholder="Gemini API 키" autocomplete="off"><input id="lastfmkey" type="password" placeholder="Last.fm API 키" autocomplete="off"><input id="tmdbkey" type="password" placeholder="TMDB API 키 또는 Read Token" autocomplete="off"><button class="btn-ton" id="saveindex">프레임에 저장</button><small>입력한 키는 프레임에 저장됩니다. 빈 칸은 기존 값을 유지합니다.</small></div></details></section>
-   <div class="sh">연결</div><section class="grp list"><button class="row" id="addphone"><span class="t">다른 휴대폰 연결<small id="phonecount">기존 연결을 유지하고 코드를 표시합니다</small></span><span class="v">›</span></button>
-    <button class="row" id="reconnect"><span class="t">재생 연결 복구</span></button>
-    <button class="row" data-go="search"><span class="t">Spotify 검색 연결<small id="searchstatus">연결 전</small></span></button>
+   <div class="sh">선곡</div>
+   <section class="grp list">
+    <div class="row split"><button class="rmain" data-go="countries" aria-label="국가별 제외 — 나라 고르기"><span class="t">국가별 제외<small id="countrysum">고른 나라 없음</small></span></button><span class="vdiv"></span><label class="swb"><input class="sw" id="countriesenabled" type="checkbox" role="switch" aria-label="국가별 제외 사용"></label></div>
+    <button class="row" data-go="xmovie"><span class="t">제외한 영화</span><span class="v" id="xmoviecount">없음</span></button>
+    <button class="row" data-go="xsong"><span class="t">제외한 곡</span><span class="v" id="xsongcount">없음</span></button>
    </section>
-   <div class="sh">선곡 기준</div>
-   <section class="grp"><div class="ap-v" id="criteria" style="margin-top:0"></div></section>
-   <p class="credit">같은 영화 연속 재생 없음 · 회차 안 곡 중복 방지 · 후보 소진 시 새 회차. 포스터는 그때 불러오며 파일로 저장하지 않습니다. IMDb 영화 정보 · MusicBrainz OST 관계 · Spotify 계정 · 프레임 내장 재생 엔진.</p>
+   <div class="sh">액자</div>
+   <section class="grp list">
+    <div class="blk"><div class="bt">포스터 표시</div><div class="seg" role="group" aria-label="포스터 표시"><button data-display="width" aria-pressed="false">폭 맞춤</button><button data-display="height" aria-pressed="true">높이 맞춤</button><button data-display="blur" aria-pressed="false">블러로 채우기</button></div><div class="hint" id="displayhint">높이를 맞춰 크게 보여 주고, 좌우가 잘릴 수 있어요.</div></div>
+    <label class="row"><span class="t">음량 균일화<small>곡마다 다른 음량을 비슷하게 맞춤</small></span><input class="sw" id="leveling" type="checkbox" role="switch"></label>
+   </section>
+   <div class="sh">OST 자동 수집</div>
+   <section class="grp list">
+    <label class="row"><span class="t">매일 새 OST 찾기<small id="indexstatus">상태를 확인하고 있어요</small></span><input class="sw" id="indexenabled" type="checkbox" role="switch"></label>
+    <button class="row" data-go="keys"><span class="t">API 키</span><span class="v" id="keystate">확인 중</span></button>
+   </section>
+   <div class="sh">연결</div>
+   <section class="grp list">
+    <button class="row" id="addphone"><span class="t">다른 휴대폰 연결<small id="phonecount">액자에 연결 코드를 표시해요</small></span></button>
+    <button class="row" data-go="search"><span class="t">Spotify 검색 연결<small id="searchstatus">선택 · 연결 전</small></span></button>
+    <button class="row" id="reconnect"><span class="t">재생 연결 복구<small>음악이 멈추면 눌러 다시 이어요</small></span></button>
+   </section>
+   <div class="sh">리모컨 테마</div>
+   <section class="grp"><div class="seg" role="group" aria-label="리모컨 테마"><button data-mode="system" aria-pressed="false">시스템</button><button data-mode="light" aria-pressed="false">라이트</button><button data-mode="dark" aria-pressed="false">다크</button></div><div class="hint">시스템은 휴대폰 설정을 따라요.</div></section>
+   <div class="sh">선곡 현황</div>
+   <section class="grp list" id="criteria"></section>
+   <div class="foot">같은 영화는 이어서 나오지 않고, 한 바퀴 안에서는 곡이 겹치지 않아요. 후보를 다 들으면 처음부터 다시 골라요.</div>
+   <div class="foot">출처: IMDb 영화 정보 · Wikidata 제작 국가 · TMDB · Deezer 순위 · Spotify · Last.fm · Gemini 판정. 포스터는 그때그때 불러오고 저장하지 않아요.</div>
+  </section>
+
+  <section class="view hidden" id="v-countries"><div class="ab2"><button class="ib back" data-back aria-label="뒤로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="ttl">국가별 제외</div></div>
+   <label class="mbar" id="cmbar"><span class="lb" id="cmbarlb">사용 중</span><input class="sw" id="cmbarsw" type="checkbox" role="switch" aria-label="국가별 제외 사용"></label>
+   <div class="cdesc" id="cdesc">고른 나라의 영화 음악은 나오지 않아요. 홍콩·대만·중국은 따로 골라요. 합작 영화는 고른 나라가 하나라도 있으면 빠져요.</div>
+   <div id="cpicks"></div>
+  </section>
+
+  <section class="view hidden" id="v-xmovie"><div class="ab2"><button class="ib back" data-back aria-label="뒤로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="ttl">제외한 영화</div></div>
+   <div class="cdesc">다시 안 보기로 뺀 영화예요. 되돌리면 다음 선곡부터 다시 나올 수 있어요.</div>
+   <section class="grp list" id="xlist"></section>
+  </section>
+
+  <section class="view hidden" id="v-xsong"><div class="ab2"><button class="ib back" data-back aria-label="뒤로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="ttl">제외한 곡</div></div>
+   <div class="cdesc">지금 재생의 「재즈에서 빼기」처럼 음악 장르에서 뺀 곡이에요. 그 장르를 고를 때만 빠져요.</div>
+   <section class="grp list" id="styleexclusions"></section>
+  </section>
+
+  <section class="view hidden" id="v-keys"><div class="ab2"><button class="ib back" data-back aria-label="뒤로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="ttl">API 키</div></div>
+   <div class="cdesc">새 OST 를 찾을 때 쓰는 키예요. Gemini · Last.fm · TMDB 개발자 페이지에서 받은 키를 넣어요. 키는 액자에만 저장되고, 바꿀 키만 넣으면 돼요.</div>
+   <section class="grp">
+    <div class="fld"><label class="fl" for="geminikey">Gemini</label><div class="tf"><input id="geminikey" type="password" autocomplete="off" aria-label="Gemini API 키"><button class="ib eye" type="button" data-k="Gemini" aria-pressed="false" aria-label="Gemini 키 보기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c4.92 0 8.68 3.1 9.94 6.65a1 1 0 0 1 0 .7 10.75 10.75 0 0 1-1.44 2.49"/><path d="M14.08 14.16a3 3 0 0 1-4.24-4.24"/><path d="M17.48 17.5A10.75 10.75 0 0 1 2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 4.45-5.14"/><path d="m2 2 20 20"/></svg></button></div></div>
+    <div class="fld"><label class="fl" for="lastfmkey">Last.fm</label><div class="tf"><input id="lastfmkey" type="password" autocomplete="off" aria-label="Last.fm API 키"><button class="ib eye" type="button" data-k="Last.fm" aria-pressed="false" aria-label="Last.fm 키 보기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c4.92 0 8.68 3.1 9.94 6.65a1 1 0 0 1 0 .7 10.75 10.75 0 0 1-1.44 2.49"/><path d="M14.08 14.16a3 3 0 0 1-4.24-4.24"/><path d="M17.48 17.5A10.75 10.75 0 0 1 2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 4.45-5.14"/><path d="m2 2 20 20"/></svg></button></div></div>
+    <div class="fld"><label class="fl" for="tmdbkey">TMDB</label><div class="tf"><input id="tmdbkey" type="password" autocomplete="off" aria-label="TMDB API 키"><button class="ib eye" type="button" data-k="TMDB" aria-pressed="false" aria-label="TMDB 키 보기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c4.92 0 8.68 3.1 9.94 6.65a1 1 0 0 1 0 .7 10.75 10.75 0 0 1-1.44 2.49"/><path d="M14.08 14.16a3 3 0 0 1-4.24-4.24"/><path d="M17.48 17.5A10.75 10.75 0 0 1 2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 4.45-5.14"/><path d="m2 2 20 20"/></svg></button></div></div>
+    <button class="btn-pri" id="saveindex" style="margin-top:24px">저장</button>
+   </section>
   </section>
 
   <section class="view hidden" id="v-search"><div class="ab2"><button class="ib back" data-back aria-label="뒤로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="ttl">Spotify 검색 연결</div></div>
+   <div class="cdesc">Spotify 개발자 앱의 Client ID 를 넣으면 곡을 Spotify 공식 검색으로 찾아요. Client Secret 은 필요 없어요.</div>
+   <section class="grp list">
+    <div class="row static"><span class="t">상태</span><span class="v" id="searchstate">연결 전</span></div>
+    <div class="row static"><span class="t rev"><small>Redirect URI</small><span class="ell">http://127.0.0.1:43871/callback</span></span></div>
+   </section>
    <div class="sh">Client ID</div>
-   <section class="grp"><p style="margin-top:0">Spotify 개발자 앱의 Client ID 를 입력하세요. Redirect URI 는 http://127.0.0.1:43871/callback 입니다. Client Secret 은 필요하지 않습니다.</p>
-    <div class="inp" style="margin-top:16px"><input id="searchclient" placeholder="Client ID (32자리)" maxlength="32" aria-label="Spotify 검색 Client ID"></div>
-    <button class="btn-pri" id="searchconnect" style="margin-top:16px">연결</button><p id="searchresult"></p></section>
+   <section class="grp">
+    <div class="tf"><input id="searchclient" placeholder="32자리 Client ID" maxlength="32" aria-label="Spotify 검색 Client ID"></div>
+    <div class="st" id="searchresult" style="margin-top:8px">개발자 앱 설정의 Redirect URI 에 위 주소를 넣어 두세요.</div>
+    <button class="btn-pri" id="searchconnect" style="margin-top:24px">연결</button>
+   </section>
   </section>
 
   <section class="view hidden" id="v-info"><div class="ab2"><button class="ib back" data-back aria-label="뒤로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button><div class="ttl">영화 정보</div></div>
@@ -247,6 +341,7 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
     <div class="mi-d">
      <div class="sh">지금 나오는 곡</div>
      <section class="grp list"><div class="row static"><span class="t"><span id="itrack"></span><small id="iartist"></small></span><span class="v" id="idur"></span></div>
+      <div class="row static hidden" id="ijudge"><span class="t rev"><small>어울리는 음악 장르</small><span class="ell" id="ijudgev"></span></span></div>
       <a class="row" id="ialbum" href="#"><span class="t rev"><small id="ialbumsrc">앨범 열기</small><span class="ell" id="ialbumname">앨범</span></span></a></section>
      <div class="sh">더 보기</div>
      <section class="grp list"><a class="row" id="iimdb" href="#"><span class="t rev"><small>IMDb 에서 보기</small><span class="ell" id="iimdbname"></span></span></a></section>
@@ -261,19 +356,26 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
 <script>
 let state=null,lastVersion=-1,busy=false,promptLoaded=false,needsPair=false,posterVersion=-1,posterRetry=0,posterLoading=false;const $=id=>document.getElementById(id);
 const genreNames={Action:'액션',Adventure:'모험',Animation:'애니메이션',Biography:'전기',Comedy:'코미디',Crime:'범죄',Documentary:'다큐멘터리',Drama:'드라마',Family:'가족',Fantasy:'판타지',History:'역사',Horror:'공포',Music:'음악',Musical:'뮤지컬',Mystery:'미스터리',Romance:'로맨스','Sci-Fi':'SF',Sport:'스포츠',Thriller:'스릴러',War:'전쟁',Western:'서부극'};
-const ICON={pause:'<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6.5" y="5" width="4" height="14" rx="1.3"/><rect x="13.5" y="5" width="4" height="14" rx="1.3"/></svg>',play:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.9v14.2a.9.9 0 0 0 1.37.77l11.2-7.1a.9.9 0 0 0 0-1.54L8.37 4.13A.9.9 0 0 0 7 4.9z"/></svg>'};
+const ICON={eye:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 19.88 0 1 1 0 0 1 0 .7 10.75 10.75 0 0 1-19.88 0"/><circle cx="12" cy="12" r="3"/></svg>',eyeoff:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c4.92 0 8.68 3.1 9.94 6.65a1 1 0 0 1 0 .7 10.75 10.75 0 0 1-1.44 2.49"/><path d="M14.08 14.16a3 3 0 0 1-4.24-4.24"/><path d="M17.48 17.5A10.75 10.75 0 0 1 2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 4.45-5.14"/><path d="m2 2 20 20"/></svg>',pause:'<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6.5" y="5" width="4" height="14" rx="1.3"/><rect x="13.5" y="5" width="4" height="14" rx="1.3"/></svg>',play:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.9v14.2a.9.9 0 0 0 1.37.77l11.2-7.1a.9.9 0 0 0 0-1.54L8.37 4.13A.9.9 0 0 0 7 4.9z"/></svg>'};
 async function api(path,body){let r=await fetch(path,{method:body?'POST':'GET',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined,cache:'no-store'});let j=await r.json();if(!r.ok)throw Object.assign(new Error(j.error||'연결을 확인해 주세요'),{status:r.status});return j}
-function toast(m){const t=$('toast');t.textContent=m;t.classList.add('on');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('on'),2400);}
+function toast(m,act,fn){const t=$('toast');t.classList.toggle('act',!!act);t.replaceChildren(m);if(act){const v=document.createElement('span');v.className='tv';const b=document.createElement('button');b.className='ta';b.type='button';b.textContent=act;b.onclick=()=>{t.classList.remove('on');fn();};t.append(v,b);}t.classList.add('on');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('on'),act?5000:2400);}
+/* 확인 창: 「모두 되돌리기」처럼 되돌릴 길이 없는 일괄 동작 */
+function ask(title,body,ok,fn){dialog(`<div class="dlg" role="alertdialog" aria-label="${title}"><div class="dt"></div><div class="db"></div><div class="btns"><button class="cancel">취소</button><span class="vd"></span><button class="ok"></button></div></div>`,el=>{el.querySelector('.dt').textContent=title;el.querySelector('.db').textContent=body;el.querySelector('.ok').textContent=ok;el.querySelector('.cancel').onclick=closeOverlay;el.querySelector('.ok').onclick=()=>{closeOverlay();fn();};});}
 let lastErr='',lastErrAt=0;function error(e){const m=e.message||String(e);$('error').textContent=m;if(m!==lastErr||Date.now()-lastErrAt>10000){lastErr=m;lastErrAt=Date.now();toast(m)}}
-window.cinemaSearchResult=message=>{$('searchresult').textContent=message;refresh();};
-$('searchconnect').onclick=()=>{const id=$('searchclient').value.trim();if(!/^[a-f0-9]{32}$/i.test(id)){$('searchresult').textContent='32자리 Client ID를 입력해 주세요';return;}if(window.CinemaSearch){window.CinemaSearch.connect(id);$('searchresult').textContent='Spotify 인증 화면에서 허용한 뒤 돌아오세요';}else{$('searchresult').textContent='최신 Cinema Remote 앱에서 검색 연결을 진행해 주세요';}};
-$('showcode').onclick=async()=>{try{await api('/api/pairing/start',{});toast('프레임에 코드를 표시했어요')}catch(e){error(e)}};
-$('pairbutton').onclick=async()=>{try{await api('/api/pair',{code:$('code').value});needsPair=false;$('error').textContent='';await refresh()}catch(e){error(e)}};
+window.cinemaSearchResult=message=>{searchMsg(message);refresh();};
+function searchMsg(m,err){$('searchresult').textContent=m;$('searchresult').classList.toggle('err',!!err);}
+$('searchconnect').onclick=()=>{const id=$('searchclient').value.trim();if(!/^[a-f0-9]{32}$/i.test(id)){searchMsg('32자리 Client ID 를 넣어 주세요.',true);return;}if(window.CinemaSearch){window.CinemaSearch.connect(id);searchMsg('Spotify 인증 화면에서 허용한 뒤 돌아오세요.');}else{searchMsg('최신 Cinema Remote 앱에서 연결해 주세요.',true);}};
+$('showcode').onclick=async()=>{try{await api('/api/pairing/start',{});toast('액자에 숫자를 30초 동안 표시해요')}catch(e){error(e)}};
+$('pairbutton').onclick=async()=>{if(!/^\d{6}$/.test($('code').value.trim())){toast('6자리 숫자를 넣어 주세요');return;}try{await api('/api/pair',{code:$('code').value});needsPair=false;$('error').textContent='';await refresh()}catch(e){error(e)}};
 
 /* 화면 이동: 해시 = 하위 화면(뒤로 가기 지원) */
-const VIEWS=['pick','settings','search','info'];
+const VIEWS=['pick','settings','search','info','countries','xmovie','xsong','keys'];
+/* 가리는 칸 보기/숨기기 (회장님 11-08: 가려진 칸은 반드시 아이콘 토글) */
+function setEye(b,on){b.setAttribute('aria-pressed',String(on));b.setAttribute('aria-label',b.dataset.k+(on?' 키 숨기기':' 키 보기'));b.innerHTML=on?ICON.eye:ICON.eyeoff;b.previousElementSibling.type=on?'text':'password';}
+function hideSecrets(){document.querySelectorAll('.tf .eye').forEach(b=>setEye(b,false));}
+document.querySelectorAll('.tf .eye').forEach(b=>b.onclick=()=>setEye(b,b.getAttribute('aria-pressed')!=='true'));
 function showView(){let v=(location.hash||'').slice(1);if(!VIEWS.includes(v)||v==='pick')v='pick';if(v==='info'&&!state?.current)v='pick';
-  document.body.dataset.view=v;VIEWS.forEach(x=>$('v-'+x).classList.toggle('hidden',x!==v));closeMenu();if(v==='info')fillInfo();window.scrollTo(0,0);}
+  if(v!=='keys')hideSecrets();document.body.dataset.view=v;VIEWS.forEach(x=>$('v-'+x).classList.toggle('hidden',x!==v));closeMenu();if(v==='info')fillInfo();if(v==='countries')renderCountries();window.scrollTo(0,0);}
 function go(v){if(v==='pick'){if(location.hash)history.back();return;}location.hash=v;}
 addEventListener('hashchange',showView);
 document.querySelectorAll('[data-back]').forEach(b=>b.onclick=()=>history.length>1&&location.hash?history.back():(location.hash=''));
@@ -283,7 +385,7 @@ $('opensettings').onclick=()=>go('settings');
 /* 화면 모드 */
 function setMode(m){document.documentElement.dataset.mode=m;try{localStorage.setItem('cf-theme',m)}catch(e){}document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===m)));}
 document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
-setMode(document.documentElement.dataset.mode||'dark');
+setMode(document.documentElement.dataset.mode||'system');
 
 /* 요청 */
 async function send(text,label){text=(text||'').trim();if(!text||busy)return;busy=true;$('send').disabled=true;try{await api('/api/request',{text});$('error').textContent='';toast('"'+(label||text)+'" 요청함');await refresh()}catch(e){error(e)}finally{busy=false;$('send').disabled=false}}
@@ -327,7 +429,7 @@ $('more').onclick=e=>{e.stopPropagation();$('menu').classList.toggle('hidden')};
 document.addEventListener('click',e=>{if(!e.target.closest('#menu')&&!e.target.closest('#more'))closeMenu()});
 function confirmExclude(){const c=state?.current;if(!c)return;closeMenu();
   dialog(`<div class="dlg" role="alertdialog" aria-label="이 영화 다시 안 보기"><div class="dt">이 영화를 다시 안 볼까요?</div><div class="db"></div><div class="btns"><button class="cancel">취소</button><span class="vd"></span><button class="ok">빼기</button></div></div>`,
-   el=>{el.querySelector('.db').textContent=c.movie.title+' 의 음악이 다음 곡부터 나오지 않아요. 설정 › 제외한 영화에서 모두 되돌릴 수 있어요.';el.querySelector('.cancel').onclick=closeOverlay;el.querySelector('.ok').onclick=()=>{closeOverlay();send(c.movie.title+' 빼고',c.movie.title+' 빼기');};});}
+   el=>{el.querySelector('.db').textContent=c.movie.title+' 의 음악이 다음 곡부터 나오지 않아요. 설정 › 제외한 영화에서 되돌릴 수 있어요.';el.querySelector('.cancel').onclick=closeOverlay;el.querySelector('.ok').onclick=()=>{closeOverlay();send(c.movie.title+' 빼고',c.movie.title+' 빼기');};});}
 $('m-exclude').onclick=confirmExclude;$('iexclude').onclick=confirmExclude;
 $('m-info').onclick=()=>{closeMenu();go('info')};
 $('poster').onclick=()=>go('info');
@@ -338,25 +440,34 @@ function fillInfo(){const c=state?.current;if(!c)return;const m=c.movie;
   $('irating').textContent=m.rating?(m.rating_source||'IMDb')+' '+Number(m.rating).toFixed(1):'';$('itrack').textContent=cleanTitle(c.track.title);$('iartist').textContent=c.track.artist||'';
   const d=state.telemetry?.player?.track?.duration;$('idur').textContent=d?timeLabel(d):'';
   const url=c.album_url||c.track.album_url||'';const ok=/^https?:\/\//.test(url);$('ialbum').classList.toggle('hidden',!ok);if(ok){$('ialbum').href=url;$('ialbumsrc').textContent=/spotify\.com/.test(url)?'Spotify 앨범 열기':/musicbrainz\.org/.test(url)?'MusicBrainz 에서 보기':'앨범 열기';$('ialbumname').textContent=c.album_title||c.track.album||(m.title+' OST');}
-  const imdb='https://www.imdb.com/title/'+m.id+'/';$('iimdb').href=imdb;$('iimdbname').textContent='imdb.com/title/'+m.id;}
+  const imdb='https://www.imdb.com/title/'+m.id+'/';$('iimdb').href=imdb;$('iimdbname').textContent='imdb.com/title/'+m.id;
+  const g=c.track.gemini;$('ijudge').classList.toggle('hidden',!g);if(g){const st=(g.styles||[]).map(x=>musicNames[x]||x);$('ijudgev').textContent=g.knowledge==='unknown'||!st.length?'판정 못 함':st.join(' · ')+(CONF[g.confidence]?' ('+CONF[g.confidence]+')':'');}}
 ['iposter','bigposter'].forEach(id=>$(id).onerror=()=>{});
 
 /* 설정 */
 const COUNTRY_OPTIONS=[['IN','인도'],['HK','홍콩'],['KR','한국'],['JP','일본'],['CN','중국'],['TW','대만'],['TH','태국'],['ID','인도네시아'],['US','미국'],['CA','캐나다'],['MX','멕시코'],['GB','영국'],['FR','프랑스'],['DE','독일'],['IT','이탈리아'],['ES','스페인'],['RU','러시아'],['TR','튀르키예'],['IR','이란'],['EG','이집트'],['NG','나이지리아'],['BR','브라질'],['AR','아르헨티나'],['AU','호주']];
-$('countriesenabled').onchange=async()=>{try{await api('/api/countries',{enabled:$('countriesenabled').checked});await refresh()}catch(e){error(e);await refresh()}};
-$('countriesmore').onclick=()=>{
- const picked=new Set(state?.profile?.excluded_countries||[]);
- dialog('<div class="dlg" role="dialog" aria-label="국가별 제외"><div class="dt" id="ctitle"></div><div class="opts" id="coptions" style="max-height:55vh;overflow:auto"></div><div class="btns"><button class="cancel">취소</button><span class="vd"></span><button class="ok">적용</button></div></div>',el=>{
-  const render=()=>{el.querySelector('#ctitle').textContent='국가별 제외 · '+picked.size+'개 선택';const box=el.querySelector('#coptions');box.replaceChildren();
-   const add=([code,name])=>{const b=document.createElement('button');b.className='opt';b.setAttribute('role','checkbox');b.setAttribute('aria-checked',String(picked.has(code)));b.textContent=(picked.has(code)?'☑ ':'☐ ')+name+' · '+code;b.onclick=()=>{picked.has(code)?picked.delete(code):picked.add(code);render()};box.append(b)};
-   COUNTRY_OPTIONS.filter(([c])=>picked.has(c)).forEach(add);if(picked.size){box.append(document.createElement('hr'))}COUNTRY_OPTIONS.filter(([c])=>!picked.has(c)).forEach(add);
-  };render();el.querySelector('.cancel').onclick=closeOverlay;el.querySelector('.ok').onclick=async()=>{try{await api('/api/countries',{excluded_countries:[...picked],enabled:true});closeOverlay();await refresh()}catch(e){error(e)}};
- });
-};
+const CREG=[['동아시아',[['KR','한국'],['JP','일본'],['CN','중국 (본토)'],['HK','홍콩'],['TW','대만']]],['남·동남아시아',[['IN','인도'],['TH','태국'],['ID','인도네시아']]],['북미',[['US','미국'],['CA','캐나다'],['MX','멕시코']]],['유럽',[['GB','영국'],['FR','프랑스'],['DE','독일'],['IT','이탈리아'],['ES','스페인'],['RU','러시아']]],['그 밖',[['TR','튀르키예'],['IR','이란'],['EG','이집트'],['NG','나이지리아'],['BR','브라질'],['AR','아르헨티나'],['AU','호주']]]];
+const CALL=CREG.flatMap(([g,l])=>l);const CNAME=Object.fromEntries(CALL);
+let cPicked=null,cOn=null,cTimer=null;
+function cState(){const p=state?.profile||{};return {picked:cPicked||new Set(p.excluded_countries||[]),on:cOn!==null?cOn:p.country_exclusions_enabled!==false};}
+function countrySummary(){const {picked,on}=cState();const a=CALL.filter(([c])=>picked.has(c)).map(([,n])=>n);if(!a.length)return '고른 나라 없음';const names=a.length<=2?a.join(', '):a.slice(0,2).join(', ')+' 외 '+(a.length-2)+'개국';return names+(on?' 제외 중':' · 꺼 둠');}
+function saveCountries(){clearTimeout(cTimer);cTimer=setTimeout(async()=>{const {picked,on}=cState();try{await api('/api/countries',{excluded_countries:[...picked],enabled:on});cPicked=null;cOn=null;await refresh()}catch(e){error(e);cPicked=null;cOn=null;await refresh()}},700);}
+function setCountryOn(on){const {picked}=cState();cPicked=new Set(picked);cOn=on;syncCountryUi();saveCountries();}
+$('countriesenabled').onchange=()=>setCountryOn($('countriesenabled').checked);
+$('cmbarsw').onchange=()=>setCountryOn($('cmbarsw').checked);
+function syncCountryUi(){const {on}=cState();$('countriesenabled').checked=on;$('cmbarsw').checked=on;$('cmbar').classList.toggle('off',!on);$('cmbarlb').textContent=on?'사용 중':'사용 안 함';$('countrysum').textContent=countrySummary();if(document.body.dataset.view==='countries')renderCountries();}
+function renderCountries(){const {picked}=cState();const m=state?.country_mapping||{};
+  $('cdesc').textContent='고른 나라의 영화 음악은 나오지 않아요. 홍콩·대만·중국은 따로 골라요. 합작 영화는 고른 나라가 하나라도 있으면 빠져요.'+(m.unknown!==undefined?' 나라 정보가 없는 영화 '+Number(m.unknown).toLocaleString()+'편은 빼지 않아요.':'')+(m.complete===false?' 나라 정보를 아직 다 모으지 못했어요.':'');
+  const row=([c,n])=>{const b=document.createElement('button');b.className='row pick';b.setAttribute('role','checkbox');b.setAttribute('aria-checked',String(picked.has(c)));b.innerHTML='<span class="ck"></span><span class="t"></span>';b.querySelector('.t').textContent=n;b.onclick=()=>{const p=new Set(cState().picked);p.has(c)?p.delete(c):p.add(c);cPicked=p;if(cOn===null)cOn=cState().on;syncCountryUi();saveCountries();};return b;};
+  const grp=(title,items,empty)=>{const h=document.createElement('div');h.className='sh';h.textContent=title;const g=document.createElement('section');g.className='grp list';if(items.length)g.append(...items.map(row));else{const e=document.createElement('div');e.className='empty';e.textContent=empty;g.append(e);}return [h,g];};
+  const sel=CALL.filter(([c])=>picked.has(c));const out=[...grp('고른 나라 · '+sel.length,sel,'아직 고른 나라가 없어요. 아래에서 고르세요.')];
+  const rest=CREG.map(([g,l])=>[g,l.filter(([c])=>!picked.has(c))]).filter(([,l])=>l.length);
+  if(rest.length)rest.forEach(([g,l])=>out.push(...grp(g,l,'')));else out.push(...grp('나머지 나라',[],'모든 나라를 골랐어요. 나올 음악이 거의 없을 수 있어요.'));
+  $('cpicks').replaceChildren(...out);}
 $('reconnect').onclick=async()=>{try{await api('/api/control',{action:'reconnect'});toast('재생 연결을 복구하고 있어요')}catch(e){error(e)}};
 $('next').onclick=async()=>{try{await api('/api/control',{action:'next'});await refresh()}catch(e){error(e)}};
-$('pause').onclick=async()=>{try{await api('/api/control',{action:state?.phase==='paused'?'resume':'pause'});await refresh()}catch(e){error(e)}};
-let displayEditing=false;const displayHints={width:'폭을 맞춰 표시하고 위아래 여백은 검게 비웁니다.',height:'높이를 맞춰 크게 표시하며 좌우가 잘릴 수 있습니다.',blur:'확대한 포스터를 흐린 배경으로 깔고 원본은 폭에 맞춥니다.'};
+$('pause').onclick=async()=>{const resume=state?.phase==='paused';if(resume&&state?.current&&!state.display_visible)toast('액자에서 Cinema Frame 을 먼저 열어 주세요');try{await api('/api/control',{action:resume?'resume':'pause'});await refresh()}catch(e){error(e)}};
+let displayEditing=false;const displayHints={width:'폭을 맞춰 보여 주고, 위아래 빈 곳은 검게 둬요.',height:'높이를 맞춰 크게 보여 주고, 좌우가 잘릴 수 있어요.',blur:'포스터를 흐리게 키워 바탕에 깔고, 원본은 폭에 맞춰요.'};
 document.querySelectorAll('[data-display]').forEach(button=>button.onclick=async()=>{if(displayEditing)return;displayEditing=true;document.querySelectorAll('[data-display]').forEach(b=>b.disabled=true);try{await api('/api/display',{mode:button.dataset.display});$('error').textContent='';}catch(e){error(e)}finally{displayEditing=false;document.querySelectorAll('[data-display]').forEach(b=>b.disabled=false);await refresh();}});
 let volumeEditing=false,volumeSaving=false,volumePending=null,volumeHold=null,volumeDelay=null,volumeHeld=false;
 function volumeLabel(){$('volumevalue').textContent=Math.round(100*$('volume').value/$('volume').max)+'%';}
@@ -367,7 +478,7 @@ for(const [id,delta] of [['volumedown',-1],['volumeup',1]]){const button=$(id);b
 window.addEventListener('blur',stopVolumeHold);document.addEventListener('visibilitychange',()=>{if(document.hidden)stopVolumeHold()});
 $('volume').oninput=()=>{volumeEditing=true;volumeLabel()};$('volume').onchange=saveVolume;
 $('leveling').onchange=async()=>{try{await api('/api/volume',{leveling:$('leveling').checked});await refresh()}catch(e){error(e)}};
-function item(q){const d=document.createElement('div');d.className='row static';const t=document.createElement('span');t.className='t';t.textContent=q.movie.title;const s=document.createElement('small');s.textContent=cleanTitle(q.track.title)+(q.track.rank!==undefined?' · Deezer 순위 '+q.track.rank:'');t.append(s);const y=document.createElement('span');y.className='v';y.textContent=q.movie.year;d.append(t,y);return d}
+function item(q,i){const d=document.createElement('div');d.className='row static';const n=document.createElement('span');n.className='qn';n.textContent=i+1;const t=document.createElement('span');t.className='t';t.textContent=cleanTitle(q.track.title);const s=document.createElement('small');s.className='ell';s.textContent=[q.movie.title,q.movie.year].filter(Boolean).join(' · ');t.append(s);d.append(n,t);return d}
 /* 음량 막대 · 재생 위치 막대의 One UI 채움 표시 */
 function syncVolFill(){const v=$('volume');$('volbar').style.setProperty('--v',String(Number(v.value)/Number(v.max||100)));}
 const _volumeLabel=volumeLabel;volumeLabel=function(){_volumeLabel();syncVolFill();};
@@ -386,48 +497,65 @@ function loadPoster(version){if(posterLoading||Date.now()<posterRetry)return;pos
 function setConnection(ok,text){const c=$('connection');c.classList.toggle('off',!ok);c.querySelector('span').textContent=text;}
 function summaryText(p){return [p.music_style?'음악 '+(musicNames[p.music_style]||p.music_style):'',p.seed_title?p.seed_title+' 기준':'',(p.genres||[]).map(g=>genreNames[g]||g).join('·'),p.era?p.era+'년대':'',p.energy==='calm'?'차분하게':p.energy==='bright'?'경쾌하게':'',p.instrumental?'연주곡':''].filter(Boolean).join(' · ')||'전체 장르';}
 let indexPollAt=0;
-$('addphone').onclick=async()=>{try{await api('/api/pairing/start',{});toast('프레임에 연결 코드를 30초 동안 표시합니다')}catch(e){error(e)}};
-$('saveindex').onclick=async()=>{try{const body={enabled:$('indexenabled').checked};for(const k of ['gemini','lastfm','tmdb'])if($(k+'key').value.trim())body[k]=$(k+'key').value.trim();await api('/api/index/config',body);for(const k of ['gemini','lastfm','tmdb'])$(k+'key').value='';indexPollAt=0;toast('프레임에 색인 설정을 저장했습니다')}catch(e){error(e)}};
-$('indexenabled').onchange=async()=>{try{await api('/api/index/config',{enabled:$('indexenabled').checked});indexPollAt=0}catch(e){error(e)}};
-$('rejectstyle').onclick=async()=>{try{await api('/api/track-style/exclude',{version:state.version});toast('이 스타일에서 제외하고 다음 곡으로 이동합니다');await refresh()}catch(e){error(e)}};
+$('addphone').onclick=async()=>{try{await api('/api/pairing/start',{});toast('액자에 연결 코드를 30초 동안 표시해요')}catch(e){error(e)}};
+const KEYNAMES={gemini:'Gemini',lastfm:'Last.fm',tmdb:'TMDB'};
+$('saveindex').onclick=async()=>{const body={enabled:$('indexenabled').checked};for(const k of ['gemini','lastfm','tmdb'])if($(k+'key').value.trim())body[k]=$(k+'key').value.trim();if(Object.keys(body).length===1){toast('바꿀 키를 넣어 주세요');return;}try{await api('/api/index/config',body);for(const k of ['gemini','lastfm','tmdb'])$(k+'key').value='';indexPollAt=0;hideSecrets();toast('액자에 저장했어요');refresh()}catch(e){const m=/Invalid (\w+) key/.exec(e.message||'');toast(m?(KEYNAMES[m[1]]||m[1])+' 키를 확인해 주세요':(e.message||'저장하지 못했어요'))}};
+$('indexenabled').onchange=async()=>{try{await api('/api/index/config',{enabled:$('indexenabled').checked});indexPollAt=0;refresh()}catch(e){error(e)}};
+/* 「{장르}에서 빼기」 → 알림의 「되돌리기」 = /api/track-style/restore {isrc, style} */
+$('rejectstyle').onclick=async()=>{const isrc=state?.current?.track?.isrc,style=state?.profile?.music_style,name=musicNames[style]||style;try{await api('/api/track-style/exclude',{version:state.version});toast(name+'에서 뺐어요','되돌리기',async()=>{try{await api('/api/track-style/restore',{isrc,style});toast('되돌렸어요');await refresh()}catch(e){error(e)}});await refresh()}catch(e){error(e)}};
+/* 색인 상태 → 사람 말 (undefined 금지) */
+const n0=v=>Number(v||0).toLocaleString();
+function indexText(x){if(x.error)return x.error;if(!x.configured)return 'API 키 3개를 넣으면 시작해요';return (x.enabled?(x.busy?'찾는 중':'켜짐'):'꺼짐')+' · '+n0(x.tracks)+'곡 모음'+(x.enabled?' · 장르 판정 '+n0(x.judged_fresh)+'곡':'');}
+function keyUi(configured){$('keystate').textContent=configured?'3개 저장됨':'넣어야 해요';$('geminikey').placeholder=$('lastfmkey').placeholder=configured?'저장됨 · 바꿀 때만 입력':'키 붙여넣기';$('tmdbkey').placeholder=configured?'저장됨 · 키 또는 읽기 토큰':'키 또는 읽기 토큰';}
+const CONF={high:'확신 높음',medium:'확신 보통',low:'확신 낮음'};
+function hasFilter(p){return !!(p.music_style||p.seed_title||(p.genres||[]).length||p.era||p.energy||p.instrumental);}
 async function refresh(){if(needsPair)return;try{state=await api('/api/state');
-  $('searchstatus').textContent=state.search_status||'연결 전';
-  if(Date.now()-indexPollAt>10000){indexPollAt=Date.now();api('/api/index/status').then(x=>{$('indexenabled').checked=x.enabled;$('indexstatus').textContent=(x.error||x.message)+' · '+x.tracks+'곡 / 판정 '+x.judged_fresh+'곡'}).catch(e=>{$('indexstatus').textContent=e.message})}
+  const sOk=!!state.search_connected;$('searchstatus').textContent='선택 · '+(sOk?'연결됨':'연결 전');$('searchstate').textContent=sOk?'연결됨':'연결 전';
+  if(Date.now()-indexPollAt>10000){indexPollAt=Date.now();api('/api/index/status').then(x=>{$('indexenabled').checked=!!x.enabled;$('indexstatus').textContent=indexText(x);keyUi(!!x.configured)}).catch(()=>{$('indexstatus').textContent='액자에서 상태를 못 읽었어요';$('keystate').textContent='확인 못 함'})}
   if(document.activeElement!==$('prompt')&&state.request!==window.lastReceiverRequest){$('prompt').value=state.request||'';window.lastReceiverRequest=state.request;}
   if(!promptLoaded){promptLoaded=true;$('prompt').value=state.request||'';syncInputButtons();}
   $('pairbox').classList.add('hidden');let setupRequired=!state.spotify_ready&&(!state.current&&!state.request||!!state.auth?.code);
-  $('setup').classList.toggle('hidden',!setupRequired);$('spotifysetup').classList.toggle('hidden',!setupRequired);$('app').classList.toggle('hidden',setupRequired);
-  if(!state.spotify_ready){let a=state.auth||{};$('authcode').textContent=a.code||'';$('authstatus').textContent=state.engine_error||(a.code?'아래 코드를 Spotify 로그인 화면에 입력해 주세요':'Spotify 연결을 준비하고 있습니다. 잠시만 기다려 주세요.');$('authlink').style.display=a.url?'flex':'none';if(a.url)$('authlink').href=a.url;}
+  $('setup').classList.toggle('hidden',!setupRequired);document.body.classList.toggle('setup-on',setupRequired);$('spotifysetup').classList.toggle('hidden',!setupRequired);$('app').classList.toggle('hidden',setupRequired);
+  if(!state.spotify_ready){let a=state.auth||{};$('authcode').textContent=a.code||'';$('authcode').classList.toggle('hidden',!a.code);$('authstatus').textContent=state.engine_error||(a.code?'Spotify 로그인 화면에 아래 코드를 넣어 주세요.':'Spotify 연결을 준비하고 있어요. 잠시만 기다려 주세요.');$('authlink').style.display=a.url?'flex':'none';if(a.url)$('authlink').href=a.url;}
   setConnection(true,'연결됨');
   const p=state.profile||{};
-  $('rejectstyle').classList.toggle('hidden',!p.music_style||!state.current?.track?.isrc);$('rejectstyle').textContent=(musicNames[p.music_style]||p.music_style||'이 스타일')+' 아님';
-  $('styleexclusions').replaceChildren(...(state.style_exclusions||[]).map(x=>{const b=document.createElement('button');b.className='row';b.textContent=x.title+' · '+(musicNames[x.style]||x.style)+' 제외 — 되돌리기';b.onclick=async()=>{try{await api('/api/track-style/restore',{isrc:x.isrc,style:x.style});await refresh()}catch(e){error(e)}};return b;}));
-  $('interpretation').textContent=JSON.stringify({conditions:p,judgment:state.current?.track?.gemini},null,2);$('phonecount').textContent=(state.paired_controllers||0)+'개 연결 · 새 폰을 추가해도 기존 연결 유지';
-  const msg=!state.spotify_ready?'Spotify 재생 연결을 복구하고 있습니다':state.display_error||(!state.display_visible&&state.current?'프레임 앱이 백그라운드라 일시정지했습니다. Cinema Frame 을 열고 재생해 주세요':state.message);
+  $('rejectstyle').classList.toggle('hidden',!p.music_style||!state.current?.track?.isrc);$('rejectstyle').textContent=(musicNames[p.music_style]||p.music_style||'이 장르')+'에서 빼기';
+  const sx=state.style_exclusions||[];$('xsongcount').textContent=sx.length?sx.length+'곡':'없음';
+  {const key=JSON.stringify(sx);if(key!==window.lastSx){window.lastSx=key;
+   const rows=sx.map(x=>{const d=document.createElement('div');d.className='row static';const t=document.createElement('span');t.className='t';t.textContent=cleanTitle(x.title);const sm=document.createElement('small');sm.className='ell';sm.textContent=[(musicNames[x.style]||x.style)+'에서 뺌',x.artist].filter(Boolean).join(' · ');t.append(sm);const b=document.createElement('button');b.className='mini';b.type='button';b.textContent='되돌리기';b.onclick=async()=>{try{await api('/api/track-style/restore',{isrc:x.isrc,style:x.style});toast(cleanTitle(x.title)+' 되돌렸어요');await refresh()}catch(e){error(e)}};d.append(t,b);return d;});
+   if(rows.length){const all=document.createElement('button');all.className='btn-ton';all.textContent='모두 되돌리기';all.onclick=()=>ask('뺀 곡을 모두 되돌릴까요?','장르를 고를 때도 다시 나올 수 있어요.','되돌리기',async()=>{try{for(const x of sx)await api('/api/track-style/restore',{isrc:x.isrc,style:x.style});toast('모두 되돌렸어요');await refresh()}catch(e){error(e);await refresh()}});rows.push(all);}
+   else rows.push(Object.assign(document.createElement('div'),{className:'empty',textContent:'제외한 곡이 없어요. 음악 장르를 고른 뒤 지금 재생의 「…에서 빼기」로 추가해요.'}));
+   $('styleexclusions').replaceChildren(...rows);}}
+  $('phonecount').textContent=state.paired_controllers?'휴대폰 '+state.paired_controllers+'대 연결됨':'액자에 연결 코드를 표시해요';
+  const msg=!state.spotify_ready?'Spotify 재생 연결을 복구하고 있어요.':state.display_error||(!state.display_visible&&state.current?'액자에서 다른 화면이 켜져 멈췄어요. 액자에서 Cinema Frame 을 다시 열어 주세요.':state.message);
   $('message').textContent=msg||'';$('message').classList.toggle('hidden',!msg);$('emptymsg').textContent=msg||'듣고 싶은 영화나 분위기를 골라 보세요.';
-  $('understood').textContent=summaryText(p);
+  $('understood').textContent=summaryText(p);$('resetfilters').classList.toggle('hidden',!hasFilter(p));
   $('val-music').textContent=p.music_style?(musicNames[p.music_style]||p.music_style):'전체';
   $('val-genre').textContent=p.seed_title?p.seed_title+' 기준':((p.genres||[]).map(g=>genreNames[g]||g).join('·')||'전체');
   $('val-era').textContent=p.era?p.era+'년대':'전체';
-  $('criteria').textContent=`${p.music_style?`장르 일치 ${state.music_movie_count||0}편 · OST ${state.music_match_count||0}곡 · `:''}후보 영화 ${(state.eligible_count||0).toLocaleString()}편 · OST 연결 ${state.resolved_albums||0}편 · 재생 기록 ${state.played_count||0}곡`;
-  $('countriesenabled').checked=p.country_exclusions_enabled!==false;$('countrycount').textContent=(p.excluded_countries||[]).length+'개 선택 · 국가 미상 '+(state.country_mapping?.unknown??'미집계')+'편은 유지'+(state.country_mapping?.complete===false?' · 국가 데이터 미완료':'');
+  {const mn=musicNames[p.music_style]||p.music_style;const st=[['후보 영화',n0(state.eligible_count)+'편'],['OST 찾은 영화',n0(state.resolved_albums)+'편']].concat(p.music_style?[[mn+' 맞는 영화',n0(state.music_movie_count)+'편'],[mn+' 맞는 곡',n0(state.music_match_count)+'곡']]:[]).concat([['재생한 곡',n0(state.played_count)+'곡']]);
+   const key=JSON.stringify(st);if(key!==window.lastSt){window.lastSt=key;$('criteria').replaceChildren(...st.map(([k,v])=>{const d=document.createElement('div');d.className='row static stat';d.innerHTML='<span class="t"></span><span class="v"></span>';d.firstChild.textContent=k;d.lastChild.textContent=v;return d;}));}}
+  if(cPicked===null&&cOn===null)syncCountryUi();
   const ex=Object.values(p.excluded_titles||{});
-  if(ex.length){$('xlist').replaceChildren(...ex.map(t=>{const d=document.createElement('div');d.className='row static';const s=document.createElement('span');s.className='t';s.textContent=t;d.append(s);return d;}));const b=document.createElement('button');b.className='btn-ton';b.textContent='모두 되돌리기';b.onclick=()=>send('제외 영화 초기화','제외 모두 되돌리기');$('xlist').append(b);}
-  else $('xlist').innerHTML='<div class="empty">제외한 영화가 없어요. 지금 재생의 ⋮ › 이 영화 다시 안 보기로 추가해요.</div>';
+  $('xmoviecount').textContent=ex.length?ex.length+'편':'없음';
+  {const key=JSON.stringify(ex);if(key!==window.lastEx){window.lastEx=key;
+   /* 영화 하나씩 되돌리기는 API 가 없어 줄 버튼은 비워 둠(모두 되돌리기만) */
+   if(ex.length){$('xlist').replaceChildren(...ex.map(t=>{const d=document.createElement('div');d.className='row static';const s=document.createElement('span');s.className='t';s.textContent=t;d.append(s);return d;}));const b=document.createElement('button');b.className='btn-ton';b.textContent='모두 되돌리기';b.onclick=()=>ask('제외한 영화를 모두 되돌릴까요?','다음 선곡부터 다시 나올 수 있어요.','되돌리기',async()=>{try{await api('/api/request',{text:'제외 영화 초기화'});toast('모두 되돌렸어요');await refresh()}catch(e){error(e)}});$('xlist').append(b);}
+   else $('xlist').innerHTML='<div class="empty">제외한 영화가 없어요. 지금 재생의 ⋮ › 이 영화 다시 안 보기로 추가해요.</div>';}}
   if(!displayEditing){const mode=state.display_mode||'height';document.querySelectorAll('[data-display]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.display===mode)));$('displayhint').textContent=displayHints[mode]||displayHints.height;}
   if(state.volume)$('leveling').checked=state.volume.leveling!==false;
   if(state.volume&&!volumeEditing){$('volume').max=state.volume.max;$('volume').value=state.volume.value;$('volumevalue').textContent=Math.round(100*state.volume.value/state.volume.max)+'%';syncVolFill();}
   updateChips();
   const c=state.current;$('now').classList.toggle('hidden',!c);$('nowempty').classList.toggle('hidden',!!c);
-  if(!c){if(document.body.dataset.view==='info')location.hash='';return;}
+  if(!c){$('queue').replaceChildren(Object.assign(document.createElement('div'),{className:'empty',textContent:'곡이 정해지면 다음 후보가 보여요.'}));$('queuenote').classList.add('hidden');window.lastQueue='';if(document.body.dataset.view==='info')location.hash='';return;}
   $('song').textContent=cleanTitle(c.track.title);$('artist').textContent=c.track.artist;
   $('movie').textContent=`${c.movie.title} · ${c.movie.year}`;$('genres').textContent=(c.movie.genres||[]).map(g=>genreNames[g]||g).join('·');
   const paused=state.phase==='paused';$('pause').innerHTML=paused?ICON.play:ICON.pause;$('pause').setAttribute('aria-label',paused?'계속 재생':'일시정지');
-  if(state.version!==lastVersion||JSON.stringify(state.queue)!==window.lastQueue){window.lastQueue=JSON.stringify(state.queue);lastVersion=state.version;posterRetry=0;const q=state.queue||[];$('queue').replaceChildren(...(q.length?q.map(item):[Object.assign(document.createElement('div'),{className:'empty',textContent:'다음 후보를 찾고 있어요.'})]));if(document.body.dataset.view==='info')fillInfo();}
+  if(state.version!==lastVersion||JSON.stringify(state.queue)!==window.lastQueue){window.lastQueue=JSON.stringify(state.queue);lastVersion=state.version;posterRetry=0;const q=state.queue||[];$('queue').replaceChildren(...(q.length?q.map(item):[Object.assign(document.createElement('div'),{className:'empty',textContent:'다음 후보를 찾고 있어요.'})]));$('queuenote').classList.toggle('hidden',!q.length);if(document.body.dataset.view==='info')fillInfo();}
   if(posterVersion!==state.version)loadPoster(state.version);
   let t=state.telemetry?.player?.track;
   $('seek').disabled=!state.confirmed||!t?.duration||!['playing','paused'].includes(state.phase);
   if(!seekEditing){$('seek').value=Math.min(1000,1000*(t?.position||0)/(t?.duration||1));$('elapsed').textContent=timeLabel(t?.position||0);$('duration').textContent=timeLabel(t?.duration||0);syncSeekFill();}
-}catch(e){if(e.status===401){needsPair=true;api('/api/pairing/start',{}).catch(()=>{});$('setup').classList.remove('hidden');$('pairbox').classList.remove('hidden');$('app').classList.add('hidden');$('spotifysetup').classList.add('hidden')}else{setConnection(false,'연결 확인');error(e)}}}
+}catch(e){if(e.status===401){needsPair=true;api('/api/pairing/start',{}).catch(()=>{});$('setup').classList.remove('hidden');$('pairbox').classList.remove('hidden');$('app').classList.add('hidden');$('spotifysetup').classList.add('hidden');document.body.classList.add('setup-on')}else{setConnection(false,'연결 확인');error(e)}}}
 syncInputButtons();showView();refresh();setInterval(refresh,1800);
 </script></body></html>
