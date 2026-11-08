@@ -4,6 +4,8 @@ public class IndexPipelineRegression {
  static void check(boolean ok,String message){if(!ok)throw new AssertionError(message);}
  public static void main(String[] args)throws Exception{
   JSONObject rainy=OstPolicy.interpret("비 오는 날 재즈",new JSONObject());check(rainy.getJSONArray("genres").length()==0,"music style incorrectly constrains film genres");
+  check(!OstPolicy.unrestrictedMusic(rainy),"jazz must not use an unclassified cached playlist");
+  check(OstPolicy.unrestrictedMusic(OstPolicy.interpret("전체 랜덤",rainy)),"unrestricted random must allow cached-first playback");
   JSONObject sf=OstPolicy.interpret("80년대 SF 웅장한",rainy);check(sf.getJSONArray("genres").toString().equals("[\"Sci-Fi\"]")&&sf.getInt("era")==1980,"explicit movie constraints lost");
   check(MusicStyle.requested("빅밴드 재즈").equals("big band"),"specific subgenre lost");
   JSONObject m=new JSONObject().put("title","The Hunger Games");check(!AlbumIdentity.title(m,"The Hunger Games: The Ballad of Songbirds & Snakes (Original Motion Picture Soundtrack)"),"sequel accepted");

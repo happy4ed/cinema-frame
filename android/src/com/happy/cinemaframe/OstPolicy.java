@@ -6,6 +6,10 @@ import java.io.IOException;
 
 /** Pure selection rules. No curated movie, album or recording identifiers. */
 final class OstPolicy {
+ static boolean unrestrictedMusic(JSONObject p){
+  JSONArray genres=p.optJSONArray("genres");
+  return p.optString("music_style").isEmpty()&&p.optString("music_mood").isEmpty()&&p.optInt("era")==0&&(genres==null||genres.length()==0)&&p.optString("energy","balanced").equals("balanced");
+ }
  static final long TTL=7L*24*60*60*1000;
  static final String COUNTRY_CODES="IN HK KR JP CN TW TH ID US CA MX GB FR DE IT ES RU TR IR EG NG BR AR AU";
  static JSONArray countries(JSONObject p)throws Exception {
