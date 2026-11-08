@@ -40,7 +40,7 @@ public final class FrameCore {
         key=prefs.getString("key",UUID.randomUUID().toString()+UUID.randomUUID());code=prefs.getString("code",String.valueOf(100000+random.nextInt(900000)));external=prefs.getBoolean("existing_test_engine",false);
         lastSelectedMovie=prefs.getString("last_selected_movie","");sessions.addAll(prefs.getStringSet("sessions",Collections.emptySet()));try{profile=new JSONObject(prefs.getString("profile","{}"));request=prefs.getString("request","");JSONObject saved=new JSONObject(prefs.getString("playback","{}"));if(saved.optBoolean("active")&&saved.optJSONObject("current")!=null){current=saved.getJSONObject("current");selectedAt=System.currentTimeMillis();lastSelectedMovie=current.getJSONObject("movie").optString("id");version=1;resumePosition=saved.optLong("position");lastPosition=resumePosition;resumePaused=saved.optBoolean("paused");phase="loading";message="이전 재생을 복구하고 있습니다";}}catch(Exception ignored){}
         try{OstPolicy.migrate(profile);prefs.edit().putString("profile",profile.toString()).apply();}catch(Exception e){message=e.getMessage();}
-        prefs.edit().putString("key",key).putString("code",code).apply();
+        prefs.edit().putString("key",key).putString("code",code).apply();if(sessions.isEmpty())showPairing();
         db=context.openOrCreateDatabase("cinema.db",0,null);db.execSQL("CREATE TABLE IF NOT EXISTS played(uri TEXT PRIMARY KEY,song TEXT,movie TEXT,at INTEGER)");db.execSQL("CREATE TABLE IF NOT EXISTS albums(movie TEXT PRIMARY KEY,payload TEXT)");
         db.execSQL("CREATE TABLE IF NOT EXISTS ost_cache(movie TEXT PRIMARY KEY,payload TEXT)");
         db.execSQL("CREATE TABLE IF NOT EXISTS track_style_exclusions(isrc TEXT,style TEXT,payload TEXT,PRIMARY KEY(isrc,style))");db.execSQL("CREATE TABLE IF NOT EXISTS track_style_history(id INTEGER PRIMARY KEY AUTOINCREMENT,payload TEXT)");
@@ -72,9 +72,9 @@ public final class FrameCore {
         }catch(Exception e){retryPlaybackAt=System.currentTimeMillis()+5000;failure="재생 연결을 복구하고 있습니다: "+e.getMessage();}
         try{JSONObject metrics;synchronized(lock){metrics=displayVersion==v?displayMetrics:new JSONObject();}telemetry(new JSONObject().put("version",v).put("player",player).put("poster",metrics).put("error",failure).put("app","0.3-test"));}catch(Exception ignored){}
     }
-    void showPairing(){synchronized(lock){pairingUntil=System.currentTimeMillis()+180000;}}
+    void showPairing(){synchronized(lock){pairingUntil=android.os.SystemClock.elapsedRealtime()+30000;}}
     void hidePairing(){synchronized(lock){pairingUntil=0;}}
-    private boolean pairingVisible(){return sessions.isEmpty()||System.currentTimeMillis()<pairingUntil;}
+    private boolean pairingVisible(){return android.os.SystemClock.elapsedRealtime()<pairingUntil;}
     private JSONObject volume()throws Exception{return new JSONObject().put("value",engine.getVolume()).put("max",100).put("scope","app").put("leveling",engine.getLeveling());}
     public String playerBase(){return "http://127.0.0.1:"+(external?24879:24881);}
     public static String address(){try{for(NetworkInterface n:Collections.list(NetworkInterface.getNetworkInterfaces()))for(InetAddress a:Collections.list(n.getInetAddresses()))if(a instanceof Inet4Address&&!a.isLoopbackAddress()&&a.isSiteLocalAddress())return a.getHostAddress();}catch(Exception ignored){}return "Wi-Fi 연결 필요";}
@@ -366,7 +366,7 @@ public final class FrameCore {
         String origin=headers.get("origin"),host=headers.get("host");if(method.equals("POST")&&origin!=null&&!origin.equals("http://"+host)){reply(s,403,new JSONObject().put("error","Origin rejected"));return;}
         if(path.equals("/favicon.ico")){respond(s,204,new byte[0],"image/x-icon",null);return;}
         if(path.equals("/")&&method.equals("GET")){respond(s,200,asset("index.html").getBytes("UTF-8"),"text/html; charset=utf-8",null);return;}
-        if(path.equals("/api/pairing/start")&&method.equals("POST")){synchronized(lock){pairingUntil=System.currentTimeMillis()+180000;}reply(s,200,new JSONObject().put("ok",true));return;}
+        if(path.equals("/api/pairing/start")&&method.equals("POST")){synchronized(lock){pairingUntil=android.os.SystemClock.elapsedRealtime()+30000;}reply(s,200,new JSONObject().put("ok",true));return;}
         if(path.equals("/api/pairing/end")&&method.equals("POST")&&logged){synchronized(lock){pairingUntil=0;}reply(s,200,new JSONObject().put("ok",true));return;}
         if(path.equals("/api/pair")){synchronized(lock){if(System.currentTimeMillis()-attemptsSince>60000){attempts=0;attemptsSince=System.currentTimeMillis();}if(++attempts>10){reply(s,429,new JSONObject().put("error","잠시 후 다시 입력해 주세요"));return;}if(!code.equals(input.optString("code"))){reply(s,403,new JSONObject().put("error","연결 코드가 다릅니다"));return;}if(sessions.size()>=128){reply(s,409,new JSONObject().put("error","연결 기기 수 제한에 도달했습니다. 기존 연결은 유지됩니다."));return;}pairingUntil=0;String session=UUID.randomUUID().toString();sessions.add(session);context.getSharedPreferences("setup",0).edit().putStringSet("sessions",new HashSet<>(sessions)).apply();respond(s,200,"{\"ok\":true}".getBytes(),"application/json","Set-Cookie: cf_session="+session+"; HttpOnly; SameSite=Strict; Path=/; Max-Age=31536000\r\n");return;}}
         if(path.equals("/api/frame")&&frame){synchronized(lock){JSONObject result=new JSONObject().put("current",current==null?JSONObject.NULL:current).put("version",version).put("phase",phase).put("message",message).put("paired",!sessions.isEmpty()).put("pairing",pairingVisible()).put("request",request).put("discovery",discovery).put("spotify_ready",spotifyReady).put("confirmed",confirmed).put("display_mode",displayMode).put("player",report.optJSONObject("player")).put("reported_at",lastReport);reply(s,200,result);return;}}

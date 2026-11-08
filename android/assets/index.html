@@ -224,10 +224,8 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
    <div class="sh">스타일에서 제외한 곡</div><section class="grp list" id="styleexclusions"></section><div class="sh">제외한 영화</div>
    <section class="grp list" id="xlist"><div class="empty">제외한 영화가 없어요. 지금 재생의 ⋮ › 이 영화 다시 안 보기로 추가해요.</div></section>
    <div class="sh">자동 OST 색인</div><section class="grp list"><label class="row"><span class="t">매일 천천히 갱신<small id="indexstatus">연결 확인 중</small></span><input class="sw" id="indexenabled" type="checkbox" role="switch"></label><details class="row"><summary>API 연결 설정</summary><div><input id="geminikey" type="password" placeholder="Gemini API 키" autocomplete="off"><input id="lastfmkey" type="password" placeholder="Last.fm API 키" autocomplete="off"><input id="tmdbkey" type="password" placeholder="TMDB API 키 또는 Read Token" autocomplete="off"><button class="btn-ton" id="saveindex">프레임에 저장</button><small>입력한 키는 프레임에 저장됩니다. 빈 칸은 기존 값을 유지합니다.</small></div></details></section>
-   <div class="sh">연결</div><section class="grp list"><button class="row" id="addphone"><span class="t">다른 휴대폰 연결<small id="phonecount">기존 연결을 유지하고 코드를 표시합니다</small></span><span class="v">›</span></button></section>
-   <section class="grp list">
+   <div class="sh">연결</div><section class="grp list"><button class="row" id="addphone"><span class="t">다른 휴대폰 연결<small id="phonecount">기존 연결을 유지하고 코드를 표시합니다</small></span><span class="v">›</span></button>
     <button class="row" id="reconnect"><span class="t">재생 연결 복구</span></button>
-    <button class="row" id="newphone"><span class="t">새 휴대폰 연결<small>액자에 연결 코드 표시</small></span></button>
     <button class="row" data-go="search"><span class="t">Spotify 검색 연결<small id="searchstatus">연결 전</small></span></button>
    </section>
    <div class="sh">선곡 기준</div>
@@ -355,7 +353,6 @@ $('countriesmore').onclick=()=>{
   };render();el.querySelector('.cancel').onclick=closeOverlay;el.querySelector('.ok').onclick=async()=>{try{await api('/api/countries',{excluded_countries:[...picked],enabled:true});closeOverlay();await refresh()}catch(e){error(e)}};
  });
 };
-$('newphone').onclick=async()=>{try{await api('/api/pairing/start',{});toast('액자에 연결 코드를 표시했어요')}catch(e){error(e)}};
 $('reconnect').onclick=async()=>{try{await api('/api/control',{action:'reconnect'});toast('재생 연결을 복구하고 있어요')}catch(e){error(e)}};
 $('next').onclick=async()=>{try{await api('/api/control',{action:'next'});await refresh()}catch(e){error(e)}};
 $('pause').onclick=async()=>{try{await api('/api/control',{action:state?.phase==='paused'?'resume':'pause'});await refresh()}catch(e){error(e)}};
@@ -389,7 +386,7 @@ function loadPoster(version){if(posterLoading||Date.now()<posterRetry)return;pos
 function setConnection(ok,text){const c=$('connection');c.classList.toggle('off',!ok);c.querySelector('span').textContent=text;}
 function summaryText(p){return [p.music_style?'음악 '+(musicNames[p.music_style]||p.music_style):'',p.seed_title?p.seed_title+' 기준':'',(p.genres||[]).map(g=>genreNames[g]||g).join('·'),p.era?p.era+'년대':'',p.energy==='calm'?'차분하게':p.energy==='bright'?'경쾌하게':'',p.instrumental?'연주곡':''].filter(Boolean).join(' · ')||'전체 장르';}
 let indexPollAt=0;
-$('addphone').onclick=async()=>{try{await api('/api/pairing/start',{});toast('프레임에 연결 코드를 표시했습니다. 새 폰에서 입력해 주세요')}catch(e){error(e)}};
+$('addphone').onclick=async()=>{try{await api('/api/pairing/start',{});toast('프레임에 연결 코드를 30초 동안 표시합니다')}catch(e){error(e)}};
 $('saveindex').onclick=async()=>{try{const body={enabled:$('indexenabled').checked};for(const k of ['gemini','lastfm','tmdb'])if($(k+'key').value.trim())body[k]=$(k+'key').value.trim();await api('/api/index/config',body);for(const k of ['gemini','lastfm','tmdb'])$(k+'key').value='';indexPollAt=0;toast('프레임에 색인 설정을 저장했습니다')}catch(e){error(e)}};
 $('indexenabled').onchange=async()=>{try{await api('/api/index/config',{enabled:$('indexenabled').checked});indexPollAt=0}catch(e){error(e)}};
 $('rejectstyle').onclick=async()=>{try{await api('/api/track-style/exclude',{version:state.version});toast('이 스타일에서 제외하고 다음 곡으로 이동합니다');await refresh()}catch(e){error(e)}};
