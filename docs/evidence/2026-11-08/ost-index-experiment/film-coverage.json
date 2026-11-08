@@ -1,0 +1,4909 @@
+[
+  {
+    "id": "tt0111161",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "votes": 3259821,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Thomas Newman"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0468569",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "votes": 3245658,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer",
+      "James Newton Howard"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 474537815,
+        "title": "The Dark Knight (Original Motion Picture Soundtrack) [Live]",
+        "skip": "alternate_performance"
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1375666",
+    "title": "Inception",
+    "year": 2010,
+    "votes": 2885168,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 744501061,
+        "title": "Inception (An Original Soundtrack)",
+        "artist": "Lalit Thapa",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0137523",
+    "title": "Fight Club",
+    "year": 1999,
+    "votes": 2678826,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John King",
+      "Michael Simpson"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 78056502,
+        "title": "Fight Club (Original Soundtrack from 'Oldskool Heroes')",
+        "artist": "OG RIP",
+        "composer_link_verified": false
+      },
+      {
+        "id": 522884612,
+        "title": "Fight Club (Original Motion Picture Soundtrack)",
+        "artist": "Govind Vasantha",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0816692",
+    "title": "Interstellar",
+    "year": 2014,
+    "votes": 2628120,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 343900467,
+        "title": "Interstellar (Original Score)",
+        "artist": "Imperial Orchestra",
+        "composer_link_verified": false
+      },
+      {
+        "id": 1019840531,
+        "title": "Interstellar (Main Theme) (Original Motion Picture Soundtrack)",
+        "artist": "Thomas Krüger",
+        "composer_link_verified": false
+      },
+      {
+        "id": 521434482,
+        "title": "Interstellar (Original Motion Picture Soundtrack)",
+        "artist": "Fingal Grünbauer",
+        "composer_link_verified": false
+      },
+      {
+        "id": 486914135,
+        "title": "Interstellar (Day One) [Original Motion Picture Soundtrack] (Special Version)",
+        "artist": "Pierfrancesco Ceregioli",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0109830",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "votes": 2549788,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Alan Silvestri"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0110912",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "votes": 2480446,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0133093",
+    "title": "The Matrix",
+    "year": 1999,
+    "votes": 2290999,
+    "album": {
+      "id": 12494234,
+      "title": "The Matrix (Original Motion Picture Score)",
+      "artist": {
+        "id": 1530,
+        "name": "Don Davis",
+        "link": "https://www.deezer.com/artist/1530",
+        "picture": "https://api.deezer.com/artist/1530/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/3ab38702c0a0a9d962a55d21908006ed/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/3ab38702c0a0a9d962a55d21908006ed/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/3ab38702c0a0a9d962a55d21908006ed/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/3ab38702c0a0a9d962a55d21908006ed/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/1530/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 10,
+    "credited_composers": [
+      "Don Davis"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12494234,
+        "title": "The Matrix (Original Motion Picture Score)",
+        "artist": "Don Davis",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0068646",
+    "title": "The Godfather",
+    "year": 1972,
+    "votes": 2269442,
+    "album": {
+      "id": 294596,
+      "title": "The Godfather (Music From The Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5741,
+        "name": "Nino Rota",
+        "link": "https://www.deezer.com/artist/5741",
+        "picture": "https://api.deezer.com/artist/5741/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/a5dc829087ea79aa0d4e44e7da49c4c1/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/a5dc829087ea79aa0d4e44e7da49c4c1/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/a5dc829087ea79aa0d4e44e7da49c4c1/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/a5dc829087ea79aa0d4e44e7da49c4c1/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5741/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 12,
+    "credited_composers": [
+      "Nino Rota"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 294596,
+        "title": "The Godfather (Music From The Original Motion Picture Soundtrack)",
+        "artist": "Nino Rota",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0120737",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "votes": 2249161,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Howard Shore"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0167260",
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "votes": 2205047,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Howard Shore"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0114369",
+    "title": "Seven",
+    "year": 1995,
+    "votes": 2073682,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Howard Shore"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1345836",
+    "title": "The Dark Knight Rises",
+    "year": 2012,
+    "votes": 2036079,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 368722717,
+        "title": "The Dark Knight Rises (Original Score)",
+        "artist": "Bull Kim",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0167261",
+    "title": "The Lord of the Rings: The Two Towers",
+    "year": 2002,
+    "votes": 1994389,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Howard Shore"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1853728",
+    "title": "Django Unchained",
+    "year": 2012,
+    "votes": 1923999,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0172495",
+    "title": "Gladiator",
+    "year": 2000,
+    "votes": 1892361,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer",
+      "Lisa Gerrard"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 635775921,
+        "title": "Gladiator (Drill Remix) [Original Motion Picture Soundtrack]",
+        "artist": "Ogoh Precious",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0993846",
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "votes": 1835838,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0361748",
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "votes": 1827500,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0102926",
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "votes": 1763451,
+    "album": {
+      "id": 247451,
+      "title": "The Silence Of The Lambs (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 556,
+        "name": "Howard Shore",
+        "link": "https://www.deezer.com/artist/556",
+        "picture": "https://api.deezer.com/artist/556/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/b46a9342d1c66af7573f7ee787421b2f/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/b46a9342d1c66af7573f7ee787421b2f/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/b46a9342d1c66af7573f7ee787421b2f/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/b46a9342d1c66af7573f7ee787421b2f/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/556/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 13,
+    "credited_composers": [
+      "Howard Shore"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 247451,
+        "title": "The Silence Of The Lambs (Original Motion Picture Soundtrack)",
+        "artist": "Howard Shore",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0372784",
+    "title": "Batman Begins",
+    "year": 2005,
+    "votes": 1752176,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer",
+      "James Newton Howard"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt7286456",
+    "title": "Joker",
+    "year": 2019,
+    "votes": 1734475,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hildur Guðnadóttir"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 5091971,
+        "title": "Joker (Original Motion Picture Soundtrack)",
+        "artist": "G.V. Prakash Kumar",
+        "composer_link_verified": false
+      },
+      {
+        "id": 718304931,
+        "title": "Joker (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": false
+      },
+      {
+        "id": 1030749072,
+        "title": "Joker (Original Motion Picture Soundtrack)",
+        "artist": "Abul Qasim Mohammed Moslehuddin",
+        "composer_link_verified": false
+      },
+      {
+        "id": 443626335,
+        "title": "Joker (Original Motion Picture Soundtrack)",
+        "artist": "Muslehuddin",
+        "composer_link_verified": false
+      },
+      {
+        "id": 540983672,
+        "title": "Joker (Original Motion Picture Soundtrack)",
+        "artist": "Thomas Beckman",
+        "composer_link_verified": false
+      },
+      {
+        "id": 746065211,
+        "title": "Joker (Original Motion Picture Soundtrack)",
+        "artist": "Vamshi",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1130884",
+    "title": "Shutter Island",
+    "year": 2010,
+    "votes": 1694833,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0120815",
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "votes": 1670891,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0482571",
+    "title": "The Prestige",
+    "year": 2006,
+    "votes": 1638214,
+    "album": {
+      "id": 320958757,
+      "title": "The Prestige (Original Score)",
+      "artist": {
+        "id": 243238,
+        "name": "David Julyan",
+        "link": "https://www.deezer.com/artist/243238",
+        "picture": "https://api.deezer.com/artist/243238/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/ccc80e904d8ac14f40aaedbd70d02bc9/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/ccc80e904d8ac14f40aaedbd70d02bc9/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/ccc80e904d8ac14f40aaedbd70d02bc9/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/ccc80e904d8ac14f40aaedbd70d02bc9/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/243238/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 17,
+    "credited_composers": [
+      "David Julyan"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 320958757,
+        "title": "The Prestige (Original Score)",
+        "artist": "David Julyan",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0108052",
+    "title": "Schindler's List",
+    "year": 1993,
+    "votes": 1611644,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 162613332,
+        "title": "Schindler's List (Original Motion Picture Soundtrack)",
+        "artist": "Davit Matevosyan",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0076759",
+    "title": "Star Wars: Episode IV - A New Hope",
+    "year": 1977,
+    "votes": 1596211,
+    "album": {
+      "id": 20044821,
+      "title": "Star Wars Episode IV: A New Hope (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 805,
+        "name": "John Williams",
+        "link": "https://www.deezer.com/artist/805",
+        "picture": "https://api.deezer.com/artist/805/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/805/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 16,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 20044821,
+        "title": "Star Wars Episode IV: A New Hope (Original Motion Picture Soundtrack)",
+        "artist": "John Williams",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0120689",
+    "title": "The Green Mile",
+    "year": 1999,
+    "votes": 1595111,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Thomas Newman"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0848228",
+    "title": "The Avengers",
+    "year": 2012,
+    "votes": 1590216,
+    "album": {
+      "id": 1674608,
+      "title": "The Avengers (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 791,
+        "name": "Alan Silvestri",
+        "link": "https://www.deezer.com/artist/791",
+        "picture": "https://api.deezer.com/artist/791/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/791/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 18,
+    "credited_composers": [
+      "Alan Silvestri"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 699532691,
+        "title": "The Avengers (Original Motion Picture Soundtrack)",
+        "artist": "Thomas Beckman",
+        "composer_link_verified": false
+      },
+      {
+        "id": 1674608,
+        "title": "The Avengers (Original Motion Picture Soundtrack)",
+        "artist": "Alan Silvestri",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0407887",
+    "title": "The Departed",
+    "year": 2006,
+    "votes": 1588070,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Howard Shore"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0080684",
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "year": 1980,
+    "votes": 1531497,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0071562",
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "votes": 1522019,
+    "album": {
+      "id": 118406,
+      "title": "The Godfather Part II (Original Soundtrack Recording)",
+      "artist": {
+        "id": 5741,
+        "name": "Nino Rota",
+        "link": "https://www.deezer.com/artist/5741",
+        "picture": "https://api.deezer.com/artist/5741/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/a5dc829087ea79aa0d4e44e7da49c4c1/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/a5dc829087ea79aa0d4e44e7da49c4c1/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/a5dc829087ea79aa0d4e44e7da49c4c1/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/a5dc829087ea79aa0d4e44e7da49c4c1/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5741/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 14,
+    "credited_composers": [
+      "Nino Rota"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 118406,
+        "title": "The Godfather Part II (Original Soundtrack Recording)",
+        "artist": "Nino Rota",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0499549",
+    "title": "Avatar",
+    "year": 2009,
+    "votes": 1520335,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "James Horner"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 544819592,
+        "title": "Avatar (Original Motion Picture Soundtrack)",
+        "artist": "Himangshu Dutta",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt4154796",
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "votes": 1504614,
+    "album": {
+      "id": 94506802,
+      "title": "Avengers: Endgame (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 791,
+        "name": "Alan Silvestri",
+        "link": "https://www.deezer.com/artist/791",
+        "picture": "https://api.deezer.com/artist/791/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/791/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 35,
+    "credited_composers": [
+      "Alan Silvestri"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 94506802,
+        "title": "Avengers: Endgame (Original Motion Picture Soundtrack)",
+        "artist": "Alan Silvestri",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0088763",
+    "title": "Back to the Future",
+    "year": 1985,
+    "votes": 1485274,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Alan Silvestri"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0209144",
+    "title": "Memento",
+    "year": 2000,
+    "votes": 1465324,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "David Julyan"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 259067212,
+        "title": "Memento (Original Motion Picture Soundtrack)",
+        "artist": "Kostantis Papakonstantinou",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0099685",
+    "title": "GoodFellas",
+    "year": 1990,
+    "votes": 1421799,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt4154756",
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "votes": 1421250,
+    "album": {
+      "id": 62244402,
+      "title": "Avengers: Infinity War (Original Motion Picture Soundtrack / Deluxe Edition)",
+      "artist": {
+        "id": 791,
+        "name": "Alan Silvestri",
+        "link": "https://www.deezer.com/artist/791",
+        "picture": "https://api.deezer.com/artist/791/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97afd0f32d432cd5cebb2f35ea7f4111/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/791/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 30,
+    "credited_composers": [
+      "Alan Silvestri"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 62244402,
+        "title": "Avengers: Infinity War (Original Motion Picture Soundtrack / Deluxe Edition)",
+        "artist": "Alan Silvestri",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0120338",
+    "title": "Titanic",
+    "year": 1997,
+    "votes": 1418912,
+    "album": {
+      "id": 1420519,
+      "title": "Titanic (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 184,
+        "name": "James Horner",
+        "link": "https://www.deezer.com/artist/184",
+        "picture": "https://api.deezer.com/artist/184/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/9e5af1eb0e5389df202fe4ebd3c3fcaa/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9e5af1eb0e5389df202fe4ebd3c3fcaa/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/9e5af1eb0e5389df202fe4ebd3c3fcaa/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9e5af1eb0e5389df202fe4ebd3c3fcaa/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/184/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 15,
+    "credited_composers": [
+      "James Horner"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 1420519,
+        "title": "Titanic (Original Motion Picture Soundtrack)",
+        "artist": "James Horner",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0120382",
+    "title": "The Truman Show",
+    "year": 1998,
+    "votes": 1416480,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Burkhard von Dallwitz"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 191078232,
+        "title": "The Truman Show (Original Motion Picture Soundtrack)",
+        "artist": "Burkhard Dallwitz",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2015381",
+    "title": "Guardians of the Galaxy",
+    "year": 2014,
+    "votes": 1391126,
+    "album": {
+      "id": 8113988,
+      "title": "Guardians of the Galaxy (Original Score)",
+      "artist": {
+        "id": 13507,
+        "name": "Tyler Bates",
+        "link": "https://www.deezer.com/artist/13507",
+        "picture": "https://api.deezer.com/artist/13507/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/13507/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 29,
+    "credited_composers": [
+      "Tyler Bates"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 8113988,
+        "title": "Guardians of the Galaxy (Original Score)",
+        "artist": "Tyler Bates",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0110413",
+    "title": "Léon: The Professional",
+    "year": 1994,
+    "votes": 1371876,
+    "album": {
+      "id": 102518762,
+      "title": "Léon (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 786,
+        "name": "Eric Serra",
+        "link": "https://www.deezer.com/artist/786",
+        "picture": "https://api.deezer.com/artist/786/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f6bb10fff94d3e4530057b16129c95ac/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f6bb10fff94d3e4530057b16129c95ac/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f6bb10fff94d3e4530057b16129c95ac/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f6bb10fff94d3e4530057b16129c95ac/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/786/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 24,
+    "credited_composers": [
+      "Éric Serra"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 102518762,
+        "title": "Léon (Original Motion Picture Soundtrack)",
+        "artist": "Eric Serra",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0325980",
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "year": 2003,
+    "votes": 1351508,
+    "album": {
+      "id": 2313131,
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 2791,
+        "name": "Klaus Badelt",
+        "link": "https://www.deezer.com/artist/2791",
+        "picture": "https://api.deezer.com/artist/2791/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/223006c9f5e5d6de1cea6f965fd0c096/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/223006c9f5e5d6de1cea6f965fd0c096/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/223006c9f5e5d6de1cea6f965fd0c096/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/223006c9f5e5d6de1cea6f965fd0c096/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/2791/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 15,
+    "credited_composers": [
+      "Klaus Badelt"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 2313131,
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl (Original Motion Picture Soundtrack)",
+        "artist": "Klaus Badelt",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0910970",
+    "title": "WALL·E",
+    "year": 2008,
+    "votes": 1348029,
+    "album": {
+      "id": 81455242,
+      "title": "WALL-E (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5080,
+        "name": "Various Artists",
+        "link": "https://www.deezer.com/artist/5080",
+        "picture": "https://api.deezer.com/artist/5080/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5080/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 38,
+    "credited_composers": [
+      "Thomas Newman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 81455242,
+        "title": "WALL-E (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0266697",
+    "title": "Kill Bill: Vol. 1",
+    "year": 2003,
+    "votes": 1330977,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "RZA"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0103064",
+    "title": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "votes": 1308901,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Brad Fiedel"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0169547",
+    "title": "American Beauty",
+    "year": 1999,
+    "votes": 1291858,
+    "album": {
+      "id": 74436772,
+      "title": "American Beauty (Original Motion Picture Score)",
+      "artist": {
+        "id": 2245,
+        "name": "Thomas Newman",
+        "link": "https://www.deezer.com/artist/2245",
+        "picture": "https://api.deezer.com/artist/2245/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/2245/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "Thomas Newman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 74436772,
+        "title": "American Beauty (Original Motion Picture Score)",
+        "artist": "Thomas Newman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0120586",
+    "title": "American History X",
+    "year": 1998,
+    "votes": 1291761,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Anne Dudley"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0110357",
+    "title": "The Lion King",
+    "year": 1994,
+    "votes": 1283970,
+    "album": {
+      "id": 103027012,
+      "title": "The Lion King (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 108420982,
+        "name": "Various Artists",
+        "link": "https://www.deezer.com/artist/108420982",
+        "picture": "https://api.deezer.com/artist/108420982/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/108420982/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 476238235,
+        "title": "The Lion King (Original Motion Picture Soundtrack) [Live]",
+        "skip": "alternate_performance"
+      },
+      {
+        "id": 103027012,
+        "title": "The Lion King (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1431045",
+    "title": "Deadpool",
+    "year": 2016,
+    "votes": 1277544,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Tom Holkenborg"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 140897202,
+        "title": "Deadpool (Original Soundtrack Album)",
+        "artist": "Junkie XL",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0264464",
+    "title": "Catch Me If You Can",
+    "year": 2002,
+    "votes": 1272186,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 928660031,
+        "title": "Catch Me If You Can (Original Motion Picture Soundtrack)",
+        "artist": "PRpT",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1049413",
+    "title": "Up",
+    "year": 2009,
+    "votes": 1261847,
+    "album": {
+      "id": 394031,
+      "title": "Up (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 26,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 394031,
+        "title": "Up (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0114814",
+    "title": "The Usual Suspects",
+    "year": 1995,
+    "votes": 1260890,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Ottman"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0434409",
+    "title": "V for Vendetta",
+    "year": 2005,
+    "votes": 1260052,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Dario Marianelli"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0371746",
+    "title": "Iron Man",
+    "year": 2008,
+    "votes": 1257032,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Ramin Djawadi"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0081505",
+    "title": "The Shining",
+    "year": 1980,
+    "votes": 1251452,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Rachel Elkind",
+      "Wendy Carlos"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0119217",
+    "title": "Good Will Hunting",
+    "year": 1997,
+    "votes": 1251202,
+    "album": {
+      "id": 53942812,
+      "title": "Good Will Hunting (Original Motion Picture Score)",
+      "artist": {
+        "id": 760,
+        "name": "Danny Elfman",
+        "link": "https://www.deezer.com/artist/760",
+        "picture": "https://api.deezer.com/artist/760/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/760/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 21,
+    "credited_composers": [
+      "Danny Elfman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 53942812,
+        "title": "Good Will Hunting (Original Motion Picture Score)",
+        "artist": "Danny Elfman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0266543",
+    "title": "Finding Nemo",
+    "year": 2003,
+    "votes": 1230245,
+    "album": {
+      "id": 473879,
+      "title": "Finding Nemo (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 2245,
+        "name": "Thomas Newman",
+        "link": "https://www.deezer.com/artist/2245",
+        "picture": "https://api.deezer.com/artist/2245/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/2245/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 40,
+    "credited_composers": [
+      "Thomas Newman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 473879,
+        "title": "Finding Nemo (Original Motion Picture Soundtrack)",
+        "artist": "Thomas Newman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0086190",
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "year": 1983,
+    "votes": 1228377,
+    "album": {
+      "id": 12118010,
+      "title": "Star Wars Episode VI: Return of the Jedi (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 805,
+        "name": "John Williams",
+        "link": "https://www.deezer.com/artist/805",
+        "picture": "https://api.deezer.com/artist/805/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/805/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 11,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12118010,
+        "title": "Star Wars Episode VI: Return of the Jedi (Original Motion Picture Soundtrack)",
+        "artist": "John Williams",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1392190",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "votes": 1226000,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Tom Holkenborg"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0477348",
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "votes": 1220666,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Carter Burwell"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt6751668",
+    "title": "Parasite",
+    "year": 2019,
+    "votes": 1206318,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Jung Jae-il"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0114709",
+    "title": "Toy Story",
+    "year": 1995,
+    "votes": 1205296,
+    "album": {
+      "id": 629211,
+      "title": "Toy Story (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5679,
+        "name": "Randy Newman",
+        "link": "https://www.deezer.com/artist/5679",
+        "picture": "https://api.deezer.com/artist/5679/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5679/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 16,
+    "credited_composers": [
+      "Randy Newman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 629211,
+        "title": "Toy Story (Original Motion Picture Soundtrack)",
+        "artist": "Randy Newman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0107290",
+    "title": "Jurassic Park",
+    "year": 1993,
+    "votes": 1204906,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0338013",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "votes": 1201294,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Jon Brion"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2267998",
+    "title": "Gone Girl",
+    "year": 2014,
+    "votes": 1193981,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Atticus Ross",
+      "Trent Reznor"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2582802",
+    "title": "Whiplash",
+    "year": 2014,
+    "votes": 1190411,
+    "album": {
+      "id": 236058892,
+      "title": "Whiplash (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 6747671,
+        "name": "Justin Hurwitz",
+        "link": "https://www.deezer.com/artist/6747671",
+        "picture": "https://api.deezer.com/artist/6747671/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/6877edaf48102d5568c760b3eefb3819/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/6877edaf48102d5568c760b3eefb3819/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/6877edaf48102d5568c760b3eefb3819/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/6877edaf48102d5568c760b3eefb3819/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6747671/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 24,
+    "credited_composers": [
+      "Justin Hurwitz"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 236058892,
+        "title": "Whiplash (Original Motion Picture Soundtrack)",
+        "artist": "Justin Hurwitz",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0105236",
+    "title": "Reservoir Dogs",
+    "year": 1992,
+    "votes": 1186094,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0112573",
+    "title": "Braveheart",
+    "year": 1995,
+    "votes": 1176045,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "James Horner"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 6415042,
+        "title": "Braveheart (Original Motion Picture Soundtrack)",
+        "artist": "Choristers of Westminster Abbey",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0167404",
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "votes": 1174324,
+    "album": {
+      "id": 12548774,
+      "title": "The Sixth Sense (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 6005,
+        "name": "James Newton Howard",
+        "link": "https://www.deezer.com/artist/6005",
+        "picture": "https://api.deezer.com/artist/6005/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6005/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 11,
+    "credited_composers": [
+      "James Newton Howard"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12548774,
+        "title": "The Sixth Sense (Original Motion Picture Soundtrack)",
+        "artist": "James Newton Howard",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0073486",
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": 1975,
+    "votes": 1172557,
+    "album": {
+      "id": 851973852,
+      "title": "One Flew Over The Cuckoo's Nest (Original Motion Picture Soundtrack / 50th Anniversary / Remastered 2025)",
+      "artist": {
+        "id": 13154,
+        "name": "Jack Nitzsche",
+        "link": "https://www.deezer.com/artist/13154",
+        "picture": "https://api.deezer.com/artist/13154/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/9a6fe18b0cb8c79eb99c0b6f28cba589/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9a6fe18b0cb8c79eb99c0b6f28cba589/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/9a6fe18b0cb8c79eb99c0b6f28cba589/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9a6fe18b0cb8c79eb99c0b6f28cba589/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/13154/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 11,
+    "credited_composers": [
+      "Jack Nitzsche"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 851973852,
+        "title": "One Flew Over The Cuckoo's Nest (Original Motion Picture Soundtrack / 50th Anniversary / Remastered 2025)",
+        "artist": "Jack Nitzsche",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0082971",
+    "title": "Raiders of the Lost Ark",
+    "year": 1981,
+    "votes": 1124779,
+    "album": {
+      "id": 66647842,
+      "title": "Raiders of the Lost Ark (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 805,
+        "name": "John Williams",
+        "link": "https://www.deezer.com/artist/805",
+        "picture": "https://api.deezer.com/artist/805/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/805/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 22,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 66647842,
+        "title": "Raiders of the Lost Ark (Original Motion Picture Soundtrack)",
+        "artist": "John Williams",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt15398776",
+    "title": "Oppenheimer",
+    "year": 2023,
+    "votes": 1109321,
+    "album": {
+      "id": 463516585,
+      "title": "Oppenheimer (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4553724,
+        "name": "Ludwig Göransson",
+        "link": "https://www.deezer.com/artist/4553724",
+        "picture": "https://api.deezer.com/artist/4553724/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/70c6fb0d92d44244caf1897cdfccd8c3/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/70c6fb0d92d44244caf1897cdfccd8c3/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/70c6fb0d92d44244caf1897cdfccd8c3/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/70c6fb0d92d44244caf1897cdfccd8c3/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4553724/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 24,
+    "credited_composers": [
+      "Ludwig Göransson"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 463516585,
+        "title": "Oppenheimer (Original Motion Picture Soundtrack)",
+        "artist": "Ludwig Göransson",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1392170",
+    "title": "The Hunger Games",
+    "year": 2012,
+    "votes": 1100229,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "James Newton Howard"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1160419",
+    "title": "Dune",
+    "year": 2021,
+    "votes": 1099150,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0198781",
+    "title": "Monsters, Inc.",
+    "year": 2001,
+    "votes": 1096590,
+    "album": {
+      "id": 13632628,
+      "title": "Monsters, Inc. (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5679,
+        "name": "Randy Newman",
+        "link": "https://www.deezer.com/artist/5679",
+        "picture": "https://api.deezer.com/artist/5679/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5679/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 25,
+    "credited_composers": [
+      "Randy Newman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 13632628,
+        "title": "Monsters, Inc. (Original Motion Picture Soundtrack)",
+        "artist": "Randy Newman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt10872600",
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "votes": 1085471,
+    "album": {
+      "id": 277389242,
+      "title": "Spider-Man: No Way Home (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 23,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 277389242,
+        "title": "Spider-Man: No Way Home (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0078748",
+    "title": "Alien",
+    "year": 1979,
+    "votes": 1081989,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Jerry Goldsmith"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 439115267,
+        "title": "Alien (Original Score)",
+        "artist": "Sample Sound Effects Agency",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1201607",
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "year": 2011,
+    "votes": 1068069,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Alexandre Desplat"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0268978",
+    "title": "A Beautiful Mind",
+    "year": 2001,
+    "votes": 1067511,
+    "album": {
+      "id": 73703852,
+      "title": "A Beautiful Mind (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 184,
+        "name": "James Horner",
+        "link": "https://www.deezer.com/artist/184",
+        "picture": "https://api.deezer.com/artist/184/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/9e5af1eb0e5389df202fe4ebd3c3fcaa/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9e5af1eb0e5389df202fe4ebd3c3fcaa/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/9e5af1eb0e5389df202fe4ebd3c3fcaa/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9e5af1eb0e5389df202fe4ebd3c3fcaa/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/184/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 16,
+    "credited_composers": [
+      "James Horner"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 73703852,
+        "title": "A Beautiful Mind (Original Motion Picture Soundtrack)",
+        "artist": "James Horner",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1675434",
+    "title": "The Intouchables",
+    "year": 2011,
+    "votes": 1047466,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Ludovico Einaudi"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0075314",
+    "title": "Taxi Driver",
+    "year": 1976,
+    "votes": 1047189,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Bernard Herrmann"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 55320422,
+        "title": "Taxi Driver (Original Motion Picture Soundtrack)",
+        "artist": "S. D. Burman",
+        "composer_link_verified": false
+      },
+      {
+        "id": 963078441,
+        "title": "Taxi Driver (Original Motion Picture Soundtrack)",
+        "artist": "Saleem Kashar",
+        "composer_link_verified": false
+      },
+      {
+        "id": 623312371,
+        "title": "Taxi Driver (Original Motion Picture Soundtrack)",
+        "artist": "S. D. Burman",
+        "composer_link_verified": false
+      },
+      {
+        "id": 426144127,
+        "title": "Taxi Driver (Original Motion Picture Soundtrack)",
+        "artist": "MASTER ABDULLAH",
+        "composer_link_verified": false
+      },
+      {
+        "id": 623331441,
+        "title": "Taxi Driver (Original Motion Picture Soundtrack)",
+        "artist": "Sathyam",
+        "composer_link_verified": false
+      },
+      {
+        "id": 680646521,
+        "title": "Taxi Driver (Original Motion Picture Soundtrack)",
+        "artist": "C. S. Joshi",
+        "composer_link_verified": false
+      },
+      {
+        "id": 51070272,
+        "title": "Taxi Driver (Original Motion Picture Soundtrack)",
+        "artist": "O. P. Nayyar",
+        "composer_link_verified": false
+      },
+      {
+        "id": 7459581,
+        "title": "Taxi Driver (Original Motion Picture Soundtrack)",
+        "artist": "S. D. Burman",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0095016",
+    "title": "Die Hard",
+    "year": 1988,
+    "votes": 1043631,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Michael Kamen"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0086250",
+    "title": "Scarface",
+    "year": 1983,
+    "votes": 1040735,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Giorgio Moroder"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2488496",
+    "title": "Star Wars: Episode VII - The Force Awakens",
+    "year": 2015,
+    "votes": 1038267,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt3659388",
+    "title": "The Martian",
+    "year": 2015,
+    "votes": 1035235,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Harry Gregson-Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0253474",
+    "title": "The Pianist",
+    "year": 2002,
+    "votes": 1030487,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Wojciech Kilar"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 7067666,
+        "title": "The Pianist (Original Motion Picture Soundtrack)",
+        "artist": "Original Motion Picture Soundtrack",
+        "composer_link_verified": false
+      },
+      {
+        "id": 97783,
+        "title": "The Pianist (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": false
+      },
+      {
+        "id": 7067163,
+        "title": "The Pianist (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": false
+      },
+      {
+        "id": 720376281,
+        "title": "The Pianist (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2395427",
+    "title": "Avengers: Age of Ultron",
+    "year": 2015,
+    "votes": 1028789,
+    "album": {
+      "id": 10063880,
+      "title": "Avengers: Age of Ultron (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 16596,
+        "name": "Brian Tyler",
+        "link": "https://www.deezer.com/artist/16596",
+        "picture": "https://api.deezer.com/artist/16596/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/16596/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 29,
+    "credited_composers": [
+      "Brian Tyler",
+      "Danny Elfman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 10063880,
+        "title": "Avengers: Age of Ultron (Original Motion Picture Soundtrack)",
+        "artist": "Brian Tyler",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0088247",
+    "title": "The Terminator",
+    "year": 1984,
+    "votes": 1023273,
+    "album": {
+      "id": 133937082,
+      "title": "The Terminator (Original Soundtrack Album)",
+      "artist": {
+        "id": 6140,
+        "name": "Brad Fiedel",
+        "link": "https://www.deezer.com/artist/6140",
+        "picture": "https://api.deezer.com/artist/6140/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/7d4c9c8bb3e6570a01daafd5682618d1/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/7d4c9c8bb3e6570a01daafd5682618d1/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/7d4c9c8bb3e6570a01daafd5682618d1/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/7d4c9c8bb3e6570a01daafd5682618d1/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6140/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 17,
+    "credited_composers": [
+      "Brad Fiedel"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 133937082,
+        "title": "The Terminator (Original Soundtrack Album)",
+        "artist": "Brad Fiedel",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0050083",
+    "title": "12 Angry Men",
+    "year": 1957,
+    "votes": 1010281,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Kenyon Hopkins"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0145487",
+    "title": "Spider-Man",
+    "year": 2002,
+    "votes": 1002712,
+    "album": {
+      "id": 1401753,
+      "title": "Spider-Man (Original Motion Picture Score)",
+      "artist": {
+        "id": 760,
+        "name": "Danny Elfman",
+        "link": "https://www.deezer.com/artist/760",
+        "picture": "https://api.deezer.com/artist/760/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/760/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 15,
+    "credited_composers": [
+      "Danny Elfman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 1401753,
+        "title": "Spider-Man (Original Motion Picture Score)",
+        "artist": "Danny Elfman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0435761",
+    "title": "Toy Story 3",
+    "year": 2010,
+    "votes": 995341,
+    "album": {
+      "id": 133523812,
+      "title": "Toy Story 3 (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5679,
+        "name": "Randy Newman",
+        "link": "https://www.deezer.com/artist/5679",
+        "picture": "https://api.deezer.com/artist/5679/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/02a6d796ecce20dd56cedaffc2781235/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5679/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 17,
+    "credited_composers": [
+      "Randy Newman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 133523812,
+        "title": "Toy Story 3 (Original Motion Picture Soundtrack)",
+        "artist": "Randy Newman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1843866",
+    "title": "Captain America: The Winter Soldier",
+    "year": 2014,
+    "votes": 995139,
+    "album": {
+      "id": 7514658,
+      "title": "Captain America: The Winter Soldier (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 510086,
+        "name": "Henry Jackman",
+        "link": "https://www.deezer.com/artist/510086",
+        "picture": "https://api.deezer.com/artist/510086/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/b9f2020d07ee6c6eb6382e976d53535c/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/b9f2020d07ee6c6eb6382e976d53535c/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/b9f2020d07ee6c6eb6382e976d53535c/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/b9f2020d07ee6c6eb6382e976d53535c/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/510086/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 20,
+    "credited_composers": [
+      "Henry Jackman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 7514658,
+        "title": "Captain America: The Winter Soldier (Original Motion Picture Soundtrack)",
+        "artist": "Henry Jackman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0458339",
+    "title": "Captain America: The First Avenger",
+    "year": 2011,
+    "votes": 993116,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Alan Silvestri"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0245429",
+    "title": "Spirited Away",
+    "year": 2001,
+    "votes": 991865,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Joe Hisaishi"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2278388",
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "votes": 991070,
+    "album": {
+      "id": 7406940,
+      "title": "The Grand Budapest Hotel (Original Soundtrack)",
+      "artist": {
+        "id": 5080,
+        "name": "Various Artists",
+        "link": "https://www.deezer.com/artist/5080",
+        "picture": "https://api.deezer.com/artist/5080/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5080/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 32,
+    "credited_composers": [
+      "Alexandre Desplat"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 77893272,
+        "title": "The Grand Budapest Hotel (Original Soundtrack) Commentary",
+        "artist": "Randall Poster",
+        "composer_link_verified": false
+      },
+      {
+        "id": 7406940,
+        "title": "The Grand Budapest Hotel (Original Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0208092",
+    "title": "Snatch",
+    "year": 2000,
+    "votes": 989505,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Murphy"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1300854",
+    "title": "Iron Man 3",
+    "year": 2013,
+    "votes": 989299,
+    "album": {
+      "id": 6516068,
+      "title": "Iron Man 3 (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 16596,
+        "name": "Brian Tyler",
+        "link": "https://www.deezer.com/artist/16596",
+        "picture": "https://api.deezer.com/artist/16596/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/16596/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 20,
+    "credited_composers": [
+      "Brian Tyler"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 6516068,
+        "title": "Iron Man 3 (Original Motion Picture Soundtrack)",
+        "artist": "Brian Tyler",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0800369",
+    "title": "Thor",
+    "year": 2011,
+    "votes": 989238,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Patrick Doyle"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0180093",
+    "title": "Requiem for a Dream",
+    "year": 2000,
+    "votes": 988808,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Clint Mansell"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 291689062,
+        "title": "Requiem for a dream (Original Motion Picture Soundtrack) (feat. Shahin Vasseghi & Vera Possanner)",
+        "artist": "Alvand Jalali",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt7131622",
+    "title": "Once Upon a Time in... Hollywood",
+    "year": 2019,
+    "votes": 984734,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0241527",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "votes": 972438,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0382932",
+    "title": "Ratatouille",
+    "year": 2007,
+    "votes": 971971,
+    "album": {
+      "id": 473893,
+      "title": "Ratatouille (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 24,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 473893,
+        "title": "Ratatouille (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1663202",
+    "title": "The Revenant",
+    "year": 2015,
+    "votes": 966931,
+    "album": {
+      "id": 152169872,
+      "title": "The Revenant (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 62996,
+        "name": "Ryuichi Sakamoto",
+        "link": "https://www.deezer.com/artist/62996",
+        "picture": "https://api.deezer.com/artist/62996/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/4b85d59a718b18287e9260b375c6d04d/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/4b85d59a718b18287e9260b375c6d04d/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/4b85d59a718b18287e9260b375c6d04d/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/4b85d59a718b18287e9260b375c6d04d/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/62996/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 23,
+    "credited_composers": [
+      "Alva Noto",
+      "Ryuichi Sakamoto"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 152169872,
+        "title": "The Revenant (Original Motion Picture Soundtrack)",
+        "artist": "Ryuichi Sakamoto",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1392214",
+    "title": "Prisoners",
+    "year": 2013,
+    "votes": 966003,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Jóhann Jóhannsson"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1228705",
+    "title": "Iron Man 2",
+    "year": 2010,
+    "votes": 963087,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Debney"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1877830",
+    "title": "The Batman",
+    "year": 2022,
+    "votes": 955846,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 302293637,
+        "title": "The Batman (Original Motion Picture Soundtrack) (Extended Edition)",
+        "artist": "JoHop Beyond",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt3498820",
+    "title": "Captain America: Civil War",
+    "year": 2016,
+    "votes": 955557,
+    "album": {
+      "id": 12983068,
+      "title": "Captain America: Civil War (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 510086,
+        "name": "Henry Jackman",
+        "link": "https://www.deezer.com/artist/510086",
+        "picture": "https://api.deezer.com/artist/510086/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/b9f2020d07ee6c6eb6382e976d53535c/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/b9f2020d07ee6c6eb6382e976d53535c/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/b9f2020d07ee6c6eb6382e976d53535c/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/b9f2020d07ee6c6eb6382e976d53535c/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/510086/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 21,
+    "credited_composers": [
+      "Henry Jackman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12983068,
+        "title": "Captain America: Civil War (Original Motion Picture Soundtrack)",
+        "artist": "Henry Jackman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1119646",
+    "title": "The Hangover",
+    "year": 2009,
+    "votes": 949329,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Christophe Beck"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0066921",
+    "title": "A Clockwork Orange",
+    "year": 1971,
+    "votes": 948727,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Wendy Carlos"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt3315342",
+    "title": "Logan",
+    "year": 2017,
+    "votes": 945659,
+    "album": {
+      "id": 15505282,
+      "title": "Logan (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 8425,
+        "name": "Marco Beltrami",
+        "link": "https://www.deezer.com/artist/8425",
+        "picture": "https://api.deezer.com/artist/8425/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/2b7778c54d13c786297154919d4ceb8d/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/2b7778c54d13c786297154919d4ceb8d/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/2b7778c54d13c786297154919d4ceb8d/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/2b7778c54d13c786297154919d4ceb8d/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/8425/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 25,
+    "credited_composers": [
+      "Marco Beltrami"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 15505282,
+        "title": "Logan (Original Motion Picture Soundtrack)",
+        "artist": "Marco Beltrami",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0120915",
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "year": 1999,
+    "votes": 942299,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0903624",
+    "title": "The Hobbit: An Unexpected Journey",
+    "year": 2012,
+    "votes": 940311,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Howard Shore"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2096673",
+    "title": "Inside Out",
+    "year": 2015,
+    "votes": 937624,
+    "album": {
+      "id": 10495744,
+      "title": "Inside Out (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 24,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 10495744,
+        "title": "Inside Out (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0121766",
+    "title": "Star Wars: Episode III - Revenge of the Sith",
+    "year": 2005,
+    "votes": 937555,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1825683",
+    "title": "Black Panther",
+    "year": 2018,
+    "votes": 931602,
+    "album": {
+      "id": 57078512,
+      "title": "Black Panther (Original Score)",
+      "artist": {
+        "id": 4553724,
+        "name": "Ludwig Göransson",
+        "link": "https://www.deezer.com/artist/4553724",
+        "picture": "https://api.deezer.com/artist/4553724/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/70c6fb0d92d44244caf1897cdfccd8c3/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/70c6fb0d92d44244caf1897cdfccd8c3/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/70c6fb0d92d44244caf1897cdfccd8c3/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/70c6fb0d92d44244caf1897cdfccd8c3/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4553724/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 28,
+    "credited_composers": [
+      "Ludwig Göransson"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 57078512,
+        "title": "Black Panther (Original Score)",
+        "artist": "Ludwig Göransson",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0118715",
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "votes": 927338,
+    "album": {
+      "id": 7805425,
+      "title": "The Big Lebowski (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 108420982,
+        "name": "Various Artists",
+        "link": "https://www.deezer.com/artist/108420982",
+        "picture": "https://api.deezer.com/artist/108420982/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/108420982/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 14,
+    "credited_composers": [
+      "Carter Burwell"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 7805425,
+        "title": "The Big Lebowski (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0246578",
+    "title": "Donnie Darko",
+    "year": 2001,
+    "votes": 924292,
+    "album": {
+      "id": 8351746,
+      "title": "Donnie Darko (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 1380,
+        "name": "Michael Andrews",
+        "link": "https://www.deezer.com/artist/1380",
+        "picture": "https://api.deezer.com/artist/1380/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/106d4ade4bcbb0d83afa810ebe0fb943/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/106d4ade4bcbb0d83afa810ebe0fb943/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/106d4ade4bcbb0d83afa810ebe0fb943/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/106d4ade4bcbb0d83afa810ebe0fb943/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/1380/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 18,
+    "credited_composers": [
+      "Michael Andrews"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 8351746,
+        "title": "Donnie Darko (Original Motion Picture Soundtrack)",
+        "artist": "Michael Andrews",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0416449",
+    "title": "300",
+    "year": 2006,
+    "votes": 924174,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Tyler Bates"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0317705",
+    "title": "The Incredibles",
+    "year": 2004,
+    "votes": 921889,
+    "album": {
+      "id": 2310491,
+      "title": "The Incredibles (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 2310491,
+        "title": "The Incredibles (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt3501632",
+    "title": "Thor: Ragnarok",
+    "year": 2017,
+    "votes": 918981,
+    "album": {
+      "id": 49844262,
+      "title": "Thor: Ragnarok (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 6915,
+        "name": "Mark Mothersbaugh",
+        "link": "https://www.deezer.com/artist/6915",
+        "picture": "https://api.deezer.com/artist/6915/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/52e03b456e89ae535ede044bb24d5ba6/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/52e03b456e89ae535ede044bb24d5ba6/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/52e03b456e89ae535ede044bb24d5ba6/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/52e03b456e89ae535ede044bb24d5ba6/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6915/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 23,
+    "credited_composers": [
+      "Mark Mothersbaugh"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 49844262,
+        "title": "Thor: Ragnarok (Original Motion Picture Soundtrack)",
+        "artist": "Mark Mothersbaugh",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1010048",
+    "title": "Slumdog Millionaire",
+    "year": 2008,
+    "votes": 917708,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "A.R. Rahman"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0892769",
+    "title": "How to Train Your Dragon",
+    "year": 2010,
+    "votes": 913051,
+    "album": {
+      "id": 753523091,
+      "title": "How to Train Your Dragon (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 2301,
+        "name": "John Powell",
+        "link": "https://www.deezer.com/artist/2301",
+        "picture": "https://api.deezer.com/artist/2301/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/e675d3c0bd289b97fe698fdef856d061/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/e675d3c0bd289b97fe698fdef856d061/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/e675d3c0bd289b97fe698fdef856d061/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/e675d3c0bd289b97fe698fdef856d061/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/2301/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 33,
+    "credited_composers": [
+      "John Powell"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 753523091,
+        "title": "How to Train Your Dragon (Original Motion Picture Soundtrack)",
+        "artist": "John Powell",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1745960",
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "votes": 911615,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer",
+      "Harold Faltermeyer",
+      "Lady Gaga"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1454468",
+    "title": "Gravity",
+    "year": 2013,
+    "votes": 908852,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Steven Price"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0060196",
+    "title": "The Good, the Bad and the Ugly",
+    "year": 1966,
+    "votes": 905852,
+    "album": {
+      "id": 5374171,
+      "title": "The Good, The Bad and The Ugly (Original Motion Picture Soundtrack) (Remastered Edition)",
+      "artist": {
+        "id": 1536,
+        "name": "Ennio Morricone",
+        "link": "https://www.deezer.com/artist/1536",
+        "picture": "https://api.deezer.com/artist/1536/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/5c185197d4a6b59d44fa048dec47be24/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/5c185197d4a6b59d44fa048dec47be24/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/5c185197d4a6b59d44fa048dec47be24/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/5c185197d4a6b59d44fa048dec47be24/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/1536/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 21,
+    "credited_composers": [
+      "Ennio Morricone"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 5374171,
+        "title": "The Good, The Bad and The Ugly (Original Motion Picture Soundtrack) (Remastered Edition)",
+        "artist": "Ennio Morricone",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1211837",
+    "title": "Doctor Strange",
+    "year": 2016,
+    "votes": 902996,
+    "album": {
+      "id": 14344340,
+      "title": "Doctor Strange (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 14344340,
+        "title": "Doctor Strange (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0947798",
+    "title": "Black Swan",
+    "year": 2010,
+    "votes": 900863,
+    "album": {
+      "id": 135714012,
+      "title": "Black Swan (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 757,
+        "name": "Clint Mansell",
+        "link": "https://www.deezer.com/artist/757",
+        "picture": "https://api.deezer.com/artist/757/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/fecdbea3e0c02ffdb0e1fe96bf899130/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/fecdbea3e0c02ffdb0e1fe96bf899130/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/fecdbea3e0c02ffdb0e1fe96bf899130/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/fecdbea3e0c02ffdb0e1fe96bf899130/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/757/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 16,
+    "credited_composers": [
+      "Clint Mansell"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 135714012,
+        "title": "Black Swan (Original Motion Picture Soundtrack)",
+        "artist": "Clint Mansell",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0083658",
+    "title": "Blade Runner",
+    "year": 1982,
+    "votes": 895575,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Vangelis"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt8946378",
+    "title": "Knives Out",
+    "year": 2019,
+    "votes": 895559,
+    "album": {
+      "id": 117844042,
+      "title": "Knives Out (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 1110491,
+        "name": "Nathan Johnson",
+        "link": "https://www.deezer.com/artist/1110491",
+        "picture": "https://api.deezer.com/artist/1110491/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/db53e76b20654e800c6fc3a76981adfc/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/db53e76b20654e800c6fc3a76981adfc/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/db53e76b20654e800c6fc3a76981adfc/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/db53e76b20654e800c6fc3a76981adfc/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/1110491/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 20,
+    "credited_composers": [
+      "Nathan Johnson"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 117844042,
+        "title": "Knives Out (Original Motion Picture Soundtrack)",
+        "artist": "Nathan Johnson",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0480249",
+    "title": "I Am Legend",
+    "year": 2007,
+    "votes": 892201,
+    "album": {
+      "id": 12224462,
+      "title": "I Am Legend (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 6005,
+        "name": "James Newton Howard",
+        "link": "https://www.deezer.com/artist/6005",
+        "picture": "https://api.deezer.com/artist/6005/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6005/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 14,
+    "credited_composers": [
+      "James Newton Howard"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12224462,
+        "title": "I Am Legend (Original Motion Picture Soundtrack)",
+        "artist": "James Newton Howard",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt2084970",
+    "title": "The Imitation Game",
+    "year": 2014,
+    "votes": 888132,
+    "album": {
+      "id": 8967035,
+      "title": "The Imitation Game (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 9183,
+        "name": "Alexandre Desplat",
+        "link": "https://www.deezer.com/artist/9183",
+        "picture": "https://api.deezer.com/artist/9183/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/9800e098f247b7fe63b92c742196d418/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/9800e098f247b7fe63b92c742196d418/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/9800e098f247b7fe63b92c742196d418/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/9800e098f247b7fe63b92c742196d418/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/9183/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 21,
+    "credited_composers": [
+      "Alexandre Desplat"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 8967035,
+        "title": "The Imitation Game (Original Motion Picture Soundtrack)",
+        "artist": "Alexandre Desplat",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0317248",
+    "title": "City of God",
+    "year": 2002,
+    "votes": 886281,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Antonio Pinto",
+      "Ed Cortês"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2543164",
+    "title": "Arrival",
+    "year": 2016,
+    "votes": 885064,
+    "album": {
+      "id": 14520468,
+      "title": "Arrival (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 75802,
+        "name": "Jóhann Jóhannsson",
+        "link": "https://www.deezer.com/artist/75802",
+        "picture": "https://api.deezer.com/artist/75802/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/80db7753dfb9b8939db3c17d9b0ba14e/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/80db7753dfb9b8939db3c17d9b0ba14e/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/80db7753dfb9b8939db3c17d9b0ba14e/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/80db7753dfb9b8939db3c17d9b0ba14e/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/75802/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 20,
+    "credited_composers": [
+      "Jóhann Jóhannsson"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 14520468,
+        "title": "Arrival (Original Motion Picture Soundtrack)",
+        "artist": "Jóhann Jóhannsson",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0378194",
+    "title": "Kill Bill: Vol. 2",
+    "year": 2004,
+    "votes": 883961,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "RZA",
+      "Robert Rodriguez"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0770828",
+    "title": "Man of Steel",
+    "year": 2013,
+    "votes": 879807,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0097576",
+    "title": "Indiana Jones and the Last Crusade",
+    "year": 1989,
+    "votes": 874538,
+    "album": {
+      "id": 66645372,
+      "title": "Indiana Jones and the Last Crusade (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 805,
+        "name": "John Williams",
+        "link": "https://www.deezer.com/artist/805",
+        "picture": "https://api.deezer.com/artist/805/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/805/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 66645372,
+        "title": "Indiana Jones and the Last Crusade (Original Motion Picture Soundtrack)",
+        "artist": "John Williams",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1205489",
+    "title": "Gran Torino",
+    "year": 2008,
+    "votes": 873112,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Kyle Eastwood",
+      "Michael Stevens"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0093058",
+    "title": "Full Metal Jacket",
+    "year": 1987,
+    "votes": 863369,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Vivian Kubrick"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0144084",
+    "title": "American Psycho",
+    "year": 2000,
+    "votes": 863237,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Cale"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt3896198",
+    "title": "Guardians of the Galaxy: Vol. 2",
+    "year": 2017,
+    "votes": 851951,
+    "album": {
+      "id": 40123671,
+      "title": "Guardians of the Galaxy Vol. 2 (Original Score)",
+      "artist": {
+        "id": 13507,
+        "name": "Tyler Bates",
+        "link": "https://www.deezer.com/artist/13507",
+        "picture": "https://api.deezer.com/artist/13507/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/13507/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "Tyler Bates"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 40123671,
+        "title": "Guardians of the Galaxy Vol. 2 (Original Score)",
+        "artist": "Tyler Bates",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0090605",
+    "title": "Aliens",
+    "year": 1986,
+    "votes": 851719,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "James Horner"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 542023372,
+        "title": "Aliens (Original Score)",
+        "artist": "Emanuel Guevara",
+        "composer_link_verified": false
+      },
+      {
+        "id": 613813142,
+        "title": "Aliens (Expanded Original Score)",
+        "artist": "Txema Cabria",
+        "composer_link_verified": false
+      },
+      {
+        "id": 329392947,
+        "title": "Aliens (Original Motion Picture Soundtrack)",
+        "artist": "Multiverze",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0211915",
+    "title": "Amélie",
+    "year": 2001,
+    "votes": 849603,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Yann Tiersen"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2250912",
+    "title": "Spider-Man: Homecoming",
+    "year": 2017,
+    "votes": 845159,
+    "album": {
+      "id": 42870081,
+      "title": "Spider-Man: Homecoming (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 22,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 42870081,
+        "title": "Spider-Man: Homecoming (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt2911666",
+    "title": "John Wick",
+    "year": 2014,
+    "votes": 844725,
+    "album": {
+      "id": 12224274,
+      "title": "John Wick (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5080,
+        "name": "Various Artists",
+        "link": "https://www.deezer.com/artist/5080",
+        "picture": "https://api.deezer.com/artist/5080/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5080/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 27,
+    "credited_composers": [
+      "Joel J. Richard",
+      "Tyler Bates"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12224274,
+        "title": "John Wick (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt5052448",
+    "title": "Get Out",
+    "year": 2017,
+    "votes": 844488,
+    "album": {
+      "id": 127074472,
+      "title": "Get Out (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 3007211,
+        "name": "Michael Abels",
+        "link": "https://www.deezer.com/artist/3007211",
+        "picture": "https://api.deezer.com/artist/3007211/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/57d857f1dfaa4d994ffbd6454c22bfcd/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/57d857f1dfaa4d994ffbd6454c22bfcd/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/57d857f1dfaa4d994ffbd6454c22bfcd/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/57d857f1dfaa4d994ffbd6454c22bfcd/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/3007211/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 43,
+    "credited_composers": [
+      "Michael Abels"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 127074472,
+        "title": "Get Out (Original Motion Picture Soundtrack)",
+        "artist": "Michael Abels",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0383574",
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "year": 2006,
+    "votes": 840045,
+    "album": {
+      "id": 321110577,
+      "title": "Pirates of the Caribbean: Dead Man's Chest (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 1935,
+        "name": "Hans Zimmer",
+        "link": "https://www.deezer.com/artist/1935",
+        "picture": "https://api.deezer.com/artist/1935/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/1bd0b9f7a3cf12e01bdcc26fa69673f7/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/1bd0b9f7a3cf12e01bdcc26fa69673f7/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/1bd0b9f7a3cf12e01bdcc26fa69673f7/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/1bd0b9f7a3cf12e01bdcc26fa69673f7/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/1935/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 12,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 321110577,
+        "title": "Pirates of the Caribbean: Dead Man's Chest (Original Motion Picture Soundtrack)",
+        "artist": "Hans Zimmer",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0121765",
+    "title": "Star Wars: Episode II - Attack of the Clones",
+    "year": 2002,
+    "votes": 834589,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 6964336,
+        "title": "Star Wars Episode II: Attack of the Clones (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1285016",
+    "title": "The Social Network",
+    "year": 2010,
+    "votes": 834051,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Atticus Ross",
+      "Trent Reznor"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt5013056",
+    "title": "Dunkirk",
+    "year": 2017,
+    "votes": 831645,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0118799",
+    "title": "Life Is Beautiful",
+    "year": 1997,
+    "votes": 826951,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Nicola Piovani"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 709082391,
+        "title": "La vita è bella (Original Motion Picture Soundtrack)",
+        "artist": "Armando Trovajoli",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0401792",
+    "title": "Sin City",
+    "year": 2005,
+    "votes": 825370,
+    "album": {
+      "id": 963300721,
+      "title": "Sin City (Original Motion Picture Soundtrack / The Deluxe Edition)",
+      "artist": {
+        "id": 5215,
+        "name": "Graeme Revell",
+        "link": "https://www.deezer.com/artist/5215",
+        "picture": "https://api.deezer.com/artist/5215/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/3bc328df8b3fa59d5550db34e1c7bdd3/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/3bc328df8b3fa59d5550db34e1c7bdd3/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/3bc328df8b3fa59d5550db34e1c7bdd3/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/3bc328df8b3fa59d5550db34e1c7bdd3/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5215/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 50,
+    "credited_composers": [
+      "Graeme Revell",
+      "John Debney",
+      "Robert Rodriguez"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 963300721,
+        "title": "Sin City (Original Motion Picture Soundtrack / The Deluxe Edition)",
+        "artist": "Graeme Revell",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0126029",
+    "title": "Shrek",
+    "year": 2001,
+    "votes": 825278,
+    "album": {
+      "id": 12223946,
+      "title": "Shrek (Original Motion Picture Score)",
+      "artist": {
+        "id": 3170,
+        "name": "Harry Gregson-Williams",
+        "link": "https://www.deezer.com/artist/3170",
+        "picture": "https://api.deezer.com/artist/3170/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/c991cabfefe41787af248e5502c4d5d6/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/c991cabfefe41787af248e5502c4d5d6/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/c991cabfefe41787af248e5502c4d5d6/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/c991cabfefe41787af248e5502c4d5d6/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/3170/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 27,
+    "credited_composers": [
+      "Harry Gregson-Williams",
+      "John Powell"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12223946,
+        "title": "Shrek (Original Motion Picture Score)",
+        "artist": "Harry Gregson-Williams",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0113277",
+    "title": "Heat",
+    "year": 1995,
+    "votes": 823046,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Elliot Goldenthal"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt4633694",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "votes": 822886,
+    "album": {
+      "id": 81761222,
+      "title": "Spider-Man: Into the Spider-Verse (Original Score)",
+      "artist": {
+        "id": 449167,
+        "name": "Daniel Pemberton",
+        "link": "https://www.deezer.com/artist/449167",
+        "picture": "https://api.deezer.com/artist/449167/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/a1c37e788a3d10ae05e443a721ce8a5f/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/a1c37e788a3d10ae05e443a721ce8a5f/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/a1c37e788a3d10ae05e443a721ce8a5f/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/a1c37e788a3d10ae05e443a721ce8a5f/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/449167/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 44,
+    "credited_composers": [
+      "Daniel Pemberton"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 81761222,
+        "title": "Spider-Man: Into the Spider-Verse (Original Score)",
+        "artist": "Daniel Pemberton",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1631867",
+    "title": "Edge of Tomorrow",
+    "year": 2014,
+    "votes": 820092,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Christophe Beck"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0316654",
+    "title": "Spider-Man 2",
+    "year": 2004,
+    "votes": 813145,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Danny Elfman"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt15239678",
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "votes": 802958,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt2975590",
+    "title": "Batman v Superman: Dawn of Justice",
+    "year": 2016,
+    "votes": 801659,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer",
+      "Tom Holkenborg"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0116282",
+    "title": "Fargo",
+    "year": 1996,
+    "votes": 801425,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Carter Burwell"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1877832",
+    "title": "X-Men: Days of Future Past",
+    "year": 2014,
+    "votes": 800984,
+    "album": {
+      "id": 7802420,
+      "title": "X-Men: Days of Future Past (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 16231,
+        "name": "John Ottman",
+        "link": "https://www.deezer.com/artist/16231",
+        "picture": "https://api.deezer.com/artist/16231/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/da595a2b7ec048d704da37ba20a4bfbd/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/da595a2b7ec048d704da37ba20a4bfbd/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/da595a2b7ec048d704da37ba20a4bfbd/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/da595a2b7ec048d704da37ba20a4bfbd/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/16231/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 22,
+    "credited_composers": [
+      "John Ottman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 7802420,
+        "title": "X-Men: Days of Future Past (Original Motion Picture Soundtrack)",
+        "artist": "John Ottman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0478970",
+    "title": "Ant-Man",
+    "year": 2015,
+    "votes": 799369,
+    "album": {
+      "id": 10758324,
+      "title": "Ant-Man (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5080,
+        "name": "Various Artists",
+        "link": "https://www.deezer.com/artist/5080",
+        "picture": "https://api.deezer.com/artist/5080/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5080/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 31,
+    "credited_composers": [
+      "Christophe Beck"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 10758324,
+        "title": "Ant-Man (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0816711",
+    "title": "World War Z",
+    "year": 2013,
+    "votes": 798941,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Marco Beltrami"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0054215",
+    "title": "Psycho",
+    "year": 1960,
+    "votes": 798885,
+    "album": {
+      "id": 12980720,
+      "title": "Psycho (The Complete Original Motion Picture Score)",
+      "artist": {
+        "id": 2504,
+        "name": "Bernard Herrmann",
+        "link": "https://www.deezer.com/artist/2504",
+        "picture": "https://api.deezer.com/artist/2504/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/96f9787bf2b99401b08c132042c73399/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/96f9787bf2b99401b08c132042c73399/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/96f9787bf2b99401b08c132042c73399/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/96f9787bf2b99401b08c132042c73399/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/2504/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 40,
+    "credited_composers": [
+      "Bernard Herrmann"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12980720,
+        "title": "Psycho (The Complete Original Motion Picture Score)",
+        "artist": "Bernard Herrmann",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt2024544",
+    "title": "12 Years a Slave",
+    "year": 2013,
+    "votes": 797485,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1981115",
+    "title": "Thor: The Dark World",
+    "year": 2013,
+    "votes": 796734,
+    "album": {
+      "id": 7046106,
+      "title": "Thor: The Dark World (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 16596,
+        "name": "Brian Tyler",
+        "link": "https://www.deezer.com/artist/16596",
+        "picture": "https://api.deezer.com/artist/16596/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/8d737a6e90210ede8f83cb51321d85c5/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/16596/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 26,
+    "credited_composers": [
+      "Brian Tyler"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 7046106,
+        "title": "Thor: The Dark World (Original Motion Picture Soundtrack)",
+        "artist": "Brian Tyler",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0062622",
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "votes": 796288,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0948470",
+    "title": "The Amazing Spider-Man",
+    "year": 2012,
+    "votes": 792368,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "James Horner"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt8579674",
+    "title": "1917",
+    "year": 2019,
+    "votes": 790954,
+    "album": {
+      "id": 121283082,
+      "title": "1917 (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 2245,
+        "name": "Thomas Newman",
+        "link": "https://www.deezer.com/artist/2245",
+        "picture": "https://api.deezer.com/artist/2245/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/31715f74e43d74cbe628806f941aec29/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/2245/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "Thomas Newman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 121283082,
+        "title": "1917 (Original Motion Picture Soundtrack)",
+        "artist": "Thomas Newman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt2802144",
+    "title": "Kingsman: The Secret Service",
+    "year": 2014,
+    "votes": 786899,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Henry Jackman",
+      "Matthew Margeson"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1951264",
+    "title": "The Hunger Games: Catching Fire",
+    "year": 2013,
+    "votes": 786684,
+    "album": {
+      "id": 7116088,
+      "title": "The Hunger Games: Catching Fire (Original Motion Picture Score)",
+      "artist": {
+        "id": 6005,
+        "name": "James Newton Howard",
+        "link": "https://www.deezer.com/artist/6005",
+        "picture": "https://api.deezer.com/artist/6005/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/098f48168ee513d11aa71d1ccc8babfe/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6005/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 29,
+    "credited_composers": [
+      "James Newton Howard"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 7116088,
+        "title": "The Hunger Games: Catching Fire (Original Motion Picture Score)",
+        "artist": "James Newton Howard",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt3783958",
+    "title": "La La Land",
+    "year": 2016,
+    "votes": 783407,
+    "album": {
+      "id": 14781199,
+      "title": "La La Land (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 6747671,
+        "name": "Justin Hurwitz",
+        "link": "https://www.deezer.com/artist/6747671",
+        "picture": "https://api.deezer.com/artist/6747671/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/6877edaf48102d5568c760b3eefb3819/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/6877edaf48102d5568c760b3eefb3819/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/6877edaf48102d5568c760b3eefb3819/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/6877edaf48102d5568c760b3eefb3819/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/6747671/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 15,
+    "credited_composers": [
+      "Justin Hurwitz"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 732544481,
+        "title": "La La Land (Original Motion Picture Soundtrack)",
+        "artist": "LoLa & Hauser",
+        "composer_link_verified": false
+      },
+      {
+        "id": 14781199,
+        "title": "La La Land (Original Motion Picture Soundtrack)",
+        "artist": "Justin Hurwitz",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0304141",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "year": 2004,
+    "votes": 783163,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1074638",
+    "title": "Skyfall",
+    "year": 2012,
+    "votes": 782975,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Thomas Newman"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 461066535,
+        "title": "Skyfall (Original Motion Picture Soundtrack) (Instrumental)",
+        "artist": "Kilohertz",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0295297",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "year": 2002,
+    "votes": 782010,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1670345",
+    "title": "Now You See Me",
+    "year": 2013,
+    "votes": 781252,
+    "album": {
+      "id": 650767311,
+      "title": "Now You See Me (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5080,
+        "name": "Various Artists",
+        "link": "https://www.deezer.com/artist/5080",
+        "picture": "https://api.deezer.com/artist/5080/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5080/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 12,
+    "credited_composers": [
+      "Brian Tyler"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 650767311,
+        "title": "Now You See Me (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0078788",
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "votes": 781210,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Carmine Coppola",
+      "Francis Ford Coppola"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1045658",
+    "title": "Silver Linings Playbook",
+    "year": 2012,
+    "votes": 780079,
+    "album": {
+      "id": 6088202,
+      "title": "Silver Linings Playbook (Original Score)",
+      "artist": {
+        "id": 760,
+        "name": "Danny Elfman",
+        "link": "https://www.deezer.com/artist/760",
+        "picture": "https://api.deezer.com/artist/760/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/4467396e65a48980b57d1ae0d049cee9/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/760/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 10,
+    "credited_composers": [
+      "Danny Elfman"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 6088202,
+        "title": "Silver Linings Playbook (Original Score)",
+        "artist": "Danny Elfman",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0780504",
+    "title": "Drive",
+    "year": 2011,
+    "votes": 777708,
+    "album": {
+      "id": 209587302,
+      "title": "Drive (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5080,
+        "name": "Various Artists",
+        "link": "https://www.deezer.com/artist/5080",
+        "picture": "https://api.deezer.com/artist/5080/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/6d6503360e6cc202c9a1ed8617f3296b/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5080/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "Cliff Martinez"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 209587302,
+        "title": "Drive (Original Motion Picture Soundtrack)",
+        "artist": "Various Artists",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0117951",
+    "title": "Trainspotting",
+    "year": 1996,
+    "votes": 777313,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [],
+    "skip": "no_tmdb_composer_evidence",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1270798",
+    "title": "X-Men: First Class",
+    "year": 2011,
+    "votes": 776762,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Henry Jackman"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0405159",
+    "title": "Million Dollar Baby",
+    "year": 2004,
+    "votes": 776343,
+    "album": {
+      "id": 12707712,
+      "title": "Million Dollar Baby (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 8791,
+        "name": "Clint Eastwood",
+        "link": "https://www.deezer.com/artist/8791",
+        "picture": "https://api.deezer.com/artist/8791/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/1ab652192f44db76128d256a8cf0d5a9/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/1ab652192f44db76128d256a8cf0d5a9/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/1ab652192f44db76128d256a8cf0d5a9/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/1ab652192f44db76128d256a8cf0d5a9/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/8791/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 20,
+    "credited_composers": [
+      "Clint Eastwood"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12707712,
+        "title": "Million Dollar Baby (Original Motion Picture Soundtrack)",
+        "artist": "Clint Eastwood",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1856101",
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "votes": 774516,
+    "album": {
+      "id": 49296292,
+      "title": "Blade Runner 2049 (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 1935,
+        "name": "Hans Zimmer",
+        "link": "https://www.deezer.com/artist/1935",
+        "picture": "https://api.deezer.com/artist/1935/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/1bd0b9f7a3cf12e01bdcc26fa69673f7/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/1bd0b9f7a3cf12e01bdcc26fa69673f7/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/1bd0b9f7a3cf12e01bdcc26fa69673f7/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/1bd0b9f7a3cf12e01bdcc26fa69673f7/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/1935/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 24,
+    "credited_composers": [
+      "Benjamin Wallfisch",
+      "Hans Zimmer"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 49296292,
+        "title": "Blade Runner 2049 (Original Motion Picture Soundtrack)",
+        "artist": "Hans Zimmer",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0330373",
+    "title": "Harry Potter and the Goblet of Fire",
+    "year": 2005,
+    "votes": 768862,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Patrick Doyle"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt3748528",
+    "title": "Rogue One: A Star Wars Story",
+    "year": 2016,
+    "votes": 768699,
+    "album": {
+      "id": 14834879,
+      "title": "Rogue One: A Star Wars Story (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 21,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 14834879,
+        "title": "Rogue One: A Star Wars Story (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1170358",
+    "title": "The Hobbit: The Desolation of Smaug",
+    "year": 2013,
+    "votes": 764135,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Howard Shore"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt5463162",
+    "title": "Deadpool 2",
+    "year": 2018,
+    "votes": 762218,
+    "album": {
+      "id": 62341622,
+      "title": "Deadpool 2 (Original Motion Picture Score)",
+      "artist": {
+        "id": 13507,
+        "name": "Tyler Bates",
+        "link": "https://www.deezer.com/artist/13507",
+        "picture": "https://api.deezer.com/artist/13507/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/36dc408e604465786d7dab24bd477d9c/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/13507/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 22,
+    "credited_composers": [
+      "Tyler Bates"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 62341622,
+        "title": "Deadpool 2 (Original Motion Picture Score)",
+        "artist": "Tyler Bates",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1136608",
+    "title": "District 9",
+    "year": 2009,
+    "votes": 759697,
+    "album": {
+      "id": 14379168,
+      "title": "District 9 (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 5000172,
+        "name": "Clinton Shorter",
+        "link": "https://www.deezer.com/artist/5000172",
+        "picture": "https://api.deezer.com/artist/5000172/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/df143f85a60752328d9293f066fdbb59/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/df143f85a60752328d9293f066fdbb59/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/df143f85a60752328d9293f066fdbb59/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/df143f85a60752328d9293f066fdbb59/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/5000172/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 11,
+    "credited_composers": [
+      "Clinton Shorter"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 14379168,
+        "title": "District 9 (Original Motion Picture Soundtrack)",
+        "artist": "Clinton Shorter",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0099785",
+    "title": "Home Alone",
+    "year": 1990,
+    "votes": 758138,
+    "album": {
+      "id": 11471852,
+      "title": "Home Alone (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 805,
+        "name": "John Williams",
+        "link": "https://www.deezer.com/artist/805",
+        "picture": "https://api.deezer.com/artist/805/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/805/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 19,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 11471852,
+        "title": "Home Alone (Original Motion Picture Soundtrack)",
+        "artist": "John Williams",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0381061",
+    "title": "Casino Royale",
+    "year": 2006,
+    "votes": 757757,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "David Arnold"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0421715",
+    "title": "The Curious Case of Benjamin Button",
+    "year": 2008,
+    "votes": 757425,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Alexandre Desplat"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0457430",
+    "title": "Pan's Labyrinth",
+    "year": 2006,
+    "votes": 756266,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Javier Navarrete"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0449088",
+    "title": "Pirates of the Caribbean: At World's End",
+    "year": 2007,
+    "votes": 755740,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Hans Zimmer"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0073195",
+    "title": "Jaws",
+    "year": 1975,
+    "votes": 753448,
+    "album": {
+      "id": 12707266,
+      "title": "Jaws (Original Motion Picture Score)",
+      "artist": {
+        "id": 805,
+        "name": "John Williams",
+        "link": "https://www.deezer.com/artist/805",
+        "picture": "https://api.deezer.com/artist/805/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/97b49e5d676823f4eb400e1f8b44b736/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/805/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 25,
+    "credited_composers": [
+      "John Williams"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 12707266,
+        "title": "Jaws (Original Motion Picture Score)",
+        "artist": "John Williams",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt0451279",
+    "title": "Wonder Woman",
+    "year": 2017,
+    "votes": 743980,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Rupert Gregson-Williams"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0107048",
+    "title": "Groundhog Day",
+    "year": 1993,
+    "votes": 742979,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "George Fenton"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0369610",
+    "title": "Jurassic World",
+    "year": 2015,
+    "votes": 740575,
+    "album": {
+      "id": 137281382,
+      "title": "Jurassic World (Original Motion Picture Soundtrack)",
+      "artist": {
+        "id": 4962,
+        "name": "Michael Giacchino",
+        "link": "https://www.deezer.com/artist/4962",
+        "picture": "https://api.deezer.com/artist/4962/image",
+        "picture_small": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/250x250-000000-80-0-0.jpg",
+        "picture_big": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/f93cee882f39b98e863e36c2e89cb998/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https://api.deezer.com/artist/4962/top?limit=50",
+        "type": "artist"
+      }
+    },
+    "track_count": 24,
+    "credited_composers": [
+      "Michael Giacchino"
+    ],
+    "skip": null,
+    "album_checks": [
+      {
+        "id": 137281382,
+        "title": "Jurassic World (Original Motion Picture Soundtrack)",
+        "artist": "Michael Giacchino",
+        "composer_link_verified": true
+      }
+    ],
+    "album_evidence": "Exact film title + original soundtrack designation + TMDB IMDb-linked original music composer. Not independent publisher certification."
+  },
+  {
+    "id": "tt1504320",
+    "title": "The King's Speech",
+    "year": 2010,
+    "votes": 738430,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Alexandre Desplat"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt0364569",
+    "title": "Oldboy",
+    "year": 2003,
+    "votes": 737203,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Choi Seung-hyun",
+      "Lee Ji-soo",
+      "Shim Hyun-jung"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  },
+  {
+    "id": "tt1798709",
+    "title": "Her",
+    "year": 2013,
+    "votes": 736861,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Jeremy Gara",
+      "Richard Reed Parry",
+      "Régine Chassagne",
+      "Tim Kingsbury",
+      "Will Butler",
+      "Win Butler"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [
+      {
+        "id": 206741772,
+        "title": "Her (Original Score)",
+        "artist": "Arcade Fire",
+        "composer_link_verified": false
+      }
+    ],
+    "album_evidence": null
+  },
+  {
+    "id": "tt3460252",
+    "title": "The Hateful Eight",
+    "year": 2015,
+    "votes": 734321,
+    "album": null,
+    "track_count": 0,
+    "credited_composers": [
+      "Ennio Morricone"
+    ],
+    "skip": "no_ost_album_with_exact_title_and_credited_composer",
+    "album_checks": [],
+    "album_evidence": null
+  }
+]

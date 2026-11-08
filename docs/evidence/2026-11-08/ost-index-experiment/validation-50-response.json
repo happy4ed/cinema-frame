@@ -1,0 +1,1170 @@
+{
+  "source": "Gemini 판단",
+  "model": "gemini-2.5-flash",
+  "purpose": "blind_artist_tag_agreement_50",
+  "fetched_at": 1794107051.124842,
+  "expires_at": 1794711851.124842,
+  "input": [
+    {
+      "key": "797988172",
+      "track": "Harlan's Plan",
+      "artist": "Nathan Johnson",
+      "films": [
+        {
+          "id": "tt8946378",
+          "title": "Knives Out"
+        }
+      ]
+    },
+    {
+      "key": "123818730",
+      "track": "Discovery",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "797988182",
+      "track": "The Wake",
+      "artist": "Nathan Johnson",
+      "films": [
+        {
+          "id": "tt8946378",
+          "title": "Knives Out"
+        }
+      ]
+    },
+    {
+      "key": "123818728",
+      "track": "The Cellar",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "797988222",
+      "track": "Knives Out!, Pt. II (The Will)",
+      "artist": "Nathan Johnson",
+      "films": [
+        {
+          "id": "tt8946378",
+          "title": "Knives Out"
+        }
+      ]
+    },
+    {
+      "key": "797988282",
+      "track": "Blanc's Tale, Pt. II",
+      "artist": "Nathan Johnson",
+      "films": [
+        {
+          "id": "tt8946378",
+          "title": "Knives Out"
+        }
+      ]
+    },
+    {
+      "key": "123818708",
+      "track": "The Porch",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "137727923",
+      "track": "Planetarium",
+      "artist": "Justin Hurwitz",
+      "films": [
+        {
+          "id": "tt3783958",
+          "title": "La La Land"
+        }
+      ]
+    },
+    {
+      "key": "797988202",
+      "track": "The Game's Afoot",
+      "artist": "Nathan Johnson",
+      "films": [
+        {
+          "id": "tt8946378",
+          "title": "Knives Out"
+        }
+      ]
+    },
+    {
+      "key": "123818668",
+      "track": "The Car Lot",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "137727937",
+      "track": "The End",
+      "artist": "Justin Hurwitz",
+      "films": [
+        {
+          "id": "tt3783958",
+          "title": "La La Land"
+        }
+      ]
+    },
+    {
+      "key": "123818678",
+      "track": "The Parlor",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "1398706592",
+      "track": "Caravan",
+      "artist": "John Wasson",
+      "films": [
+        {
+          "id": "tt2582802",
+          "title": "Whiplash"
+        }
+      ]
+    },
+    {
+      "key": "797988122",
+      "track": "Like Father, Like Son",
+      "artist": "Nathan Johnson",
+      "films": [
+        {
+          "id": "tt8946378",
+          "title": "Knives Out"
+        }
+      ]
+    },
+    {
+      "key": "123818672",
+      "track": "The Rainstorm",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "1398706742",
+      "track": "When I Wake",
+      "artist": "Justin Hurwitz",
+      "films": [
+        {
+          "id": "tt2582802",
+          "title": "Whiplash"
+        }
+      ]
+    },
+    {
+      "key": "1398706732",
+      "track": "No Two Words",
+      "artist": "Justin Hurwitz",
+      "films": [
+        {
+          "id": "tt2582802",
+          "title": "Whiplash"
+        }
+      ]
+    },
+    {
+      "key": "123818732",
+      "track": "Finale",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "123818690",
+      "track": "The Office",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "1398706752",
+      "track": "Casey's Song",
+      "artist": "Justin Hurwitz",
+      "films": [
+        {
+          "id": "tt2582802",
+          "title": "Whiplash"
+        }
+      ]
+    },
+    {
+      "key": "137727931",
+      "track": "Engagement Party",
+      "artist": "Justin Hurwitz",
+      "films": [
+        {
+          "id": "tt3783958",
+          "title": "La La Land"
+        }
+      ]
+    },
+    {
+      "key": "117728318",
+      "track": "Evil Man Blues",
+      "artist": "The Candy Shop Boys",
+      "films": [
+        {
+          "id": "tt2911666",
+          "title": "John Wick"
+        }
+      ]
+    },
+    {
+      "key": "1398706632",
+      "track": "Call From Dad",
+      "artist": "Justin Hurwitz",
+      "films": [
+        {
+          "id": "tt2582802",
+          "title": "Whiplash"
+        }
+      ]
+    },
+    {
+      "key": "123818720",
+      "track": "Cabin 1",
+      "artist": "Bernard Herrmann",
+      "films": [
+        {
+          "id": "tt0054215",
+          "title": "Psycho"
+        }
+      ]
+    },
+    {
+      "key": "797988112",
+      "track": "The Thrombey Estate",
+      "artist": "Nathan Johnson",
+      "films": [
+        {
+          "id": "tt8946378",
+          "title": "Knives Out"
+        }
+      ]
+    },
+    {
+      "key": "889834732",
+      "track": "Sarah Watches News / Enters Tech Noir",
+      "artist": "Brad Fiedel",
+      "films": [
+        {
+          "id": "tt0088247",
+          "title": "The Terminator"
+        }
+      ]
+    },
+    {
+      "key": "602439992",
+      "track": "Define Dancing",
+      "artist": "Thomas Newman",
+      "films": [
+        {
+          "id": "tt0910970",
+          "title": "WALL·E"
+        }
+      ]
+    },
+    {
+      "key": "351421591",
+      "track": "Ego",
+      "artist": "Tyler Bates",
+      "films": [
+        {
+          "id": "tt3896198",
+          "title": "Guardians of the Galaxy: Vol. 2"
+        }
+      ]
+    },
+    {
+      "key": "117725810",
+      "track": "Helmet Hair",
+      "artist": "Harry Gregson-Williams",
+      "films": [
+        {
+          "id": "tt0126029",
+          "title": "Shrek"
+        }
+      ]
+    },
+    {
+      "key": "709612582",
+      "track": "Remember",
+      "artist": "Hans Zimmer",
+      "films": [
+        {
+          "id": "tt0110357",
+          "title": "The Lion King"
+        }
+      ]
+    },
+    {
+      "key": "413733102",
+      "track": "Someone Lived This",
+      "artist": "Hans Zimmer",
+      "films": [
+        {
+          "id": "tt1856101",
+          "title": "Blade Runner 2049"
+        }
+      ]
+    },
+    {
+      "key": "417366742",
+      "track": "Grandmaster's Chambers",
+      "artist": "Mark Mothersbaugh",
+      "films": [
+        {
+          "id": "tt3501632",
+          "title": "Thor: Ragnarok"
+        }
+      ]
+    },
+    {
+      "key": "3357285201",
+      "track": "Conference of the Tribes",
+      "artist": "John Powell",
+      "films": [
+        {
+          "id": "tt0892769",
+          "title": "How to Train Your Dragon"
+        }
+      ]
+    },
+    {
+      "key": "900437482",
+      "track": "Opposites Attract",
+      "artist": "Clint Mansell",
+      "films": [
+        {
+          "id": "tt0947798",
+          "title": "Black Swan"
+        }
+      ]
+    },
+    {
+      "key": "900437472",
+      "track": "The Double",
+      "artist": "Clint Mansell",
+      "films": [
+        {
+          "id": "tt0947798",
+          "title": "Black Swan"
+        }
+      ]
+    },
+    {
+      "key": "15220458",
+      "track": "Transformations",
+      "artist": "Danny Elfman",
+      "films": [
+        {
+          "id": "tt0145487",
+          "title": "Spider-Man"
+        }
+      ]
+    },
+    {
+      "key": "24206361",
+      "track": "Barbossa Is Hungry",
+      "artist": "Klaus Badelt",
+      "films": [
+        {
+          "id": "tt0325980",
+          "title": "Pirates of the Caribbean: The Curse of the Black Pearl"
+        }
+      ]
+    },
+    {
+      "key": "351421611",
+      "track": "The Expansion",
+      "artist": "Tyler Bates",
+      "films": [
+        {
+          "id": "tt3896198",
+          "title": "Guardians of the Galaxy: Vol. 2"
+        }
+      ]
+    },
+    {
+      "key": "1761672507",
+      "track": "The Real Transported Man",
+      "artist": "David Julyan",
+      "films": [
+        {
+          "id": "tt0482571",
+          "title": "The Prestige"
+        }
+      ]
+    },
+    {
+      "key": "74929094",
+      "track": "Up The Stairs/Down The Hall",
+      "artist": "Alexandre Desplat",
+      "films": [
+        {
+          "id": "tt2278388",
+          "title": "The Grand Budapest Hotel"
+        }
+      ]
+    },
+    {
+      "key": "123843426",
+      "track": "The Tunnel",
+      "artist": "Henry Jackman",
+      "films": [
+        {
+          "id": "tt3498820",
+          "title": "Captain America: Civil War"
+        }
+      ]
+    },
+    {
+      "key": "2523705",
+      "track": "Belvedere, Ohio",
+      "artist": "Howard Shore",
+      "films": [
+        {
+          "id": "tt0102926",
+          "title": "The Silence of the Lambs"
+        }
+      ]
+    },
+    {
+      "key": "81105340",
+      "track": "Plasma Ball",
+      "artist": "Tyler Bates",
+      "films": [
+        {
+          "id": "tt2015381",
+          "title": "Guardians of the Galaxy"
+        }
+      ]
+    },
+    {
+      "key": "15220537",
+      "track": "Revenge",
+      "artist": "Danny Elfman",
+      "films": [
+        {
+          "id": "tt0145487",
+          "title": "Spider-Man"
+        }
+      ]
+    },
+    {
+      "key": "78454215",
+      "track": "Rules of Time",
+      "artist": "John Ottman",
+      "films": [
+        {
+          "id": "tt1877832",
+          "title": "X-Men: Days of Future Past"
+        }
+      ]
+    },
+    {
+      "key": "17840790",
+      "track": "Stark Goes Green",
+      "artist": "Alan Silvestri",
+      "films": [
+        {
+          "id": "tt0848228",
+          "title": "The Avengers"
+        }
+      ]
+    },
+    {
+      "key": "823113582",
+      "track": "Tripwire (From \"1917\" Soundtrack)",
+      "artist": "Thomas Newman",
+      "films": [
+        {
+          "id": "tt8579674",
+          "title": "1917"
+        }
+      ]
+    },
+    {
+      "key": "5167371",
+      "track": "The Little Clownfish From The Reef",
+      "artist": "Thomas Newman",
+      "films": [
+        {
+          "id": "tt0266543",
+          "title": "Finding Nemo"
+        }
+      ]
+    },
+    {
+      "key": "134521676",
+      "track": "Hippocratic Hypocrite",
+      "artist": "Michael Giacchino",
+      "films": [
+        {
+          "id": "tt1211837",
+          "title": "Doctor Strange"
+        }
+      ]
+    },
+    {
+      "key": "117725794",
+      "track": "The Perfect King",
+      "artist": "Harry Gregson-Williams",
+      "films": [
+        {
+          "id": "tt0126029",
+          "title": "Shrek"
+        }
+      ]
+    }
+  ],
+  "parsed": {
+    "decisions": [
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "upbeat"
+        ],
+        "reason": "영화의 미스터리 분위기를 잘 살린 오케스트라 곡입니다.",
+        "key": "797988172"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 긴장감 넘치는 분위기를 조성하는 오케스트라 곡입니다.",
+        "key": "123818730"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 차분하고 사색적인 분위기를 담은 오케스트라 곡입니다.",
+        "key": "797988182"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 어둡고 긴장감 있는 장면을 위한 오케스트라 곡입니다.",
+        "key": "123818728"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "upbeat"
+        ],
+        "reason": "영화의 극적인 순간을 강조하는 활기찬 오케스트라 곡입니다.",
+        "key": "797988222"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "upbeat"
+        ],
+        "reason": "탐정 캐릭터의 개성을 드러내는 경쾌한 오케스트라 곡입니다.",
+        "key": "797988282"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 불안하고 으스스한 분위기를 조성하는 오케스트라 곡입니다.",
+        "key": "123818708"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "jazz"
+        ],
+        "moods": [
+          "calm",
+          "epic"
+        ],
+        "reason": "영화의 몽환적이고 웅장한 분위기를 담은 오케스트라 재즈 곡입니다.",
+        "key": "137727923"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "upbeat"
+        ],
+        "reason": "영화의 수수께끼를 풀어가는 활기찬 분위기를 표현한 오케스트라 곡입니다.",
+        "key": "797988202"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 긴장감 넘치는 장면을 위한 오케스트라 곡입니다.",
+        "key": "123818668"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "jazz"
+        ],
+        "moods": [
+          "calm",
+          "epic"
+        ],
+        "reason": "영화의 감동적이고 웅장한 결말을 장식하는 오케스트라 재즈 곡입니다.",
+        "key": "137727937"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 불안하고 으스스한 분위기를 조성하는 오케스트라 곡입니다.",
+        "key": "123818678"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "jazz"
+        ],
+        "moods": [
+          "upbeat",
+          "epic"
+        ],
+        "reason": "영화의 클라이맥스를 장식하는 강렬하고 활기찬 재즈 곡입니다.",
+        "key": "1398706592"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 인물 관계를 암시하는 차분한 오케스트라 곡입니다.",
+        "key": "797988122"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 긴장감 넘치는 분위기를 고조시키는 오케스트라 곡입니다.",
+        "key": "123818672"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "jazz"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 차분하고 사색적인 분위기를 담은 재즈 곡입니다.",
+        "key": "1398706742"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "jazz"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 차분하고 사색적인 분위기를 담은 재즈 곡입니다.",
+        "key": "1398706732"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 소름 끼치는 결말을 장식하는 오케스트라 곡입니다.",
+        "key": "123818732"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 불안하고 으스스한 분위기를 조성하는 오케스트라 곡입니다.",
+        "key": "123818690"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "jazz"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 부드럽고 감성적인 분위기를 담은 재즈 곡입니다.",
+        "key": "1398706752"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "jazz",
+          "orchestral_score"
+        ],
+        "moods": [
+          "upbeat",
+          "calm"
+        ],
+        "reason": "영화의 축제 분위기와 미묘한 감정을 담은 재즈 오케스트라 곡입니다.",
+        "key": "137727931"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "other"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 거칠고 시크한 분위기를 표현하는 블루스 곡입니다.",
+        "key": "117728318"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "jazz"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 차분하고 긴장감 있는 분위기를 담은 재즈 곡입니다.",
+        "key": "1398706632"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 불안하고 으스스한 분위기를 조성하는 오케스트라 곡입니다.",
+        "key": "123818720"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 미스터리한 저택 분위기를 조성하는 오케스트라 곡입니다.",
+        "key": "797988112"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "electronic",
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 긴장감 넘치는 분위기를 조성하는 전자음악과 오케스트라 곡입니다.",
+        "key": "889834732"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm",
+          "upbeat"
+        ],
+        "reason": "영화의 몽환적이고 희망찬 분위기를 담은 오케스트라 곡입니다.",
+        "key": "602439992"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "electronic"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 웅장하고 활기찬 액션 장면을 위한 오케스트라 전자음악 곡입니다.",
+        "key": "351421591"
+      },
+      {
+        "knowledge": "unknown",
+        "styles": [],
+        "moods": [],
+        "reason": "이 특정 녹음에 대한 정보가 없습니다.",
+        "key": "117725810"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "epic",
+          "calm"
+        ],
+        "reason": "영화의 감동적이고 웅장한 분위기를 담은 오케스트라 곡입니다.",
+        "key": "709612582"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "electronic",
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 광활하고 사색적인 분위기를 조성하는 전자음악 오케스트라 곡입니다.",
+        "key": "413733102"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "electronic",
+          "orchestral_score"
+        ],
+        "moods": [
+          "upbeat"
+        ],
+        "reason": "영화의 독특하고 모험적인 분위기를 담은 전자음악 오케스트라 곡입니다.",
+        "key": "417366742"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "other"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 웅장하고 모험적인 분위기를 담은 오케스트라 곡입니다.",
+        "key": "3357285201"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "classical"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 어둡고 긴장감 넘치는 분위기를 조성하는 오케스트라 클래식 곡입니다.",
+        "key": "900437482"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "classical"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 어둡고 긴장감 넘치는 분위기를 조성하는 오케스트라 클래식 곡입니다.",
+        "key": "900437472"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 극적이고 영웅적인 변신을 표현하는 오케스트라 곡입니다.",
+        "key": "15220458"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 모험적이고 긴장감 넘치는 분위기를 담은 오케스트라 곡입니다.",
+        "key": "24206361"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "electronic"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 웅장하고 활기찬 액션 장면을 위한 오케스트라 전자음악 곡입니다.",
+        "key": "351421611"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "electronic"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 미스터리하고 긴장감 있는 분위기를 조성하는 오케스트라 전자음악 곡입니다.",
+        "key": "1761672507"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "other"
+        ],
+        "moods": [
+          "upbeat"
+        ],
+        "reason": "영화의 독특하고 유쾌한 분위기를 담은 오케스트라 곡입니다.",
+        "key": "74929094"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "electronic"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 긴박하고 웅장한 액션 장면을 위한 오케스트라 전자음악 곡입니다.",
+        "key": "123843426"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 어둡고 긴장감 넘치는 분위기를 조성하는 오케스트라 곡입니다.",
+        "key": "2523705"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "electronic"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 웅장하고 활기찬 액션 장면을 위한 오케스트라 전자음악 곡입니다.",
+        "key": "81105340"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 극적이고 강렬한 복수 장면을 위한 오케스트라 곡입니다.",
+        "key": "15220537"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "electronic"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 웅장하고 극적인 분위기를 담은 오케스트라 전자음악 곡입니다.",
+        "key": "78454215"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "epic",
+          "upbeat"
+        ],
+        "reason": "영화의 강력하고 웅장한 액션 장면을 위한 오케스트라 곡입니다.",
+        "key": "17840790"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "electronic"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 극심한 긴장감과 불안감을 조성하는 오케스트라 전자음악 곡입니다.",
+        "key": "823113582"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 감성적이고 몽환적인 분위기를 담은 오케스트라 곡입니다.",
+        "key": "5167371"
+      },
+      {
+        "knowledge": "known",
+        "styles": [
+          "orchestral_score",
+          "other"
+        ],
+        "moods": [
+          "calm"
+        ],
+        "reason": "영화의 신비롭고 초현실적인 분위기를 조성하는 오케스트라 곡입니다.",
+        "key": "134521676"
+      },
+      {
+        "knowledge": "unknown",
+        "styles": [],
+        "moods": [],
+        "reason": "이 특정 녹음에 대한 정보가 없습니다.",
+        "key": "117725794"
+      }
+    ]
+  },
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "{\"decisions\":[{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"upbeat\"],\"reason\":\"영화의 미스터리 분위기를 잘 살린 오케스트라 곡입니다.\",\"key\":\"797988172\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 긴장감 넘치는 분위기를 조성하는 오케스트라 곡입니다.\",\"key\":\"123818730\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 차분하고 사색적인 분위기를 담은 오케스트라 곡입니다.\",\"key\":\"797988182\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 어둡고 긴장감 있는 장면을 위한 오케스트라 곡입니다.\",\"key\":\"123818728\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"upbeat\"],\"reason\":\"영화의 극적인 순간을 강조하는 활기찬 오케스트라 곡입니다.\",\"key\":\"797988222\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"upbeat\"],\"reason\":\"탐정 캐릭터의 개성을 드러내는 경쾌한 오케스트라 곡입니다.\",\"key\":\"797988282\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 불안하고 으스스한 분위기를 조성하는 오케스트라 곡입니다.\",\"key\":\"123818708\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"jazz\"],\"moods\":[\"calm\",\"epic\"],\"reason\":\"영화의 몽환적이고 웅장한 분위기를 담은 오케스트라 재즈 곡입니다.\",\"key\":\"137727923\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"upbeat\"],\"reason\":\"영화의 수수께끼를 풀어가는 활기찬 분위기를 표현한 오케스트라 곡입니다.\",\"key\":\"797988202\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 긴장감 넘치는 장면을 위한 오케스트라 곡입니다.\",\"key\":\"123818668\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"jazz\"],\"moods\":[\"calm\",\"epic\"],\"reason\":\"영화의 감동적이고 웅장한 결말을 장식하는 오케스트라 재즈 곡입니다.\",\"key\":\"137727937\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 불안하고 으스스한 분위기를 조성하는 오케스트라 곡입니다.\",\"key\":\"123818678\"},{\"knowledge\":\"known\",\"styles\":[\"jazz\"],\"moods\":[\"upbeat\",\"epic\"],\"reason\":\"영화의 클라이맥스를 장식하는 강렬하고 활기찬 재즈 곡입니다.\",\"key\":\"1398706592\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 인물 관계를 암시하는 차분한 오케스트라 곡입니다.\",\"key\":\"797988122\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 긴장감 넘치는 분위기를 고조시키는 오케스트라 곡입니다.\",\"key\":\"123818672\"},{\"knowledge\":\"known\",\"styles\":[\"jazz\"],\"moods\":[\"calm\"],\"reason\":\"영화의 차분하고 사색적인 분위기를 담은 재즈 곡입니다.\",\"key\":\"1398706742\"},{\"knowledge\":\"known\",\"styles\":[\"jazz\"],\"moods\":[\"calm\"],\"reason\":\"영화의 차분하고 사색적인 분위기를 담은 재즈 곡입니다.\",\"key\":\"1398706732\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 소름 끼치는 결말을 장식하는 오케스트라 곡입니다.\",\"key\":\"123818732\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 불안하고 으스스한 분위기를 조성하는 오케스트라 곡입니다.\",\"key\":\"123818690\"},{\"knowledge\":\"known\",\"styles\":[\"jazz\"],\"moods\":[\"calm\"],\"reason\":\"영화의 부드럽고 감성적인 분위기를 담은 재즈 곡입니다.\",\"key\":\"1398706752\"},{\"knowledge\":\"known\",\"styles\":[\"jazz\",\"orchestral_score\"],\"moods\":[\"upbeat\",\"calm\"],\"reason\":\"영화의 축제 분위기와 미묘한 감정을 담은 재즈 오케스트라 곡입니다.\",\"key\":\"137727931\"},{\"knowledge\":\"known\",\"styles\":[\"other\"],\"moods\":[\"calm\"],\"reason\":\"영화의 거칠고 시크한 분위기를 표현하는 블루스 곡입니다.\",\"key\":\"117728318\"},{\"knowledge\":\"known\",\"styles\":[\"jazz\"],\"moods\":[\"calm\"],\"reason\":\"영화의 차분하고 긴장감 있는 분위기를 담은 재즈 곡입니다.\",\"key\":\"1398706632\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 불안하고 으스스한 분위기를 조성하는 오케스트라 곡입니다.\",\"key\":\"123818720\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 미스터리한 저택 분위기를 조성하는 오케스트라 곡입니다.\",\"key\":\"797988112\"},{\"knowledge\":\"known\",\"styles\":[\"electronic\",\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 긴장감 넘치는 분위기를 조성하는 전자음악과 오케스트라 곡입니다.\",\"key\":\"889834732\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\",\"upbeat\"],\"reason\":\"영화의 몽환적이고 희망찬 분위기를 담은 오케스트라 곡입니다.\",\"key\":\"602439992\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"electronic\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 웅장하고 활기찬 액션 장면을 위한 오케스트라 전자음악 곡입니다.\",\"key\":\"351421591\"},{\"knowledge\":\"unknown\",\"styles\":[],\"moods\":[],\"reason\":\"이 특정 녹음에 대한 정보가 없습니다.\",\"key\":\"117725810\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"epic\",\"calm\"],\"reason\":\"영화의 감동적이고 웅장한 분위기를 담은 오케스트라 곡입니다.\",\"key\":\"709612582\"},{\"knowledge\":\"known\",\"styles\":[\"electronic\",\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 광활하고 사색적인 분위기를 조성하는 전자음악 오케스트라 곡입니다.\",\"key\":\"413733102\"},{\"knowledge\":\"known\",\"styles\":[\"electronic\",\"orchestral_score\"],\"moods\":[\"upbeat\"],\"reason\":\"영화의 독특하고 모험적인 분위기를 담은 전자음악 오케스트라 곡입니다.\",\"key\":\"417366742\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"other\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 웅장하고 모험적인 분위기를 담은 오케스트라 곡입니다.\",\"key\":\"3357285201\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"classical\"],\"moods\":[\"calm\"],\"reason\":\"영화의 어둡고 긴장감 넘치는 분위기를 조성하는 오케스트라 클래식 곡입니다.\",\"key\":\"900437482\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"classical\"],\"moods\":[\"calm\"],\"reason\":\"영화의 어둡고 긴장감 넘치는 분위기를 조성하는 오케스트라 클래식 곡입니다.\",\"key\":\"900437472\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 극적이고 영웅적인 변신을 표현하는 오케스트라 곡입니다.\",\"key\":\"15220458\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 모험적이고 긴장감 넘치는 분위기를 담은 오케스트라 곡입니다.\",\"key\":\"24206361\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"electronic\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 웅장하고 활기찬 액션 장면을 위한 오케스트라 전자음악 곡입니다.\",\"key\":\"351421611\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"electronic\"],\"moods\":[\"calm\"],\"reason\":\"영화의 미스터리하고 긴장감 있는 분위기를 조성하는 오케스트라 전자음악 곡입니다.\",\"key\":\"1761672507\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"other\"],\"moods\":[\"upbeat\"],\"reason\":\"영화의 독특하고 유쾌한 분위기를 담은 오케스트라 곡입니다.\",\"key\":\"74929094\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"electronic\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 긴박하고 웅장한 액션 장면을 위한 오케스트라 전자음악 곡입니다.\",\"key\":\"123843426\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 어둡고 긴장감 넘치는 분위기를 조성하는 오케스트라 곡입니다.\",\"key\":\"2523705\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"electronic\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 웅장하고 활기찬 액션 장면을 위한 오케스트라 전자음악 곡입니다.\",\"key\":\"81105340\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 극적이고 강렬한 복수 장면을 위한 오케스트라 곡입니다.\",\"key\":\"15220537\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"electronic\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 웅장하고 극적인 분위기를 담은 오케스트라 전자음악 곡입니다.\",\"key\":\"78454215\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"epic\",\"upbeat\"],\"reason\":\"영화의 강력하고 웅장한 액션 장면을 위한 오케스트라 곡입니다.\",\"key\":\"17840790\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"electronic\"],\"moods\":[\"calm\"],\"reason\":\"영화의 극심한 긴장감과 불안감을 조성하는 오케스트라 전자음악 곡입니다.\",\"key\":\"823113582\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\"],\"moods\":[\"calm\"],\"reason\":\"영화의 감성적이고 몽환적인 분위기를 담은 오케스트라 곡입니다.\",\"key\":\"5167371\"},{\"knowledge\":\"known\",\"styles\":[\"orchestral_score\",\"other\"],\"moods\":[\"calm\"],\"reason\":\"영화의 신비롭고 초현실적인 분위기를 조성하는 오케스트라 곡입니다.\",\"key\":\"134521676\"},{\"knowledge\":\"unknown\",\"styles\":[],\"moods\":[],\"reason\":\"이 특정 녹음에 대한 정보가 없습니다.\",\"key\":\"117725794\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "index": 0
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 2955,
+      "candidatesTokenCount": 2687,
+      "totalTokenCount": 13192,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2955
+        }
+      ],
+      "thoughtsTokenCount": 7550,
+      "serviceTier": "standard"
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "g-bvav70OPz91e8Pqf6GgAc"
+  }
+}

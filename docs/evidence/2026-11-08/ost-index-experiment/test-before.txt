@@ -1,0 +1,22 @@
+MOCK: reproduces the initial array schema without an allowed-key enum; not an installed-app regression.
+test_mock_gemini_schema_limits_keys_to_input_identifiers (test_ost_index_experiment.IndexExperimentTests.test_mock_gemini_schema_limits_keys_to_input_identifiers) ... ERROR
+
+======================================================================
+ERROR: test_mock_gemini_schema_limits_keys_to_input_identifiers (test_ost_index_experiment.IndexExperimentTests.test_mock_gemini_schema_limits_keys_to_input_identifiers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\Dev\cinema-frame\tests\test_ost_index_experiment.py", line 52, in test_mock_gemini_schema_limits_keys_to_input_identifiers
+    result=e.gemini([{'key':'a','track':'MOCK','artist':'MOCK','films':[]}],'mock','test-no-secret',{'gemini_events':[],'gemini_cache_hits':0})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\cinema-frame\tools\experiment_ost_index.py", line 156, in gemini
+    with urllib.request.urlopen(req,timeout=120) as response:raw=json.load(response);event['http']=response.status
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Dev\cinema-frame\tests\test_ost_index_experiment.py", line 47, in fetch
+    self.assertEqual(key_schema['enum'],['a'])
+                     ~~~~~~~~~~^^^^^^^^
+KeyError: 'enum'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (errors=1)

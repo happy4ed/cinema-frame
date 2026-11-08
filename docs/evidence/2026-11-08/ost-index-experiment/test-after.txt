@@ -1,0 +1,10 @@
+test_artist_tags_without_count_are_not_lost (test_ost_index_experiment.IndexExperimentTests.test_artist_tags_without_count_are_not_lost) ... ok
+test_dictionary_jazz_subgenres_and_personal_tags (test_ost_index_experiment.IndexExperimentTests.test_dictionary_jazz_subgenres_and_personal_tags) ... ok
+test_mock_gemini_schema_limits_keys_to_input_identifiers (test_ost_index_experiment.IndexExperimentTests.test_mock_gemini_schema_limits_keys_to_input_identifiers) ... ok
+test_mock_same_title_wrong_composer_and_live_rejected (test_ost_index_experiment.IndexExperimentTests.test_mock_same_title_wrong_composer_and_live_rejected) ... ok
+test_unknown_and_missing_gemini_answers_cannot_pass (test_ost_index_experiment.IndexExperimentTests.test_unknown_and_missing_gemini_answers_cannot_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.007s
+
+OK

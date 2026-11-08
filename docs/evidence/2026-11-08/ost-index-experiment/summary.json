@@ -1,0 +1,48 @@
+{
+  "complete": true,
+  "movies": 200,
+  "albums_found": 81,
+  "track_rows": 1779,
+  "unique_deezer_tracks": 1779,
+  "unique_isrcs": 1779,
+  "artists": 123,
+  "artists_with_tags": 118,
+  "tracks_with_artist_tags": 1754,
+  "artist_tag_jazz": 106,
+  "tag_stage_jazz": 106,
+  "after_gemini_jazz": 107,
+  "gemini_unknown": 117,
+  "sample_source": "Existing IMDb catalogue, votes descending, India excluded, no genre/style/era filter",
+  "track_tags_present": 4,
+  "counts": {
+    "deezer_http": 346,
+    "deezer_cache_hits": 48,
+    "lastfm_http": 1899,
+    "lastfm_cache_hits": 3,
+    "tmdb_http": 400,
+    "gemini_http": 27
+  },
+  "http_total": 2672,
+  "active_seconds": 1264.2940793037415,
+  "wall_seconds": 1390.1739842891693,
+  "lastfm_max_calls_in_any_second": 5,
+  "album_skip_reasons": {
+    "no_ost_album_with_exact_title_and_credited_composer": 109,
+    "no_tmdb_composer_evidence": 10
+  },
+  "validation": {
+    "sample_size": 50,
+    "gemini_known": 48,
+    "gemini_unknown": 2,
+    "artist_all_tags_jazz_agreement": 31,
+    "artist_top5_jazz_agreement": 40,
+    "artist_jazz_only": 17,
+    "both_jazz": 8,
+    "style_set_exact": 5,
+    "style_any_overlap": 27,
+    "distinct_artists": 22,
+    "distinct_movies": 26
+  },
+  "jazz_excluding_any_gemini_unknown": 107,
+  "note": "Classification experiment only; no Spotify playable verification or playback. Invalid Gemini batch discarded and repeated with constrained IDs. Initial failed raw output was not retained; validation failure recorded. HTTP 400 request-shape rejection retained."
+}
