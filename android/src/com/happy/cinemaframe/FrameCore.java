@@ -59,7 +59,7 @@ public final class FrameCore {
             if(!external&&!engine.isRunning()&&System.currentTimeMillis()-lastEngineStart>10000){synchronized(lock){resumePosition=lastPosition;resumePaused=phase.equals("paused");playbackApplied=-1;retryPlaybackAt=0;}lastEngineStart=System.currentTimeMillis();engine.start();}
             JSONObject s=json(playerBase()+"/status",null);spotifyReady=s.length()>0;
             auth=external?new JSONObject():json("http://127.0.0.1:24881/auth/code",null);
-            synchronized(lock){if(waitingNext&&ready&&spotifyReady&&System.currentTimeMillis()>=retryNextAt){retryNextAt=System.currentTimeMillis()+15000;long gen=epoch;jobs.submit(()->next(gen));}if(ready&&spotifyReady&&!request.isEmpty()&&!discovery&&!ostBlocked&&ostEpoch!=epoch&&System.currentTimeMillis()-lastDiscovery>60000){long gen=epoch;jobs.submit(()->discover(gen));lastDiscovery=System.currentTimeMillis();}}
+            synchronized(lock){if(waitingNext&&ready&&spotifyReady&&System.currentTimeMillis()>=retryNextAt){retryNextAt=System.currentTimeMillis()+15000;long gen=epoch;jobs.submit(()->next(gen));}if(ready&&spotifyReady&&!request.isEmpty()&&!discovery&&!ostBlocked&&(ostEpoch!=epoch||expandCachedPlan())&&System.currentTimeMillis()-lastDiscovery>60000){long gen=epoch;jobs.submit(()->discover(gen));lastDiscovery=System.currentTimeMillis();}}
         }catch(Exception ignored){spotifyReady=false;}},1,3,TimeUnit.SECONDS);
     }
     public void display(long version,JSONObject metrics,String error,boolean visible){synchronized(lock){displayVersion=version;displayMetrics=metrics;displayError=error;displayVisible=visible;lastDisplay=System.currentTimeMillis();}}
@@ -285,13 +285,19 @@ public final class FrameCore {
         synchronized(lock){if(epoch!=generation)return false;if(cached.isEmpty())return false;ostPlan.clear();ostPlan.addAll(cached);ostCursor=0;ostEpoch=generation;ostBlocked=false;ostAudit=new JSONObject().put("source","저장된 재생목록").put("new_spotify_searches",0).put("playlist_tracks",cached.size());}
         nextOst(generation);return true;
     }
+    private boolean expandCachedPlan(){
+        return PlaybackPlan.expand(profile.optBoolean("cached_playlist"),"저장된 재생목록".equals(ostAudit.optString("source")),search.retryAt(),System.currentTimeMillis());
+    }
     private void discover(long generation){
-        JSONObject p; synchronized(lock){if(generation!=epoch||discovery||ostBlocked||ostEpoch==generation)return;discovery=true;discoveryEpoch=generation;p=new JSONObject();try{p=new JSONObject(profile.toString());}catch(Exception e){discovery=false;return;}}
-        try{if(p.optBoolean("cached_playlist")){if(!cachedPlaylist(generation))throw new IOException("유효한 저장 재생목록이 없습니다");return;}if(OstPolicy.unrestrictedMusic(p)&&cachedPlaylist(generation))return;if(search.retryAt()>System.currentTimeMillis())throw new IOException("Spotify 검색 제한 · 서버 지정 시각까지 대기");if(index==null)throw new IOException("색인 초기화 실패: "+indexInitError);final long gen=generation;
+        JSONObject p; synchronized(lock){if(generation!=epoch||discovery||ostBlocked||(ostEpoch==generation&&!expandCachedPlan()))return;discovery=true;discoveryEpoch=generation;p=new JSONObject();try{p=new JSONObject(profile.toString());}catch(Exception e){discovery=false;return;}}
+        try{if(p.optBoolean("cached_playlist")){if(!cachedPlaylist(generation))throw new IOException("유효한 저장 재생목록이 없습니다");return;}if(ostEpoch!=generation&&OstPolicy.unrestrictedMusic(p)&&cachedPlaylist(generation))return;if(search.retryAt()>System.currentTimeMillis())throw new IOException("Spotify 검색 제한 · 서버 지정 시각까지 대기");if(index==null)throw new IOException("색인 초기화 실패: "+indexInitError);final long gen=generation;
             List<JSONObject> plan=index.plan(p,msg->{synchronized(lock){if(epoch!=gen)throw new java.util.concurrent.CancellationException("요청 변경");message=msg;}},this::userStyleExcluded);
-            synchronized(lock){if(generation!=epoch)return;ostPlan.clear();ostPlan.addAll(plan);for(JSONObject row:plan){JSONObject m=row.getJSONObject("movie");movies.put(m.getString("id"),m);}ostCursor=0;ostEpoch=generation;ostAudit=new JSONObject().put("source","Gemini 판단 · Deezer 순위").put("profile",p).put("ordering","matching tracks: Deezer rank desc per film top3, movie rating desc round-robin; exact ISRC playable only").put("playlist_tracks",plan.size()).put("completed_at",System.currentTimeMillis());if(plan.isEmpty()){waitingNext=false;phase="no_matches";message="조건에 맞는 검증된 곡이 아직 없습니다. 색인에서 더 조사하며 미확인·낮은 확신도 곡은 제외합니다.";return;}}
-            nextOst(generation);
-        }catch(Exception e){synchronized(lock){if(generation==epoch){ostBlocked=search.retryAt()<=System.currentTimeMillis();if(!ostBlocked)lastDiscovery=search.retryAt()-60000;waitingNext=false;message="선곡 중단: "+e.getMessage();if(current==null)phase="error";}}}
+            boolean keepCurrent;
+            synchronized(lock){if(generation!=epoch)return;keepCurrent=current!=null&&ostEpoch==generation;
+                if(plan.isEmpty()&&keepCurrent){ostAudit.put("expansion_status","no_new_matches").put("last_expansion_at",System.currentTimeMillis());lastDiscovery=System.currentTimeMillis()+240000;return;}
+                ostPlan.clear();ostPlan.addAll(plan);for(JSONObject row:plan){JSONObject m=row.getJSONObject("movie");movies.put(m.getString("id"),m);}ostCursor=0;ostEpoch=generation;ostAudit=new JSONObject().put("source","Gemini 판단 · Deezer 순위").put("profile",p).put("ordering","matching tracks: Deezer rank desc per film top3, movie rating desc round-robin; exact ISRC playable only").put("playlist_tracks",plan.size()).put("completed_at",System.currentTimeMillis());if(plan.isEmpty()){waitingNext=false;phase="no_matches";message="조건에 맞는 검증된 곡이 아직 없습니다. 색인에서 더 조사하며 미확인·낮은 확신도 곡은 제외합니다.";return;}}
+            if(!keepCurrent)nextOst(generation);else synchronized(lock){refreshOstQueue();}
+        }catch(Exception e){synchronized(lock){if(generation==epoch){boolean usable=ostEpoch==generation&&!ostPlan.isEmpty();ostBlocked=!usable&&search.retryAt()<=System.currentTimeMillis();lastDiscovery=Math.max(System.currentTimeMillis()+240000,search.retryAt()-60000);waitingNext=false;message=(usable?"저장된 목록 유지 · 새 곡 탐색 대기: ":"선곡 중단: ")+e.getMessage();try{ostAudit.put("expansion_error",e.getMessage());}catch(Exception ignored){}if(current==null)phase="error";}}}
         finally{synchronized(lock){if(discoveryEpoch==generation){discovery=false;if(generation!=epoch){long pending=epoch;jobs.submit(()->discover(pending));}}}}
     }
     private void discoverOst(long generation){
@@ -334,14 +340,16 @@ public final class FrameCore {
     }
     private void refreshOstQueue()throws Exception{
         queue=new JSONArray();String prev=current==null?lastSelectedMovie:current.getJSONObject("movie").getString("id");
-        for(int i=ostCursor;i<ostPlan.size();i++){JSONObject x=ostPlan.get(i);String id=x.getJSONObject("movie").getString("id");if(id.equals(prev))continue;queue.put(x);prev=id;}
+        List<JSONObject> preview=new ArrayList<>(ostPlan);
+        for(int i=ostCursor;i<preview.size();i++){final String previous=prev;int selected=PlaybackPlan.next(preview,i,x->!x.optJSONObject("movie").optString("id").equals(previous)&&!userStyleExcluded(x.optJSONObject("track"),profile.optString("music_style"))&&unavailableTracks.getOrDefault(x.optJSONObject("track").optString("uri"),0L)<=System.currentTimeMillis(),x->x.optJSONObject("movie").optString("id"));if(selected<0)break;JSONObject x=preview.get(selected);queue.put(x);prev=x.getJSONObject("movie").getString("id");}
     }
     private synchronized void nextOst(long generation){
         try{JSONObject item=null;
             synchronized(lock){if(generation!=epoch||ostBlocked||ostEpoch!=generation)return;
                 for(JSONObject x:ostPlan)if(System.currentTimeMillis()-x.getJSONObject("track").optLong("fetched_at")>=OstPolicy.TTL){ostEpoch=-1;ostPlan.clear();queue=new JSONArray();jobs.submit(()->discover(generation));return;}
                 for(int pass=0;pass<2&&item==null;pass++){
-                    while(ostCursor<ostPlan.size()){JSONObject x=ostPlan.get(ostCursor++);if(userStyleExcluded(x.getJSONObject("track"),profile.optString("music_style")))continue;if(x.getJSONObject("movie").getString("id").equals(lastSelectedMovie))continue;if(unavailableTracks.getOrDefault(x.getJSONObject("track").getString("uri"),0L)>System.currentTimeMillis())continue;item=new JSONObject(x.toString());break;}
+                    int selected=PlaybackPlan.next(ostPlan,ostCursor,x->!userStyleExcluded(x.optJSONObject("track"),profile.optString("music_style"))&&!x.optJSONObject("movie").optString("id").equals(lastSelectedMovie)&&unavailableTracks.getOrDefault(x.optJSONObject("track").optString("uri"),0L)<=System.currentTimeMillis(),x->x.optJSONObject("movie").optString("id"));
+                    if(selected>=0){item=new JSONObject(ostPlan.get(selected).toString());ostCursor=selected+1;}
                     if(item==null&&pass==0){ostCursor=0;playbackCycle++;}
                 }
                 if(item==null){waitingNext=false;message="다른 영화의 재생 가능한 곡이 없어 대기합니다";return;}
