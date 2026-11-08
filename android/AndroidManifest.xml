@@ -1,10 +1,10 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.happy.cinemaframe" android:versionCode="5" android:versionName="0.5-test">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.happy.cinemaframe" android:versionCode="6" android:versionName="0.5.1-test">
   <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="29" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-  <application android:label="Cinema Frame" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false" android:usesCleartextTraffic="true" android:extractNativeLibs="true">
+  <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:label="Cinema Frame" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false" android:usesCleartextTraffic="true" android:extractNativeLibs="true">
     <receiver android:name=".BootReceiver" android:exported="false"><intent-filter><action android:name="android.intent.action.BOOT_COMPLETED"/></intent-filter></receiver>
     <service android:name=".FrameService" android:exported="false" android:foregroundServiceType="mediaPlayback" />
     <activity android:name=".MainActivity" android:launchMode="singleTask" android:exported="true" android:configChanges="orientation|screenSize" android:screenOrientation="unspecified">

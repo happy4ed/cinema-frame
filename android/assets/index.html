@@ -288,6 +288,8 @@ body:not([data-view=pick]) #nowwrap,body:not([data-view=pick]) #v-pick{display:n
    </section>
    <div class="sh">리모컨 테마</div>
    <section class="grp"><div class="seg" role="group" aria-label="리모컨 테마"><button data-mode="system" aria-pressed="false">시스템</button><button data-mode="light" aria-pressed="false">라이트</button><button data-mode="dark" aria-pressed="false">다크</button></div><div class="hint">시스템은 휴대폰 설정을 따라요.</div></section>
+   <div class="sh">앱 정보</div>
+   <section class="grp list"><button class="row" id="checkupdate"><span class="t">업데이트 확인<small id="updatestatus">GitHub에서 최신 리모컨 버전을 확인해요</small></span></button></section>
    <div class="sh">선곡 현황</div>
    <section class="grp list" id="criteria"></section>
    <div class="foot">같은 영화는 이어서 나오지 않고, 한 바퀴 안에서는 곡이 겹치지 않아요. 후보를 다 들으면 처음부터 다시 골라요.</div>
@@ -497,6 +499,8 @@ function loadPoster(version){if(posterLoading||Date.now()<posterRetry)return;pos
 function setConnection(ok,text){const c=$('connection');c.classList.toggle('off',!ok);c.querySelector('span').textContent=text;}
 function summaryText(p){return [p.music_style?'음악 '+(musicNames[p.music_style]||p.music_style):'',p.seed_title?p.seed_title+' 기준':'',(p.genres||[]).map(g=>genreNames[g]||g).join('·'),p.era?p.era+'년대':'',p.energy==='calm'?'차분하게':p.energy==='bright'?'경쾌하게':'',p.instrumental?'연주곡':''].filter(Boolean).join(' · ')||'전체 장르';}
 let indexPollAt=0;
+window.cinemaUpdateStatus=message=>{$('updatestatus').textContent=message;toast(message)};
+$('checkupdate').onclick=()=>{if(window.CinemaUpdate&&CinemaUpdate.check)CinemaUpdate.check();else window.open('https://github.com/happy4ed/cinema-frame/releases/latest','_blank')};
 $('addphone').onclick=async()=>{try{await api('/api/pairing/start',{});toast('액자에 연결 코드를 30초 동안 표시해요')}catch(e){error(e)}};
 const KEYNAMES={gemini:'Gemini',lastfm:'Last.fm',tmdb:'TMDB'};
 $('saveindex').onclick=async()=>{const body={enabled:$('indexenabled').checked};for(const k of ['gemini','lastfm','tmdb'])if($(k+'key').value.trim())body[k]=$(k+'key').value.trim();if(Object.keys(body).length===1){toast('바꿀 키를 넣어 주세요');return;}try{await api('/api/index/config',body);for(const k of ['gemini','lastfm','tmdb'])$(k+'key').value='';indexPollAt=0;hideSecrets();toast('액자에 저장했어요');refresh()}catch(e){const m=/Invalid (\w+) key/.exec(e.message||'');toast(m?(KEYNAMES[m[1]]||m[1])+' 키를 확인해 주세요':(e.message||'저장하지 못했어요'))}};

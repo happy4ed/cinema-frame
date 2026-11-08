@@ -35,6 +35,7 @@ foreach ($target in @('android','phone')) {
     if ($LASTEXITCODE -ne 0) { throw 'DEX compilation failed' }
     $unsigned = Join-Path $build 'unsigned.apk'
     $aaptArgs = @('package','-f','-M',(Join-Path $src 'AndroidManifest.xml'),'-I',$androidJar,'-F',$unsigned)
+    if (Test-Path (Join-Path $src 'res')) {$aaptArgs += @('-S',(Join-Path $src 'res'))}
     if (Test-Path (Join-Path $src 'assets')) {$aaptArgs += @('-A',(Join-Path $src 'assets'))}
     & "$toolsDir\aapt.exe" @aaptArgs
     if ($LASTEXITCODE -ne 0) { throw 'APK packaging failed' }

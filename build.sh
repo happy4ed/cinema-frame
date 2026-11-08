@@ -31,6 +31,7 @@ for target in android phone; do
   java -cp "$TOOLS/lib/d8.jar" com.android.tools.r8.D8 --lib "$ANDROID_JAR" --min-api 26 --output "$OUT" "$OUT/classes.jar"
   UNS="$OUT/unsigned.apk"
   ARGS=(package -f -M "$SRC/AndroidManifest.xml" -I "$ANDROID_JAR" -F "$UNS")
+  [ -d "$SRC/res" ] && ARGS+=(-S "$SRC/res")
   [ -d "$SRC/assets" ] && ARGS+=(-A "$SRC/assets")
   "$TOOLS/aapt" "${ARGS[@]}"
   (cd "$OUT" && "$TOOLS/aapt" add "$UNS" classes.dex >/dev/null)
