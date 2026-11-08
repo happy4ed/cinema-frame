@@ -526,7 +526,7 @@ async function refresh(){if(needsPair)return;try{state=await api('/api/state');
    if(rows.length){const all=document.createElement('button');all.className='btn-ton';all.textContent='모두 되돌리기';all.onclick=()=>ask('뺀 곡을 모두 되돌릴까요?','장르를 고를 때도 다시 나올 수 있어요.','되돌리기',async()=>{try{for(const x of sx)await api('/api/track-style/restore',{isrc:x.isrc,style:x.style});toast('모두 되돌렸어요');await refresh()}catch(e){error(e);await refresh()}});rows.push(all);}
    else rows.push(Object.assign(document.createElement('div'),{className:'empty',textContent:'제외한 곡이 없어요. 음악 장르를 고른 뒤 지금 재생의 「…에서 빼기」로 추가해요.'}));
    $('styleexclusions').replaceChildren(...rows);}}
-  $('phonecount').textContent=state.paired_controllers?'휴대폰 '+state.paired_controllers+'대 연결됨':'액자에 연결 코드를 표시해요';
+  $('phonecount').textContent='여러 휴대폰에서 함께 사용할 수 있어요';
   const msg=!state.spotify_ready?'Spotify 재생 연결을 복구하고 있어요.':state.display_error||(!state.display_visible&&state.current?'액자에서 다른 화면이 켜져 멈췄어요. 액자에서 Cinema Frame 을 다시 열어 주세요.':state.message);
   $('message').textContent=msg||'';$('message').classList.toggle('hidden',!msg);$('emptymsg').textContent=msg||'듣고 싶은 영화나 분위기를 골라 보세요.';
   $('understood').textContent=summaryText(p);$('resetfilters').classList.toggle('hidden',!hasFilter(p));
