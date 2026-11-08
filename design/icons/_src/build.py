@@ -72,6 +72,8 @@ CSS = """
 body{margin:0;background:#0b0c0d;color:#eceae4;font-family:'Inter','Noto Sans KR',sans-serif;line-height:1.5;word-break:keep-all;padding:24px 16px 64px}
 .wrap{max-width:1180px;margin:0 auto}h1{font-size:22px;margin:0 0 8px}h2{font-size:19px;margin:0}h3{font-size:15px;margin:24px 0 8px;color:#c2c6bf}
 p,li{font-size:15px;color:#c2c6bf;margin:0 0 8px}.mute{color:#9aa098;font-size:14px}
+.hold{display:inline-block;margin-left:8px;padding:0 8px;border-radius:999px;background:#4a4d52;color:#e6e6e6;font-size:14px;line-height:22px;vertical-align:2px}
+.banner{margin:16px 0 0;padding:16px;border-radius:16px;background:#1d2a1f;color:#cfe8d2;font-size:15px}
 .rec{display:inline-block;margin-left:8px;padding:0 8px;border-radius:999px;background:#ff50a0;color:#fff;font-size:14px;line-height:22px;vertical-align:2px}
 section{margin-top:40px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12)}
 .ic{position:relative;display:inline-block;width:var(--s);height:var(--s);overflow:hidden;flex:0 0 auto}
@@ -98,11 +100,12 @@ h = [f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="vi
      '<link rel="icon" href="data:image/svg+xml,' + fg_svg('A-frame').replace('"', "'").replace('#', '%23') + '">'
      '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">'
      f'<style>{CSS}</style></head><body><div class="wrap">']
-h.append('<h1>Cinema Frame · Cinema Remote 앱 아이콘 후보</h1>')
+h.append('<h1>Cinema Frame · Cinema Remote 앱 아이콘</h1>')
+h.append('<p class="banner">확정: A (회장님 11-08) — 리모컨 아이콘은 액자 아이콘과 같은 그림에 포스터 가운데 재생 버튼 하나만 더함. B · C 는 보류. 앱에 넣는 일은 codex(design/icons/README.md).</p>')
 h.append('<p>두 앱을 한 가족으로: 바탕은 액자 화면 바탕 <code>#080D13</code>, 표식은 액자 금색 <code>#D3BD92</code> · 진행 바 <code>#F5D59A</code>(MainActivity.java). 리모컨은 같은 표식에 리모컨 One UI 9 시안의 파랑 <code>#387AFF</code> 을 더해 구분.</p>')
 h.append('<p class="mute">안드로이드 적응형 아이콘: 108dp 층(가운데 72dp 가 보임 · 안전 영역 지름 66dp) · 배경 층 · 단색(테마 아이콘) 층. 둥근 사각은 One UI 바탕화면 모양을 반지름 30% 로 근사. 테마 아이콘 색은 바탕화면에 따라 바뀌며 여기 색은 예시.</p>')
 # 한눈에 비교
-h.append('<section><h2>한눈에 비교 — 바탕화면 72px</h2><div class="walls">')
+h.append('<section><h2>한눈에 비교 — 바탕화면 72px (A 확정 · B · C 보류)</h2><div class="walls">')
 for wall in ('light', 'dark'):
     h.append(f'<div class="wall {wall}" style="flex-wrap:wrap">')
     for k in 'ABC':
@@ -111,7 +114,7 @@ for wall in ('light', 'dark'):
     h.append('</div>')
 h.append('</div></section>')
 for k in 'ABC':
-    h.append(f'<section id="{k}"><h2>{k} · {CN[k]["name"]}{"<span class=rec>추천</span>" if k == REC else ""}</h2><p style="margin-top:8px">{CN[k]["idea"]}</p>')
+    h.append(f'<section id="{k}"><h2>{k} · {CN[k]["name"]}{"<span class=rec>확정</span>" if k == REC else "<span class=hold>보류</span>"}</h2><p style="margin-top:8px">{CN[k]["idea"]}</p>')
     h.append('<div class="pair">')
     for app in ('frame', 'remote'):
         key = f'{k}-{app}'
@@ -138,6 +141,8 @@ h.append('<section><h2>근거 · 시험</h2><table><tr><th>항목</th><th>값</t
          '<tr><td>진행 바 남은 쪽</td><td>#5B5240</td><td>파생 — 금색을 바탕 쪽으로 낮춤(A 만)</td></tr>'
          '<tr><td>파랑</td><td>#387AFF</td><td>리모컨 One UI 9 시안 primary(재생 버튼 · 진행 바)</td></tr>'
          '<tr><td>안전 영역</td><td>전경이 지름 66dp 안</td><td>렌더 픽셀 실측: 6개 모두 밖 0px</td></tr>'
+         '<tr><td>A 리모컨 = 액자 + 재생</td><td>포스터 가운데 (54,48) · 파랑 원 r8.5 · 흰 삼각</td><td>216px 렌더 비교: 재생 버튼 원 밖 픽셀 차이 0 (액자 그림과 완전히 같음)</td></tr>'
+         '<tr><td>A 리모컨 단색</td><td>포스터에서 원을 뚫고 안에 삼각</td><td>48px 테마 아이콘 라이트 · 다크 · 흑백 반전에서 재생 모양 남음(삼각 구멍만 낸 안은 48px 에서 너무 작아 뺌)</td></tr>'
          '<tr><td>작은 크기 · 단색 · 반전</td><td>48px · 단색 4종 · 테마 아이콘 라이트/다크</td><td>이 페이지에 실제 크기로 그림</td></tr></table>'
          '<p class="mute" style="margin-top:16px">원본 SVG · 밀도별 PNG · 넣는 방법: GitHub happy4ed/cinema-frame · ux/settings-progress · design/icons/README.md</p></section>')
 h.append('</div></body></html>')

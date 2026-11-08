@@ -1,6 +1,25 @@
-# Cinema Frame · Cinema Remote 앱 아이콘 후보 (2026-11-08)
+# Cinema Frame · Cinema Remote 앱 아이콘 (2026-11-08)
 
-회장님이 후보 하나를 고르면 그 후보만 앱에 넣는다. 고르기 전에는 `android/` · `phone/` 코드와 `res/` 를 건드리지 않는다.
+## 확정: A (리모컨 = 액자 + 가운데 재생)
+
+회장님 원문(11-08): "A 가 좋은데 리모트는 시네마 프레임 아이콘의 안에 플레이버튼을 넣어줘. 가운데에. 똑같은 시네파 프레임 아이콘 안에 그것만 차이나게"
+
+- Cinema Frame(`android/`) = `A-poster-bar/frame/`
+- Cinema Remote(`phone/`) = `A-poster-bar/remote/` — 액자 아이콘과 같은 그림(액자 테두리 · 포스터 · 금색 진행 바 · 색 · 배경)에 포스터 가운데 파랑 재생 버튼(원 r8.5 `#387AFF` + 흰 삼각)만 더함. 재생 버튼 원 밖은 액자 아이콘과 픽셀까지 같음(216px 렌더 비교 차이 0).
+- 단색(테마 아이콘): 리모컨은 포스터에서 원을 뚫고 안에 삼각을 채운 모양 — 48px 테마 아이콘에서도 재생 모양이 보임.
+- B · C 는 **보류**(지우지 않음 · 넣지 않음).
+
+### codex 가 할 순서 (A 만)
+
+1. `mkdir -p android/res phone/res`
+2. `cp -r design/icons/A-poster-bar/frame/res/.  android/res/`
+3. `cp -r design/icons/A-poster-bar/remote/res/. phone/res/`
+4. `android/AndroidManifest.xml` · `phone/AndroidManifest.xml` 의 `<application>` 에 `android:icon="@mipmap/ic_launcher"` 와 `android:roundIcon="@mipmap/ic_launcher"`
+5. `build.sh` 의 `ARGS=(package …)` 다음 줄에 `[ -d "$SRC/res" ] && ARGS+=(-S "$SRC/res")` (지금은 `-S` 가 없어 `res/` 가 APK 에 안 들어감). `build.ps1` 도 같은 처리
+6. `./build.sh --unsigned` → `aapt dump badging build/Cinema-Frame-unsigned.apk | grep application:` 과 `build/Cinema-Remote-unsigned.apk` 둘 다 `icon='res/mipmap-anydpi-v26/ic_launcher.xml'`, `unzip -l … | grep -c mipmap` = 16
+7. 폴드8 실기: 바탕화면 · 앱 목록 · 테마 아이콘 켬 상태에서 두 아이콘 확인
+
+아래는 후보 단계의 자료(규격 · 넣는 방법 상세)다.
 
 - 비교 페이지(폰으로 보기): https://auto-grapher.com/artifacts/cinema-frame-icons.html
 - 같은 페이지 파일: `design/icons/index.html`
@@ -9,9 +28,9 @@
 
 | 후보 | 폴더 | 한 줄 설명 |
 |---|---|---|
-| A · 포스터와 진행 바 (추천) | `A-poster-bar/` | 액자 화면 그대로: 세로 포스터(액자 테두리 + 매트 틈)와 그 아래 금색 진행 바. 리모컨은 같은 포스터에 One UI 파랑 재생 버튼을 겹침 |
-| B · 음표 액자 | `B-note-frame/` | 세로 액자 안의 8분음표. 리모컨은 같은 음표가 파랑 휴대폰 테두리 안에. 단색(테마 아이콘)에서는 두 앱이 비슷해 보이는 것이 약점 |
-| C · 필름 C | `C-film-c/` | Cinema 의 C 를 필름 구멍 셋 낸 고리로. 리모컨은 같은 C 의 열린 쪽으로 파랑 신호 두 줄 |
+| A · 포스터와 진행 바 (**확정**) | `A-poster-bar/` | 액자 화면 그대로: 세로 포스터(액자 테두리 + 매트 틈)와 그 아래 금색 진행 바. 리모컨은 같은 그림의 포스터 가운데에 파랑 재생 버튼만 더함 |
+| B · 음표 액자 (보류) | `B-note-frame/` | 세로 액자 안의 8분음표. 리모컨은 같은 음표가 파랑 휴대폰 테두리 안에. 단색(테마 아이콘)에서는 두 앱이 비슷해 보이는 것이 약점 |
+| C · 필름 C (보류) | `C-film-c/` | Cinema 의 C 를 필름 구멍 셋 낸 고리로. 리모컨은 같은 C 의 열린 쪽으로 파랑 신호 두 줄 |
 
 두 앱의 공통 규칙: 바탕은 액자 화면 바탕 `#080D13`, 표식은 액자 금색 `#D3BD92` 과 진행 바 색 `#F5D59A` (android/src/com/happy/cinemaframe/MainActivity.java 41 · 103 · 111행). 리모컨만 리모컨 One UI 9 시안의 파랑 `#387AFF` 을 더한다. A 의 진행 바 남은 쪽 `#5B5240` 은 금색을 바탕 쪽으로 낮춘 파생값.
 
