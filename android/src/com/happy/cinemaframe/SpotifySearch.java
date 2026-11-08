@@ -49,6 +49,18 @@ final class SpotifySearch {
  JSONArray searchAlbums(String query,int offset)throws Exception{return searchItems(query,offset,"album","albums");}
  JSONArray searchPlaylists(String query,int offset)throws Exception{return searchItems(query,offset,"playlist","playlists");}
  JSONArray searchTracks(String query,int offset)throws Exception{return searchItems(query,offset,"track","tracks");}
+ JSONObject albumDetails(String id)throws Exception{
+  if(!id.matches("[A-Za-z0-9]{22}"))throw new IOException("Invalid Spotify album ID");
+  if(System.currentTimeMillis()<backoffUntil)throw new IOException("Spotify 검색 요청 간격을 조절 중입니다");
+  for(int attempt=0;attempt<2;attempt++){
+   HttpURLConnection c=(HttpURLConnection)new URL("https://api.spotify.com/v1/albums/"+id).openConnection();c.setConnectTimeout(8000);c.setReadTimeout(12000);c.setRequestProperty("Authorization","Bearer "+access());
+   try{int statusCode=c.getResponseCode();if(statusCode==401&&attempt==0){synchronized(this){access="";}continue;}
+    if(statusCode==429){int seconds=60;try{seconds=Integer.parseInt(c.getHeaderField("Retry-After"));}catch(Exception ignored){}backoffUntil=System.currentTimeMillis()+Math.max(1,seconds)*1000L;prefs.edit().putLong("search_backoff_until",backoffUntil).apply();throw new IOException("Spotify album HTTP 429; backoff active");}
+    if(statusCode!=200)throw new IOException("Spotify album HTTP "+statusCode);
+    return new JSONObject(new String(FrameCore.read(c.getInputStream(),2000000),StandardCharsets.UTF_8));
+   }finally{c.disconnect();}
+  }throw new IOException("Spotify album authentication failed");
+ }
  private JSONArray searchItems(String query,int offset,String type,String collection)throws Exception{
   if(offset<0||offset>990)throw new IllegalArgumentException("Invalid search page");
   if(System.currentTimeMillis()<backoffUntil)throw new IOException("Spotify 검색 요청 간격을 조절 중입니다");

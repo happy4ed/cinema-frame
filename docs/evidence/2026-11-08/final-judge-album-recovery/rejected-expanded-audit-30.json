@@ -1,0 +1,649 @@
+{
+  "sample": "15 baseline + 15 recovered, fixed SHA256 ordering",
+  "records": [
+    {
+      "movie_id": "tt0480249",
+      "movie": "I Am Legend",
+      "movie_year": 2007,
+      "composer": [
+        "James Newton Howard"
+      ],
+      "album_id": 12224462,
+      "album": "I Am Legend (Original Motion Picture Soundtrack)",
+      "artist": "James Newton Howard",
+      "album_release": "2013-11-22",
+      "upc": "030206687828",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt8946378",
+      "movie": "Knives Out",
+      "movie_year": 2019,
+      "composer": [
+        "Nathan Johnson"
+      ],
+      "album_id": 117844042,
+      "album": "Knives Out (Original Motion Picture Soundtrack)",
+      "artist": "Nathan Johnson",
+      "album_release": "2019-11-22",
+      "upc": "859735496882",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0167404",
+      "movie": "The Sixth Sense",
+      "movie_year": 1999,
+      "composer": [
+        "James Newton Howard"
+      ],
+      "album_id": 12548774,
+      "album": "The Sixth Sense (Original Motion Picture Soundtrack)",
+      "artist": "James Newton Howard",
+      "album_release": "2008-11-04",
+      "upc": "030206606195",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0102926",
+      "movie": "The Silence of the Lambs",
+      "movie_year": 1991,
+      "composer": [
+        "Howard Shore"
+      ],
+      "album_id": 247451,
+      "album": "The Silence Of The Lambs (Original Motion Picture Soundtrack)",
+      "artist": "Howard Shore",
+      "album_release": "2009-07-14",
+      "upc": "008811019426",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0126029",
+      "movie": "Shrek",
+      "movie_year": 2001,
+      "composer": [
+        "Harry Gregson-Williams",
+        "John Powell"
+      ],
+      "album_id": 12223946,
+      "album": "Shrek (Original Motion Picture Score)",
+      "artist": "Harry Gregson-Williams",
+      "album_release": "2008-11-04",
+      "upc": "030206630824",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt2395427",
+      "movie": "Avengers: Age of Ultron",
+      "movie_year": 2015,
+      "composer": [
+        "Brian Tyler",
+        "Danny Elfman"
+      ],
+      "album_id": 10063880,
+      "album": "Avengers: Age of Ultron (Original Motion Picture Soundtrack)",
+      "artist": "Brian Tyler",
+      "album_release": "2015-04-28",
+      "upc": "050087325466",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt4633694",
+      "movie": "Spider-Man: Into the Spider-Verse",
+      "movie_year": 2018,
+      "composer": [
+        "Daniel Pemberton"
+      ],
+      "album_id": 81761222,
+      "album": "Spider-Man: Into the Spider-Verse (Original Score)",
+      "artist": "Daniel Pemberton",
+      "album_release": "2018-12-17",
+      "upc": "886447322499",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt2015381",
+      "movie": "Guardians of the Galaxy",
+      "movie_year": 2014,
+      "composer": [
+        "Tyler Bates"
+      ],
+      "album_id": 8113988,
+      "album": "Guardians of the Galaxy (Original Score)",
+      "artist": "Tyler Bates",
+      "album_release": "2014-09-01",
+      "upc": "050087310875",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0118715",
+      "movie": "The Big Lebowski",
+      "movie_year": 1998,
+      "composer": [
+        "Carter Burwell"
+      ],
+      "album_id": 7805425,
+      "album": "The Big Lebowski (Original Motion Picture Soundtrack)",
+      "artist": "Various Artists",
+      "album_release": "2014-05-26",
+      "upc": "602537880744",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt4154796",
+      "movie": "Avengers: Endgame",
+      "movie_year": 2019,
+      "composer": [
+        "Alan Silvestri"
+      ],
+      "album_id": 94506802,
+      "album": "Avengers: Endgame (Original Motion Picture Soundtrack)",
+      "artist": "Alan Silvestri",
+      "album_release": "2019-04-26",
+      "upc": "050087415006",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt2543164",
+      "movie": "Arrival",
+      "movie_year": 2016,
+      "composer": [
+        "Jóhann Jóhannsson"
+      ],
+      "album_id": 14520468,
+      "album": "Arrival (Original Motion Picture Soundtrack)",
+      "artist": "Jóhann Jóhannsson",
+      "album_release": "2016-11-11",
+      "upc": "028947967835",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0268978",
+      "movie": "A Beautiful Mind",
+      "movie_year": 2001,
+      "composer": [
+        "James Horner"
+      ],
+      "album_id": 73703852,
+      "album": "A Beautiful Mind (Original Motion Picture Soundtrack)",
+      "artist": "James Horner",
+      "album_release": "2001-12-11",
+      "upc": "602567834502",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0110413",
+      "movie": "Léon: The Professional",
+      "movie_year": 1994,
+      "composer": [
+        "Éric Serra"
+      ],
+      "album_id": 102518762,
+      "album": "Léon (Original Motion Picture Soundtrack)",
+      "artist": "Eric Serra",
+      "album_release": "2014-06-09",
+      "upc": "602508071775",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0073486",
+      "movie": "One Flew Over the Cuckoo's Nest",
+      "movie_year": 1975,
+      "composer": [
+        "Jack Nitzsche"
+      ],
+      "album_id": 851973852,
+      "album": "One Flew Over The Cuckoo's Nest (Original Motion Picture Soundtrack / 50th Anniversary / Remastered 2025)",
+      "artist": "Jack Nitzsche",
+      "album_release": "2025-11-14",
+      "upc": "888072741966",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0119217",
+      "movie": "Good Will Hunting",
+      "movie_year": 1997,
+      "composer": [
+        "Danny Elfman"
+      ],
+      "album_id": 53942812,
+      "album": "Good Will Hunting (Original Motion Picture Score)",
+      "artist": "Danny Elfman",
+      "album_release": "2017-12-29",
+      "upc": "030206751093",
+      "spotify": null,
+      "method": "baseline",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0304141",
+      "movie": "Harry Potter and the Prisoner of Azkaban",
+      "movie_year": 2004,
+      "composer": [
+        "John Williams"
+      ],
+      "album_id": 271580,
+      "album": "Harry Potter and the Prisoner of Azkaban / Original Motion Picture Soundtrack",
+      "artist": "Various Artists",
+      "album_release": "2004-05-25",
+      "upc": "075678371165",
+      "spotify": {
+        "id": "7DDls7RWrCLvZgTVCJgfcq",
+        "title": "Harry Potter and the Prisoner of Azkaban / Original Motion Picture Soundtrack",
+        "artists": [
+          "John Williams"
+        ],
+        "upc": "075678371165",
+        "release_date": "2004-05-25"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt1205489",
+      "movie": "Gran Torino",
+      "movie_year": 2008,
+      "composer": [
+        "Kyle Eastwood",
+        "Michael Stevens"
+      ],
+      "album_id": 111778652,
+      "album": "Gran Torino",
+      "artist": "Kyle Eastwood",
+      "album_release": "2019-10-03",
+      "upc": "5400863020019",
+      "spotify": {
+        "id": "1TspCgTKUS7fTVHm5uoPLA",
+        "title": "Gran Torino",
+        "artists": [
+          "Kyle Eastwood"
+        ],
+        "upc": "5400863020019",
+        "release_date": "2019-10-03"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0107048",
+      "movie": "Groundhog Day",
+      "movie_year": 1993,
+      "composer": [
+        "George Fenton"
+      ],
+      "album_id": 1213751,
+      "album": "GROUNDHOG DAY: Music From The Original Motion Picture Soundtrack",
+      "artist": "George Fenton",
+      "album_release": "1993-03-09",
+      "upc": "074645376028",
+      "spotify": {
+        "id": "5tpdUdT3kgPHg41J8d4Uot",
+        "title": "GROUNDHOG DAY: Music From The Original Motion Picture Soundtrack",
+        "artists": [
+          "George Fenton"
+        ],
+        "upc": "074645376028",
+        "release_date": "1993-03-09"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0109830",
+      "movie": "Forrest Gump",
+      "movie_year": 1994,
+      "composer": [
+        "Alan Silvestri"
+      ],
+      "album_id": 111718,
+      "album": "Forrest Gump - Original Motion Picture Score",
+      "artist": "Alan Silvestri",
+      "album_release": "1994-08-02",
+      "upc": "074646643020",
+      "spotify": {
+        "id": "1Fw951OcmbeCmVnnNcRYrp",
+        "title": "Forrest Gump - Original Motion Picture Score",
+        "artists": [
+          "Alan Silvestri"
+        ],
+        "upc": "074646643020",
+        "release_date": "1994-08-02"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt1392170",
+      "movie": "The Hunger Games",
+      "movie_year": 2012,
+      "composer": [
+        "James Newton Howard"
+      ],
+      "album_id": 506532681,
+      "album": "The Hunger Games: The Ballad of Songbirds and Snakes (Original Motion Picture Score)",
+      "artist": "James Newton Howard",
+      "album_release": "2023-11-17",
+      "upc": "196871492478",
+      "spotify": {
+        "id": "6L0YVSVuw4BD3UX3fhl8et",
+        "title": "The Hunger Games: The Ballad of Songbirds and Snakes (Original Motion Picture Score)",
+        "artists": [
+          "James Newton Howard"
+        ],
+        "upc": "196871492478",
+        "release_date": "2023-11-17"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt1375666",
+      "movie": "Inception",
+      "movie_year": 2010,
+      "composer": [
+        "Hans Zimmer"
+      ],
+      "album_id": 601778,
+      "album": "Inception (Music from the Motion Picture)",
+      "artist": "Hans Zimmer",
+      "album_release": "2010-07-09",
+      "upc": "093624965008",
+      "spotify": {
+        "id": "2qvA7HmSg1iM6XMiFF76dp",
+        "title": "Inception (Music from the Motion Picture)",
+        "artists": [
+          "Hans Zimmer"
+        ],
+        "upc": "093624965008",
+        "release_date": "2010-07-09"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0816711",
+      "movie": "World War Z",
+      "movie_year": 2013,
+      "composer": [
+        "Marco Beltrami"
+      ],
+      "album_id": 6651481,
+      "album": "World War Z (Music from the Motion Picture)",
+      "artist": "Marco Beltrami",
+      "album_release": "2013-06-14",
+      "upc": "093624943549",
+      "spotify": {
+        "id": "0TLbACzeu0sdkpQ32OT9zL",
+        "title": "World War Z (Music from the Motion Picture)",
+        "artists": [
+          "Marco Beltrami"
+        ],
+        "upc": "093624943549",
+        "release_date": "2013-06-14"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0083658",
+      "movie": "Blade Runner",
+      "movie_year": 1982,
+      "composer": [
+        "Vangelis"
+      ],
+      "album_id": 83207,
+      "album": "Blade Runner (Music From The Original Soundtrack)",
+      "artist": "Vangelis",
+      "album_release": "1994-06-06",
+      "upc": "745099657468",
+      "spotify": {
+        "id": "6NkuCdMz5tGmHbOXAWbtCW",
+        "title": "Blade Runner (Music From The Original Soundtrack)",
+        "artists": [
+          "Vangelis"
+        ],
+        "upc": "745099657468",
+        "release_date": "1994-06-06"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt2488496",
+      "movie": "Star Wars: Episode VII - The Force Awakens",
+      "movie_year": 2015,
+      "composer": [
+        "John Williams"
+      ],
+      "album_id": 202583822,
+      "album": "Star Wars - The Force Awakens (Suite for Orchestra)",
+      "artist": "City Light Symphony Orchestra",
+      "album_release": "2021-02-05",
+      "upc": "195497731732",
+      "spotify": {
+        "id": "4sywzvWUWlGuCPrBgZtryH",
+        "title": "Star Wars - The Force Awakens (Suite for Orchestra)",
+        "artists": [
+          "John Williams",
+          "City Light Symphony Orchestra"
+        ],
+        "upc": "195497731732",
+        "release_date": "2021-02-05"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": false,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0451279",
+      "movie": "Wonder Woman",
+      "movie_year": 2017,
+      "composer": [
+        "Rupert Gregson-Williams"
+      ],
+      "album_id": 90133602,
+      "album": "Wonder Woman (Original Motion Picture Soundtrack)",
+      "artist": "Rupert Gregson-Williams",
+      "album_release": "2017-06-02",
+      "upc": "794043192258",
+      "spotify": {
+        "id": "0KAhv0UFmkjf2MpTFh0KNd",
+        "title": "Wonder Woman (Original Motion Picture Soundtrack)",
+        "artists": [
+          "Rupert Gregson-Williams"
+        ],
+        "upc": "794043192258",
+        "release_date": "2017-06-02"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0080684",
+      "movie": "Star Wars: Episode V - The Empire Strikes Back",
+      "movie_year": 1980,
+      "composer": [
+        "John Williams"
+      ],
+      "album_id": 839986432,
+      "album": "Star Wars. Episode V – The Empire Strikes Back (Han Solo and the Princess)",
+      "artist": "City Light Symphony Orchestra",
+      "album_release": "2025-12-19",
+      "upc": "199806139158",
+      "spotify": {
+        "id": "74UCu4Xy0fl4oiXGPE8DX9",
+        "title": "Star Wars. Episode V – The Empire Strikes Back (Han Solo and the Princess)",
+        "artists": [
+          "John Williams",
+          "City Light Symphony Orchestra"
+        ],
+        "upc": "199806139158",
+        "release_date": "2025-12-19"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt1170358",
+      "movie": "The Hobbit: The Desolation of Smaug",
+      "movie_year": 2013,
+      "composer": [
+        "Howard Shore"
+      ],
+      "album_id": 90112062,
+      "album": "The Hobbit: The Desolation of Smaug (Original Motion Picture Soundtrack) (Special Edition)",
+      "artist": "Howard Shore",
+      "album_release": "2013-12-10",
+      "upc": "794043173561",
+      "spotify": {
+        "id": "3MCUHjDo3wSm2QuLh1Fyrf",
+        "title": "The Hobbit: The Desolation of Smaug (Original Motion Picture Soundtrack) [Special Edition]",
+        "artists": [
+          "Howard Shore"
+        ],
+        "upc": "794043173561",
+        "release_date": "2013-12-10"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0253474",
+      "movie": "The Pianist",
+      "movie_year": 2002,
+      "composer": [
+        "Wojciech Kilar"
+      ],
+      "album_id": 7067163,
+      "album": "The Pianist (Original Motion Picture Soundtrack)",
+      "artist": "Various Artists",
+      "album_release": "2025-01-19",
+      "upc": "884977746211",
+      "spotify": {
+        "id": "3NHZ8ihR3DvKXvSPVNSEbP",
+        "title": "The Pianist (Original Motion Picture Soundtrack)",
+        "artists": [
+          "Frédéric Chopin",
+          "Various Artists"
+        ],
+        "upc": "884977746211",
+        "release_date": "2002-11-26"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt1285016",
+      "movie": "The Social Network",
+      "movie_year": 2010,
+      "composer": [
+        "Atticus Ross",
+        "Trent Reznor"
+      ],
+      "album_id": 5604281,
+      "album": "The Social Network",
+      "artist": "Trent Reznor and Atticus Ross",
+      "album_release": "2010-09-28",
+      "upc": "859704488368",
+      "spotify": {
+        "id": "1ijkFiMeHopKkHyvQCWxUa",
+        "title": "The Social Network",
+        "artists": [
+          "Trent Reznor and Atticus Ross"
+        ],
+        "upc": "859704488368",
+        "release_date": "2010-09-28"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    },
+    {
+      "movie_id": "tt0364569",
+      "movie": "Oldboy",
+      "movie_year": 2003,
+      "composer": [
+        "Choi Seung-hyun",
+        "Lee Ji-soo",
+        "Shim Hyun-jung"
+      ],
+      "album_id": 245058002,
+      "album": "Old Boy (Original Motion Picture Soundtrack)",
+      "artist": "Shawn Choi",
+      "album_release": "2003-12-10",
+      "upc": "8809640918469",
+      "spotify": {
+        "id": "7HFjGcmZWdvLXxhWHBRjF3",
+        "title": "Old Boy (Original Motion Picture Soundtrack)",
+        "artists": [
+          "Shawn Choi",
+          "심현정",
+          "Jisoo Lee"
+        ],
+        "upc": "8809640918469",
+        "release_date": "2003-12-10"
+      },
+      "method": "spotify_title_composer_plus_exact_upc",
+      "title_check": true,
+      "upc_check": true
+    }
+  ],
+  "counts": {
+    "deezer_http": 30
+  }
+}

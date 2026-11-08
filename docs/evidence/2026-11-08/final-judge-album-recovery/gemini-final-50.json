@@ -1,0 +1,4261 @@
+{
+  "input": [
+    {
+      "composers": ["Nathan Johnson"],
+      "movie": "Knives Out",
+      "artist": "Nathan Johnson",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 51,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 15,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 7,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 2,
+          "name": "Avant-Garde Jazz",
+          "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+        }
+      ],
+      "title": "Harlan's Plan",
+      "key": "tt8946378:797988172",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "Discovery",
+      "key": "tt0054215:123818730",
+      "track_tags": []
+    },
+    {
+      "composers": ["Nathan Johnson"],
+      "movie": "Knives Out",
+      "artist": "Nathan Johnson",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 51,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 15,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 7,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 2,
+          "name": "Avant-Garde Jazz",
+          "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+        }
+      ],
+      "title": "The Wake",
+      "key": "tt8946378:797988182",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "The Cellar",
+      "key": "tt0054215:123818728",
+      "track_tags": []
+    },
+    {
+      "composers": ["Nathan Johnson"],
+      "movie": "Knives Out",
+      "artist": "Nathan Johnson",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 51,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 15,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 7,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 2,
+          "name": "Avant-Garde Jazz",
+          "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+        }
+      ],
+      "title": "Knives Out!, Pt. II (The Will)",
+      "key": "tt8946378:797988222",
+      "track_tags": []
+    },
+    {
+      "composers": ["Nathan Johnson"],
+      "movie": "Knives Out",
+      "artist": "Nathan Johnson",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 51,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 15,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 7,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 2,
+          "name": "Avant-Garde Jazz",
+          "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+        }
+      ],
+      "title": "Blanc's Tale, Pt. II",
+      "key": "tt8946378:797988282",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "The Porch",
+      "key": "tt0054215:123818708",
+      "track_tags": []
+    },
+    {
+      "composers": ["Justin Hurwitz"],
+      "movie": "La La Land",
+      "artist": "Justin Hurwitz",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 72,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 29,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 13,
+          "name": "Neo-swing",
+          "url": "https://www.last.fm/tag/Neo-swing"
+        },
+        {
+          "count": 3,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        }
+      ],
+      "title": "Planetarium",
+      "key": "tt3783958:137727923",
+      "track_tags": []
+    },
+    {
+      "composers": ["Nathan Johnson"],
+      "movie": "Knives Out",
+      "artist": "Nathan Johnson",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 51,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 15,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 7,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 2,
+          "name": "Avant-Garde Jazz",
+          "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+        }
+      ],
+      "title": "The Game's Afoot",
+      "key": "tt8946378:797988202",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "The Car Lot",
+      "key": "tt0054215:123818668",
+      "track_tags": []
+    },
+    {
+      "composers": ["Justin Hurwitz"],
+      "movie": "La La Land",
+      "artist": "Justin Hurwitz",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 72,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 29,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 13,
+          "name": "Neo-swing",
+          "url": "https://www.last.fm/tag/Neo-swing"
+        },
+        {
+          "count": 3,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        }
+      ],
+      "title": "The End",
+      "key": "tt3783958:137727937",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "The Parlor",
+      "key": "tt0054215:123818678",
+      "track_tags": []
+    },
+    {
+      "composers": ["Justin Hurwitz"],
+      "movie": "Whiplash",
+      "artist": "John Wasson",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 56,
+          "name": "swing",
+          "url": "https://www.last.fm/tag/swing"
+        },
+        {
+          "count": 4,
+          "name": "lounge",
+          "url": "https://www.last.fm/tag/lounge"
+        },
+        {
+          "count": 4,
+          "name": "USA",
+          "url": "https://www.last.fm/tag/USA"
+        },
+        {
+          "count": 2,
+          "name": "american",
+          "url": "https://www.last.fm/tag/american"
+        }
+      ],
+      "title": "Caravan",
+      "key": "tt2582802:1398706592",
+      "track_tags": []
+    },
+    {
+      "composers": ["Nathan Johnson"],
+      "movie": "Knives Out",
+      "artist": "Nathan Johnson",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 51,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 15,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 7,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 2,
+          "name": "Avant-Garde Jazz",
+          "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+        }
+      ],
+      "title": "Like Father, Like Son",
+      "key": "tt8946378:797988122",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "The Rainstorm",
+      "key": "tt0054215:123818672",
+      "track_tags": []
+    },
+    {
+      "composers": ["Justin Hurwitz"],
+      "movie": "Whiplash",
+      "artist": "Justin Hurwitz",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 72,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 29,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 13,
+          "name": "Neo-swing",
+          "url": "https://www.last.fm/tag/Neo-swing"
+        },
+        {
+          "count": 3,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        }
+      ],
+      "title": "When I Wake",
+      "key": "tt2582802:1398706742",
+      "track_tags": []
+    },
+    {
+      "composers": ["Justin Hurwitz"],
+      "movie": "Whiplash",
+      "artist": "Justin Hurwitz",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 72,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 29,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 13,
+          "name": "Neo-swing",
+          "url": "https://www.last.fm/tag/Neo-swing"
+        },
+        {
+          "count": 3,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        }
+      ],
+      "title": "No Two Words",
+      "key": "tt2582802:1398706732",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "Finale",
+      "key": "tt0054215:123818732",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "The Office",
+      "key": "tt0054215:123818690",
+      "track_tags": []
+    },
+    {
+      "composers": ["Justin Hurwitz"],
+      "movie": "Whiplash",
+      "artist": "Justin Hurwitz",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 72,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 29,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 13,
+          "name": "Neo-swing",
+          "url": "https://www.last.fm/tag/Neo-swing"
+        },
+        {
+          "count": 3,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        }
+      ],
+      "title": "Casey's Song",
+      "key": "tt2582802:1398706752",
+      "track_tags": []
+    },
+    {
+      "composers": ["Justin Hurwitz"],
+      "movie": "La La Land",
+      "artist": "Justin Hurwitz",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 72,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 29,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 13,
+          "name": "Neo-swing",
+          "url": "https://www.last.fm/tag/Neo-swing"
+        },
+        {
+          "count": 3,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        }
+      ],
+      "title": "Engagement Party",
+      "key": "tt3783958:137727931",
+      "track_tags": []
+    },
+    {
+      "composers": [
+        "Joel J. Richard",
+        "Tyler Bates"
+      ],
+      "movie": "John Wick",
+      "artist": "The Candy Shop Boys",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "blues",
+          "url": "https://www.last.fm/tag/blues"
+        },
+        {
+          "count": 44,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 7,
+          "name": "american",
+          "url": "https://www.last.fm/tag/american"
+        }
+      ],
+      "title": "Evil Man Blues",
+      "key": "tt2911666:117728318",
+      "track_tags": []
+    },
+    {
+      "composers": ["Justin Hurwitz"],
+      "movie": "Whiplash",
+      "artist": "Justin Hurwitz",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 72,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 29,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 13,
+          "name": "Neo-swing",
+          "url": "https://www.last.fm/tag/Neo-swing"
+        },
+        {
+          "count": 3,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        }
+      ],
+      "title": "Call From Dad",
+      "key": "tt2582802:1398706632",
+      "track_tags": []
+    },
+    {
+      "composers": ["Bernard Herrmann"],
+      "movie": "Psycho",
+      "artist": "Bernard Herrmann",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 31,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 21,
+          "name": "film music",
+          "url": "https://www.last.fm/tag/film+music"
+        },
+        {
+          "count": 6,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "Cabin 1",
+      "key": "tt0054215:123818720",
+      "track_tags": []
+    },
+    {
+      "composers": ["Nathan Johnson"],
+      "movie": "Knives Out",
+      "artist": "Nathan Johnson",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 51,
+          "name": "jazz",
+          "url": "https://www.last.fm/tag/jazz"
+        },
+        {
+          "count": 15,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 7,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 2,
+          "name": "Avant-Garde Jazz",
+          "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+        }
+      ],
+      "title": "The Thrombey Estate",
+      "key": "tt8946378:797988112",
+      "track_tags": []
+    },
+    {
+      "composers": ["Brad Fiedel"],
+      "movie": "The Terminator",
+      "artist": "Brad Fiedel",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 55,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 29,
+          "name": "electronic",
+          "url": "https://www.last.fm/tag/electronic"
+        },
+        {
+          "count": 28,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 9,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        }
+      ],
+      "title": "Sarah Watches News / Enters Tech Noir",
+      "key": "tt0088247:889834732",
+      "track_tags": []
+    },
+    {
+      "composers": ["Thomas Newman"],
+      "movie": "WALL·E",
+      "artist": "Thomas Newman",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 67,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 29,
+          "name": "ambient",
+          "url": "https://www.last.fm/tag/ambient"
+        },
+        {
+          "count": 27,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 9,
+          "name": "chillout",
+          "url": "https://www.last.fm/tag/chillout"
+        }
+      ],
+      "title": "Define Dancing",
+      "key": "tt0910970:602439992",
+      "track_tags": []
+    },
+    {
+      "composers": ["Tyler Bates"],
+      "movie": "Guardians of the Galaxy: Vol. 2",
+      "artist": "Tyler Bates",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 24,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 10,
+          "name": "ost",
+          "url": "https://www.last.fm/tag/ost"
+        },
+        {
+          "count": 4,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        }
+      ],
+      "title": "Ego",
+      "key": "tt3896198:351421591",
+      "track_tags": []
+    },
+    {
+      "composers": [
+        "Harry Gregson-Williams",
+        "John Powell"
+      ],
+      "movie": "Shrek",
+      "artist": "Harry Gregson-Williams",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 61,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 25,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 16,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        },
+        {
+          "count": 8,
+          "name": "video game music",
+          "url": "https://www.last.fm/tag/video+game+music"
+        }
+      ],
+      "title": "Helmet Hair",
+      "key": "tt0126029:117725810",
+      "track_tags": []
+    },
+    {
+      "composers": ["Hans Zimmer"],
+      "movie": "The Lion King",
+      "artist": "Hans Zimmer",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 69,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 33,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 27,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 5,
+          "name": "Soundtracks",
+          "url": "https://www.last.fm/tag/Soundtracks"
+        }
+      ],
+      "title": "Remember",
+      "key": "tt0110357:709612582",
+      "track_tags": []
+    },
+    {
+      "composers": [
+        "Benjamin Wallfisch",
+        "Hans Zimmer"
+      ],
+      "movie": "Blade Runner 2049",
+      "artist": "Hans Zimmer",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 69,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 33,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 27,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 5,
+          "name": "Soundtracks",
+          "url": "https://www.last.fm/tag/Soundtracks"
+        }
+      ],
+      "title": "Someone Lived This",
+      "key": "tt1856101:413733102",
+      "track_tags": []
+    },
+    {
+      "composers": ["Mark Mothersbaugh"],
+      "movie": "Thor: Ragnarok",
+      "artist": "Mark Mothersbaugh",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 71,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 37,
+          "name": "electronic",
+          "url": "https://www.last.fm/tag/electronic"
+        },
+        {
+          "count": 24,
+          "name": "alternative",
+          "url": "https://www.last.fm/tag/alternative"
+        },
+        {
+          "count": 9,
+          "name": "indie",
+          "url": "https://www.last.fm/tag/indie"
+        }
+      ],
+      "title": "Grandmaster's Chambers",
+      "key": "tt3501632:417366742",
+      "track_tags": []
+    },
+    {
+      "composers": ["John Powell"],
+      "movie": "How to Train Your Dragon",
+      "artist": "John Powell",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 32,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 25,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 9,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        }
+      ],
+      "title": "Conference of the Tribes",
+      "key": "tt0892769:3357285201",
+      "track_tags": []
+    },
+    {
+      "composers": ["Clint Mansell"],
+      "movie": "Black Swan",
+      "artist": "Clint Mansell",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 83,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 39,
+          "name": "ambient",
+          "url": "https://www.last.fm/tag/ambient"
+        },
+        {
+          "count": 29,
+          "name": "electronic",
+          "url": "https://www.last.fm/tag/electronic"
+        },
+        {
+          "count": 14,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "Opposites Attract",
+      "key": "tt0947798:900437482",
+      "track_tags": []
+    },
+    {
+      "composers": ["Clint Mansell"],
+      "movie": "Black Swan",
+      "artist": "Clint Mansell",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 83,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 39,
+          "name": "ambient",
+          "url": "https://www.last.fm/tag/ambient"
+        },
+        {
+          "count": 29,
+          "name": "electronic",
+          "url": "https://www.last.fm/tag/electronic"
+        },
+        {
+          "count": 14,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "The Double",
+      "key": "tt0947798:900437472",
+      "track_tags": []
+    },
+    {
+      "composers": ["Danny Elfman"],
+      "movie": "Spider-Man",
+      "artist": "Danny Elfman",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 28,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 26,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 5,
+          "name": "Soundtracks",
+          "url": "https://www.last.fm/tag/Soundtracks"
+        }
+      ],
+      "title": "Transformations",
+      "key": "tt0145487:15220458",
+      "track_tags": []
+    },
+    {
+      "composers": ["Klaus Badelt"],
+      "movie": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "artist": "Klaus Badelt",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 54,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 27,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 22,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 4,
+          "name": "Soundtracks",
+          "url": "https://www.last.fm/tag/Soundtracks"
+        }
+      ],
+      "title": "Barbossa Is Hungry",
+      "key": "tt0325980:24206361",
+      "track_tags": []
+    },
+    {
+      "composers": ["Tyler Bates"],
+      "movie": "Guardians of the Galaxy: Vol. 2",
+      "artist": "Tyler Bates",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 24,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 10,
+          "name": "ost",
+          "url": "https://www.last.fm/tag/ost"
+        },
+        {
+          "count": 4,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        }
+      ],
+      "title": "The Expansion",
+      "key": "tt3896198:351421611",
+      "track_tags": []
+    },
+    {
+      "composers": ["David Julyan"],
+      "movie": "The Prestige",
+      "artist": "David Julyan",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 50,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 32,
+          "name": "ambient",
+          "url": "https://www.last.fm/tag/ambient"
+        },
+        {
+          "count": 26,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 13,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        }
+      ],
+      "title": "The Real Transported Man",
+      "key": "tt0482571:1761672507",
+      "track_tags": []
+    },
+    {
+      "composers": ["Alexandre Desplat"],
+      "movie": "The Grand Budapest Hotel",
+      "artist": "Alexandre Desplat",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 68,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 34,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 33,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 8,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        }
+      ],
+      "title": "Up The Stairs/Down The Hall",
+      "key": "tt2278388:74929094",
+      "track_tags": []
+    },
+    {
+      "composers": ["Henry Jackman"],
+      "movie": "Captain America: Civil War",
+      "artist": "Henry Jackman",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 49,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 27,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 19,
+          "name": "ambient",
+          "url": "https://www.last.fm/tag/ambient"
+        },
+        {
+          "count": 9,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "The Tunnel",
+      "key": "tt3498820:123843426",
+      "track_tags": []
+    },
+    {
+      "composers": ["Howard Shore"],
+      "movie": "The Silence of the Lambs",
+      "artist": "Howard Shore",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 58,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 36,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 17,
+          "name": "composers",
+          "url": "https://www.last.fm/tag/composers"
+        },
+        {
+          "count": 8,
+          "name": "lord of the rings",
+          "url": "https://www.last.fm/tag/lord+of+the+rings"
+        }
+      ],
+      "title": "Belvedere, Ohio",
+      "key": "tt0102926:2523705",
+      "track_tags": []
+    },
+    {
+      "composers": ["Tyler Bates"],
+      "movie": "Guardians of the Galaxy",
+      "artist": "Tyler Bates",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 24,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 10,
+          "name": "ost",
+          "url": "https://www.last.fm/tag/ost"
+        },
+        {
+          "count": 4,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        }
+      ],
+      "title": "Plasma Ball",
+      "key": "tt2015381:81105340",
+      "track_tags": []
+    },
+    {
+      "composers": ["Danny Elfman"],
+      "movie": "Spider-Man",
+      "artist": "Danny Elfman",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 57,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 28,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 26,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 5,
+          "name": "Soundtracks",
+          "url": "https://www.last.fm/tag/Soundtracks"
+        }
+      ],
+      "title": "Revenge",
+      "key": "tt0145487:15220537",
+      "track_tags": []
+    },
+    {
+      "composers": ["John Ottman"],
+      "movie": "X-Men: Days of Future Past",
+      "artist": "John Ottman",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 47,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 18,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        },
+        {
+          "count": 16,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 8,
+          "name": "movie score composers",
+          "url": "https://www.last.fm/tag/movie+score+composers"
+        }
+      ],
+      "title": "Rules of Time",
+      "key": "tt1877832:78454215",
+      "track_tags": []
+    },
+    {
+      "composers": ["Alan Silvestri"],
+      "movie": "The Avengers",
+      "artist": "Alan Silvestri",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 53,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 29,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 15,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        },
+        {
+          "count": 5,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "Stark Goes Green",
+      "key": "tt0848228:17840790",
+      "track_tags": []
+    },
+    {
+      "composers": ["Thomas Newman"],
+      "movie": "1917",
+      "artist": "Thomas Newman",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 67,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 29,
+          "name": "ambient",
+          "url": "https://www.last.fm/tag/ambient"
+        },
+        {
+          "count": 27,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 9,
+          "name": "chillout",
+          "url": "https://www.last.fm/tag/chillout"
+        }
+      ],
+      "title": "Tripwire (From \"1917\" Soundtrack)",
+      "key": "tt8579674:823113582",
+      "track_tags": []
+    },
+    {
+      "composers": ["Thomas Newman"],
+      "movie": "Finding Nemo",
+      "artist": "Thomas Newman",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 67,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 29,
+          "name": "ambient",
+          "url": "https://www.last.fm/tag/ambient"
+        },
+        {
+          "count": 27,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 9,
+          "name": "chillout",
+          "url": "https://www.last.fm/tag/chillout"
+        }
+      ],
+      "title": "The Little Clownfish From The Reef",
+      "key": "tt0266543:5167371",
+      "track_tags": []
+    },
+    {
+      "composers": ["Michael Giacchino"],
+      "movie": "Doctor Strange",
+      "artist": "Michael Giacchino",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 55,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 28,
+          "name": "composer",
+          "url": "https://www.last.fm/tag/composer"
+        },
+        {
+          "count": 17,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        },
+        {
+          "count": 5,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        }
+      ],
+      "title": "Hippocratic Hypocrite",
+      "key": "tt1211837:134521676",
+      "track_tags": []
+    },
+    {
+      "composers": [
+        "Harry Gregson-Williams",
+        "John Powell"
+      ],
+      "movie": "Shrek",
+      "artist": "Harry Gregson-Williams",
+      "artist_top5_tags": [
+        {
+          "count": 100,
+          "name": "Soundtrack",
+          "url": "https://www.last.fm/tag/Soundtrack"
+        },
+        {
+          "count": 61,
+          "name": "instrumental",
+          "url": "https://www.last.fm/tag/instrumental"
+        },
+        {
+          "count": 25,
+          "name": "Classical",
+          "url": "https://www.last.fm/tag/Classical"
+        },
+        {
+          "count": 16,
+          "name": "score",
+          "url": "https://www.last.fm/tag/score"
+        },
+        {
+          "count": 8,
+          "name": "video game music",
+          "url": "https://www.last.fm/tag/video+game+music"
+        }
+      ],
+      "title": "The Perfect King",
+      "key": "tt0126029:117725794",
+      "track_tags": []
+    }
+  ],
+  "elapsed_ms": 52831,
+  "started_at": 1794108247201,
+  "decisions": [
+    {
+      "reason": "아티스트 태그에 재즈와 아방가르드 재즈가 포함되어 있어 재즈 스타일로 판단됩니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Nathan Johnson"],
+        "movie": "Knives Out",
+        "artist": "Nathan Johnson",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 51,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 15,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 7,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 2,
+            "name": "Avant-Garde Jazz",
+            "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+          }
+        ],
+        "title": "Harlan's Plan",
+        "key": "tt8946378:797988172",
+        "track_tags": []
+      },
+      "confidence": "medium",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "acid jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt8946378:797988172",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "Discovery",
+        "key": "tt0054215:123818730",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818730",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 아방가르드 재즈가 포함되어 있어 재즈 스타일로 판단됩니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Nathan Johnson"],
+        "movie": "Knives Out",
+        "artist": "Nathan Johnson",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 51,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 15,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 7,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 2,
+            "name": "Avant-Garde Jazz",
+            "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+          }
+        ],
+        "title": "The Wake",
+        "key": "tt8946378:797988182",
+        "track_tags": []
+      },
+      "confidence": "medium",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "acid jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt8946378:797988182",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "The Cellar",
+        "key": "tt0054215:123818728",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818728",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 아방가르드 재즈가 포함되어 있어 재즈 스타일로 판단됩니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Nathan Johnson"],
+        "movie": "Knives Out",
+        "artist": "Nathan Johnson",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 51,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 15,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 7,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 2,
+            "name": "Avant-Garde Jazz",
+            "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+          }
+        ],
+        "title": "Knives Out!, Pt. II (The Will)",
+        "key": "tt8946378:797988222",
+        "track_tags": []
+      },
+      "confidence": "medium",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "acid jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt8946378:797988222",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 아방가르드 재즈가 포함되어 있어 재즈 스타일로 판단됩니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Nathan Johnson"],
+        "movie": "Knives Out",
+        "artist": "Nathan Johnson",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 51,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 15,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 7,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 2,
+            "name": "Avant-Garde Jazz",
+            "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+          }
+        ],
+        "title": "Blanc's Tale, Pt. II",
+        "key": "tt8946378:797988282",
+        "track_tags": []
+      },
+      "confidence": "medium",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "acid jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt8946378:797988282",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "The Porch",
+        "key": "tt0054215:123818708",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818708",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 네오 스윙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Justin Hurwitz"],
+        "movie": "La La Land",
+        "artist": "Justin Hurwitz",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 72,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 29,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 13,
+            "name": "Neo-swing",
+            "url": "https://www.last.fm/tag/Neo-swing"
+          },
+          {
+            "count": 3,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          }
+        ],
+        "title": "Planetarium",
+        "key": "tt3783958:137727923",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "nu jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt3783958:137727923",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 아방가르드 재즈가 포함되어 있어 재즈 스타일로 판단됩니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Nathan Johnson"],
+        "movie": "Knives Out",
+        "artist": "Nathan Johnson",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 51,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 15,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 7,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 2,
+            "name": "Avant-Garde Jazz",
+            "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+          }
+        ],
+        "title": "The Game's Afoot",
+        "key": "tt8946378:797988202",
+        "track_tags": []
+      },
+      "confidence": "medium",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "acid jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt8946378:797988202",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "The Car Lot",
+        "key": "tt0054215:123818668",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818668",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 네오 스윙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Justin Hurwitz"],
+        "movie": "La La Land",
+        "artist": "Justin Hurwitz",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 72,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 29,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 13,
+            "name": "Neo-swing",
+            "url": "https://www.last.fm/tag/Neo-swing"
+          },
+          {
+            "count": 3,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          }
+        ],
+        "title": "The End",
+        "key": "tt3783958:137727937",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "nu jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt3783958:137727937",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "The Parlor",
+        "key": "tt0054215:123818678",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818678",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 스윙이 명확하게 포함되어 있으며, 'Caravan'은 유명한 재즈 스탠더드 곡입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Justin Hurwitz"],
+        "movie": "Whiplash",
+        "artist": "John Wasson",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 56,
+            "name": "swing",
+            "url": "https://www.last.fm/tag/swing"
+          },
+          {
+            "count": 4,
+            "name": "lounge",
+            "url": "https://www.last.fm/tag/lounge"
+          },
+          {
+            "count": 4,
+            "name": "USA",
+            "url": "https://www.last.fm/tag/USA"
+          },
+          {
+            "count": 2,
+            "name": "american",
+            "url": "https://www.last.fm/tag/american"
+          }
+        ],
+        "title": "Caravan",
+        "key": "tt2582802:1398706592",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": ["upbeat"],
+      "styles": [
+        "jazz",
+        "swing",
+        "big band"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt2582802:1398706592",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 아방가르드 재즈가 포함되어 있어 재즈 스타일로 판단됩니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Nathan Johnson"],
+        "movie": "Knives Out",
+        "artist": "Nathan Johnson",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 51,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 15,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 7,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 2,
+            "name": "Avant-Garde Jazz",
+            "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+          }
+        ],
+        "title": "Like Father, Like Son",
+        "key": "tt8946378:797988122",
+        "track_tags": []
+      },
+      "confidence": "medium",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "acid jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt8946378:797988122",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "The Rainstorm",
+        "key": "tt0054215:123818672",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818672",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 네오 스윙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Justin Hurwitz"],
+        "movie": "Whiplash",
+        "artist": "Justin Hurwitz",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 72,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 29,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 13,
+            "name": "Neo-swing",
+            "url": "https://www.last.fm/tag/Neo-swing"
+          },
+          {
+            "count": 3,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          }
+        ],
+        "title": "When I Wake",
+        "key": "tt2582802:1398706742",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "nu jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt2582802:1398706742",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 네오 스윙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Justin Hurwitz"],
+        "movie": "Whiplash",
+        "artist": "Justin Hurwitz",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 72,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 29,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 13,
+            "name": "Neo-swing",
+            "url": "https://www.last.fm/tag/Neo-swing"
+          },
+          {
+            "count": 3,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          }
+        ],
+        "title": "No Two Words",
+        "key": "tt2582802:1398706732",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "nu jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt2582802:1398706732",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "Finale",
+        "key": "tt0054215:123818732",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818732",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "The Office",
+        "key": "tt0054215:123818690",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818690",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 네오 스윙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Justin Hurwitz"],
+        "movie": "Whiplash",
+        "artist": "Justin Hurwitz",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 72,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 29,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 13,
+            "name": "Neo-swing",
+            "url": "https://www.last.fm/tag/Neo-swing"
+          },
+          {
+            "count": 3,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          }
+        ],
+        "title": "Casey's Song",
+        "key": "tt2582802:1398706752",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "nu jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt2582802:1398706752",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 네오 스윙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Justin Hurwitz"],
+        "movie": "La La Land",
+        "artist": "Justin Hurwitz",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 72,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 29,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 13,
+            "name": "Neo-swing",
+            "url": "https://www.last.fm/tag/Neo-swing"
+          },
+          {
+            "count": 3,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          }
+        ],
+        "title": "Engagement Party",
+        "key": "tt3783958:137727931",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "nu jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt3783958:137727931",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 블루스와 재즈가 포함되어 있으며, 제목에도 'Blues'가 명시되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": [
+          "Joel J. Richard",
+          "Tyler Bates"
+        ],
+        "movie": "John Wick",
+        "artist": "The Candy Shop Boys",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "blues",
+            "url": "https://www.last.fm/tag/blues"
+          },
+          {
+            "count": 44,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 7,
+            "name": "american",
+            "url": "https://www.last.fm/tag/american"
+          }
+        ],
+        "title": "Evil Man Blues",
+        "key": "tt2911666:117728318",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "blues",
+        "jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt2911666:117728318",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 네오 스윙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Justin Hurwitz"],
+        "movie": "Whiplash",
+        "artist": "Justin Hurwitz",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 72,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 29,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 13,
+            "name": "Neo-swing",
+            "url": "https://www.last.fm/tag/Neo-swing"
+          },
+          {
+            "count": 3,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          }
+        ],
+        "title": "Call From Dad",
+        "key": "tt2582802:1398706632",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "nu jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt2582802:1398706632",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 있으며, 사이코 영화의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Bernard Herrmann"],
+        "movie": "Psycho",
+        "artist": "Bernard Herrmann",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 31,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 21,
+            "name": "film music",
+            "url": "https://www.last.fm/tag/film+music"
+          },
+          {
+            "count": 6,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "Cabin 1",
+        "key": "tt0054215:123818720",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0054215:123818720",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 재즈와 아방가르드 재즈가 포함되어 있어 재즈 스타일로 판단됩니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Nathan Johnson"],
+        "movie": "Knives Out",
+        "artist": "Nathan Johnson",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 51,
+            "name": "jazz",
+            "url": "https://www.last.fm/tag/jazz"
+          },
+          {
+            "count": 15,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 7,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 2,
+            "name": "Avant-Garde Jazz",
+            "url": "https://www.last.fm/tag/Avant-Garde+Jazz"
+          }
+        ],
+        "title": "The Thrombey Estate",
+        "key": "tt8946378:797988112",
+        "track_tags": []
+      },
+      "confidence": "medium",
+      "moods": [],
+      "styles": [
+        "jazz",
+        "acid jazz"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt8946378:797988112",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 일렉트로닉과 사운드트랙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Brad Fiedel"],
+        "movie": "The Terminator",
+        "artist": "Brad Fiedel",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 55,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 29,
+            "name": "electronic",
+            "url": "https://www.last.fm/tag/electronic"
+          },
+          {
+            "count": 28,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 9,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          }
+        ],
+        "title": "Sarah Watches News / Enters Tech Noir",
+        "key": "tt0088247:889834732",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "electronic",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0088247:889834732",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 앰비언트와 클래식, 사운드트랙이 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Thomas Newman"],
+        "movie": "WALL·E",
+        "artist": "Thomas Newman",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 67,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 29,
+            "name": "ambient",
+            "url": "https://www.last.fm/tag/ambient"
+          },
+          {
+            "count": 27,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 9,
+            "name": "chillout",
+            "url": "https://www.last.fm/tag/chillout"
+          }
+        ],
+        "title": "Define Dancing",
+        "key": "tt0910970:602439992",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": ["calm"],
+      "styles": [
+        "ambient",
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0910970:602439992",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그가 일반적인 사운드트랙 정보만 제공하며, 특정 스타일이나 분위기를 파악할 증거가 부족합니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Tyler Bates"],
+        "movie": "Guardians of the Galaxy: Vol. 2",
+        "artist": "Tyler Bates",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 24,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 10,
+            "name": "ost",
+            "url": "https://www.last.fm/tag/ost"
+          },
+          {
+            "count": 4,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          }
+        ],
+        "title": "Ego",
+        "key": "tt3896198:351421591",
+        "track_tags": []
+      },
+      "confidence": "low",
+      "moods": [],
+      "styles": [],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt3896198:351421591",
+      "knowledge": "unknown"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙, 스코어가 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": [
+          "Harry Gregson-Williams",
+          "John Powell"
+        ],
+        "movie": "Shrek",
+        "artist": "Harry Gregson-Williams",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 61,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 25,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 16,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          },
+          {
+            "count": 8,
+            "name": "video game music",
+            "url": "https://www.last.fm/tag/video+game+music"
+          }
+        ],
+        "title": "Helmet Hair",
+        "key": "tt0126029:117725810",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0126029:117725810",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 포함되어 있으며, 한스 짐머의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Hans Zimmer"],
+        "movie": "The Lion King",
+        "artist": "Hans Zimmer",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 69,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 33,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 27,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 5,
+            "name": "Soundtracks",
+            "url": "https://www.last.fm/tag/Soundtracks"
+          }
+        ],
+        "title": "Remember",
+        "key": "tt0110357:709612582",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0110357:709612582",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그는 일반적인 사운드트랙 정보만 제공하며, 블레이드 러너 2049의 스코어는 앰비언트 및 일렉트로닉 요소가 강합니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": [
+          "Benjamin Wallfisch",
+          "Hans Zimmer"
+        ],
+        "movie": "Blade Runner 2049",
+        "artist": "Hans Zimmer",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 69,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 33,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 27,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 5,
+            "name": "Soundtracks",
+            "url": "https://www.last.fm/tag/Soundtracks"
+          }
+        ],
+        "title": "Someone Lived This",
+        "key": "tt1856101:413733102",
+        "track_tags": []
+      },
+      "confidence": "medium",
+      "moods": [],
+      "styles": [
+        "ambient",
+        "electronic",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt1856101:413733102",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 일렉트로닉과 사운드트랙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Mark Mothersbaugh"],
+        "movie": "Thor: Ragnarok",
+        "artist": "Mark Mothersbaugh",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 71,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 37,
+            "name": "electronic",
+            "url": "https://www.last.fm/tag/electronic"
+          },
+          {
+            "count": 24,
+            "name": "alternative",
+            "url": "https://www.last.fm/tag/alternative"
+          },
+          {
+            "count": 9,
+            "name": "indie",
+            "url": "https://www.last.fm/tag/indie"
+          }
+        ],
+        "title": "Grandmaster's Chambers",
+        "key": "tt3501632:417366742",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "electronic",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt3501632:417366742",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙, 스코어가 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["John Powell"],
+        "movie": "How to Train Your Dragon",
+        "artist": "John Powell",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 32,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 25,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 9,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          }
+        ],
+        "title": "Conference of the Tribes",
+        "key": "tt0892769:3357285201",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0892769:3357285201",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 앰비언트, 일렉트로닉, 클래식, 사운드트랙이 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Clint Mansell"],
+        "movie": "Black Swan",
+        "artist": "Clint Mansell",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 83,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 39,
+            "name": "ambient",
+            "url": "https://www.last.fm/tag/ambient"
+          },
+          {
+            "count": 29,
+            "name": "electronic",
+            "url": "https://www.last.fm/tag/electronic"
+          },
+          {
+            "count": 14,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "Opposites Attract",
+        "key": "tt0947798:900437482",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "ambient",
+        "electronic",
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0947798:900437482",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 앰비언트, 일렉트로닉, 클래식, 사운드트랙이 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Clint Mansell"],
+        "movie": "Black Swan",
+        "artist": "Clint Mansell",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 83,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 39,
+            "name": "ambient",
+            "url": "https://www.last.fm/tag/ambient"
+          },
+          {
+            "count": 29,
+            "name": "electronic",
+            "url": "https://www.last.fm/tag/electronic"
+          },
+          {
+            "count": 14,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "The Double",
+        "key": "tt0947798:900437472",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "ambient",
+        "electronic",
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0947798:900437472",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 포함되어 있으며, 대니 엘프만의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Danny Elfman"],
+        "movie": "Spider-Man",
+        "artist": "Danny Elfman",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 28,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 26,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 5,
+            "name": "Soundtracks",
+            "url": "https://www.last.fm/tag/Soundtracks"
+          }
+        ],
+        "title": "Transformations",
+        "key": "tt0145487:15220458",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0145487:15220458",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 포함되어 있으며, 유명한 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Klaus Badelt"],
+        "movie": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "artist": "Klaus Badelt",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 54,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 27,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 22,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 4,
+            "name": "Soundtracks",
+            "url": "https://www.last.fm/tag/Soundtracks"
+          }
+        ],
+        "title": "Barbossa Is Hungry",
+        "key": "tt0325980:24206361",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": ["epic"],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0325980:24206361",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그가 일반적인 사운드트랙 정보만 제공하며, 특정 스타일이나 분위기를 파악할 증거가 부족합니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Tyler Bates"],
+        "movie": "Guardians of the Galaxy: Vol. 2",
+        "artist": "Tyler Bates",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 24,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 10,
+            "name": "ost",
+            "url": "https://www.last.fm/tag/ost"
+          },
+          {
+            "count": 4,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          }
+        ],
+        "title": "The Expansion",
+        "key": "tt3896198:351421611",
+        "track_tags": []
+      },
+      "confidence": "low",
+      "moods": [],
+      "styles": [],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt3896198:351421611",
+      "knowledge": "unknown"
+    },
+    {
+      "reason": "아티스트 태그에 앰비언트와 사운드트랙이 명확하게 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["David Julyan"],
+        "movie": "The Prestige",
+        "artist": "David Julyan",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 50,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 32,
+            "name": "ambient",
+            "url": "https://www.last.fm/tag/ambient"
+          },
+          {
+            "count": 26,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 13,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          }
+        ],
+        "title": "The Real Transported Man",
+        "key": "tt0482571:1761672507",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "ambient",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0482571:1761672507",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 포함되어 있으며, 알렉상드르 데스플라의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Alexandre Desplat"],
+        "movie": "The Grand Budapest Hotel",
+        "artist": "Alexandre Desplat",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 68,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 34,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 33,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 8,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          }
+        ],
+        "title": "Up The Stairs/Down The Hall",
+        "key": "tt2278388:74929094",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt2278388:74929094",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 앰비언트, 클래식, 사운드트랙이 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Henry Jackman"],
+        "movie": "Captain America: Civil War",
+        "artist": "Henry Jackman",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 49,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 27,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 19,
+            "name": "ambient",
+            "url": "https://www.last.fm/tag/ambient"
+          },
+          {
+            "count": 9,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "The Tunnel",
+        "key": "tt3498820:123843426",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "ambient",
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt3498820:123843426",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 포함되어 있으며, 하워드 쇼어의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Howard Shore"],
+        "movie": "The Silence of the Lambs",
+        "artist": "Howard Shore",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 58,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 36,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 17,
+            "name": "composers",
+            "url": "https://www.last.fm/tag/composers"
+          },
+          {
+            "count": 8,
+            "name": "lord of the rings",
+            "url": "https://www.last.fm/tag/lord+of+the+rings"
+          }
+        ],
+        "title": "Belvedere, Ohio",
+        "key": "tt0102926:2523705",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0102926:2523705",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그가 일반적인 사운드트랙 정보만 제공하며, 특정 스타일이나 분위기를 파악할 증거가 부족합니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Tyler Bates"],
+        "movie": "Guardians of the Galaxy",
+        "artist": "Tyler Bates",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 24,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 10,
+            "name": "ost",
+            "url": "https://www.last.fm/tag/ost"
+          },
+          {
+            "count": 4,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          }
+        ],
+        "title": "Plasma Ball",
+        "key": "tt2015381:81105340",
+        "track_tags": []
+      },
+      "confidence": "low",
+      "moods": [],
+      "styles": [],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt2015381:81105340",
+      "knowledge": "unknown"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 포함되어 있으며, 대니 엘프만의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Danny Elfman"],
+        "movie": "Spider-Man",
+        "artist": "Danny Elfman",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 57,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 28,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 26,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 5,
+            "name": "Soundtracks",
+            "url": "https://www.last.fm/tag/Soundtracks"
+          }
+        ],
+        "title": "Revenge",
+        "key": "tt0145487:15220537",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0145487:15220537",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그가 일반적인 사운드트랙 정보만 제공하며, 특정 스타일이나 분위기를 파악할 증거가 부족합니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["John Ottman"],
+        "movie": "X-Men: Days of Future Past",
+        "artist": "John Ottman",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 47,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 18,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          },
+          {
+            "count": 16,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 8,
+            "name": "movie score composers",
+            "url": "https://www.last.fm/tag/movie+score+composers"
+          }
+        ],
+        "title": "Rules of Time",
+        "key": "tt1877832:78454215",
+        "track_tags": []
+      },
+      "confidence": "low",
+      "moods": [],
+      "styles": [],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt1877832:78454215",
+      "knowledge": "unknown"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 포함되어 있으며, 앨런 실베스트리의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Alan Silvestri"],
+        "movie": "The Avengers",
+        "artist": "Alan Silvestri",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 53,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 29,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 15,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          },
+          {
+            "count": 5,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "Stark Goes Green",
+        "key": "tt0848228:17840790",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0848228:17840790",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 앰비언트와 클래식, 사운드트랙이 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Thomas Newman"],
+        "movie": "1917",
+        "artist": "Thomas Newman",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 67,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 29,
+            "name": "ambient",
+            "url": "https://www.last.fm/tag/ambient"
+          },
+          {
+            "count": 27,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 9,
+            "name": "chillout",
+            "url": "https://www.last.fm/tag/chillout"
+          }
+        ],
+        "title": "Tripwire (From \"1917\" Soundtrack)",
+        "key": "tt8579674:823113582",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "ambient",
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt8579674:823113582",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 앰비언트와 클래식, 사운드트랙이 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Thomas Newman"],
+        "movie": "Finding Nemo",
+        "artist": "Thomas Newman",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 67,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 29,
+            "name": "ambient",
+            "url": "https://www.last.fm/tag/ambient"
+          },
+          {
+            "count": 27,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 9,
+            "name": "chillout",
+            "url": "https://www.last.fm/tag/chillout"
+          }
+        ],
+        "title": "The Little Clownfish From The Reef",
+        "key": "tt0266543:5167371",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": ["calm"],
+      "styles": [
+        "ambient",
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0266543:5167371",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙이 포함되어 있으며, 마이클 지아키노의 오케스트라 스코어입니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": ["Michael Giacchino"],
+        "movie": "Doctor Strange",
+        "artist": "Michael Giacchino",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 55,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 28,
+            "name": "composer",
+            "url": "https://www.last.fm/tag/composer"
+          },
+          {
+            "count": 17,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          },
+          {
+            "count": 5,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          }
+        ],
+        "title": "Hippocratic Hypocrite",
+        "key": "tt1211837:134521676",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt1211837:134521676",
+      "knowledge": "known"
+    },
+    {
+      "reason": "아티스트 태그에 클래식과 사운드트랙, 스코어가 포함되어 있습니다.",
+      "fetched_at": 1794108300031,
+      "expires_at": 1794713100031,
+      "evidence": {
+        "composers": [
+          "Harry Gregson-Williams",
+          "John Powell"
+        ],
+        "movie": "Shrek",
+        "artist": "Harry Gregson-Williams",
+        "artist_top5_tags": [
+          {
+            "count": 100,
+            "name": "Soundtrack",
+            "url": "https://www.last.fm/tag/Soundtrack"
+          },
+          {
+            "count": 61,
+            "name": "instrumental",
+            "url": "https://www.last.fm/tag/instrumental"
+          },
+          {
+            "count": 25,
+            "name": "Classical",
+            "url": "https://www.last.fm/tag/Classical"
+          },
+          {
+            "count": 16,
+            "name": "score",
+            "url": "https://www.last.fm/tag/score"
+          },
+          {
+            "count": 8,
+            "name": "video game music",
+            "url": "https://www.last.fm/tag/video+game+music"
+          }
+        ],
+        "title": "The Perfect King",
+        "key": "tt0126029:117725794",
+        "track_tags": []
+      },
+      "confidence": "high",
+      "moods": [],
+      "styles": [
+        "classical",
+        "orchestral_score"
+      ],
+      "model": "gemini-2.5-flash",
+      "source": "Gemini 판단",
+      "key": "tt0126029:117725794",
+      "knowledge": "known"
+    }
+  ],
+  "source": "Gemini 판단"
+}
