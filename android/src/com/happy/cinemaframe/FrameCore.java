@@ -275,9 +275,19 @@ public final class FrameCore {
             synchronized(lock){if(generation!=epoch)return;searchPages.put(query,hits.length()<10?0:(offset+10)%200);}
         }}finally{searchProgress(generation,"complete",lastQuery,found,matched,added,examples);}
     }
+    private void cachedPlaylist(long generation)throws Exception{
+        List<JSONObject> cached=new ArrayList<>();JSONObject p;synchronized(lock){if(epoch!=generation)return;p=new JSONObject(profile.toString());}
+        try(Cursor c=db.rawQuery("SELECT movie,payload FROM ost_cache",null)){while(c.moveToNext()){
+            JSONObject m=movies.get(c.getString(0)),r=new JSONObject(c.getString(1));if(m==null||!OstPolicy.fresh(r,System.currentTimeMillis())||!OstPolicy.eligible(m,p)||index==null||!index.verifiedAlbum(m.getString("id"),r.optString("deezer_album_id")))continue;
+            JSONArray tracks=r.getJSONArray("tracks");for(int i=0;i<tracks.length();i++){JSONObject t=tracks.getJSONObject(i);if(!t.optBoolean("is_playable")||!t.optString("uri").startsWith("spotify:track:")||t.optString("isrc").isEmpty())continue;cached.add(new JSONObject().put("movie",m).put("track",t).put("selection","저장된 재생목록").put("reason","기존 Spotify ISRC 확인 결과 · 새 검색 없음").put("album_source","저장된 재생목록").put("album_url",r.optString("album_url")));}
+        }}
+        Collections.shuffle(cached,random);Set<String> unique=new HashSet<>();cached.removeIf(x->!unique.add(x.optJSONObject("track").optString("uri")));
+        synchronized(lock){if(epoch!=generation)return;if(cached.isEmpty())throw new IOException("검증된 앨범과 일치하는 유효한 저장 재생목록이 없습니다");ostPlan.clear();ostPlan.addAll(cached);ostCursor=0;ostEpoch=generation;ostBlocked=false;ostAudit=new JSONObject().put("source","저장된 재생목록").put("new_spotify_searches",0).put("playlist_tracks",cached.size());}
+        nextOst(generation);
+    }
     private void discover(long generation){
         JSONObject p; synchronized(lock){if(generation!=epoch||discovery||ostBlocked||ostEpoch==generation)return;discovery=true;discoveryEpoch=generation;p=new JSONObject();try{p=new JSONObject(profile.toString());}catch(Exception e){discovery=false;return;}}
-        try{if(search.retryAt()>System.currentTimeMillis())throw new IOException("Spotify 검색 제한 · 서버 지정 시각까지 대기");if(index==null)throw new IOException("색인 초기화 실패: "+indexInitError);final long gen=generation;
+        try{if(p.optBoolean("cached_playlist")){cachedPlaylist(generation);return;}if(search.retryAt()>System.currentTimeMillis())throw new IOException("Spotify 검색 제한 · 서버 지정 시각까지 대기");if(index==null)throw new IOException("색인 초기화 실패: "+indexInitError);final long gen=generation;
             List<JSONObject> plan=index.plan(p,msg->{synchronized(lock){if(epoch!=gen)throw new java.util.concurrent.CancellationException("요청 변경");message=msg;}},this::userStyleExcluded);
             synchronized(lock){if(generation!=epoch)return;ostPlan.clear();ostPlan.addAll(plan);for(JSONObject row:plan){JSONObject m=row.getJSONObject("movie");movies.put(m.getString("id"),m);}ostCursor=0;ostEpoch=generation;ostAudit=new JSONObject().put("source","Gemini 판단 · Deezer 순위").put("profile",p).put("ordering","matching tracks: Deezer rank desc per film top3, movie rating desc round-robin; exact ISRC playable only").put("playlist_tracks",plan.size()).put("completed_at",System.currentTimeMillis());if(plan.isEmpty()){waitingNext=false;phase="no_matches";message="조건에 맞는 검증된 곡이 아직 없습니다. 색인에서 더 조사하며 미확인·낮은 확신도 곡은 제외합니다.";return;}}
             nextOst(generation);
@@ -372,6 +382,7 @@ public final class FrameCore {
         if(path.equals("/api/frame")&&frame){synchronized(lock){JSONObject result=new JSONObject().put("current",current==null?JSONObject.NULL:current).put("version",version).put("phase",phase).put("message",message).put("paired",!sessions.isEmpty()).put("pairing",pairingVisible()).put("request",request).put("discovery",discovery).put("spotify_ready",spotifyReady).put("confirmed",confirmed).put("display_mode",displayMode).put("player",report.optJSONObject("player")).put("reported_at",lastReport);reply(s,200,result);return;}}
         if(path.equals("/api/telemetry")&&frame){telemetry(input);reply(s,200,new JSONObject().put("ok",true));return;}
         if(!logged){reply(s,401,new JSONObject().put("error","프레임의 연결 코드를 입력해 주세요"));return;}
+        if(path.equals("/api/playback/cached")&&method.equals("POST")){long gen;synchronized(lock){profile=new JSONObject(profile.toString()).put("cached_playlist",true).put("music_style","").put("music_mood","").put("energy","balanced").put("genres",new JSONArray()).put("pipeline","cached-playlist-v1");profile.remove("era");request="저장된 재생목록";gen=++epoch;ostEpoch=-1;ostBlocked=false;context.getSharedPreferences("setup",0).edit().putString("profile",profile.toString()).putString("request",request).apply();}cachedPlaylist(gen);reply(s,200,new JSONObject().put("ok",true).put("tracks",ostPlan.size()));return;}
         if(path.startsWith("/api/index/")){if(index==null)throw new IOException(indexInitError);
             if(path.equals("/api/index/status")&&method.equals("GET")){reply(s,200,index.status());return;}
             if(path.equals("/api/index/audit")&&method.equals("GET")){reply(s,200,new JSONObject().put("events",index.audit()));return;}

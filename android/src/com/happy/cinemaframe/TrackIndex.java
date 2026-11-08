@@ -6,6 +6,7 @@ import org.json.*;import java.io.*;import java.net.*;import java.security.*;impo
 final class TrackIndex {
  interface Progress {void update(String message);}
  interface Rejection {boolean blocked(JSONObject track,String style);}
+ boolean verifiedAlbum(String movie,String album)throws Exception{try(Cursor c=db.rawQuery("SELECT album FROM films WHERE id=?",new String[]{movie})){return c.moveToFirst()&&!c.isNull(0)&&album.equals(new JSONObject(c.getString(0)).optString("id"));}}
  final Context context;final SQLiteDatabase db;final SpotifySearch spotify;final SharedPreferences settings;
  final ReentrantLock work=new ReentrantLock(true);final JSONObject dictionary;
  volatile String message="색인 설정 대기",error="";private long lastNetwork=0,lastGemini=0;
